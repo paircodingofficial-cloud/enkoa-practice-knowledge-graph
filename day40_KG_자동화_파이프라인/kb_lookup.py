@@ -1,4 +1,4 @@
-"""부록의 공개 Wikidata 조회 도구. 요청 실패를 후보 없음으로 처리하지 않습니다."""
+"""부록의 공개 Wikidata 검색과 상세 정보 조회 도구."""
 import requests
 
 API_URL = "https://www.wikidata.org/w/api.php"
@@ -15,13 +15,7 @@ def get_json(params):
     """
     response = requests.get(API_URL, params={**params, "format": "json"},
                             headers=HEADERS, timeout=30)
-    if response.status_code == 429:
-        raise RuntimeError("Wikidata 요청이 몰렸습니다. 잠시 뒤 다시 실행하세요.")
-    response.raise_for_status()
-    result = response.json()
-    if "error" in result:
-        raise RuntimeError(result["error"])
-    return result
+    return response.json()
 
 
 def search_candidates(terms):
