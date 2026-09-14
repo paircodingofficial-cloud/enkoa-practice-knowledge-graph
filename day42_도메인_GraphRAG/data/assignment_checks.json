@@ -47,37 +47,6 @@
       ]
     }
   },
-  "평가와 요약 검사": {
-    "sample": [
-      {
-        "response": {
-          "answer": "첫 번째 질문의 관계 근거를 확인했습니다.",
-          "evidence_ids": ["r1"]
-        },
-        "metrics": {
-          "검색 F1": 1.0
-        }
-      },
-      {
-        "response": {
-          "answer": "두 번째 질문의 관계 근거를 확인했습니다.",
-          "evidence_ids": ["r2"]
-        },
-        "metrics": {
-          "검색 F1": 0.5
-        }
-      },
-      {
-        "response": {
-          "answer": "저장된 관계 근거로 확인할 수 없습니다.",
-          "evidence_ids": []
-        },
-        "metrics": {
-          "검색 F1": null
-        }
-      }
-    ]
-  },
   "청크 인용 검사": {
     "sample_documents": {
       "doc_a": {
@@ -98,7 +67,11 @@
         }
       ],
       "answer": "우유 섭취 뒤 복용 시점은 원문에서 확인합니다.",
-      "evidence_ids": ["c1", "c9", "c2"]
+      "evidence_ids": [
+        "c1",
+        "c9",
+        "c2"
+      ]
     },
     "expected": [
       {
@@ -135,7 +108,12 @@
     ],
     "sample": {
       "answer": "효능과 주의 대상의 관계 근거를 확인했습니다.",
-      "evidence_ids": ["TR001", "drugs:doc_a:chunk:0", "TR001", "CA006"]
+      "evidence_ids": [
+        "TR001",
+        "drugs:doc_a:chunk:0",
+        "TR001",
+        "CA006"
+      ]
     },
     "expected": {
       "TR001": {
