@@ -1,0 +1,10 @@
+.env
+.ipynb_checkpoints/
+output/.verification_cache.sqlite*
+output/.agent_verification_cache.sqlite*
+output/chroma/
+
+.omc/
+__pycache__/
+
+output/

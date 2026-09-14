@@ -1,0 +1,44 @@
+[
+  {
+    "dataset": "movies_complete",
+    "documents": 38,
+    "chunks": 571,
+    "unique_texts": 571,
+    "cached_vectors": 571,
+    "new_vectors": 0,
+    "api_batches": 0,
+    "fingerprint": "d7e319262a378772dc6b3ea27978c5b8c17eba228b26a2a6e10fee7724fa8310",
+    "model": "text-embedding-3-large",
+    "dimensions": 768,
+    "file": "movies_complete.npz",
+    "sha256": "0e61ebd84ab7ae0752382fb20da183a7634243625c7163d70d1ac7faa6ecbe50"
+  },
+  {
+    "dataset": "paper_focus",
+    "documents": 70,
+    "chunks": 12814,
+    "unique_texts": 12563,
+    "cached_vectors": 12563,
+    "new_vectors": 0,
+    "api_batches": 0,
+    "fingerprint": "863aa1aee94e16fc889689d20a9c67ec9726d241c441c9235e310d8c252fdeff",
+    "model": "text-embedding-3-large",
+    "dimensions": 768,
+    "file": "paper_focus.npz",
+    "sha256": "20004013d55aa5d04750f6e1329705baff627ea67e8fa2cd4aeb9a6bd28cf3f1"
+  },
+  {
+    "dataset": "drugs",
+    "documents": 14,
+    "chunks": 43,
+    "unique_texts": 43,
+    "cached_vectors": 43,
+    "new_vectors": 0,
+    "api_batches": 0,
+    "fingerprint": "a5bc0ebb8a0864744433daba2ba85680241cf57403a24a2c7edb21c09a7ebe6c",
+    "model": "text-embedding-3-large",
+    "dimensions": 768,
+    "file": "drugs.npz",
+    "sha256": "26d70d364cc2536d73b835d3ac3538fa0cbd5e41689d781087a9196d7132f9af"
+  }
+]

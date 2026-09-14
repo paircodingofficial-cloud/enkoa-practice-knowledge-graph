@@ -1,0 +1,41 @@
+[
+  {
+    "question": "Gabapentin이 완화 목적으로 사용되었다고 보고된 증상은 무엇인가요?",
+    "expected_values": [
+      "perioperative pain",
+      "chemotherapy-induced neuropathic symptoms",
+      "nocturnal discomfort"
+    ],
+    "expected_evidence_ids": [
+      "P04",
+      "P05",
+      "P06"
+    ]
+  },
+  {
+    "question": "perioperative pain에 사용되었다고 보고된 약물은 무엇인가요?",
+    "expected_values": [
+      "Gabapentin",
+      "Pregabalin"
+    ],
+    "expected_evidence_ids": [
+      "P04",
+      "P07"
+    ]
+  },
+  {
+    "question": "Carbidopa와 Parkinson 질환의 관계를 출처 종류와 함께 알려 주세요.",
+    "expected_values": [
+      "Parkinson's disease"
+    ],
+    "expected_evidence_ids": [
+      "H01",
+      "P01"
+    ]
+  },
+  {
+    "question": "Laquinimod가 치료한다고 저장된 질환은 무엇인가요?",
+    "expected_values": [],
+    "expected_evidence_ids": []
+  }
+]

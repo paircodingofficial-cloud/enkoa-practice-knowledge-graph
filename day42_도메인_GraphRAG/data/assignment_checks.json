@@ -1,0 +1,153 @@
+{
+  "두 홉 조회 검사": {
+    "expected_names": [
+      "게보린정(수출명:돌로린정)",
+      "뇌선",
+      "메카인정",
+      "부루펜정400밀리그램(이부프로펜)",
+      "세토펜정(아세트아미노펜)",
+      "판토-에이내복액"
+    ]
+  },
+  "도구 선택 검사": {
+    "sample": {
+      "tool_calls": [
+        {
+          "name": "search_documents",
+          "args": {}
+        },
+        {
+          "name": "search_graph",
+          "args": {}
+        }
+      ]
+    }
+  },
+  "두 도구 호출과 인용 검사": {
+    "sample": {
+      "rows": [
+        {
+          "evidence_ids": [
+            "TR001",
+            "CA006"
+          ]
+        }
+      ],
+      "chunks": [
+        {
+          "chunk_id": "drugs:doc:chunk:0"
+        }
+      ],
+      "answer": "조회한 관계와 원문을 근거로 답변합니다.",
+      "evidence_ids": [
+        "TR001",
+        "SE999",
+        "drugs:doc:chunk:0",
+        "CA006"
+      ]
+    }
+  },
+  "평가와 요약 검사": {
+    "sample": [
+      {
+        "response": {
+          "answer": "첫 번째 질문의 관계 근거를 확인했습니다.",
+          "evidence_ids": ["r1"]
+        },
+        "metrics": {
+          "검색 F1": 1.0
+        }
+      },
+      {
+        "response": {
+          "answer": "두 번째 질문의 관계 근거를 확인했습니다.",
+          "evidence_ids": ["r2"]
+        },
+        "metrics": {
+          "검색 F1": 0.5
+        }
+      },
+      {
+        "response": {
+          "answer": "저장된 관계 근거로 확인할 수 없습니다.",
+          "evidence_ids": []
+        },
+        "metrics": {
+          "검색 F1": null
+        }
+      }
+    ]
+  },
+  "청크 인용 검사": {
+    "sample_documents": {
+      "doc_a": {
+        "text": "우유 섭취 후 1시간 이내는 복용을 피하십시오."
+      }
+    },
+    "sample": {
+      "chunks": [
+        {
+          "chunk_id": "c1",
+          "source_doc_id": "doc_a",
+          "text": "우유 섭취 후"
+        },
+        {
+          "chunk_id": "c2",
+          "source_doc_id": "doc_a",
+          "text": "원문에 없는 문장"
+        }
+      ],
+      "answer": "우유 섭취 뒤 복용 시점은 원문에서 확인합니다.",
+      "evidence_ids": ["c1", "c9", "c2"]
+    },
+    "expected": [
+      {
+        "chunk_id": "c1",
+        "source_doc_id": "doc_a",
+        "in_source": true
+      },
+      {
+        "chunk_id": "c9",
+        "source_doc_id": null,
+        "in_source": false
+      },
+      {
+        "chunk_id": "c2",
+        "source_doc_id": "doc_a",
+        "in_source": false
+      }
+    ]
+  },
+  "인용 관계 검사": {
+    "sample_relations": [
+      {
+        "claim_id": "TR001",
+        "relation": "TREATS",
+        "evidence": "근거 1",
+        "source_doc_id": "doc_a"
+      },
+      {
+        "claim_id": "CA006",
+        "relation": "CAUTION_FOR",
+        "evidence": "근거 2",
+        "source_doc_id": "doc_a"
+      }
+    ],
+    "sample": {
+      "answer": "효능과 주의 대상의 관계 근거를 확인했습니다.",
+      "evidence_ids": ["TR001", "drugs:doc_a:chunk:0", "TR001", "CA006"]
+    },
+    "expected": {
+      "TR001": {
+        "relation": "TREATS",
+        "evidence": "근거 1",
+        "source_doc_id": "doc_a"
+      },
+      "CA006": {
+        "relation": "CAUTION_FOR",
+        "evidence": "근거 2",
+        "source_doc_id": "doc_a"
+      }
+    }
+  }
+}

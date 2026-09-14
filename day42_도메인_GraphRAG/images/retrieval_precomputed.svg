@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590">
+<rect width="1200" height="590" rx="22" fill="#f5f8fc"/>
+<style>text{font-family:"Apple SD Gothic Neo","Noto Sans CJK KR",sans-serif;fill:#13344b}.title{font-size:36px;font-weight:700}.head{font-size:29px;font-weight:700}.body{font-size:23px}.small{font-size:20px}</style>
+<text x="54" y="65" class="title">관계 조회와 원문 검색을 구분합니다</text>
+<rect x="40" y="102" width="560" height="375" rx="18" fill="white" stroke="#17446e" stroke-width="2"/>
+<rect x="40" y="102" width="560" height="76" rx="18" fill="#17446e"/>
+<text x="65" y="150" class="head" style="fill:white">Text2Cypher: 관계 조회</text>
+<text x="65" y="221" dy="0" class="body">질문 + JSON 스키마 → create_agent</text>
+<text x="65" y="221" dy="47" class="body">필요하면 select_names로 이름 확인</text>
+<text x="65" y="221" dy="94" class="body">LLM → Cypher → Neo4j 관계 조회</text>
+<text x="65" y="221" dy="141" class="body">반환: 이름 · 관계 근거 · claim_id</text>
+<text x="65" y="221" dy="188" class="body">관계 방향과 근거를 함께 확인</text>
+<rect x="620" y="102" width="560" height="375" rx="18" fill="white" stroke="#087f86" stroke-width="2"/>
+<rect x="620" y="102" width="560" height="76" rx="18" fill="#087f86"/>
+<text x="645" y="150" class="head" style="fill:white">벡터 검색: 원문 찾기</text>
+<text x="645" y="221" dy="0" class="body">가상현실 속 해커 네오가 나오는 영화는?</text>
+<text x="645" y="221" dy="47" class="body">도입부·전체 줄거리 → 청크</text>
+<text x="645" y="221" dy="94" class="body">배포 벡터 → Neo4j Chunk.embedding</text>
+<text x="645" y="221" dy="141" class="body">검색 질문만 OpenAI로 임베딩</text>
+<text x="645" y="221" dy="188" class="body">반환: 원문 · 출처 · chunk_id</text>
+<text x="60" y="536" class="small">학생은 저장된 문서 벡터를 적재합니다. 검색 질문만 임베딩하며, 찾은 원문이 답의 근거인지 읽습니다.</text></svg>

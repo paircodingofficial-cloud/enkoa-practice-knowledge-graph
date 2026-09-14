@@ -1,0 +1,14 @@
+[
+  {
+    "row": {
+      "subject": "Tapinarof",
+      "subject_type": "Compound",
+      "relation": "TREATS",
+      "object": "atopic dermatitis",
+      "object_type": "Disease",
+      "source_doc_id": "PMC13494208",
+      "evidence": "was approved by the US Food and Drug Administration (FDA) in 2024 for the treatment of atopic dermatitis"
+    },
+    "reason": "앞 단원의 인용 검사에서 기각된 행"
+  }
+]

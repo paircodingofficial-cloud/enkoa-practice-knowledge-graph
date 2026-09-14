@@ -1,0 +1,58 @@
+[
+  {
+    "question": "Keanu Reeves가 출연한 영화는 무엇인가요?",
+    "expected_values": [
+      "Johnny Mnemonic",
+      "Something's Gotta Give",
+      "The Devil's Advocate",
+      "The Matrix",
+      "The Matrix Reloaded",
+      "The Matrix Revolutions",
+      "The Replacements"
+    ],
+    "expected_evidence_ids": [
+      "M0062",
+      "M0086",
+      "M0113",
+      "M0125",
+      "M0129",
+      "M0133",
+      "M0138"
+    ]
+  },
+  {
+    "question": "Keanu Reeves가 출연한 영화의 감독은 누구인가요?",
+    "expected_values": [
+      "Howard Deutch",
+      "Lana Wachowski",
+      "Lilly Wachowski",
+      "Nancy Meyers",
+      "Robert Longo",
+      "Taylor Hackford"
+    ],
+    "expected_evidence_ids": [
+      "M0062",
+      "M0086",
+      "M0113",
+      "M0125",
+      "M0129",
+      "M0133",
+      "M0138",
+      "M0187",
+      "M0193",
+      "M0200",
+      "M0202",
+      "M0203",
+      "M0204",
+      "M0205",
+      "M0206",
+      "M0207",
+      "M0209"
+    ]
+  },
+  {
+    "question": "Keanu Reeves가 출연한 Inception의 관계를 찾아 주세요.",
+    "expected_values": [],
+    "expected_evidence_ids": []
+  }
+]

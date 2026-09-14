@@ -1,0 +1,382 @@
+{
+  "dataset": "movies_complete",
+  "node_types": [
+    {
+      "label": "Movie",
+      "description": "영화 한 편. 개봉 연도와 태그라인은 원본 Movies 샘플의 값이다.",
+      "properties": [
+        {
+          "name": "name",
+          "type": "STRING",
+          "description": "조회와 답변에 사용할 등록 이름. 원래 표기를 유지한다."
+        },
+        {
+          "name": "standard_id",
+          "type": "STRING",
+          "description": "데이터셋 접두어를 포함한 고유 개체 ID."
+        },
+        {
+          "name": "aliases",
+          "type": "LIST",
+          "description": "같은 개체를 가리키는 별칭 목록."
+        },
+        {
+          "name": "entity_type",
+          "type": "STRING",
+          "description": "해당 노드의 타입 이름."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "검색할 데이터셋 구분 값."
+        },
+        {
+          "name": "title",
+          "type": "STRING",
+          "description": "원본 영화 제목. 조회용 name과 같은 영화이다."
+        },
+        {
+          "name": "released",
+          "type": "INTEGER",
+          "description": "원본 샘플의 개봉 연도."
+        },
+        {
+          "name": "tagline",
+          "type": "STRING",
+          "description": "짧은 홍보 문구. 전체 줄거리와 구분한다."
+        }
+      ]
+    },
+    {
+      "label": "Person",
+      "description": "배우·감독·제작자·각본가·리뷰 작성자 등 영화에 연결된 사람.",
+      "properties": [
+        {
+          "name": "name",
+          "type": "STRING",
+          "description": "조회와 답변에 사용할 등록 이름. 원래 표기를 유지한다."
+        },
+        {
+          "name": "standard_id",
+          "type": "STRING",
+          "description": "데이터셋 접두어를 포함한 고유 개체 ID."
+        },
+        {
+          "name": "aliases",
+          "type": "LIST",
+          "description": "같은 개체를 가리키는 별칭 목록."
+        },
+        {
+          "name": "entity_type",
+          "type": "STRING",
+          "description": "해당 노드의 타입 이름."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "검색할 데이터셋 구분 값."
+        },
+        {
+          "name": "born",
+          "type": "INTEGER",
+          "description": "출생 연도. 기록되지 않은 인물도 있다."
+        }
+      ]
+    }
+  ],
+  "relationship_types": [
+    {
+      "label": "ACTED_IN",
+      "description": "인물이 영화에 출연했다. roles는 해당 영화에서 맡은 배역 목록이다.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        },
+        {
+          "name": "roles",
+          "type": "LIST",
+          "description": "출연 배역 이름 목록."
+        }
+      ]
+    },
+    {
+      "label": "DIRECTED",
+      "description": "인물이 영화를 감독했다. 방향은 감독에서 영화이다.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        }
+      ]
+    },
+    {
+      "label": "PRODUCED",
+      "description": "인물이 영화 제작에 참여했다. 감독·출연 관계와 구분한다.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        }
+      ]
+    },
+    {
+      "label": "WROTE",
+      "description": "인물이 영화의 각본을 썼다.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        }
+      ]
+    },
+    {
+      "label": "REVIEWED",
+      "description": "인물이 영화의 리뷰를 작성했다. summary와 rating은 그 리뷰의 속성이다.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        },
+        {
+          "name": "summary",
+          "type": "STRING",
+          "description": "리뷰의 요약 문구."
+        },
+        {
+          "name": "rating",
+          "type": "INTEGER",
+          "description": "리뷰 작성자가 부여한 평점."
+        }
+      ]
+    },
+    {
+      "label": "FOLLOWS",
+      "description": "앞 인물이 뒤 인물을 팔로우한다. 영화가 아닌 인물 사이의 관계이다.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        }
+      ]
+    }
+  ],
+  "patterns": [
+    [
+      "Person",
+      "ACTED_IN",
+      "Movie"
+    ],
+    [
+      "Person",
+      "DIRECTED",
+      "Movie"
+    ],
+    [
+      "Person",
+      "PRODUCED",
+      "Movie"
+    ],
+    [
+      "Person",
+      "WROTE",
+      "Movie"
+    ],
+    [
+      "Person",
+      "REVIEWED",
+      "Movie"
+    ],
+    [
+      "Person",
+      "FOLLOWS",
+      "Person"
+    ]
+  ]
+}

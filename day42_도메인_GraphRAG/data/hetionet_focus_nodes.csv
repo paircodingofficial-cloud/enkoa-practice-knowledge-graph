@@ -1,0 +1,1101 @@
+id,name,label
+Compound::DB00014,Goserelin,Compound
+Compound::DB00091,Cyclosporine,Compound
+Compound::DB00104,Octreotide,Compound
+Compound::DB00122,Choline,Compound
+Compound::DB00126,Vitamin C,Compound
+Compound::DB00136,Calcitriol,Compound
+Compound::DB00153,Ergocalciferol,Compound
+Compound::DB00169,Cholecalciferol,Compound
+Compound::DB00175,Pravastatin,Compound
+Compound::DB00176,Fluvoxamine,Compound
+Compound::DB00177,Valsartan,Compound
+Compound::DB00178,Ramipril,Compound
+Compound::DB00180,Flunisolide,Compound
+Compound::DB00181,Baclofen,Compound
+Compound::DB00182,Amphetamine,Compound
+Compound::DB00184,Nicotine,Compound
+Compound::DB00186,Lorazepam,Compound
+Compound::DB00187,Esmolol,Compound
+Compound::DB00188,Bortezomib,Compound
+Compound::DB00190,Carbidopa,Compound
+Compound::DB00191,Phentermine,Compound
+Compound::DB00193,Tramadol,Compound
+Compound::DB00195,Betaxolol,Compound
+Compound::DB00201,Caffeine,Compound
+Compound::DB00203,Sildenafil,Compound
+Compound::DB00205,Pyrimethamine,Compound
+Compound::DB00206,Reserpine,Compound
+Compound::DB00214,Torasemide,Compound
+Compound::DB00215,Citalopram,Compound
+Compound::DB00216,Eletriptan,Compound
+Compound::DB00218,Moxifloxacin,Compound
+Compound::DB00220,Nelfinavir,Compound
+Compound::DB00221,Isoetarine,Compound
+Compound::DB00222,Glimepiride,Compound
+Compound::DB00224,Indinavir,Compound
+Compound::DB00226,Guanadrel,Compound
+Compound::DB00227,Lovastatin,Compound
+Compound::DB00230,Pregabalin,Compound
+Compound::DB00238,Nevirapine,Compound
+Compound::DB00241,Butalbital,Compound
+Compound::DB00242,Cladribine,Compound
+Compound::DB00244,Mesalazine,Compound
+Compound::DB00245,Benzatropine,Compound
+Compound::DB00246,Ziprasidone,Compound
+Compound::DB00248,Cabergoline,Compound
+Compound::DB00250,Dapsone,Compound
+Compound::DB00252,Phenytoin,Compound
+Compound::DB00254,Doxycycline,Compound
+Compound::DB00258,Calcium Acetate,Compound
+Compound::DB00261,Anagrelide,Compound
+Compound::DB00262,Carmustine,Compound
+Compound::DB00264,Metoprolol,Compound
+Compound::DB00268,Ropinirole,Compound
+Compound::DB00270,Isradipine,Compound
+Compound::DB00273,Topiramate,Compound
+Compound::DB00275,Olmesartan,Compound
+Compound::DB00277,Theophylline,Compound
+Compound::DB00279,Liothyronine,Compound
+Compound::DB00281,Lidocaine,Compound
+Compound::DB00282,Pamidronate,Compound
+Compound::DB00284,Acarbose,Compound
+Compound::DB00285,Venlafaxine,Compound
+Compound::DB00286,Conjugated Estrogens,Compound
+Compound::DB00287,Travoprost,Compound
+Compound::DB00289,Atomoxetine,Compound
+Compound::DB00290,Bleomycin,Compound
+Compound::DB00291,Chlorambucil,Compound
+Compound::DB00295,Morphine,Compound
+Compound::DB00304,Desogestrel,Compound
+Compound::DB00305,Mitomycin,Compound
+Compound::DB00307,Bexarotene,Compound
+Compound::DB00310,Chlorthalidone,Compound
+Compound::DB00313,Valproic Acid,Compound
+Compound::DB00315,Zolmitriptan,Compound
+Compound::DB00316,Acetaminophen,Compound
+Compound::DB00317,Gefitinib,Compound
+Compound::DB00318,Codeine,Compound
+Compound::DB00320,Dihydroergotamine,Compound
+Compound::DB00321,Amitriptyline,Compound
+Compound::DB00322,Floxuridine,Compound
+Compound::DB00323,Tolcapone,Compound
+Compound::DB00328,Indomethacin,Compound
+Compound::DB00331,Metformin,Compound
+Compound::DB00332,Ipratropium bromide,Compound
+Compound::DB00334,Olanzapine,Compound
+Compound::DB00337,Pimecrolimus,Compound
+Compound::DB00338,Omeprazole,Compound
+Compound::DB00341,Cetirizine,Compound
+Compound::DB00343,Diltiazem,Compound
+Compound::DB00347,Trimethadione,Compound
+Compound::DB00349,Clobazam,Compound
+Compound::DB00350,Minoxidil,Compound
+Compound::DB00351,Megestrol acetate,Compound
+Compound::DB00352,Tioguanine,Compound
+Compound::DB00353,Methylergometrine,Compound
+Compound::DB00359,Sulfadiazine,Compound
+Compound::DB00361,Vinorelbine,Compound
+Compound::DB00363,Clozapine,Compound
+Compound::DB00367,Levonorgestrel,Compound
+Compound::DB00373,Timolol,Compound
+Compound::DB00376,Trihexyphenidyl,Compound
+Compound::DB00381,Amlodipine,Compound
+Compound::DB00384,Triamterene,Compound
+Compound::DB00385,Valrubicin,Compound
+Compound::DB00387,Procyclidine,Compound
+Compound::DB00390,Digoxin,Compound
+Compound::DB00394,Beclomethasone,Compound
+Compound::DB00396,Progesterone,Compound
+Compound::DB00397,Phenylpropanolamine,Compound
+Compound::DB00398,Sorafenib,Compound
+Compound::DB00399,Zoledronate,Compound
+Compound::DB00401,Nisoldipine,Compound
+Compound::DB00402,Eszopiclone,Compound
+Compound::DB00404,Alprazolam,Compound
+Compound::DB00408,Loxapine,Compound
+Compound::DB00411,Carbachol,Compound
+Compound::DB00412,Rosiglitazone,Compound
+Compound::DB00413,Pramipexole,Compound
+Compound::DB00421,Spironolactone,Compound
+Compound::DB00422,Methylphenidate,Compound
+Compound::DB00424,Hyoscyamine,Compound
+Compound::DB00425,Zolpidem,Compound
+Compound::DB00427,Triprolidine,Compound
+Compound::DB00433,Prochlorperazine,Compound
+Compound::DB00434,Cyproheptadine,Compound
+Compound::DB00436,Bendroflumethiazide,Compound
+Compound::DB00437,Allopurinol,Compound
+Compound::DB00441,Gemcitabine,Compound
+Compound::DB00442,Entecavir,Compound
+Compound::DB00443,Betamethasone,Compound
+Compound::DB00444,Teniposide,Compound
+Compound::DB00445,Epirubicin,Compound
+Compound::DB00449,Dipivefrin,Compound
+Compound::DB00451,Levothyroxine,Compound
+Compound::DB00455,Loratadine,Compound
+Compound::DB00457,Prazosin,Compound
+Compound::DB00458,Imipramine,Compound
+Compound::DB00459,Acitretin,Compound
+Compound::DB00461,Nabumetone,Compound
+Compound::DB00468,Quinine,Compound
+Compound::DB00471,Montelukast,Compound
+Compound::DB00472,Fluoxetine,Compound
+Compound::DB00475,Chlordiazepoxide,Compound
+Compound::DB00476,Duloxetine,Compound
+Compound::DB00477,Chlorpromazine,Compound
+Compound::DB00480,Lenalidomide,Compound
+Compound::DB00481,Raloxifene,Compound
+Compound::DB00482,Celecoxib,Compound
+Compound::DB00484,Brimonidine,Compound
+Compound::DB00488,Altretamine,Compound
+Compound::DB00490,Buspirone,Compound
+Compound::DB00491,Miglitol,Compound
+Compound::DB00492,Fosinopril,Compound
+Compound::DB00494,Entacapone,Compound
+Compound::DB00495,Zidovudine,Compound
+Compound::DB00499,Flutamide,Compound
+Compound::DB00500,Tolmetin,Compound
+Compound::DB00501,Cimetidine,Compound
+Compound::DB00502,Haloperidol,Compound
+Compound::DB00503,Ritonavir,Compound
+Compound::DB00509,Dextrothyroxine,Compound
+Compound::DB00514,Dextromethorphan,Compound
+Compound::DB00515,Cisplatin,Compound
+Compound::DB00519,Trandolapril,Compound
+Compound::DB00521,Carteolol,Compound
+Compound::DB00523,Alitretinoin,Compound
+Compound::DB00524,Metolazone,Compound
+Compound::DB00530,Erlotinib,Compound
+Compound::DB00537,Ciprofloxacin,Compound
+Compound::DB00539,Toremifene,Compound
+Compound::DB00540,Nortriptyline,Compound
+Compound::DB00541,Vincristine,Compound
+Compound::DB00542,Benazepril,Compound
+Compound::DB00544,Fluorouracil,Compound
+Compound::DB00549,Zafirlukast,Compound
+Compound::DB00550,Propylthiouracil,Compound
+Compound::DB00552,Pentostatin,Compound
+Compound::DB00553,Methoxsalen,Compound
+Compound::DB00554,Piroxicam,Compound
+Compound::DB00555,Lamotrigine,Compound
+Compound::DB00563,Methotrexate,Compound
+Compound::DB00564,Carbamazepine,Compound
+Compound::DB00570,Vinblastine,Compound
+Compound::DB00571,Propranolol,Compound
+Compound::DB00572,Atropine,Compound
+Compound::DB00573,Fenoprofen,Compound
+Compound::DB00575,Clonidine,Compound
+Compound::DB00584,Enalapril,Compound
+Compound::DB00586,Diclofenac,Compound
+Compound::DB00588,Fluticasone Propionate,Compound
+Compound::DB00590,Doxazosin,Compound
+Compound::DB00591,Fluocinolone Acetonide,Compound
+Compound::DB00594,Amiloride,Compound
+Compound::DB00598,Labetalol,Compound
+Compound::DB00600,Monobenzone,Compound
+Compound::DB00603,Medroxyprogesterone Acetate,Compound
+Compound::DB00605,Sulindac,Compound
+Compound::DB00619,Imatinib,Compound
+Compound::DB00620,Triamcinolone,Compound
+Compound::DB00621,Oxandrolone,Compound
+Compound::DB00622,Nicardipine,Compound
+Compound::DB00623,Fluphenazine,Compound
+Compound::DB00624,Testosterone,Compound
+Compound::DB00625,Efavirenz,Compound
+Compound::DB00627,Niacin,Compound
+Compound::DB00629,Guanabenz,Compound
+Compound::DB00630,Alendronate,Compound
+Compound::DB00631,Clofarabine,Compound
+Compound::DB00635,Prednisone,Compound
+Compound::DB00641,Simvastatin,Compound
+Compound::DB00642,Pemetrexed,Compound
+Compound::DB00649,Stavudine,Compound
+Compound::DB00651,Dyphylline,Compound
+Compound::DB00654,Latanoprost,Compound
+Compound::DB00655,Estrone,Compound
+Compound::DB00656,Trazodone,Compound
+Compound::DB00657,Mecamylamine,Compound
+Compound::DB00659,Acamprosate,Compound
+Compound::DB00661,Verapamil,Compound
+Compound::DB00665,Nilutamide,Compound
+Compound::DB00668,Epinephrine,Compound
+Compound::DB00669,Sumatriptan,Compound
+Compound::DB00672,Chlorpropamide,Compound
+Compound::DB00673,Aprepitant,Compound
+Compound::DB00674,Galantamine,Compound
+Compound::DB00675,Tamoxifen,Compound
+Compound::DB00678,Losartan,Compound
+Compound::DB00679,Thioridazine,Compound
+Compound::DB00683,Midazolam,Compound
+Compound::DB00687,Fludrocortisone,Compound
+Compound::DB00688,Mycophenolate mofetil,Compound
+Compound::DB00691,Moexipril,Compound
+Compound::DB00692,Phentolamine,Compound
+Compound::DB00694,Daunorubicin,Compound
+Compound::DB00695,Furosemide,Compound
+Compound::DB00696,Ergotamine,Compound
+Compound::DB00697,Tizanidine,Compound
+Compound::DB00700,Eplerenone,Compound
+Compound::DB00701,Amprenavir,Compound
+Compound::DB00703,Methazolamide,Compound
+Compound::DB00704,Naltrexone,Compound
+Compound::DB00705,Delavirdine,Compound
+Compound::DB00706,Tamsulosin,Compound
+Compound::DB00707,Porfimer,Compound
+Compound::DB00709,Lamivudine,Compound
+Compound::DB00710,Ibandronate,Compound
+Compound::DB00712,Flurbiprofen,Compound
+Compound::DB00714,Apomorphine,Compound
+Compound::DB00715,Paroxetine,Compound
+Compound::DB00716,Nedocromil,Compound
+Compound::DB00717,Norethindrone,Compound
+Compound::DB00718,Adefovir Dipivoxil,Compound
+Compound::DB00722,Lisinopril,Compound
+Compound::DB00724,Imiquimod,Compound
+Compound::DB00727,Nitroglycerin,Compound
+Compound::DB00731,Nateglinide,Compound
+Compound::DB00734,Risperidone,Compound
+Compound::DB00736,Esomeprazole,Compound
+Compound::DB00740,Riluzole,Compound
+Compound::DB00741,Hydrocortisone,Compound
+Compound::DB00742,Mannitol,Compound
+Compound::DB00744,Zileuton,Compound
+Compound::DB00745,Modafinil,Compound
+Compound::DB00746,Deferoxamine,Compound
+Compound::DB00749,Etodolac,Compound
+Compound::DB00755,Tretinoin,Compound
+Compound::DB00758,Clopidogrel,Compound
+Compound::DB00762,Irinotecan,Compound
+Compound::DB00763,Methimazole,Compound
+Compound::DB00764,Mometasone,Compound
+Compound::DB00768,Olopatadine,Compound
+Compound::DB00773,Etoposide,Compound
+Compound::DB00774,Hydroflumethiazide,Compound
+Compound::DB00775,Tirofiban,Compound
+Compound::DB00776,Oxcarbazepine,Compound
+Compound::DB00782,Propantheline,Compound
+Compound::DB00783,Estradiol,Compound
+Compound::DB00788,Naproxen,Compound
+Compound::DB00790,Perindopril,Compound
+Compound::DB00794,Primidone,Compound
+Compound::DB00795,Sulfasalazine,Compound
+Compound::DB00796,Candesartan,Compound
+Compound::DB00797,Tolazoline,Compound
+Compound::DB00799,Tazarotene,Compound
+Compound::DB00800,Fenoldopam,Compound
+Compound::DB00806,Pentoxifylline,Compound
+Compound::DB00808,Indapamide,Compound
+Compound::DB00810,Biperiden,Compound
+Compound::DB00813,Fentanyl,Compound
+Compound::DB00814,Meloxicam,Compound
+Compound::DB00816,Orciprenaline,Compound
+Compound::DB00818,Propofol,Compound
+Compound::DB00819,Acetazolamide,Compound
+Compound::DB00820,Tadalafil,Compound
+Compound::DB00822,Disulfiram,Compound
+Compound::DB00829,Diazepam,Compound
+Compound::DB00831,Trifluoperazine,Compound
+Compound::DB00839,Tolazamide,Compound
+Compound::DB00843,Donepezil,Compound
+Compound::DB00850,Perphenazine,Compound
+Compound::DB00851,Dacarbazine,Compound
+Compound::DB00852,Pseudoephedrine,Compound
+Compound::DB00853,Temozolomide,Compound
+Compound::DB00859,Penicillamine,Compound
+Compound::DB00860,Prednisolone,Compound
+Compound::DB00861,Diflunisal,Compound
+Compound::DB00864,Tacrolimus,Compound
+Compound::DB00865,Benzphetamine,Compound
+Compound::DB00869,Dorzolamide,Compound
+Compound::DB00871,Terbutaline,Compound
+Compound::DB00876,Eprosartan,Compound
+Compound::DB00880,Chlorothiazide,Compound
+Compound::DB00881,Quinapril,Compound
+Compound::DB00882,Clomifene,Compound
+Compound::DB00883,Isosorbide Dinitrate,Compound
+Compound::DB00884,Risedronate,Compound
+Compound::DB00887,Bumetanide,Compound
+Compound::DB00888,Mechlorethamine,Compound
+Compound::DB00900,Didanosine,Compound
+Compound::DB00903,Ethacrynic acid,Compound
+Compound::DB00904,Ondansetron,Compound
+Compound::DB00905,Bimatoprost,Compound
+Compound::DB00906,Tiagabine,Compound
+Compound::DB00908,Quinidine,Compound
+Compound::DB00909,Zonisamide,Compound
+Compound::DB00910,Paricalcitol,Compound
+Compound::DB00912,Repaglinide,Compound
+Compound::DB00915,Amantadine,Compound
+Compound::DB00918,Almotriptan,Compound
+Compound::DB00920,Ketotifen,Compound
+Compound::DB00924,Cyclobenzaprine,Compound
+Compound::DB00933,Mesoridazine,Compound
+Compound::DB00934,Maprotiline,Compound
+Compound::DB00935,Oxymetazoline,Compound
+Compound::DB00936,Salicylic acid,Compound
+Compound::DB00937,Diethylpropion,Compound
+Compound::DB00938,Salmeterol,Compound
+Compound::DB00945,Acetylsalicylic acid,Compound
+Compound::DB00947,Fulvestrant,Compound
+Compound::DB00949,Felbamate,Compound
+Compound::DB00952,Naratriptan,Compound
+Compound::DB00953,Rizatriptan,Compound
+Compound::DB00958,Carboplatin,Compound
+Compound::DB00959,Methylprednisolone,Compound
+Compound::DB00960,Pindolol,Compound
+Compound::DB00964,Apraclonidine,Compound
+Compound::DB00966,Telmisartan,Compound
+Compound::DB00967,Desloratadine,Compound
+Compound::DB00968,Methyldopa,Compound
+Compound::DB00970,Dactinomycin,Compound
+Compound::DB00973,Ezetimibe,Compound
+Compound::DB00975,Dipyridamole,Compound
+Compound::DB00977,Ethinyl Estradiol,Compound
+Compound::DB00980,Ramelteon,Compound
+Compound::DB00981,Physostigmine,Compound
+Compound::DB00982,Isotretinoin,Compound
+Compound::DB00983,Formoterol,Compound
+Compound::DB00985,Dimenhydrinate,Compound
+Compound::DB00987,Cytarabine,Compound
+Compound::DB00989,Rivastigmine,Compound
+Compound::DB00990,Exemestane,Compound
+Compound::DB00991,Oxaprozin,Compound
+Compound::DB00993,Azathioprine,Compound
+Compound::DB00995,Auranofin,Compound
+Compound::DB00996,Gabapentin,Compound
+Compound::DB00997,Doxorubicin,Compound
+Compound::DB00998,Frovatriptan,Compound
+Compound::DB00999,Hydrochlorothiazide,Compound
+Compound::DB01001,Salbutamol,Compound
+Compound::DB01003,Cromoglicic acid,Compound
+Compound::DB01005,Hydroxyurea,Compound
+Compound::DB01006,Letrozole,Compound
+Compound::DB01008,Busulfan,Compound
+Compound::DB01009,Ketoprofen,Compound
+Compound::DB01012,Cinacalcet,Compound
+Compound::DB01013,Clobetasol propionate,Compound
+Compound::DB01014,Balsalazide,Compound
+Compound::DB01016,Glyburide,Compound
+Compound::DB01018,Guanfacine,Compound
+Compound::DB01020,Isosorbide Mononitrate,Compound
+Compound::DB01023,Felodipine,Compound
+Compound::DB01024,Mycophenolic acid,Compound
+Compound::DB01029,Irbesartan,Compound
+Compound::DB01030,Topotecan,Compound
+Compound::DB01032,Probenecid,Compound
+Compound::DB01033,Mercaptopurine,Compound
+Compound::DB01036,Tolterodine,Compound
+Compound::DB01037,Selegiline,Compound
+Compound::DB01039,Fenofibrate,Compound
+Compound::DB01041,Thalidomide,Compound
+Compound::DB01042,Melphalan,Compound
+Compound::DB01043,Memantine,Compound
+Compound::DB01045,Rifampicin,Compound
+Compound::DB01047,Fluocinonide,Compound
+Compound::DB01048,Abacavir,Compound
+Compound::DB01050,Ibuprofen,Compound
+Compound::DB01057,Echothiophate,Compound
+Compound::DB01063,Acetophenazine,Compound
+Compound::DB01064,Isoprenaline,Compound
+Compound::DB01067,Glipizide,Compound
+Compound::DB01068,Clonazepam,Compound
+Compound::DB01073,Fludarabine,Compound
+Compound::DB01075,Diphenhydramine,Compound
+Compound::DB01076,Atorvastatin,Compound
+Compound::DB01077,Etidronic acid,Compound
+Compound::DB01080,Vigabatrin,Compound
+Compound::DB01083,Orlistat,Compound
+Compound::DB01085,Pilocarpine,Compound
+Compound::DB01097,Leflunomide,Compound
+Compound::DB01098,Rosuvastatin,Compound
+Compound::DB01100,Pimozide,Compound
+Compound::DB01101,Capecitabine,Compound
+Compound::DB01104,Sertraline,Compound
+Compound::DB01105,Sibutramine,Compound
+Compound::DB01115,Nifedipine,Compound
+Compound::DB01119,Diazoxide,Compound
+Compound::DB01120,Gliclazide,Compound
+Compound::DB01124,Tolbutamide,Compound
+Compound::DB01128,Bicalutamide,Compound
+Compound::DB01131,Proguanil,Compound
+Compound::DB01132,Pioglitazone,Compound
+Compound::DB01133,Tiludronate,Compound
+Compound::DB01136,Carvedilol,Compound
+Compound::DB01137,Levofloxacin,Compound
+Compound::DB01142,Doxepin,Compound
+Compound::DB01144,Diclofenamide,Compound
+Compound::DB01149,Nefazodone,Compound
+Compound::DB01151,Desipramine,Compound
+Compound::DB01156,Bupropion,Compound
+Compound::DB01162,Terazosin,Compound
+Compound::DB01165,Ofloxacin,Compound
+Compound::DB01166,Cilostazol,Compound
+Compound::DB01168,Procarbazine,Compound
+Compound::DB01170,Guanethidine,Compound
+Compound::DB01173,Orphenadrine,Compound
+Compound::DB01174,Phenobarbital,Compound
+Compound::DB01175,Escitalopram,Compound
+Compound::DB01177,Idarubicin,Compound
+Compound::DB01181,Ifosfamide,Compound
+Compound::DB01185,Fluoxymesterone,Compound
+Compound::DB01186,Pergolide,Compound
+Compound::DB01190,Clindamycin,Compound
+Compound::DB01193,Acebutolol,Compound
+Compound::DB01194,Brinzolamide,Compound
+Compound::DB01196,Estramustine,Compound
+Compound::DB01197,Captopril,Compound
+Compound::DB01198,Zopiclone,Compound
+Compound::DB01200,Bromocriptine,Compound
+Compound::DB01202,Levetiracetam,Compound
+Compound::DB01203,Nadolol,Compound
+Compound::DB01204,Mitoxantrone,Compound
+Compound::DB01206,Lomustine,Compound
+Compound::DB01210,Levobunolol,Compound
+Compound::DB01214,Metipranolol,Compound
+Compound::DB01217,Anastrozole,Compound
+Compound::DB01219,Dantrolene,Compound
+Compound::DB01222,Budesonide,Compound
+Compound::DB01223,Aminophylline,Compound
+Compound::DB01224,Quetiapine,Compound
+Compound::DB01229,Paclitaxel,Compound
+Compound::DB01232,Saquinavir,Compound
+Compound::DB01233,Metoclopramide,Compound
+Compound::DB01234,Dexamethasone,Compound
+Compound::DB01235,L-DOPA,Compound
+Compound::DB01238,Aripiprazole,Compound
+Compound::DB01240,Epoprostenol,Compound
+Compound::DB01241,Gemfibrozil,Compound
+Compound::DB01242,Clomipramine,Compound
+Compound::DB01244,Bepridil,Compound
+Compound::DB01247,Isocarboxazid,Compound
+Compound::DB01248,Docetaxel,Compound
+Compound::DB01250,Olsalazine,Compound
+Compound::DB01254,Dasatinib,Compound
+Compound::DB01255,Lisdexamfetamine,Compound
+Compound::DB01259,Lapatinib,Compound
+Compound::DB01260,Desonide,Compound
+Compound::DB01261,Sitagliptin,Compound
+Compound::DB01265,Telbivudine,Compound
+Compound::DB01267,Paliperidone,Compound
+Compound::DB01268,Sunitinib,Compound
+Compound::DB01273,Varenicline,Compound
+Compound::DB01274,Arformoterol,Compound
+Compound::DB01275,Hydralazine,Compound
+Compound::DB01280,Nelarabine,Compound
+Compound::DB01291,Pirbuterol,Compound
+Compound::DB01296,Glucosamine,Compound
+Compound::DB01320,Fosphenytoin,Compound
+Compound::DB01346,Quinidine barbiturate,Compound
+Compound::DB01351,Amobarbital,Compound
+Compound::DB01356,Lithium,Compound
+Compound::DB01359,Penbutolol,Compound
+Compound::DB01364,Ephedrine,Compound
+Compound::DB01367,Rasagiline,Compound
+Compound::DB01394,Colchicine,Compound
+Compound::DB01395,Drospirenone,Compound
+Compound::DB01397,Magnesium salicylate,Compound
+Compound::DB01398,Salicylate-sodium,Compound
+Compound::DB01399,Salsalate,Compound
+Compound::DB01401,Trisalicylate-choline,Compound
+Compound::DB01409,Tiotropium,Compound
+Compound::DB01410,Ciclesonide,Compound
+Compound::DB01420,Testosterone Propionate,Compound
+Compound::DB01427,Amrinone,Compound
+Compound::DB01435,Antipyrine,Compound
+Compound::DB01440,Gamma Hydroxybutyric Acid,Compound
+Compound::DB01576,Dextroamphetamine,Compound
+Compound::DB01577,Methamphetamine,Compound
+Compound::DB01579,Phendimetrazine,Compound
+Compound::DB01583,Liotrix,Compound
+Compound::DB01586,Ursodeoxycholic acid,Compound
+Compound::DB01589,Quazepam,Compound
+Compound::DB01590,Everolimus,Compound
+Compound::DB01591,Solifenacin,Compound
+Compound::DB01601,Lopinavir,Compound
+Compound::DB01623,Thiothixene,Compound
+Compound::DB01656,Roflumilast,Compound
+Compound::DB02300,Calcipotriol,Compound
+Compound::DB02546,Vorinostat,Compound
+Compound::DB04572,Thiotepa,Compound
+Compound::DB04574,Estropipate,Compound
+Compound::DB04845,Ixabepilone,Compound
+Compound::DB04861,Nebivolol,Compound
+Compound::DB04868,Nilotinib,Compound
+Compound::DB05039,Indacaterol,Compound
+Compound::DB05271,Rotigotine,Compound
+Compound::DB05294,Vandetanib,Compound
+Compound::DB05389,WF10,Compound
+Compound::DB05812,Abiraterone,Compound
+Compound::DB06151,Acetylcysteine,Compound
+Compound::DB06201,Rufinamide,Compound
+Compound::DB06218,Lacosamide,Compound
+Compound::DB06287,Temsirolimus,Compound
+Compound::DB06589,Pazopanib,Compound
+Compound::DB06637,Dalfampridine,Compound
+Compound::DB06684,Vilazodone,Compound
+Compound::DB06697,Artemether,Compound
+Compound::DB06699,Degarelix,Compound
+Compound::DB06710,Methyltestosterone,Compound
+Compound::DB06772,Cabazitaxel,Compound
+Compound::DB06777,Chenodeoxycholic acid,Compound
+Compound::DB08816,Ticagrelor,Compound
+Compound::DB08828,Vismodegib,Compound
+Compound::DB08860,Pitavastatin,Compound
+Compound::DB08865,Crizotinib,Compound
+Compound::DB08866,Estradiol valerate/Dienogest,Compound
+Compound::DB08868,Fingolimod,Compound
+Compound::DB08871,Eribulin,Compound
+Compound::DB08877,Ruxolitinib,Compound
+Compound::DB08881,Vemurafenib,Compound
+Compound::DB08882,Linagliptin,Compound
+Compound::DB08906,Fluticasone furoate,Compound
+Disease::DOID:0050156,idiopathic pulmonary fibrosis,Disease
+Disease::DOID:0050425,restless legs syndrome,Disease
+Disease::DOID:0050741,alcohol dependence,Disease
+Disease::DOID:0050742,nicotine dependence,Disease
+Disease::DOID:0060073,lymphatic system cancer,Disease
+Disease::DOID:0060119,pharynx cancer,Disease
+Disease::DOID:10021,duodenum cancer,Disease
+Disease::DOID:10153,ileum cancer,Disease
+Disease::DOID:1024,leprosy,Disease
+Disease::DOID:10283,prostate cancer,Disease
+Disease::DOID:10534,stomach cancer,Disease
+Disease::DOID:10608,celiac disease,Disease
+Disease::DOID:10652,Alzheimer's disease,Disease
+Disease::DOID:10763,hypertension,Disease
+Disease::DOID:10871,age related macular degeneration,Disease
+Disease::DOID:1094,attention deficit hyperactivity disorder,Disease
+Disease::DOID:10941,intracranial aneurysm,Disease
+Disease::DOID:10976,membranous glomerulonephritis,Disease
+Disease::DOID:11054,urinary bladder cancer,Disease
+Disease::DOID:11119,Gilles de la Tourette syndrome,Disease
+Disease::DOID:1115,sarcoma,Disease
+Disease::DOID:11239,appendix cancer,Disease
+Disease::DOID:11476,osteoporosis,Disease
+Disease::DOID:11555,Fuchs' endothelial dystrophy,Disease
+Disease::DOID:11612,polycystic ovary syndrome,Disease
+Disease::DOID:11615,penile cancer,Disease
+Disease::DOID:11714,gestational diabetes,Disease
+Disease::DOID:11819,ureter cancer,Disease
+Disease::DOID:119,vaginal cancer,Disease
+Disease::DOID:1192,peripheral nervous system neoplasm,Disease
+Disease::DOID:11920,tracheal cancer,Disease
+Disease::DOID:11934,head and neck cancer,Disease
+Disease::DOID:11949,Creutzfeldt-Jakob disease,Disease
+Disease::DOID:12185,otosclerosis,Disease
+Disease::DOID:12236,primary biliary cirrhosis,Disease
+Disease::DOID:12306,vitiligo,Disease
+Disease::DOID:12361,Graves' disease,Disease
+Disease::DOID:12365,malaria,Disease
+Disease::DOID:1245,vulva cancer,Disease
+Disease::DOID:12849,autistic disorder,Disease
+Disease::DOID:12930,dilated cardiomyopathy,Disease
+Disease::DOID:12995,conduct disorder,Disease
+Disease::DOID:1312,focal segmental glomerulosclerosis,Disease
+Disease::DOID:13189,gout,Disease
+Disease::DOID:1319,brain cancer,Disease
+Disease::DOID:13223,uterine fibroid,Disease
+Disease::DOID:1324,lung cancer,Disease
+Disease::DOID:13241,Behcet's disease,Disease
+Disease::DOID:13378,Kawasaki disease,Disease
+Disease::DOID:13499,jejunal cancer,Disease
+Disease::DOID:14004,thoracic aortic aneurysm,Disease
+Disease::DOID:14221,metabolic syndrome X,Disease
+Disease::DOID:14227,azoospermia,Disease
+Disease::DOID:14268,sclerosing cholangitis,Disease
+Disease::DOID:14330,Parkinson's disease,Disease
+Disease::DOID:1459,hypothyroidism,Disease
+Disease::DOID:1595,endogenous depression,Disease
+Disease::DOID:1612,breast cancer,Disease
+Disease::DOID:1686,glaucoma,Disease
+Disease::DOID:1725,peritoneum cancer,Disease
+Disease::DOID:175,vascular cancer,Disease
+Disease::DOID:1781,thyroid cancer,Disease
+Disease::DOID:1790,malignant mesothelioma,Disease
+Disease::DOID:1793,pancreatic cancer,Disease
+Disease::DOID:1826,epilepsy syndrome,Disease
+Disease::DOID:184,bone cancer,Disease
+Disease::DOID:1909,melanoma,Disease
+Disease::DOID:1936,atherosclerosis,Disease
+Disease::DOID:1964,fallopian tube cancer,Disease
+Disease::DOID:1993,rectum cancer,Disease
+Disease::DOID:2043,hepatitis B,Disease
+Disease::DOID:216,dental caries,Disease
+Disease::DOID:2174,ocular cancer,Disease
+Disease::DOID:219,colon cancer,Disease
+Disease::DOID:2355,anemia,Disease
+Disease::DOID:2377,multiple sclerosis,Disease
+Disease::DOID:2394,ovarian cancer,Disease
+Disease::DOID:2531,hematologic cancer,Disease
+Disease::DOID:2596,larynx cancer,Disease
+Disease::DOID:263,kidney cancer,Disease
+Disease::DOID:2841,asthma,Disease
+Disease::DOID:2986,IgA glomerulonephritis,Disease
+Disease::DOID:2994,germ cell cancer,Disease
+Disease::DOID:2998,testicular cancer,Disease
+Disease::DOID:3070,malignant glioma,Disease
+Disease::DOID:3083,chronic obstructive pulmonary disease,Disease
+Disease::DOID:3121,gallbladder cancer,Disease
+Disease::DOID:3277,thymus cancer,Disease
+Disease::DOID:3310,atopic dermatitis,Disease
+Disease::DOID:3312,bipolar disorder,Disease
+Disease::DOID:332,amyotrophic lateral sclerosis,Disease
+Disease::DOID:3393,coronary artery disease,Disease
+Disease::DOID:3565,meningioma,Disease
+Disease::DOID:3571,liver cancer,Disease
+Disease::DOID:363,uterine cancer,Disease
+Disease::DOID:3953,adrenal gland cancer,Disease
+Disease::DOID:4045,muscle cancer,Disease
+Disease::DOID:4159,skin cancer,Disease
+Disease::DOID:418,systemic scleroderma,Disease
+Disease::DOID:4362,cervical cancer,Disease
+Disease::DOID:4481,allergic rhinitis,Disease
+Disease::DOID:4606,bile duct cancer,Disease
+Disease::DOID:4989,pancreatitis,Disease
+Disease::DOID:5041,esophageal cancer,Disease
+Disease::DOID:5408,Paget's disease of bone,Disease
+Disease::DOID:5419,schizophrenia,Disease
+Disease::DOID:5559,mediastinal cancer,Disease
+Disease::DOID:5612,spinal cancer,Disease
+Disease::DOID:585,nephrolithiasis,Disease
+Disease::DOID:5875,retroperitoneal cancer,Disease
+Disease::DOID:594,panic disorder,Disease
+Disease::DOID:635,acquired immunodeficiency syndrome,Disease
+Disease::DOID:6364,migraine,Disease
+Disease::DOID:7147,ankylosing spondylitis,Disease
+Disease::DOID:7148,rheumatoid arthritis,Disease
+Disease::DOID:7693,abdominal aortic aneurysm,Disease
+Disease::DOID:784,chronic kidney failure,Disease
+Disease::DOID:824,periodontitis,Disease
+Disease::DOID:8398,osteoarthritis,Disease
+Disease::DOID:8577,ulcerative colitis,Disease
+Disease::DOID:8778,Crohn's disease,Disease
+Disease::DOID:8850,salivary gland cancer,Disease
+Disease::DOID:8893,psoriasis,Disease
+Disease::DOID:8986,narcolepsy,Disease
+Disease::DOID:90,degenerative disc disease,Disease
+Disease::DOID:9008,psoriatic arthritis,Disease
+Disease::DOID:9074,systemic lupus erythematosus,Disease
+Disease::DOID:9206,Barrett's esophagus,Disease
+Disease::DOID:9296,cleft lip,Disease
+Disease::DOID:9352,type 2 diabetes mellitus,Disease
+Disease::DOID:9744,type 1 diabetes mellitus,Disease
+Disease::DOID:9835,refractive error,Disease
+Disease::DOID:986,alopecia areata,Disease
+Disease::DOID:9970,obesity,Disease
+Symptom::D000006,"Abdomen, Acute",Symptom
+Symptom::D000270,Adie Syndrome,Symptom
+Symptom::D000326,Adrenoleukodystrophy,Symptom
+Symptom::D000334,Aerophagy,Symptom
+Symptom::D000370,Ageusia,Symptom
+Symptom::D000377,Agnosia,Symptom
+Symptom::D000381,Agraphia,Symptom
+Symptom::D000419,Albuminuria,Symptom
+Symptom::D000425,Alcohol Amnestic Disorder,Symptom
+Symptom::D000472,"Alkalosis, Respiratory",Symptom
+Symptom::D000550,Amblyopia,Symptom
+Symptom::D000647,Amnesia,Symptom
+Symptom::D000648,"Amnesia, Retrograde",Symptom
+Symptom::D000787,Angina Pectoris,Symptom
+Symptom::D000788,"Angina Pectoris, Variant",Symptom
+Symptom::D000789,"Angina, Unstable",Symptom
+Symptom::D000849,Anomia,Symptom
+Symptom::D000855,Anorexia,Symptom
+Symptom::D000857,Olfaction Disorders,Symptom
+Symptom::D000860,Anoxia,Symptom
+Symptom::D001037,Aphasia,Symptom
+Symptom::D001039,"Aphasia, Broca",Symptom
+Symptom::D001041,"Aphasia, Wernicke",Symptom
+Symptom::D001044,Aphonia,Symptom
+Symptom::D001049,Apnea,Symptom
+Symptom::D001072,Apraxias,Symptom
+Symptom::D001184,Articulation Disorders,Symptom
+Symptom::D001247,Asthenia,Symptom
+Symptom::D001259,Ataxia,Symptom
+Symptom::D001260,Ataxia Telangiectasia,Symptom
+Symptom::D001264,Athetosis,Symptom
+Symptom::D001308,Auditory Perceptual Disorders,Symptom
+Symptom::D001416,Back Pain,Symptom
+Symptom::D001724,Birth Weight,Symptom
+Symptom::D001750,"Urinary Bladder, Neurogenic",Symptom
+Symptom::D001766,Blindness,Symptom
+Symptom::D001835,Body Weight,Symptom
+Symptom::D001926,Brain Death,Symptom
+Symptom::D002032,Bulimia,Symptom
+Symptom::D002100,Cachexia,Symptom
+Symptom::D002303,"Cardiac Output, Low",Symptom
+Symptom::D002375,Catalepsy,Symptom
+Symptom::D002385,Cataplexy,Symptom
+Symptom::D002389,Catatonia,Symptom
+Symptom::D002422,Causalgia,Symptom
+Symptom::D002524,Cerebellar Ataxia,Symptom
+Symptom::D002558,Cerebrospinal Fluid Otorrhea,Symptom
+Symptom::D002559,Cerebrospinal Fluid Rhinorrhea,Symptom
+Symptom::D002637,Chest Pain,Symptom
+Symptom::D002639,Cheyne-Stokes Respiration,Symptom
+Symptom::D002819,Chorea,Symptom
+Symptom::D002832,Choroid Hemorrhage,Symptom
+Symptom::D003085,Colic,Symptom
+Symptom::D003117,Color Vision Defects,Symptom
+Symptom::D003128,Coma,Symptom
+Symptom::D003147,Communication Disorders,Symptom
+Symptom::D003221,Confusion,Symptom
+Symptom::D003244,Consciousness Disorders,Symptom
+Symptom::D003248,Constipation,Symptom
+Symptom::D003371,Cough,Symptom
+Symptom::D003410,Cri-du-Chat Syndrome,Symptom
+Symptom::D003490,Cyanosis,Symptom
+Symptom::D003635,De Lange Syndrome,Symptom
+Symptom::D003638,Deafness,Symptom
+Symptom::D003639,"Hearing Loss, Sudden",Symptom
+Symptom::D003655,Decerebrate State,Symptom
+Symptom::D003693,Delirium,Symptom
+Symptom::D003967,Diarrhea,Symptom
+Symptom::D003968,"Diarrhea, Infantile",Symptom
+Symptom::D004172,Diplopia,Symptom
+Symptom::D004244,Dizziness,Symptom
+Symptom::D004314,Down Syndrome,Symptom
+Symptom::D004401,Dysarthria,Symptom
+Symptom::D004408,Dysgeusia,Symptom
+Symptom::D004409,"Dyskinesia, Drug-Induced",Symptom
+Symptom::D004410,Dyslexia,Symptom
+Symptom::D004411,"Dyslexia, Acquired",Symptom
+Symptom::D004412,Dysmenorrhea,Symptom
+Symptom::D004415,Dyspepsia,Symptom
+Symptom::D004417,Dyspnea,Symptom
+Symptom::D004418,"Dyspnea, Paroxysmal",Symptom
+Symptom::D004421,Dystonia,Symptom
+Symptom::D004433,Earache,Symptom
+Symptom::D004438,Ecchymosis,Symptom
+Symptom::D004454,Echolalia,Symptom
+Symptom::D004487,Edema,Symptom
+Symptom::D004489,"Edema, Cardiac",Symptom
+Symptom::D004614,Emaciation,Symptom
+Symptom::D004688,Encopresis,Symptom
+Symptom::D004884,Eructation,Symptom
+Symptom::D005130,Eye Hemorrhage,Symptom
+Symptom::D005132,Eye Manifestations,Symptom
+Symptom::D005157,Facial Pain,Symptom
+Symptom::D005158,Facial Paralysis,Symptom
+Symptom::D005183,Failure to Thrive,Symptom
+Symptom::D005207,Fasciculation,Symptom
+Symptom::D005221,Fatigue,Symptom
+Symptom::D005222,Mental Fatigue,Symptom
+Symptom::D005262,Feminization,Symptom
+Symptom::D005311,Fetal Hypoxia,Symptom
+Symptom::D005316,Fetal Distress,Symptom
+Symptom::D005320,Fetal Macrosomia,Symptom
+Symptom::D005334,Fever,Symptom
+Symptom::D005335,Fever of Unknown Origin,Symptom
+Symptom::D005414,Flatulence,Symptom
+Symptom::D005483,Flushing,Symptom
+Symptom::D005600,Fragile X Syndrome,Symptom
+Symptom::D005862,Gerstmann Syndrome,Symptom
+Symptom::D005884,Gingival Hemorrhage,Symptom
+Symptom::D005926,Glossalgia,Symptom
+Symptom::D006209,Halitosis,Symptom
+Symptom::D006212,Hallucinations,Symptom
+Symptom::D006261,Headache,Symptom
+Symptom::D006311,Hearing Disorders,Symptom
+Symptom::D006312,"Hearing Loss, Bilateral",Symptom
+Symptom::D006313,"Hearing Loss, Central",Symptom
+Symptom::D006314,"Hearing Loss, Conductive",Symptom
+Symptom::D006315,"Hearing Loss, Functional",Symptom
+Symptom::D006316,"Hearing Loss, High-Frequency",Symptom
+Symptom::D006317,"Hearing Loss, Noise-Induced",Symptom
+Symptom::D006319,"Hearing Loss, Sensorineural",Symptom
+Symptom::D006337,Heart Murmurs,Symptom
+Symptom::D006356,Heartburn,Symptom
+Symptom::D006396,Hematemesis,Symptom
+Symptom::D006423,Hemianopsia,Symptom
+Symptom::D006429,Hemiplegia,Symptom
+Symptom::D006456,Hemoglobinuria,Symptom
+Symptom::D006469,Hemoptysis,Symptom
+Symptom::D006472,Oral Hemorrhage,Symptom
+Symptom::D006606,Hiccup,Symptom
+Symptom::D006628,Hirsutism,Symptom
+Symptom::D006685,Hoarseness,Symptom
+Symptom::D006732,Horner Syndrome,Symptom
+Symptom::D006816,Huntington Disease,Symptom
+Symptom::D006930,Hyperalgesia,Symptom
+Symptom::D006935,Hypercapnia,Symptom
+Symptom::D006939,Hyperemesis Gravidarum,Symptom
+Symptom::D006941,Hyperesthesia,Symptom
+Symptom::D006942,Hypergammaglobulinemia,Symptom
+Symptom::D006948,Hyperkinesis,Symptom
+Symptom::D006963,Hyperphagia,Symptom
+Symptom::D006970,Disorders of Excessive Somnolence,Symptom
+Symptom::D006985,Hyperventilation,Symptom
+Symptom::D006987,Hypesthesia,Symptom
+Symptom::D006988,Hyphema,Symptom
+Symptom::D007024,"Hypotension, Orthostatic",Symptom
+Symptom::D007035,Hypothermia,Symptom
+Symptom::D007040,Hypoventilation,Symptom
+Symptom::D007088,Illusions,Symptom
+Symptom::D007319,Sleep Initiation and Maintenance Disorders,Symptom
+Symptom::D007331,Insulin Coma,Symptom
+Symptom::D007383,Intermittent Claudication,Symptom
+Symptom::D007565,Jaundice,Symptom
+Symptom::D007625,Kearns-Sayre Syndrome,Symptom
+Symptom::D007706,Menkes Kinky Hair Syndrome,Symptom
+Symptom::D007805,Language Development Disorders,Symptom
+Symptom::D007806,Language Disorders,Symptom
+Symptom::D007859,Learning Disorders,Symptom
+Symptom::D007926,Lesch-Nyhan Syndrome,Symptom
+Symptom::D008065,Lipoid Proteinosis of Urbach and Wiethe,Symptom
+Symptom::D008569,Memory Disorders,Symptom
+Symptom::D008580,Meningism,Symptom
+Symptom::D008607,Intellectual Disability,Symptom
+Symptom::D008998,Monoclonal Gammopathy of Undetermined Significance,Symptom
+Symptom::D009041,Motion Sickness,Symptom
+Symptom::D009058,Mouth Breathing,Symptom
+Symptom::D009120,Muscle Cramp,Symptom
+Symptom::D009122,Muscle Hypertonia,Symptom
+Symptom::D009123,Muscle Hypotonia,Symptom
+Symptom::D009127,Muscle Rigidity,Symptom
+Symptom::D009128,Muscle Spasticity,Symptom
+Symptom::D009133,Muscular Atrophy,Symptom
+Symptom::D009155,Mutism,Symptom
+Symptom::D009207,Myoclonus,Symptom
+Symptom::D009222,Myotonia,Symptom
+Symptom::D009290,Narcolepsy,Symptom
+Symptom::D009325,Nausea,Symptom
+Symptom::D009437,Neuralgia,Symptom
+Symptom::D009461,Neurologic Manifestations,Symptom
+Symptom::D009755,Night Blindness,Symptom
+Symptom::D009765,Obesity,Symptom
+Symptom::D009767,"Obesity, Morbid",Symptom
+Symptom::D009846,Oliguria,Symptom
+Symptom::D009886,Ophthalmoplegia,Symptom
+Symptom::D009903,Optical Illusions,Symptom
+Symptom::D009912,Oral Manifestations,Symptom
+Symptom::D010146,Pain,Symptom
+Symptom::D010148,"Pain, Intractable",Symptom
+Symptom::D010149,"Pain, Postoperative",Symptom
+Symptom::D010167,Pallor,Symptom
+Symptom::D010243,Paralysis,Symptom
+Symptom::D010264,Paraplegia,Symptom
+Symptom::D010291,Paresis,Symptom
+Symptom::D010292,Paresthesia,Symptom
+Symptom::D010468,Perceptual Disorders,Symptom
+Symptom::D010591,Phantom Limb,Symptom
+Symptom::D010845,Obesity Hypoventilation Syndrome,Symptom
+Symptom::D011141,Polyuria,Symptom
+Symptom::D011218,Prader-Willi Syndrome,Symptom
+Symptom::D011304,Presbycusis,Symptom
+Symptom::D011507,Proteinuria,Symptom
+Symptom::D011537,Pruritus,Symptom
+Symptom::D011538,Pruritus Ani,Symptom
+Symptom::D011539,Pruritus Vulvae,Symptom
+Symptom::D011595,Psychomotor Agitation,Symptom
+Symptom::D011596,Psychomotor Disorders,Symptom
+Symptom::D011602,Psychophysiologic Disorders,Symptom
+Symptom::D011681,Pupil Disorders,Symptom
+Symptom::D011693,Purpura,Symptom
+Symptom::D011694,"Purpura, Hyperglobulinemic",Symptom
+Symptom::D011695,"Purpura, Schoenlein-Henoch",Symptom
+Symptom::D011696,"Purpura, Thrombocytopenic",Symptom
+Symptom::D011697,"Purpura, Thrombotic Thrombocytopenic",Symptom
+Symptom::D011782,Quadriplegia,Symptom
+Symptom::D012001,Hyperacusis,Symptom
+Symptom::D012021,"Reflex, Abnormal",Symptom
+Symptom::D012133,Respiratory Paralysis,Symptom
+Symptom::D012135,Respiratory Sounds,Symptom
+Symptom::D012148,Restless Legs Syndrome,Symptom
+Symptom::D012166,Retinal Hemorrhage,Symptom
+Symptom::D012415,Rubinstein-Taybi Syndrome,Symptom
+Symptom::D012585,Sciatica,Symptom
+Symptom::D012607,Scotoma,Symptom
+Symptom::D012640,Seizures,Symptom
+Symptom::D012678,Sensation Disorders,Symptom
+Symptom::D012877,Skin Manifestations,Symptom
+Symptom::D012891,Sleep Apnea Syndromes,Symptom
+Symptom::D012892,Sleep Deprivation,Symptom
+Symptom::D012893,Sleep Disorders,Symptom
+Symptom::D012912,Sneezing,Symptom
+Symptom::D012913,Snoring,Symptom
+Symptom::D013009,Somnambulism,Symptom
+Symptom::D013035,Spasm,Symptom
+Symptom::D013064,Speech Disorders,Symptom
+Symptom::D013342,Stuttering,Symptom
+Symptom::D013494,"Supranuclear Palsy, Progressive",Symptom
+Symptom::D013575,Syncope,Symptom
+Symptom::D013651,Taste Disorders,Symptom
+Symptom::D013746,Tetany,Symptom
+Symptom::D013851,Thinness,Symptom
+Symptom::D014008,Tinea Pedis,Symptom
+Symptom::D014012,Tinnitus,Symptom
+Symptom::D014098,Toothache,Symptom
+Symptom::D014103,Torticollis,Symptom
+Symptom::D014202,Tremor,Symptom
+Symptom::D014313,Trismus,Symptom
+Symptom::D014474,Unconsciousness,Symptom
+Symptom::D014549,Urinary Incontinence,Symptom
+Symptom::D014550,"Urinary Incontinence, Stress",Symptom
+Symptom::D014717,Vertigo,Symptom
+Symptom::D014770,Virilism,Symptom
+Symptom::D014786,Vision Disorders,Symptom
+Symptom::D014823,Vitreous Hemorrhage,Symptom
+Symptom::D014826,Vocal Cord Paralysis,Symptom
+Symptom::D014832,Voice Disorders,Symptom
+Symptom::D014839,Vomiting,Symptom
+Symptom::D014840,"Vomiting, Anticipatory",Symptom
+Symptom::D014884,Waterhouse-Friderichsen Syndrome,Symptom
+Symptom::D014929,Wolfram Syndrome,Symptom
+Symptom::D015160,Hydrops Fetalis,Symptom
+Symptom::D015325,Pyruvate Dehydrogenase Complex Deficiency Disease,Symptom
+Symptom::D015354,"Vision, Low",Symptom
+Symptom::D015430,Weight Gain,Symptom
+Symptom::D015431,Weight Loss,Symptom
+Symptom::D015518,Rett Syndrome,Symptom
+Symptom::D015746,Abdominal Pain,Symptom
+Symptom::D015845,Tonic Pupil,Symptom
+Symptom::D015875,Anisocoria,Symptom
+Symptom::D015877,Miosis,Symptom
+Symptom::D015878,Mydriasis,Symptom
+Symptom::D016532,Mucopolysaccharidosis II,Symptom
+Symptom::D016534,"Cardiac Output, High",Symptom
+Symptom::D016553,"Purpura, Thrombocytopenic, Idiopathic",Symptom
+Symptom::D016857,Hypocapnia,Symptom
+Symptom::D017109,"Akathisia, Drug-Induced",Symptom
+Symptom::D017116,Low Back Pain,Symptom
+Symptom::D017246,"Ophthalmoplegia, Chronic Progressive External",Symptom
+Symptom::D017288,Pain Threshold,Symptom
+Symptom::D017566,Microvascular Angina,Symptom
+Symptom::D017593,Kleine-Levin Syndrome,Symptom
+Symptom::D017624,WAGR Syndrome,Symptom
+Symptom::D017699,Pelvic Pain,Symptom
+Symptom::D017827,Machado-Joseph Disease,Symptom
+Symptom::D018437,Brown-Sequard Syndrome,Symptom
+Symptom::D018458,Persistent Vegetative State,Symptom
+Symptom::D018476,Hypokinesia,Symptom
+Symptom::D018496,Hyperoxia,Symptom
+Symptom::D018589,Gastroparesis,Symptom
+Symptom::D018771,Arthralgia,Symptom
+Symptom::D018886,"Aphasia, Conduction",Symptom
+Symptom::D018888,"Aphasia, Primary Progressive",Symptom
+Symptom::D018908,Muscle Weakness,Symptom
+Symptom::D018980,Williams Syndrome,Symptom
+Symptom::D019080,Cafe-au-Lait Spots,Symptom
+Symptom::D019462,"Syncope, Vasovagal",Symptom
+Symptom::D019547,Neck Pain,Symptom
+Symptom::D019569,Hemifacial Spasm,Symptom
+Symptom::D019575,"Blindness, Cortical",Symptom
+Symptom::D019584,Hot Flashes,Symptom
+Symptom::D019588,"Aging, Premature",Symptom
+Symptom::D019591,Pseudophakia,Symptom
+Symptom::D019873,Schnitzler Syndrome,Symptom
+Symptom::D019954,Neurobehavioral Manifestations,Symptom
+Symptom::D020069,Shoulder Pain,Symptom
+Symptom::D020078,Neurogenic Inflammation,Symptom
+Symptom::D020177,"Hypersomnolence, Idiopathic",Symptom
+Symptom::D020178,"Sleep Disorders, Circadian Rhythm",Symptom
+Symptom::D020179,Jet Lag Syndrome,Symptom
+Symptom::D020181,"Sleep Apnea, Obstructive",Symptom
+Symptom::D020182,"Sleep Apnea, Central",Symptom
+Symptom::D020183,Nocturnal Paroxysmal Dystonia,Symptom
+Symptom::D020184,Night Terrors,Symptom
+Symptom::D020186,Sleep Bruxism,Symptom
+Symptom::D020187,REM Sleep Behavior Disorder,Symptom
+Symptom::D020188,Sleep Paralysis,Symptom
+Symptom::D020189,Nocturnal Myoclonus Syndrome,Symptom
+Symptom::D020233,"Gait Disorders, Neurologic",Symptom
+Symptom::D020234,Gait Ataxia,Symptom
+Symptom::D020235,Gait Apraxia,Symptom
+Symptom::D020236,"Amnesia, Transient Global",Symptom
+Symptom::D020238,Prosopagnosia,Symptom
+Symptom::D020240,"Apraxia, Ideomotor",Symptom
+Symptom::D020250,Postoperative Nausea and Vomiting,Symptom
+Symptom::D020270,Alcohol Withdrawal Seizures,Symptom
+Symptom::D020323,Tics,Symptom
+Symptom::D020324,"Amnesia, Anterograde",Symptom
+Symptom::D020335,Paraparesis,Symptom
+Symptom::D020336,"Paraparesis, Spastic",Symptom
+Symptom::D020385,Myokymia,Symptom
+Symptom::D020447,Parasomnias,Symptom
+Symptom::D020567,Fetal Weight,Symptom
+Symptom::D020754,Spinocerebellar Ataxias,Symptom
+Symptom::D020757,Amaurosis Fugax,Symptom
+Symptom::D020795,Photophobia,Symptom
+Symptom::D020820,Dyskinesias,Symptom
+Symptom::D020828,Pseudobulbar Palsy,Symptom
+Symptom::D020886,Somatosensory Disorders,Symptom
+Symptom::D020915,Korsakoff Syndrome,Symptom
+Symptom::D020919,"Sleep Disorders, Intrinsic",Symptom
+Symptom::D020920,Dyssomnias,Symptom
+Symptom::D020921,Sleep Arousal Disorders,Symptom
+Symptom::D020922,Sleep-Wake Transition Disorders,Symptom
+Symptom::D020923,REM Sleep Parasomnias,Symptom
+Symptom::D021501,Flank Pain,Symptom
+Symptom::D023341,Chills,Symptom
+Symptom::D034062,"Insomnia, Fatal Familial",Symptom
+Symptom::D034381,Hearing Loss,Symptom
+Symptom::D037061,Metatarsalgia,Symptom
+Symptom::D038901,"Mental Retardation, X-Linked",Symptom
+Symptom::D038921,Coffin-Lowry Syndrome,Symptom
+Symptom::D041781,"Jaundice, Obstructive",Symptom
+Symptom::D045262,Reticulocytosis,Symptom
+Symptom::D046088,"Hearing Loss, Unilateral",Symptom
+Symptom::D046089,"Hearing Loss, Mixed Conductive-Sensorineural",Symptom
+Symptom::D048949,Labor Pain,Symptom
+Symptom::D050177,Overweight,Symptom
+Symptom::D051346,Mobility Limitation,Symptom
+Symptom::D051474,"Neuralgia, Postherpetic",Symptom
+Symptom::D052120,Glycogen Storage Disease Type IIb,Symptom
+Symptom::D052245,Usher Syndromes,Symptom
+Symptom::D053158,Nocturia,Symptom
+Symptom::D053159,Dysuria,Symptom
+Symptom::D053201,"Urinary Bladder, Overactive",Symptom
+Symptom::D053202,"Urinary Incontinence, Urge",Symptom
+Symptom::D053448,Prostatism,Symptom
+Symptom::D053565,Hypercalciuria,Symptom
+Symptom::D053578,Opsoclonus-Myoclonus Syndrome,Symptom
+Symptom::D053584,Urinoma,Symptom
+Symptom::D053591,"Pain, Referred",Symptom
+Symptom::D053608,Stupor,Symptom
+Symptom::D053609,Lethargy,Symptom
+Symptom::D054058,Acute Coronary Syndrome,Symptom
+Symptom::D054068,Livedo Reticularis,Symptom
+Symptom::D054078,Mevalonate Kinase Deficiency,Symptom
+Symptom::D054160,Systolic Murmurs,Symptom
+Symptom::D054221,Classical Lissencephalies and Subcortical Band Heterotopias,Symptom
+Symptom::D054546,Neuroacanthocytosis,Symptom
+Symptom::D054971,Orthostatic Intolerance,Symptom
+Symptom::D054972,Postural Orthostatic Tachycardia Syndrome,Symptom
+Symptom::D055111,Failed Back Surgery Syndrome,Symptom
+Symptom::D055154,Dysphonia,Symptom
+Symptom::D055665,Purpura Fulminans,Symptom
+Symptom::D055948,Sarcopenia,Symptom
+Symptom::D055955,Susac Syndrome,Symptom
+Symptom::D055964,Alien Hand Syndrome,Symptom
+Symptom::D056128,"Obesity, Abdominal",Symptom
+Symptom::D056844,Renal Colic,Symptom
+Symptom::D056865,Ideal Body Weight,Symptom
+Symptom::D057178,Primary Progressive Nonfluent Aphasia,Symptom
+Symptom::D057774,Post-Exercise Hypotension,Symptom
+Symptom::D057896,Striae Distensae,Symptom
+Symptom::D058447,Eye Pain,Symptom
+Symptom::D058568,Necrolytic Migratory Erythema,Symptom
+Symptom::D059226,Nociceptive Pain,Symptom
+Symptom::D059246,Tachypnea,Symptom
+Symptom::D059265,Visceral Pain,Symptom
+Symptom::D059350,Chronic Pain,Symptom
+Symptom::D059352,Musculoskeletal Pain,Symptom
+Symptom::D059373,Mastodynia,Symptom
+Symptom::D059390,Breakthrough Pain,Symptom
+Symptom::D059411,Lower Urinary Tract Symptoms,Symptom
+Symptom::D059445,Anhedonia,Symptom
+Symptom::D059606,Polydipsia,Symptom
+Symptom::D059607,"Polydipsia, Psychogenic",Symptom
+Symptom::D059787,Acute Pain,Symptom
+Symptom::D060050,"Angina, Stable",Symptom
+Symptom::D060486,Ophthalmoplegic Migraine,Symptom
+Symptom::D060545,Pudendal Neuralgia,Symptom
+Symptom::D062026,Alice in Wonderland Syndrome,Symptom
+Symptom::D062706,Prodromal Symptoms,Symptom
+Symptom::D063766,Pediatric Obesity,Symptom
+Symptom::D063806,Myalgia,Symptom
+Symptom::D064250,Hypertriglyceridemic Waist,Symptom
+Symptom::D065634,Cerebrospinal Fluid Leak,Symptom
+Symptom::D065635,Benign Paroxysmal Positional Vertigo,Symptom

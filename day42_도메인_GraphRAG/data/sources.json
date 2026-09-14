@@ -1,0 +1,55 @@
+{
+  "movies": {
+    "input": "day28_Neo4j_설치_Movies/data/movies_setup.cypher",
+    "frozen_input": "scripts/day42_revision/inputs/movies_full_source.cypher",
+    "sha256": "7be04aba2193790e0051308e6aa8550236e651cae652ea7da44b7dc01f4c4e69",
+    "url": "https://github.com/neo4j-graph-examples/movies",
+    "selection": "선별 없음. 영화 38편·인물 133명·관계 253건 전체",
+    "narratives": {
+      "snapshot": "scripts/day42_revision/inputs/movies_wikipedia_texts.json",
+      "sha256": "bb017f0a20239f8c6ae159dff91b12b073756445195630baf57d119ef344bfd3",
+      "license": "CC BY-SA 4.0",
+      "count": 38,
+      "sections": [
+        "Introduction",
+        "Plot"
+      ]
+    },
+    "transform": "원본 영화 그래프와 속성 보존. 부록에서 수집한 같은 문서 버전의 도입부와 전체 Plot을 영화별 한 문서로 결합. 제목은 메타데이터에 보존하며 번역·요약·본문 생략 없음."
+  },
+  "paper": {
+    "hetionet": {
+      "selection": "수업용 원본 CSV에서 TREATS·PALLIATES·PRESENTS를 모두 선택. 양 끝의 약물·질환·증상 노드만 포함.",
+      "original_counts": {
+        "nodes": 15540,
+        "relations": 91966
+      },
+      "selected_counts": {
+        "nodes": 1100,
+        "relations": 4502
+      },
+      "files": {
+        "hetionet_focus_nodes.csv": "fb9758de01a63579d27cbb8ebcfbdbb03bc4852c54f98579c67180c6b0f5c94a",
+        "hetionet_focus_edges.csv": "afc49a2883f100d32f0193ebf16814edcfe57e941a324df3307d1eef22ad525e"
+      },
+      "original_files": {
+        "hetionet_nodes.csv": "192b97e8191a7ad905a823eced221794fb7aac94c34e2497a3f4b85a7f8c2253",
+        "hetionet_edges.csv": "d009d4ce1f654dc95370a3264ae8b616e64f08a5adf7a9ecaf4a225342e8b6e0"
+      },
+      "url": "https://github.com/hetio/hetionet",
+      "licenses": "수업용 CSV의 Hetionet CC0 기록. SIDER 부작용 관계는 수업용 원본에 없음."
+    },
+    "corpus": {
+      "frozen_input": "scripts/day42_revision/inputs/pmc_corpus_full.jsonl.gz",
+      "sha256": "4b070cf85ce472fbe54ba0abfeaeb3bb383341f7a2b1718fff4cd6937a666bc5",
+      "documents": 70,
+      "scope": "저장된 abstract와 body의 전체. XML의 표·참고문헌 전체를 뜻하지 않음",
+      "license": "CC BY"
+    },
+    "extraction": {
+      "sha256": "6debda1935419d58a1d78d2d04c7b473b29f81ec611a7cdbf71aabd11323fe24",
+      "valid_relations": 8,
+      "excluded": "paper_excluded.json"
+    }
+  }
+}

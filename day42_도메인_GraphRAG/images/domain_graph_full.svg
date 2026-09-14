@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590">
+<rect width="1200" height="590" rx="22" fill="#f5f8fc"/>
+<style>text{font-family:"Apple SD Gothic Neo","Noto Sans CJK KR",sans-serif;fill:#13344b}.title{font-size:36px;font-weight:700}.head{font-size:29px;font-weight:700}.body{font-size:23px}.small{font-size:20px}</style>
+<text x="54" y="65" class="title">실습 데이터와 두 검색의 대상</text>
+<rect x="40" y="102" width="560" height="375" rx="18" fill="white" stroke="#17446e" stroke-width="2"/>
+<rect x="40" y="102" width="560" height="76" rx="18" fill="#17446e"/>
+<text x="65" y="150" class="head" style="fill:white">영화</text>
+<text x="65" y="221" dy="0" class="body">원본 샘플: 영화 38편 + 인물 133명</text>
+<text x="65" y="221" dy="47" class="body">그래프: 171노드 · 253관계</text>
+<text x="65" y="221" dy="94" class="body">출연 · 감독 · 제작 · 각본 · 리뷰 · 팔로우</text>
+<text x="65" y="221" dy="141" class="body">도입부 + 전체 줄거리 → 영화별 한 문서</text>
+<text x="65" y="221" dy="188" class="body">38문서 → 571청크 → 배포 벡터</text>
+<rect x="620" y="102" width="560" height="375" rx="18" fill="white" stroke="#087f86" stroke-width="2"/>
+<rect x="620" y="102" width="560" height="76" rx="18" fill="#087f86"/>
+<text x="645" y="150" class="head" style="fill:white">의료</text>
+<text x="645" y="221" dy="0" class="body">약물 · 질환 · 증상 중심</text>
+<text x="645" y="221" dy="47" class="body">그래프: 1,105노드 · 4,510관계</text>
+<text x="645" y="221" dy="94" class="body">치료 · 완화 · 증상 관계와 논문 근거</text>
+<text x="645" y="221" dy="141" class="body">벡터 검색: 논문 70편</text>
+<text x="645" y="221" dy="188" class="body">초록·본문 전체 12,814청크</text>
+<text x="60" y="536" class="small">영화 관계는 Movies 샘플, 도입부·줄거리는 위키백과 원문입니다. 의료도 관계의 출처를 확인합니다.</text></svg>

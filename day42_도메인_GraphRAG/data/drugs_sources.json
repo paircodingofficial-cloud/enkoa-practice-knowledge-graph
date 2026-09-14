@@ -1,0 +1,275 @@
+{
+  "source": "식품의약품안전처 의약품개요정보(e약은요), 공공데이터포털 https://www.data.go.kr/data/15075057/openapi.do",
+  "license": "공공데이터포털 표기 '이용허락범위 제한 없음'(2026-09-07 확인). 출처를 표시합니다.",
+  "pipeline": "단위 프로젝트 2 버전 C(제약회사 제품 기술 문서실)의 outputs/triples.jsonl과 outputs/corpus.jsonl",
+  "triples_sha256": "b78d0537794ea6d4886963858c652213ff8eb6755e5a159f30555b4125efa333",
+  "corpus_sha256": "339ba3d1520c6e2a2c5eb769c569b48235d15d3d354afb8bd73aeef1ce8a4799",
+  "frozen_input": "scripts/day42_revision/inputs/version_c_selected.json",
+  "selection": "두통약과 감기약 5, 멀미약 3, 제산제 2, 변비약 3, 지사제 1. 증상과 위험군이 서로 겹치도록 14건을 골랐습니다.",
+  "relations": "CONTAINS, TREATS, HAS_SIDE_EFFECT, CAUTION_FOR, INTERACTS_WITH는 버전 C의 LLM 추출 결과를 그대로 썼습니다(ER 전 표기). 같은 문서의 같은 관계는 한 번만 넣었습니다. MADE_BY는 제조사 정형 필드입니다.",
+  "quality": "버전 C 품질 리포트 기준 스키마 준수율 0.968, 무작위 50건 정밀도 0.900. HAS_SIDE_EFFECT는 문서당 상한이 있어 원문 이상반응의 부분집합입니다.",
+  "document": "corpus.jsonl의 text에 사용법과 제조사 줄을 덧붙였습니다.",
+  "subject_fixes": [
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CONTAINS",
+      "object": "스코폴라민"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "TREATS",
+      "object": "구역"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "TREATS",
+      "object": "구토"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "INTERACTS_WITH",
+      "object": "알코올"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "INTERACTS_WITH",
+      "object": "항콜린약물"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "INTERACTS_WITH",
+      "object": "항히스타민제"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "INTERACTS_WITH",
+      "object": "항우울약"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "INTERACTS_WITH",
+      "object": "H2-수용체 저해제"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "과민증 환자"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "협우각형 녹내장"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "서맥"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "전립선비대 등 배뇨장애"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "임부"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "수유부"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "7세 이하의 영∙유아"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "고령자"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "대사질환"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "간질환"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "신질환"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "유문협착"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "방광폐색"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "장폐색"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "CAUTION_FOR",
+      "object": "발작이나 정신질환 환자"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "HAS_SIDE_EFFECT",
+      "object": "구역"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "HAS_SIDE_EFFECT",
+      "object": "구토"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "HAS_SIDE_EFFECT",
+      "object": "착란"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "HAS_SIDE_EFFECT",
+      "object": "불안"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "HAS_SIDE_EFFECT",
+      "object": "환각"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "HAS_SIDE_EFFECT",
+      "object": "망상"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "HAS_SIDE_EFFECT",
+      "object": "급성 협우각형 녹내장의 증상"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "HAS_SIDE_EFFECT",
+      "object": "구갈"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "HAS_SIDE_EFFECT",
+      "object": "일시적인 시력불선명"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "HAS_SIDE_EFFECT",
+      "object": "산동 등의 시각장애"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "HAS_SIDE_EFFECT",
+      "object": "눈의 건조감"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "HAS_SIDE_EFFECT",
+      "object": "가려움"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "HAS_SIDE_EFFECT",
+      "object": "홍조"
+    },
+    {
+      "doc_id": "drug_198501415",
+      "written": "키미테패취(스코폴ラ민)(수출명:可弥特止暈貼濟)",
+      "anchor": "키미테패취(스코폴라민)(수출명:可弥特止暈貼濟)",
+      "relation": "HAS_SIDE_EFFECT",
+      "object": "빈맥"
+    }
+  ],
+  "subject_rule": "버전 C의 star 온톨로지대로 모든 관계의 주어를 그 문서의 제품 노드로 두었습니다. subject_fixes는 모델이 제품명을 원문과 다르게 적은 트리플입니다.",
+  "ids": "rag:drugs: 접두어의 조회용 ID와 과제용 claim_id. 식약처나 버전 C가 발급한 식별자가 아닙니다."
+}

@@ -1,0 +1,286 @@
+{
+  "dataset": "paper_focus",
+  "node_types": [
+    {
+      "label": "Compound",
+      "description": "약물 또는 화합물.",
+      "properties": [
+        {
+          "name": "name",
+          "type": "STRING",
+          "description": "조회와 답변에 사용할 등록 이름. 원래 표기를 유지한다."
+        },
+        {
+          "name": "standard_id",
+          "type": "STRING",
+          "description": "데이터셋 접두어를 포함한 고유 개체 ID."
+        },
+        {
+          "name": "aliases",
+          "type": "LIST",
+          "description": "같은 개체를 가리키는 별칭 목록."
+        },
+        {
+          "name": "entity_type",
+          "type": "STRING",
+          "description": "해당 노드의 타입 이름."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "검색할 데이터셋 구분 값."
+        }
+      ]
+    },
+    {
+      "label": "Disease",
+      "description": "치료·완화 대상 질환.",
+      "properties": [
+        {
+          "name": "name",
+          "type": "STRING",
+          "description": "조회와 답변에 사용할 등록 이름. 원래 표기를 유지한다."
+        },
+        {
+          "name": "standard_id",
+          "type": "STRING",
+          "description": "데이터셋 접두어를 포함한 고유 개체 ID."
+        },
+        {
+          "name": "aliases",
+          "type": "LIST",
+          "description": "같은 개체를 가리키는 별칭 목록."
+        },
+        {
+          "name": "entity_type",
+          "type": "STRING",
+          "description": "해당 노드의 타입 이름."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "검색할 데이터셋 구분 값."
+        }
+      ]
+    },
+    {
+      "label": "Symptom",
+      "description": "질환에 나타나거나 약물로 완화하는 증상.",
+      "properties": [
+        {
+          "name": "name",
+          "type": "STRING",
+          "description": "조회와 답변에 사용할 등록 이름. 원래 표기를 유지한다."
+        },
+        {
+          "name": "standard_id",
+          "type": "STRING",
+          "description": "데이터셋 접두어를 포함한 고유 개체 ID."
+        },
+        {
+          "name": "aliases",
+          "type": "LIST",
+          "description": "같은 개체를 가리키는 별칭 목록."
+        },
+        {
+          "name": "entity_type",
+          "type": "STRING",
+          "description": "해당 노드의 타입 이름."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "검색할 데이터셋 구분 값."
+        }
+      ]
+    }
+  ],
+  "relationship_types": [
+    {
+      "label": "TREATS",
+      "description": "약물의 질환 치료 사용 기록. source_kind의 curated는 Hetionet 기록, reported는 논문 보고이다. 처방 권고나 치료 효과의 확정으로 해석하지 않는다.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        }
+      ]
+    },
+    {
+      "label": "PALLIATES",
+      "description": "약물이 질환 완화에 쓰인다는 Hetionet 기록. Compound→Disease 관계이다.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        }
+      ]
+    },
+    {
+      "label": "PALLIATES_CS",
+      "description": "약물이 증상 완화에 사용되었다는 논문 보고. _CS는 Compound→Symptom을 구분하는 이 교안의 접미사이다. 허가 외 사용 보고도 포함한다.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        }
+      ]
+    },
+    {
+      "label": "PRESENTS",
+      "description": "질환에서 나타나는 증상에 관한 Hetionet 기록. 약물의 효능이나 이상반응 관계가 아니다.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        }
+      ]
+    }
+  ],
+  "patterns": [
+    [
+      "Compound",
+      "TREATS",
+      "Disease"
+    ],
+    [
+      "Compound",
+      "PALLIATES",
+      "Disease"
+    ],
+    [
+      "Compound",
+      "PALLIATES_CS",
+      "Symptom"
+    ],
+    [
+      "Disease",
+      "PRESENTS",
+      "Symptom"
+    ]
+  ]
+}

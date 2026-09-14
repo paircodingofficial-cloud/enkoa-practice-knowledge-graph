@@ -1,0 +1,445 @@
+{
+  "dataset": "drugs",
+  "node_types": [
+    {
+      "label": "Drug",
+      "description": "의약품 제품. name은 원문에 저장된 등록 제품명이고 aliases는 축약명 등이다.",
+      "properties": [
+        {
+          "name": "name",
+          "type": "STRING",
+          "description": "조회와 답변에 사용할 등록 이름. 원래 표기를 유지한다."
+        },
+        {
+          "name": "standard_id",
+          "type": "STRING",
+          "description": "데이터셋 접두어를 포함한 고유 개체 ID."
+        },
+        {
+          "name": "aliases",
+          "type": "LIST",
+          "description": "같은 개체를 가리키는 별칭 목록."
+        },
+        {
+          "name": "entity_type",
+          "type": "STRING",
+          "description": "해당 노드의 타입 이름."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "검색할 데이터셋 구분 값."
+        }
+      ]
+    },
+    {
+      "label": "Symptom",
+      "description": "효능 또는 이상반응으로 언급된 증상. 둘은 관계 타입으로 구분한다.",
+      "properties": [
+        {
+          "name": "name",
+          "type": "STRING",
+          "description": "조회와 답변에 사용할 등록 이름. 원래 표기를 유지한다."
+        },
+        {
+          "name": "standard_id",
+          "type": "STRING",
+          "description": "데이터셋 접두어를 포함한 고유 개체 ID."
+        },
+        {
+          "name": "aliases",
+          "type": "LIST",
+          "description": "같은 개체를 가리키는 별칭 목록."
+        },
+        {
+          "name": "entity_type",
+          "type": "STRING",
+          "description": "해당 노드의 타입 이름."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "검색할 데이터셋 구분 값."
+        }
+      ]
+    },
+    {
+      "label": "RiskGroup",
+      "description": "복용 시 주의가 필요한 대상 집단. 범위가 넓은 표기를 좁은 표기와 임의로 합치지 않는다.",
+      "properties": [
+        {
+          "name": "name",
+          "type": "STRING",
+          "description": "조회와 답변에 사용할 등록 이름. 원래 표기를 유지한다."
+        },
+        {
+          "name": "standard_id",
+          "type": "STRING",
+          "description": "데이터셋 접두어를 포함한 고유 개체 ID."
+        },
+        {
+          "name": "aliases",
+          "type": "LIST",
+          "description": "같은 개체를 가리키는 별칭 목록."
+        },
+        {
+          "name": "entity_type",
+          "type": "STRING",
+          "description": "해당 노드의 타입 이름."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "검색할 데이터셋 구분 값."
+        }
+      ]
+    },
+    {
+      "label": "Ingredient",
+      "description": "제품 성분 또는 상호작용 대상 성분.",
+      "properties": [
+        {
+          "name": "name",
+          "type": "STRING",
+          "description": "조회와 답변에 사용할 등록 이름. 원래 표기를 유지한다."
+        },
+        {
+          "name": "standard_id",
+          "type": "STRING",
+          "description": "데이터셋 접두어를 포함한 고유 개체 ID."
+        },
+        {
+          "name": "aliases",
+          "type": "LIST",
+          "description": "같은 개체를 가리키는 별칭 목록."
+        },
+        {
+          "name": "entity_type",
+          "type": "STRING",
+          "description": "해당 노드의 타입 이름."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "검색할 데이터셋 구분 값."
+        }
+      ]
+    },
+    {
+      "label": "Manufacturer",
+      "description": "의약품 제조사.",
+      "properties": [
+        {
+          "name": "name",
+          "type": "STRING",
+          "description": "조회와 답변에 사용할 등록 이름. 원래 표기를 유지한다."
+        },
+        {
+          "name": "standard_id",
+          "type": "STRING",
+          "description": "데이터셋 접두어를 포함한 고유 개체 ID."
+        },
+        {
+          "name": "aliases",
+          "type": "LIST",
+          "description": "같은 개체를 가리키는 별칭 목록."
+        },
+        {
+          "name": "entity_type",
+          "type": "STRING",
+          "description": "해당 노드의 타입 이름."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "검색할 데이터셋 구분 값."
+        }
+      ]
+    }
+  ],
+  "relationship_types": [
+    {
+      "label": "TREATS",
+      "description": "제품 효능·효과에 포함된 증상. evidence에 한정 조건이 있으면 함께 읽는다.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        }
+      ]
+    },
+    {
+      "label": "HAS_SIDE_EFFECT",
+      "description": "제품 복용 후 나타날 수 있는 이상반응. 치료 효능과 구분한다.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        }
+      ]
+    },
+    {
+      "label": "CAUTION_FOR",
+      "description": "제품 복용 시 주의 대상 집단. 원문의 주의 내용과 대상 범위를 확인한다.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        }
+      ]
+    },
+    {
+      "label": "INTERACTS_WITH",
+      "description": "함께 복용 시 주의할 제품 또는 성분. 목적어 타입은 Drug 또는 Ingredient이다.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        }
+      ]
+    },
+    {
+      "label": "CONTAINS",
+      "description": "제품에 포함된 성분.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        }
+      ]
+    },
+    {
+      "label": "MADE_BY",
+      "description": "제품을 제조한 회사.",
+      "properties": [
+        {
+          "name": "claim_id",
+          "type": "STRING",
+          "description": "관계 한 건의 근거 ID. 경로의 모든 관계 ID를 반환한다."
+        },
+        {
+          "name": "dataset",
+          "type": "STRING",
+          "description": "관계마다 조회 대상 데이터셋 조건을 적용한다."
+        },
+        {
+          "name": "evidence",
+          "type": "STRING",
+          "description": "관계의 출처 문장. curated 기록은 비어 있을 수 있다."
+        },
+        {
+          "name": "source_doc_id",
+          "type": "STRING",
+          "description": "관계 근거의 원본 문서 또는 데이터셋 ID."
+        },
+        {
+          "name": "source_kind",
+          "type": "STRING",
+          "description": "출처 종류. 확정성이나 효과의 등급이 아니다."
+        },
+        {
+          "name": "source_url",
+          "type": "STRING",
+          "description": "관계의 출처 URL."
+        },
+        {
+          "name": "metaedge",
+          "type": "STRING",
+          "description": "Hetionet의 원본 관계 코드. 해당하지 않으면 값이 없을 수 있다."
+        }
+      ]
+    }
+  ],
+  "patterns": [
+    [
+      "Drug",
+      "TREATS",
+      "Symptom"
+    ],
+    [
+      "Drug",
+      "HAS_SIDE_EFFECT",
+      "Symptom"
+    ],
+    [
+      "Drug",
+      "CAUTION_FOR",
+      "RiskGroup"
+    ],
+    [
+      "Drug",
+      "INTERACTS_WITH",
+      "Drug"
+    ],
+    [
+      "Drug",
+      "INTERACTS_WITH",
+      "Ingredient"
+    ],
+    [
+      "Drug",
+      "CONTAINS",
+      "Ingredient"
+    ],
+    [
+      "Drug",
+      "MADE_BY",
+      "Manufacturer"
+    ]
+  ]
+}
