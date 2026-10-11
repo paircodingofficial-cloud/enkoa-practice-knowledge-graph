@@ -1,0 +1,1339 @@
+{
+  "CAT-01": [
+    {
+      "subject": "pay-gateway",
+      "predicate": "확인한다",
+      "object": "auth-token"
+    },
+    {
+      "subject": "pay-gateway",
+      "predicate": "판정을 받는다",
+      "object": "risk-engine"
+    },
+    {
+      "subject": "pay-gateway",
+      "predicate": "승인을 요청한다",
+      "object": "pg-connector"
+    },
+    {
+      "subject": "pay-gateway",
+      "predicate": "기록한다",
+      "object": "ledger-db"
+    },
+    {
+      "subject": "pay-gateway",
+      "predicate": "이벤트를 낸다",
+      "object": "kafka-main"
+    },
+    {
+      "subject": "pg-connector",
+      "predicate": "전문을 보낸다",
+      "object": "한빛PG"
+    },
+    {
+      "subject": "pg-connector",
+      "predicate": "전문을 보낸다",
+      "object": "다온PG"
+    },
+    {
+      "subject": "한빛PG",
+      "predicate": "이다",
+      "object": "외부 PG사"
+    },
+    {
+      "subject": "다온PG",
+      "predicate": "이다",
+      "object": "외부 PG사"
+    },
+    {
+      "subject": "다온PG",
+      "predicate": "받는다",
+      "object": "해외 카드"
+    },
+    {
+      "subject": "auth-token",
+      "predicate": "발급한다",
+      "object": "결제용 일회성 토큰"
+    },
+    {
+      "subject": "auth-token",
+      "predicate": "저장한다",
+      "object": "redis-session"
+    },
+    {
+      "subject": "merchant-api",
+      "predicate": "거친다",
+      "object": "api-edge"
+    },
+    {
+      "subject": "merchant-api",
+      "predicate": "넘긴다",
+      "object": "pay-gateway"
+    },
+    {
+      "subject": "risk-engine",
+      "predicate": "이벤트를 읽는다",
+      "object": "kafka-main"
+    }
+  ],
+  "CAT-02": [
+    {
+      "subject": "settle-batch",
+      "predicate": "거래 원장을 읽는다",
+      "object": "ledger-db"
+    },
+    {
+      "subject": "settle-batch",
+      "predicate": "실행 시각을 받는다",
+      "object": "batch-scheduler"
+    },
+    {
+      "subject": "settle-batch",
+      "predicate": "남긴다",
+      "object": "정산 파일"
+    },
+    {
+      "subject": "settle-batch",
+      "predicate": "넘긴다",
+      "object": "payout-api"
+    },
+    {
+      "subject": "recon-worker",
+      "predicate": "거래 기록을 읽는다",
+      "object": "ledger-db"
+    },
+    {
+      "subject": "recon-worker",
+      "predicate": "대조한다",
+      "object": "매입 내역"
+    },
+    {
+      "subject": "recon-worker",
+      "predicate": "결과를 반영한다",
+      "object": "settle-batch"
+    },
+    {
+      "subject": "payout-api",
+      "predicate": "받는다",
+      "object": "정산 파일"
+    },
+    {
+      "subject": "payout-api",
+      "predicate": "입금을 요청한다",
+      "object": "펌뱅킹"
+    },
+    {
+      "subject": "payout-api",
+      "predicate": "마감 뒤 넘긴다",
+      "object": "다음 영업일"
+    },
+    {
+      "subject": "batch-scheduler",
+      "predicate": "관리한다",
+      "object": "야간 작업"
+    },
+    {
+      "subject": "settle-batch",
+      "predicate": "연결 한도를 나눠 쓴다",
+      "object": "recon-worker"
+    }
+  ],
+  "CAT-03": [
+    {
+      "subject": "point-engine",
+      "predicate": "이벤트를 받는다",
+      "object": "kafka-main"
+    },
+    {
+      "subject": "point-engine",
+      "predicate": "기록한다",
+      "object": "ledger-db"
+    },
+    {
+      "subject": "point-wallet",
+      "predicate": "캐시로 쓴다",
+      "object": "redis-point"
+    },
+    {
+      "subject": "point-wallet",
+      "predicate": "거래 내역을 읽는다",
+      "object": "ledger-db"
+    },
+    {
+      "subject": "coupon-svc",
+      "predicate": "주고받는다",
+      "object": "kafka-main"
+    },
+    {
+      "subject": "coupon-svc",
+      "predicate": "둔다",
+      "object": "ledger-db"
+    },
+    {
+      "subject": "notify-hub",
+      "predicate": "이벤트를 읽는다",
+      "object": "kafka-main"
+    },
+    {
+      "subject": "notify-hub",
+      "predicate": "보낸다",
+      "object": "푸시"
+    },
+    {
+      "subject": "notify-hub",
+      "predicate": "보낸다",
+      "object": "문자"
+    },
+    {
+      "subject": "kafka-main",
+      "predicate": "이다",
+      "object": "메시지 브로커"
+    },
+    {
+      "subject": "kafka-main",
+      "predicate": "보존 기간을 따른다",
+      "object": "config-center"
+    },
+    {
+      "subject": "config-center",
+      "predicate": "보관한다",
+      "object": "서비스 설정 값"
+    },
+    {
+      "subject": "redis-session",
+      "predicate": "저장한다",
+      "object": "로그인 세션"
+    },
+    {
+      "subject": "ledger-db",
+      "predicate": "담는다",
+      "object": "거래 원장"
+    },
+    {
+      "subject": "api-edge",
+      "predicate": "처음 받는다",
+      "object": "API 요청"
+    }
+  ],
+  "CHG-01": [
+    {
+      "subject": "CHG-2604-02",
+      "predicate": "변경했다",
+      "object": "batch-scheduler"
+    },
+    {
+      "subject": "김나래",
+      "predicate": "요청했다",
+      "object": "CHG-2604-02"
+    },
+    {
+      "subject": "백승우",
+      "predicate": "승인했다",
+      "object": "CHG-2604-02"
+    },
+    {
+      "subject": "CHG-2605-01",
+      "predicate": "변경했다",
+      "object": "point-engine"
+    },
+    {
+      "subject": "이도현",
+      "predicate": "요청했다",
+      "object": "CHG-2605-01"
+    },
+    {
+      "subject": "백승우",
+      "predicate": "승인했다",
+      "object": "CHG-2605-01"
+    },
+    {
+      "subject": "CHG-2606-03",
+      "predicate": "변경했다",
+      "object": "settle-batch"
+    },
+    {
+      "subject": "송유진",
+      "predicate": "요청했다",
+      "object": "CHG-2606-03"
+    },
+    {
+      "subject": "임채원",
+      "predicate": "승인했다",
+      "object": "CHG-2606-03"
+    },
+    {
+      "subject": "CHG-2607-04",
+      "predicate": "변경했다",
+      "object": "point-engine"
+    },
+    {
+      "subject": "CHG-2607-04",
+      "predicate": "반영했다",
+      "object": "적립 규칙 파일 v42"
+    },
+    {
+      "subject": "장은비",
+      "predicate": "요청했다",
+      "object": "CHG-2607-04"
+    },
+    {
+      "subject": "백승우",
+      "predicate": "승인했다",
+      "object": "CHG-2607-04"
+    },
+    {
+      "subject": "CHG-2608-02",
+      "predicate": "변경했다",
+      "object": "pay-gateway"
+    },
+    {
+      "subject": "노현우",
+      "predicate": "요청했다",
+      "object": "CHG-2608-02"
+    },
+    {
+      "subject": "임채원",
+      "predicate": "승인했다",
+      "object": "CHG-2608-02"
+    },
+    {
+      "subject": "CHG-2609-02",
+      "predicate": "변경했다",
+      "object": "kafka-main"
+    },
+    {
+      "subject": "CHG-2609-02",
+      "predicate": "대상 토픽",
+      "object": "notify.events"
+    },
+    {
+      "subject": "서지훈",
+      "predicate": "요청했다",
+      "object": "CHG-2609-02"
+    },
+    {
+      "subject": "백승우",
+      "predicate": "승인했다",
+      "object": "CHG-2609-02"
+    },
+    {
+      "subject": "CHG-2609-05",
+      "predicate": "변경했다",
+      "object": "recon-worker"
+    },
+    {
+      "subject": "송유진",
+      "predicate": "요청했다",
+      "object": "CHG-2609-05"
+    },
+    {
+      "subject": "임채원",
+      "predicate": "승인했다",
+      "object": "CHG-2609-05"
+    }
+  ],
+  "INC-0409": [
+    {
+      "subject": "앱 로그인 실패 장애",
+      "predicate": "발생일",
+      "object": "2026년 4월 9일"
+    },
+    {
+      "subject": "앱 로그인 실패 장애",
+      "predicate": "원인 서비스",
+      "object": "auth-token"
+    },
+    {
+      "subject": "auth-token",
+      "predicate": "접속한다",
+      "object": "redis-session"
+    },
+    {
+      "subject": "auth-token",
+      "predicate": "접속에 쓴다",
+      "object": "클라이언트 인증서"
+    },
+    {
+      "subject": "앱 로그인 실패 장애",
+      "predicate": "만료가 원인이다",
+      "object": "인증서"
+    },
+    {
+      "subject": "클라이언트 인증서",
+      "predicate": "발급 시점",
+      "object": "1년 전"
+    },
+    {
+      "subject": "TLS 핸드셰이크 오류",
+      "predicate": "발생했다",
+      "object": "auth-token"
+    },
+    {
+      "subject": "앱 로그인 실패 장애",
+      "predicate": "실패 비율",
+      "object": "60%"
+    },
+    {
+      "subject": "앱 로그인 실패 장애",
+      "predicate": "막았다",
+      "object": "간편결제"
+    },
+    {
+      "subject": "앱 로그인 실패 장애",
+      "predicate": "문의가 늘었다",
+      "object": "고객센터"
+    },
+    {
+      "subject": "앱 로그인 실패 장애",
+      "predicate": "재발 방지",
+      "object": "점검 목록"
+    },
+    {
+      "subject": "앱 로그인 실패 장애",
+      "predicate": "재발 방지",
+      "object": "자동 갱신"
+    }
+  ],
+  "INC-0417": [
+    {
+      "subject": "가맹점 정산 금액 오차 장애",
+      "predicate": "발생일",
+      "object": "2026년 4월 17일"
+    },
+    {
+      "subject": "가맹점 정산 금액 오차 장애",
+      "predicate": "영향 가맹점 수",
+      "object": "1,284곳"
+    },
+    {
+      "subject": "가맹점 정산 금액 오차 장애",
+      "predicate": "피해",
+      "object": "지급 지연"
+    },
+    {
+      "subject": "가맹점 정산 금액 오차 장애",
+      "predicate": "영향 서비스",
+      "object": "settle-batch"
+    },
+    {
+      "subject": "CHG-2604-02",
+      "predicate": "직접 원인이다",
+      "object": "가맹점 정산 금액 오차 장애"
+    },
+    {
+      "subject": "CHG-2604-02",
+      "predicate": "바꿨다",
+      "object": "batch-scheduler"
+    },
+    {
+      "subject": "batch-scheduler",
+      "predicate": "바뀐 시간대",
+      "object": "UTC"
+    },
+    {
+      "subject": "batch-scheduler",
+      "predicate": "되돌린 시간대",
+      "object": "KST"
+    },
+    {
+      "subject": "가맹점 정산 금액 오차 장애",
+      "predicate": "어긋난 시간",
+      "object": "아홉 시간"
+    },
+    {
+      "subject": "가맹점 정산 금액 오차 장애",
+      "predicate": "걸러 내지 못했다",
+      "object": "잘못된 설정"
+    },
+    {
+      "subject": "가맹점 정산 금액 오차 장애",
+      "predicate": "재정산 원천",
+      "object": "ledger-db"
+    }
+  ],
+  "INC-0428": [
+    {
+      "subject": "카드 결제 승인 지연 장애",
+      "predicate": "발생일",
+      "object": "2026년 4월 28일"
+    },
+    {
+      "subject": "카드 결제 승인 지연 장애",
+      "predicate": "응답 지연이 원인이다",
+      "object": "한빛PG"
+    },
+    {
+      "subject": "한빛PG",
+      "predicate": "이다",
+      "object": "외부 PG사"
+    },
+    {
+      "subject": "pg-connector",
+      "predicate": "호출한다",
+      "object": "한빛PG"
+    },
+    {
+      "subject": "카드 결제 승인 지연 장애",
+      "predicate": "근본 원인 서비스",
+      "object": "pg-connector"
+    },
+    {
+      "subject": "한빛PG",
+      "predicate": "호출 대기 시간",
+      "object": "30초"
+    },
+    {
+      "subject": "한빛PG",
+      "predicate": "줄인 대기 시간",
+      "object": "5초"
+    },
+    {
+      "subject": "카드 결제 승인 지연 장애",
+      "predicate": "영향 서비스",
+      "object": "pay-gateway"
+    },
+    {
+      "subject": "카드 결제 승인 지연 장애",
+      "predicate": "피해",
+      "object": "결제 실패"
+    },
+    {
+      "subject": "카드 결제 승인 지연 장애",
+      "predicate": "실패 건수",
+      "object": "7,900건"
+    },
+    {
+      "subject": "카드 결제 승인 지연 장애",
+      "predicate": "늘어난 응답 시간",
+      "object": "9초"
+    },
+    {
+      "subject": "카드 결제 승인 지연 장애",
+      "predicate": "라우팅 전환",
+      "object": "다온PG"
+    }
+  ],
+  "INC-0513": [
+    {
+      "subject": "포인트 적립 지연 장애",
+      "predicate": "발생일",
+      "object": "2026년 5월 13일"
+    },
+    {
+      "subject": "포인트 적립 지연 장애",
+      "predicate": "원인 서비스",
+      "object": "point-engine"
+    },
+    {
+      "subject": "포인트 적립 지연 장애",
+      "predicate": "고갈이 원인이다",
+      "object": "커넥션 풀"
+    },
+    {
+      "subject": "point-engine",
+      "predicate": "커넥션 풀 크기",
+      "object": "40개"
+    },
+    {
+      "subject": "point-engine",
+      "predicate": "늘린 풀 크기",
+      "object": "80개"
+    },
+    {
+      "subject": "CHG-2605-01",
+      "predicate": "근본 원인이다",
+      "object": "포인트 적립 지연 장애"
+    },
+    {
+      "subject": "CHG-2605-01",
+      "predicate": "스레드를 늘렸다",
+      "object": "point-engine"
+    },
+    {
+      "subject": "포인트 적립 지연 장애",
+      "predicate": "밀린 요청",
+      "object": "41만 건"
+    },
+    {
+      "subject": "포인트 적립 지연 장애",
+      "predicate": "피해",
+      "object": "적립 지연"
+    },
+    {
+      "subject": "포인트 적립 지연 장애",
+      "predicate": "함께 생겼다",
+      "object": "알림 지연"
+    }
+  ],
+  "INC-0518": [
+    {
+      "subject": "포인트 잔액 조회 오류 장애",
+      "predicate": "발생일",
+      "object": "2026년 5월 18일"
+    },
+    {
+      "subject": "포인트 잔액 조회 오류 장애",
+      "predicate": "원인 서비스",
+      "object": "point-wallet"
+    },
+    {
+      "subject": "포인트 잔액 조회 오류 장애",
+      "predicate": "고갈이 원인이다",
+      "object": "커넥션 풀"
+    },
+    {
+      "subject": "point-wallet",
+      "predicate": "조회한다",
+      "object": "ledger-db"
+    },
+    {
+      "subject": "포인트 잔액 조회 오류 장애",
+      "predicate": "원인 기능",
+      "object": "거래 내역 화면 개선 기능"
+    },
+    {
+      "subject": "거래 내역 화면 개선 기능",
+      "predicate": "보냈다",
+      "object": "내역 조회 쿼리"
+    },
+    {
+      "subject": "내역 조회 쿼리",
+      "predicate": "빠졌다",
+      "object": "인덱스"
+    },
+    {
+      "subject": "포인트 잔액 조회 오류 장애",
+      "predicate": "오류 비율",
+      "object": "35%"
+    },
+    {
+      "subject": "포인트 잔액 조회 오류 장애",
+      "predicate": "피해",
+      "object": "잔액 조회 오류"
+    },
+    {
+      "subject": "포인트 잔액 조회 오류 장애",
+      "predicate": "끈 수단",
+      "object": "기능 플래그"
+    }
+  ],
+  "INC-0527": [
+    {
+      "subject": "해외 카드 결제 실패 장애",
+      "predicate": "발생일",
+      "object": "2026년 5월 27일"
+    },
+    {
+      "subject": "해외 카드 결제 실패 장애",
+      "predicate": "응답 지연이 원인이다",
+      "object": "다온PG"
+    },
+    {
+      "subject": "다온PG",
+      "predicate": "이다",
+      "object": "외부 PG사"
+    },
+    {
+      "subject": "pg-connector",
+      "predicate": "요청을 보냈다",
+      "object": "다온PG"
+    },
+    {
+      "subject": "다온PG",
+      "predicate": "받는다",
+      "object": "해외 카드"
+    },
+    {
+      "subject": "해외 카드 결제 실패 장애",
+      "predicate": "실패 건수",
+      "object": "2,300건"
+    },
+    {
+      "subject": "해외 카드 결제 실패 장애",
+      "predicate": "실패율",
+      "object": "18%"
+    },
+    {
+      "subject": "해외 카드 결제 실패 장애",
+      "predicate": "피해",
+      "object": "승인 실패"
+    },
+    {
+      "subject": "해외 카드 결제 실패 장애",
+      "predicate": "피해 가맹점",
+      "object": "해외 직구 가맹점"
+    },
+    {
+      "subject": "해외 카드 결제 실패 장애",
+      "predicate": "피해 가맹점",
+      "object": "여행 플랫폼 가맹점"
+    },
+    {
+      "subject": "해외 카드 결제 실패 장애",
+      "predicate": "재발 방지",
+      "object": "두 번째 PG사"
+    }
+  ],
+  "INC-0603": [
+    {
+      "subject": "가맹점 연동 결제 거절 장애",
+      "predicate": "발생일",
+      "object": "2026년 6월 3일"
+    },
+    {
+      "subject": "가맹점 연동 결제 거절 장애",
+      "predicate": "영향 서비스",
+      "object": "merchant-api"
+    },
+    {
+      "subject": "가맹점 연동 결제 거절 장애",
+      "predicate": "원인 구성요소",
+      "object": "api-edge"
+    },
+    {
+      "subject": "가맹점 연동 결제 거절 장애",
+      "predicate": "만료가 원인이다",
+      "object": "인증서"
+    },
+    {
+      "subject": "api-edge",
+      "predicate": "걸려 있다",
+      "object": "가맹점 전용 도메인 인증서"
+    },
+    {
+      "subject": "가맹점 연동 결제 거절 장애",
+      "predicate": "피해 가맹점 수",
+      "object": "3,400곳"
+    },
+    {
+      "subject": "가맹점 연동 결제 거절 장애",
+      "predicate": "피해",
+      "object": "결제 실패"
+    },
+    {
+      "subject": "가맹점 연동 결제 거절 장애",
+      "predicate": "빠져 있었다",
+      "object": "자동 갱신"
+    },
+    {
+      "subject": "가맹점 연동 결제 거절 장애",
+      "predicate": "갱신 안내 변경",
+      "object": "공용 메일 그룹"
+    },
+    {
+      "subject": "가맹점 연동 결제 거절 장애",
+      "predicate": "재발 방지",
+      "object": "대시보드"
+    }
+  ],
+  "INC-0612": [
+    {
+      "subject": "가맹점 정산 지연 장애",
+      "predicate": "발생일",
+      "object": "2026년 6월 12일"
+    },
+    {
+      "subject": "가맹점 정산 지연 장애",
+      "predicate": "영향 서비스",
+      "object": "settle-batch"
+    },
+    {
+      "subject": "ledger-db",
+      "predicate": "근본 원인 구성요소이다",
+      "object": "가맹점 정산 지연 장애"
+    },
+    {
+      "subject": "settle-batch",
+      "predicate": "커넥션을 얻는다",
+      "object": "ledger-db"
+    },
+    {
+      "subject": "가맹점 정산 지연 장애",
+      "predicate": "고갈이 원인이다",
+      "object": "커넥션 풀"
+    },
+    {
+      "subject": "CHG-2606-03",
+      "predicate": "근본 원인이다",
+      "object": "가맹점 정산 지연 장애"
+    },
+    {
+      "subject": "CHG-2606-03",
+      "predicate": "병렬 개수를 늘렸다",
+      "object": "settle-batch"
+    },
+    {
+      "subject": "settle-batch",
+      "predicate": "늘린 병렬 개수",
+      "object": "32"
+    },
+    {
+      "subject": "settle-batch",
+      "predicate": "낮춘 병렬 개수",
+      "object": "16"
+    },
+    {
+      "subject": "가맹점 정산 지연 장애",
+      "predicate": "피해 가맹점 수",
+      "object": "9,800곳"
+    },
+    {
+      "subject": "가맹점 정산 지연 장애",
+      "predicate": "피해",
+      "object": "정산 지연"
+    },
+    {
+      "subject": "가맹점 정산 지연 장애",
+      "predicate": "지연 시간",
+      "object": "다섯 시간"
+    },
+    {
+      "subject": "가맹점 정산 지연 장애",
+      "predicate": "후속 작업",
+      "object": "커넥션 상한"
+    }
+  ],
+  "INC-0703": [
+    {
+      "subject": "결제 완료 알림 지연 장애",
+      "predicate": "발생일",
+      "object": "2026년 7월 3일"
+    },
+    {
+      "subject": "결제 완료 알림 지연 장애",
+      "predicate": "통보 지연이 원인이다",
+      "object": "한빛PG"
+    },
+    {
+      "subject": "한빛PG",
+      "predicate": "이다",
+      "object": "외부 PG사"
+    },
+    {
+      "subject": "pg-connector",
+      "predicate": "통보를 받는다",
+      "object": "한빛PG"
+    },
+    {
+      "subject": "결제 완료 알림 지연 장애",
+      "predicate": "영향 서비스",
+      "object": "notify-hub"
+    },
+    {
+      "subject": "결제 완료 알림 지연 장애",
+      "predicate": "늦어진 이벤트",
+      "object": "결제 완료 이벤트"
+    },
+    {
+      "subject": "결제 완료 알림 지연 장애",
+      "predicate": "피해",
+      "object": "알림 지연"
+    },
+    {
+      "subject": "결제 완료 알림 지연 장애",
+      "predicate": "최대 지연",
+      "object": "25분"
+    },
+    {
+      "subject": "결제 완료 알림 지연 장애",
+      "predicate": "중복 결제 취소",
+      "object": "640건"
+    }
+  ],
+  "INC-0715": [
+    {
+      "subject": "포인트 이중 적립 장애",
+      "predicate": "발생일",
+      "object": "2026년 7월 15일"
+    },
+    {
+      "subject": "포인트 이중 적립 장애",
+      "predicate": "원인 서비스",
+      "object": "point-engine"
+    },
+    {
+      "subject": "CHG-2607-04",
+      "predicate": "직접 원인이다",
+      "object": "포인트 이중 적립 장애"
+    },
+    {
+      "subject": "CHG-2607-04",
+      "predicate": "반영했다",
+      "object": "적립 규칙 파일 v42"
+    },
+    {
+      "subject": "point-engine",
+      "predicate": "쓴다",
+      "object": "적립 규칙 파일 v42"
+    },
+    {
+      "subject": "적립 규칙 파일 v42",
+      "predicate": "두 번 들어갔다",
+      "object": "7월 프로모션 규칙"
+    },
+    {
+      "subject": "설정 배포 실수",
+      "predicate": "근본 원인이다",
+      "object": "포인트 이중 적립 장애"
+    },
+    {
+      "subject": "포인트 이중 적립 장애",
+      "predicate": "이중 적립 건수",
+      "object": "32,410건"
+    },
+    {
+      "subject": "포인트 이중 적립 장애",
+      "predicate": "잘못 쌓인 포인트",
+      "object": "1,180만 원"
+    },
+    {
+      "subject": "포인트 이중 적립 장애",
+      "predicate": "피해",
+      "object": "이중 적립"
+    }
+  ],
+  "INC-0804": [
+    {
+      "subject": "결제 중단 장애",
+      "predicate": "발생일",
+      "object": "2026년 8월 4일"
+    },
+    {
+      "subject": "결제 중단 장애",
+      "predicate": "만료가 원인이다",
+      "object": "인증서"
+    },
+    {
+      "subject": "결제 중단 장애",
+      "predicate": "원인 구성요소",
+      "object": "api-edge"
+    },
+    {
+      "subject": "api-edge",
+      "predicate": "걸려 있다",
+      "object": "와일드카드 인증서"
+    },
+    {
+      "subject": "결제 중단 장애",
+      "predicate": "중단 시간",
+      "object": "47분"
+    },
+    {
+      "subject": "결제 중단 장애",
+      "predicate": "실패 건수",
+      "object": "5만 6천 건"
+    },
+    {
+      "subject": "결제 중단 장애",
+      "predicate": "피해",
+      "object": "결제 실패"
+    },
+    {
+      "subject": "와일드카드 인증서",
+      "predicate": "등록되어 있었다",
+      "object": "자동 갱신 도구"
+    },
+    {
+      "subject": "결제 중단 장애",
+      "predicate": "근본 원인",
+      "object": "DNS 이전"
+    },
+    {
+      "subject": "결제 중단 장애",
+      "predicate": "빠진 레코드",
+      "object": "도메인 소유 확인용 레코드"
+    }
+  ],
+  "INC-0812": [
+    {
+      "subject": "가맹점 정산 파일 누락 장애",
+      "predicate": "발생일",
+      "object": "2026년 8월 12일"
+    },
+    {
+      "subject": "가맹점 정산 파일 누락 장애",
+      "predicate": "원인 서비스",
+      "object": "recon-worker"
+    },
+    {
+      "subject": "가맹점 정산 파일 누락 장애",
+      "predicate": "고갈이 원인이다",
+      "object": "커넥션 풀"
+    },
+    {
+      "subject": "payout-api",
+      "predicate": "경보를 냈다",
+      "object": "가맹점 정산 파일 누락 장애"
+    },
+    {
+      "subject": "recon-worker",
+      "predicate": "대조한다",
+      "object": "매입 내역"
+    },
+    {
+      "subject": "가맹점 정산 파일 누락 장애",
+      "predicate": "누락",
+      "object": "카드사 두 곳"
+    },
+    {
+      "subject": "가맹점 정산 파일 누락 장애",
+      "predicate": "피해 가맹점 수",
+      "object": "2,100곳"
+    },
+    {
+      "subject": "가맹점 정산 파일 누락 장애",
+      "predicate": "피해",
+      "object": "지급 지연"
+    },
+    {
+      "subject": "가맹점 정산 파일 누락 장애",
+      "predicate": "지급을 미뤘다",
+      "object": "은행 마감"
+    },
+    {
+      "subject": "가맹점 정산 파일 누락 장애",
+      "predicate": "재발 방지",
+      "object": "커넥션 상한"
+    }
+  ],
+  "INC-0826": [
+    {
+      "subject": "신규 가입 혜택 미지급 장애",
+      "predicate": "발생일",
+      "object": "2026년 8월 26일"
+    },
+    {
+      "subject": "신규 가입 혜택 미지급 장애",
+      "predicate": "원인 서비스",
+      "object": "coupon-svc"
+    },
+    {
+      "subject": "coupon-svc",
+      "predicate": "쓴다",
+      "object": "로컬 캐시"
+    },
+    {
+      "subject": "로컬 캐시",
+      "predicate": "담는다",
+      "object": "발급 한도"
+    },
+    {
+      "subject": "신규 가입 혜택 미지급 장애",
+      "predicate": "직접 원인",
+      "object": "로컬 캐시"
+    },
+    {
+      "subject": "신규 가입 혜택 미지급 장애",
+      "predicate": "미지급 인원",
+      "object": "4,700명"
+    },
+    {
+      "subject": "신규 가입 혜택 미지급 장애",
+      "predicate": "미지급",
+      "object": "가입 축하 쿠폰"
+    },
+    {
+      "subject": "신규 가입 혜택 미지급 장애",
+      "predicate": "계기",
+      "object": "월말 프로모션"
+    },
+    {
+      "subject": "신규 가입 혜택 미지급 장애",
+      "predicate": "발급 실패율",
+      "object": "70%"
+    }
+  ],
+  "INC-0909": [
+    {
+      "subject": "알림 미발송 장애",
+      "predicate": "발생일",
+      "object": "2026년 9월 9일"
+    },
+    {
+      "subject": "CHG-2609-02",
+      "predicate": "직접 원인이다",
+      "object": "알림 미발송 장애"
+    },
+    {
+      "subject": "CHG-2609-02",
+      "predicate": "바꿨다",
+      "object": "알림 토픽"
+    },
+    {
+      "subject": "kafka-main",
+      "predicate": "가진다",
+      "object": "알림 토픽"
+    },
+    {
+      "subject": "알림 미발송 장애",
+      "predicate": "원인 구성요소",
+      "object": "kafka-main"
+    },
+    {
+      "subject": "알림 미발송 장애",
+      "predicate": "영향 서비스",
+      "object": "notify-hub"
+    },
+    {
+      "subject": "설정 배포 실수",
+      "predicate": "근본 원인이다",
+      "object": "알림 미발송 장애"
+    },
+    {
+      "subject": "알림 토픽",
+      "predicate": "잘못된 보존 기간",
+      "object": "10분"
+    },
+    {
+      "subject": "알림 토픽",
+      "predicate": "되돌린 보존 기간",
+      "object": "7일"
+    },
+    {
+      "subject": "알림 미발송 장애",
+      "predicate": "미발송 건수",
+      "object": "120만 건"
+    },
+    {
+      "subject": "알림 미발송 장애",
+      "predicate": "대체 수단",
+      "object": "알림함"
+    }
+  ],
+  "INC-0922": [
+    {
+      "subject": "포인트 결제 실패 장애",
+      "predicate": "발생일",
+      "object": "2026년 9월 22일"
+    },
+    {
+      "subject": "포인트 결제 실패 장애",
+      "predicate": "만료가 원인이다",
+      "object": "인증서"
+    },
+    {
+      "subject": "pay-gateway",
+      "predicate": "호출한다",
+      "object": "point-wallet"
+    },
+    {
+      "subject": "포인트 결제 실패 장애",
+      "predicate": "영향 서비스",
+      "object": "pay-gateway"
+    },
+    {
+      "subject": "포인트 결제 실패 장애",
+      "predicate": "원인 서비스",
+      "object": "point-wallet"
+    },
+    {
+      "subject": "포인트 결제 실패 장애",
+      "predicate": "실패 건수",
+      "object": "6,200건"
+    },
+    {
+      "subject": "포인트 결제 실패 장애",
+      "predicate": "피해",
+      "object": "결제 실패"
+    },
+    {
+      "subject": "포인트 결제 실패 장애",
+      "predicate": "빠져 있었다",
+      "object": "점검 목록"
+    },
+    {
+      "subject": "포인트 결제 실패 장애",
+      "predicate": "재발 방지",
+      "object": "만료 30일 전 경보"
+    }
+  ],
+  "ORG-01": [
+    {
+      "subject": "결제플랫폼팀",
+      "predicate": "운영한다",
+      "object": "pay-gateway"
+    },
+    {
+      "subject": "결제플랫폼팀",
+      "predicate": "운영한다",
+      "object": "pg-connector"
+    },
+    {
+      "subject": "결제플랫폼팀",
+      "predicate": "운영한다",
+      "object": "auth-token"
+    },
+    {
+      "subject": "결제플랫폼팀",
+      "predicate": "운영한다",
+      "object": "merchant-api"
+    },
+    {
+      "subject": "결제플랫폼팀",
+      "predicate": "온콜 담당자",
+      "object": "박서연"
+    },
+    {
+      "subject": "정산개발팀",
+      "predicate": "운영한다",
+      "object": "settle-batch"
+    },
+    {
+      "subject": "정산개발팀",
+      "predicate": "운영한다",
+      "object": "recon-worker"
+    },
+    {
+      "subject": "정산개발팀",
+      "predicate": "운영한다",
+      "object": "payout-api"
+    },
+    {
+      "subject": "정산개발팀",
+      "predicate": "운영한다",
+      "object": "batch-scheduler"
+    },
+    {
+      "subject": "정산개발팀",
+      "predicate": "온콜 담당자",
+      "object": "최민재"
+    },
+    {
+      "subject": "포인트서비스팀",
+      "predicate": "운영한다",
+      "object": "point-engine"
+    },
+    {
+      "subject": "포인트서비스팀",
+      "predicate": "운영한다",
+      "object": "point-wallet"
+    },
+    {
+      "subject": "포인트서비스팀",
+      "predicate": "운영한다",
+      "object": "coupon-svc"
+    },
+    {
+      "subject": "포인트서비스팀",
+      "predicate": "온콜 담당자",
+      "object": "오세린"
+    },
+    {
+      "subject": "포인트서비스팀",
+      "predicate": "일정을 정한다",
+      "object": "마케팅실"
+    },
+    {
+      "subject": "리스크관리팀",
+      "predicate": "운영한다",
+      "object": "risk-engine"
+    },
+    {
+      "subject": "리스크관리팀",
+      "predicate": "온콜 담당자",
+      "object": "정하늘"
+    },
+    {
+      "subject": "risk-engine",
+      "predicate": "결제 이벤트를 읽는다",
+      "object": "kafka-main"
+    },
+    {
+      "subject": "결제플랫폼팀",
+      "predicate": "소속",
+      "object": "서비스개발본부"
+    },
+    {
+      "subject": "정산개발팀",
+      "predicate": "소속",
+      "object": "서비스개발본부"
+    },
+    {
+      "subject": "포인트서비스팀",
+      "predicate": "소속",
+      "object": "서비스개발본부"
+    },
+    {
+      "subject": "리스크관리팀",
+      "predicate": "소속",
+      "object": "서비스개발본부"
+    }
+  ],
+  "ORG-02": [
+    {
+      "subject": "공통인프라팀",
+      "predicate": "운영한다",
+      "object": "api-edge"
+    },
+    {
+      "subject": "공통인프라팀",
+      "predicate": "운영한다",
+      "object": "config-center"
+    },
+    {
+      "subject": "공통인프라팀",
+      "predicate": "운영한다",
+      "object": "redis-session"
+    },
+    {
+      "subject": "공통인프라팀",
+      "predicate": "운영한다",
+      "object": "redis-point"
+    },
+    {
+      "subject": "공통인프라팀",
+      "predicate": "온콜 담당자",
+      "object": "한도윤"
+    },
+    {
+      "subject": "데이터플랫폼팀",
+      "predicate": "운영한다",
+      "object": "ledger-db"
+    },
+    {
+      "subject": "데이터플랫폼팀",
+      "predicate": "온콜 담당자",
+      "object": "윤지아"
+    },
+    {
+      "subject": "데이터플랫폼팀",
+      "predicate": "검토한다",
+      "object": "연결 상한"
+    },
+    {
+      "subject": "메시징플랫폼팀",
+      "predicate": "운영한다",
+      "object": "kafka-main"
+    },
+    {
+      "subject": "메시징플랫폼팀",
+      "predicate": "운영한다",
+      "object": "notify-hub"
+    },
+    {
+      "subject": "메시징플랫폼팀",
+      "predicate": "온콜 담당자",
+      "object": "강태오"
+    },
+    {
+      "subject": "메시징플랫폼팀",
+      "predicate": "통해 반영한다",
+      "object": "config-center"
+    },
+    {
+      "subject": "공통인프라팀",
+      "predicate": "소속",
+      "object": "플랫폼본부"
+    },
+    {
+      "subject": "데이터플랫폼팀",
+      "predicate": "소속",
+      "object": "플랫폼본부"
+    },
+    {
+      "subject": "메시징플랫폼팀",
+      "predicate": "소속",
+      "object": "플랫폼본부"
+    }
+  ]
+}

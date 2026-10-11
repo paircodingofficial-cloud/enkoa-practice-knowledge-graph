@@ -1,0 +1,2743 @@
+{
+  "tour-126266": [
+    {
+      "subject": "화엄사계곡",
+      "predicate": "선정되었다",
+      "object": "국립공원 100경"
+    },
+    {
+      "subject": "화엄사계곡",
+      "predicate": "위치한다",
+      "object": "지리산"
+    },
+    {
+      "subject": "화엄사계곡",
+      "predicate": "시작한다",
+      "object": "화엄사 탐방안내소"
+    },
+    {
+      "subject": "화엄사계곡",
+      "predicate": "이어진다",
+      "object": "노고단고개"
+    },
+    {
+      "subject": "화엄사계곡",
+      "predicate": "길이",
+      "object": "7㎞"
+    },
+    {
+      "subject": "노고단",
+      "predicate": "종주로 이어진다",
+      "object": "천왕봉"
+    },
+    {
+      "subject": "화엄사계곡",
+      "predicate": "코스가 지난다",
+      "object": "코재"
+    },
+    {
+      "subject": "코재",
+      "predicate": "넘어 이어진다",
+      "object": "성삼재"
+    },
+    {
+      "subject": "코재",
+      "predicate": "넘어 이어진다",
+      "object": "노고단고개"
+    },
+    {
+      "subject": "화엄사",
+      "predicate": "성삼재 코스 거리",
+      "object": "7.5㎞"
+    },
+    {
+      "subject": "화엄사",
+      "predicate": "성삼재 코스 소요",
+      "object": "5시간"
+    },
+    {
+      "subject": "화엄사",
+      "predicate": "제1탐방로로 이어진다",
+      "object": "연기암"
+    },
+    {
+      "subject": "제1탐방로",
+      "predicate": "끼고 있다",
+      "object": "화엄사계곡"
+    },
+    {
+      "subject": "제1탐방로",
+      "predicate": "길이",
+      "object": "2㎞"
+    },
+    {
+      "subject": "제2탐방로",
+      "predicate": "이어진다",
+      "object": "연기암"
+    },
+    {
+      "subject": "제2탐방로",
+      "predicate": "지난다",
+      "object": "금정암"
+    },
+    {
+      "subject": "제2탐방로",
+      "predicate": "지난다",
+      "object": "내원암"
+    },
+    {
+      "subject": "제2탐방로",
+      "predicate": "길이",
+      "object": "3.9㎞"
+    },
+    {
+      "subject": "제2탐방로",
+      "predicate": "불린다",
+      "object": "화엄숲길"
+    },
+    {
+      "subject": "구례 장죽전 차 시배지",
+      "predicate": "위치한다",
+      "object": "화엄사계곡"
+    },
+    {
+      "subject": "지리산 반달가슴곰생태학습장",
+      "predicate": "위치한다",
+      "object": "화엄사계곡"
+    }
+  ],
+  "tour-126365": [
+    {
+      "subject": "태안사",
+      "predicate": "위치한다",
+      "object": "동리산"
+    },
+    {
+      "subject": "태안사",
+      "predicate": "중창되었다",
+      "object": "742년"
+    },
+    {
+      "subject": "태안사",
+      "predicate": "중창 시대",
+      "object": "신라"
+    },
+    {
+      "subject": "태안사",
+      "predicate": "중창 시기 왕",
+      "object": "경덕왕"
+    },
+    {
+      "subject": "혜철",
+      "predicate": "개산했다",
+      "object": "태안사"
+    },
+    {
+      "subject": "태안사",
+      "predicate": "개산 연도",
+      "object": "847년"
+    },
+    {
+      "subject": "태안사",
+      "predicate": "형성했다",
+      "object": "동리산파"
+    },
+    {
+      "subject": "동리산파",
+      "predicate": "속한다",
+      "object": "구산선문"
+    },
+    {
+      "subject": "태안사",
+      "predicate": "중심 도량이다",
+      "object": "동리산파"
+    },
+    {
+      "subject": "태안사",
+      "predicate": "규모",
+      "object": "132칸"
+    },
+    {
+      "subject": "순천송광사",
+      "predicate": "말사였다",
+      "object": "태안사"
+    },
+    {
+      "subject": "화엄사",
+      "predicate": "말사였다",
+      "object": "태안사"
+    },
+    {
+      "subject": "태안사",
+      "predicate": "말사를 둔 시대",
+      "object": "고려"
+    },
+    {
+      "subject": "최남선",
+      "predicate": "방문했다",
+      "object": "태안사"
+    },
+    {
+      "subject": "최남선",
+      "predicate": "방문 연도",
+      "object": "1925년"
+    },
+    {
+      "subject": "대웅전",
+      "predicate": "불탔다",
+      "object": "6·25"
+    },
+    {
+      "subject": "태안사",
+      "predicate": "불탄 건물 수",
+      "object": "15동"
+    },
+    {
+      "subject": "태안사",
+      "predicate": "경내에 있다",
+      "object": "혜철국사 사리탑"
+    },
+    {
+      "subject": "태안사",
+      "predicate": "경내에 있다",
+      "object": "광자선사탑"
+    },
+    {
+      "subject": "태안사",
+      "predicate": "보물 수",
+      "object": "5점"
+    },
+    {
+      "subject": "능파각",
+      "predicate": "세워졌다",
+      "object": "동리산"
+    },
+    {
+      "subject": "태안사",
+      "predicate": "볼거리",
+      "object": "능파각"
+    }
+  ],
+  "tour-126637": [
+    {
+      "subject": "오산",
+      "predicate": "다른 이름",
+      "object": "소금강"
+    },
+    {
+      "subject": "봉성지",
+      "predicate": "기록했다",
+      "object": "오산"
+    },
+    {
+      "subject": "오산",
+      "predicate": "마주한다",
+      "object": "지리산"
+    },
+    {
+      "subject": "오산",
+      "predicate": "해발",
+      "object": "531m"
+    },
+    {
+      "subject": "사성암",
+      "predicate": "위치한다",
+      "object": "오산"
+    },
+    {
+      "subject": "연기조사",
+      "predicate": "건립했다",
+      "object": "사성암"
+    },
+    {
+      "subject": "사성암",
+      "predicate": "건립 연도",
+      "object": "544년"
+    },
+    {
+      "subject": "사성암",
+      "predicate": "건립 시대",
+      "object": "백제"
+    },
+    {
+      "subject": "사성암",
+      "predicate": "건립 시기 왕",
+      "object": "성왕"
+    },
+    {
+      "subject": "사성암",
+      "predicate": "다른 이름",
+      "object": "오산암"
+    },
+    {
+      "subject": "의상",
+      "predicate": "수도했다",
+      "object": "사성암"
+    },
+    {
+      "subject": "원효",
+      "predicate": "수도했다",
+      "object": "사성암"
+    },
+    {
+      "subject": "도선",
+      "predicate": "수도했다",
+      "object": "사성암"
+    },
+    {
+      "subject": "진각국사",
+      "predicate": "수도했다",
+      "object": "사성암"
+    },
+    {
+      "subject": "사성암",
+      "predicate": "비경",
+      "object": "풍월대"
+    },
+    {
+      "subject": "사성암",
+      "predicate": "비경",
+      "object": "망풍대"
+    },
+    {
+      "subject": "사성암",
+      "predicate": "비경",
+      "object": "배석대"
+    },
+    {
+      "subject": "사성암",
+      "predicate": "비경",
+      "object": "낙조대"
+    },
+    {
+      "subject": "오산",
+      "predicate": "조망한다",
+      "object": "섬진강"
+    },
+    {
+      "subject": "오산",
+      "predicate": "조망한다",
+      "object": "구례읍"
+    },
+    {
+      "subject": "오산",
+      "predicate": "조망한다",
+      "object": "노고단"
+    },
+    {
+      "subject": "오산",
+      "predicate": "조망한다",
+      "object": "반야봉"
+    },
+    {
+      "subject": "사성암 마을버스 주차장",
+      "predicate": "마을버스로 잇는다",
+      "object": "사성암"
+    }
+  ],
+  "tour-126638": [
+    {
+      "subject": "수락폭포",
+      "predicate": "높이",
+      "object": "15m"
+    },
+    {
+      "subject": "수락폭포",
+      "predicate": "위치한다",
+      "object": "중기마을"
+    },
+    {
+      "subject": "중기마을",
+      "predicate": "속한다",
+      "object": "수기리"
+    },
+    {
+      "subject": "수락폭포",
+      "predicate": "떨어져 있다",
+      "object": "원촌리"
+    },
+    {
+      "subject": "원촌리",
+      "predicate": "소재지이다",
+      "object": "산동면"
+    },
+    {
+      "subject": "수락폭포",
+      "predicate": "다른 이름",
+      "object": "물맞이 폭포"
+    },
+    {
+      "subject": "수락폭포",
+      "predicate": "효험이 있다",
+      "object": "신경통"
+    },
+    {
+      "subject": "수락폭포",
+      "predicate": "효험이 있다",
+      "object": "근육통"
+    },
+    {
+      "subject": "수락폭포",
+      "predicate": "효험이 있다",
+      "object": "산후통"
+    },
+    {
+      "subject": "신선대",
+      "predicate": "위치한다",
+      "object": "수락폭포"
+    },
+    {
+      "subject": "할미암",
+      "predicate": "위치한다",
+      "object": "수락폭포"
+    },
+    {
+      "subject": "송만갑",
+      "predicate": "수련했다",
+      "object": "수락폭포"
+    },
+    {
+      "subject": "송만갑",
+      "predicate": "판소리 대가",
+      "object": "동편제"
+    },
+    {
+      "subject": "송만갑",
+      "predicate": "생몰",
+      "object": "1865~1939"
+    },
+    {
+      "subject": "수락길",
+      "predicate": "이어진다",
+      "object": "수락폭포"
+    },
+    {
+      "subject": "수락길",
+      "predicate": "길이",
+      "object": "600m"
+    },
+    {
+      "subject": "수락폭포",
+      "predicate": "대표 관광지이다",
+      "object": "구례"
+    }
+  ],
+  "tour-126767": [
+    {
+      "subject": "상사마을",
+      "predicate": "꼽힌다",
+      "object": "전국 최장수 마을"
+    },
+    {
+      "subject": "양천마을",
+      "predicate": "꼽힌다",
+      "object": "전국 최장수 마을"
+    },
+    {
+      "subject": "양천마을",
+      "predicate": "위치한다",
+      "object": "간전면"
+    },
+    {
+      "subject": "상사마을",
+      "predicate": "장수 비결",
+      "object": "당몰샘"
+    },
+    {
+      "subject": "지리산 약초",
+      "predicate": "뿌리 녹은 물이 흘러든다",
+      "object": "당몰샘"
+    },
+    {
+      "subject": "고려대 예방 의학팀",
+      "predicate": "수질검사했다",
+      "object": "당몰샘"
+    },
+    {
+      "subject": "당몰샘",
+      "predicate": "수질검사 연도",
+      "object": "1986년"
+    },
+    {
+      "subject": "의성 김씨",
+      "predicate": "토박이 성씨이다",
+      "object": "상사마을"
+    },
+    {
+      "subject": "의성 김씨",
+      "predicate": "정착 이유",
+      "object": "당몰샘"
+    },
+    {
+      "subject": "의성 김씨",
+      "predicate": "정착 시기",
+      "object": "조선 말기"
+    },
+    {
+      "subject": "의성 김씨",
+      "predicate": "헤맸다",
+      "object": "전라도"
+    }
+  ],
+  "tour-127590": [
+    {
+      "subject": "지리산국립공원",
+      "predicate": "자리한다",
+      "object": "지리산"
+    },
+    {
+      "subject": "지리산국립공원",
+      "predicate": "걸쳐 있다",
+      "object": "3개 도"
+    },
+    {
+      "subject": "지리산국립공원",
+      "predicate": "걸쳐 있다",
+      "object": "4개 군"
+    },
+    {
+      "subject": "지리산국립공원",
+      "predicate": "걸쳐 있다",
+      "object": "15개 읍·면"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "따라 흐른다",
+      "object": "지리산"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "이어진다",
+      "object": "남해"
+    },
+    {
+      "subject": "지리산",
+      "predicate": "품는다",
+      "object": "반달가슴곰"
+    },
+    {
+      "subject": "지리산국립공원",
+      "predicate": "문의처",
+      "object": "국립공원공단"
+    },
+    {
+      "subject": "지리산국립공원",
+      "predicate": "문의처",
+      "object": "지리산 관리사무소"
+    },
+    {
+      "subject": "지리산국립공원",
+      "predicate": "보호구역",
+      "object": "천연기념물 보호구역"
+    },
+    {
+      "subject": "반달가슴곰",
+      "predicate": "서식지가 있다",
+      "object": "천연기념물 보호구역"
+    },
+    {
+      "subject": "지리산국립공원",
+      "predicate": "탐방 적기",
+      "object": "봄철"
+    },
+    {
+      "subject": "지리산국립공원",
+      "predicate": "탐방 적기",
+      "object": "가을철"
+    }
+  ],
+  "tour-128082": [
+    {
+      "subject": "관음사",
+      "predicate": "위치한다",
+      "object": "곡성"
+    },
+    {
+      "subject": "관음사",
+      "predicate": "가는 길",
+      "object": "선세마을"
+    },
+    {
+      "subject": "성덕보살",
+      "predicate": "창건했다",
+      "object": "관음사"
+    },
+    {
+      "subject": "관음사",
+      "predicate": "창건 연도",
+      "object": "301년"
+    },
+    {
+      "subject": "관음사",
+      "predicate": "창건 시대",
+      "object": "백제"
+    },
+    {
+      "subject": "관음사",
+      "predicate": "창건 시기 왕",
+      "object": "분서왕"
+    },
+    {
+      "subject": "성덕보살",
+      "predicate": "모셔왔다",
+      "object": "금동 관세음보살상"
+    },
+    {
+      "subject": "금동 관세음보살상",
+      "predicate": "가져온 곳",
+      "object": "벌교"
+    },
+    {
+      "subject": "관음사",
+      "predicate": "내륙 유일",
+      "object": "관음성지"
+    },
+    {
+      "subject": "공비",
+      "predicate": "기지로 삼았다",
+      "object": "관음사"
+    },
+    {
+      "subject": "원통전",
+      "predicate": "있었다",
+      "object": "관음사"
+    },
+    {
+      "subject": "원통전",
+      "predicate": "불탔다",
+      "object": "6·25"
+    },
+    {
+      "subject": "원통전",
+      "predicate": "건물 시대",
+      "object": "고려"
+    },
+    {
+      "subject": "금동관음보살좌상",
+      "predicate": "보존되었다",
+      "object": "원통전"
+    },
+    {
+      "subject": "금동관음보살좌상",
+      "predicate": "지정되었다",
+      "object": "국보"
+    },
+    {
+      "subject": "관음사",
+      "predicate": "유래",
+      "object": "원홍장"
+    },
+    {
+      "subject": "원홍장",
+      "predicate": "다른 이름",
+      "object": "효녀심청"
+    },
+    {
+      "subject": "관음사사적기",
+      "predicate": "원류로 추정된다",
+      "object": "심청전"
+    },
+    {
+      "subject": "관음사사적기",
+      "predicate": "다룬다",
+      "object": "원홍장"
+    },
+    {
+      "subject": "관음사사적기",
+      "predicate": "보관되어 있다",
+      "object": "순천송광사"
+    }
+  ],
+  "tour-128086": [
+    {
+      "subject": "섬진강",
+      "predicate": "발원지",
+      "object": "임실"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "발원지",
+      "object": "순창"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "합류한다",
+      "object": "옥과천"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "합류 지점",
+      "object": "합강리"
+    },
+    {
+      "subject": "합강리",
+      "predicate": "속한다",
+      "object": "옥과"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "합류한다",
+      "object": "요천수"
+    },
+    {
+      "subject": "요천수",
+      "predicate": "내려온다",
+      "object": "남원"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "합류한다",
+      "object": "보성강"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "합류 지점",
+      "object": "압록리"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "거쳐 흐른다",
+      "object": "구례"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "거쳐 흐른다",
+      "object": "하동"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "이어진다",
+      "object": "남해"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "곡성 경유 거리",
+      "object": "36㎞"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "다른 이름",
+      "object": "순자강"
+    },
+    {
+      "subject": "양대박",
+      "predicate": "의병을 훈련했다",
+      "object": "청계동"
+    },
+    {
+      "subject": "양대박",
+      "predicate": "활동 시기",
+      "object": "임진왜란"
+    },
+    {
+      "subject": "청계동",
+      "predicate": "위치한다",
+      "object": "섬진강"
+    },
+    {
+      "subject": "마천목",
+      "predicate": "효심 어린 전설",
+      "object": "도깨비살"
+    },
+    {
+      "subject": "도깨비살",
+      "predicate": "위치한다",
+      "object": "섬진강"
+    },
+    {
+      "subject": "원홍장",
+      "predicate": "생가터가 있다",
+      "object": "심청 생가터"
+    },
+    {
+      "subject": "심청 생가터",
+      "predicate": "위치한다",
+      "object": "섬진강"
+    },
+    {
+      "subject": "침실습지",
+      "predicate": "위치한다",
+      "object": "섬진강"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "주변 유원지",
+      "object": "섬진강변 유원지"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "주변 유원지",
+      "object": "압록유원지"
+    },
+    {
+      "subject": "가정역",
+      "predicate": "있다",
+      "object": "증기기관차"
+    }
+  ],
+  "tour-128087": [
+    {
+      "subject": "압록유원지",
+      "predicate": "자리한다",
+      "object": "섬진강"
+    },
+    {
+      "subject": "압록유원지",
+      "predicate": "자리한다",
+      "object": "보성강"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "합류한다",
+      "object": "보성강"
+    },
+    {
+      "subject": "압록유원지",
+      "predicate": "백사장 넓이",
+      "object": "3만여 평"
+    },
+    {
+      "subject": "반월교",
+      "predicate": "놓여 있다",
+      "object": "압록유원지"
+    },
+    {
+      "subject": "철교",
+      "predicate": "놓여 있다",
+      "object": "압록유원지"
+    },
+    {
+      "subject": "낚시터",
+      "predicate": "산재한다",
+      "object": "보성강"
+    },
+    {
+      "subject": "압록유원지",
+      "predicate": "수상 레포츠",
+      "object": "래프팅"
+    },
+    {
+      "subject": "압록유원지",
+      "predicate": "전설",
+      "object": "모기전설"
+    },
+    {
+      "subject": "모기전설",
+      "predicate": "주인공",
+      "object": "강감찬"
+    },
+    {
+      "subject": "강감찬",
+      "predicate": "노숙했다",
+      "object": "압록유원지"
+    },
+    {
+      "subject": "압록상상스쿨",
+      "predicate": "위치한다",
+      "object": "압록유원지"
+    },
+    {
+      "subject": "압록상상스쿨",
+      "predicate": "건너서 간다",
+      "object": "압록교"
+    },
+    {
+      "subject": "압록상상스쿨",
+      "predicate": "거리",
+      "object": "150m"
+    }
+  ],
+  "tour-129317": [
+    {
+      "subject": "하늘나리마을",
+      "predicate": "위치한다",
+      "object": "곡성"
+    },
+    {
+      "subject": "하늘나리마을",
+      "predicate": "이름 유래",
+      "object": "하늘나리"
+    },
+    {
+      "subject": "하늘나리",
+      "predicate": "자생한다",
+      "object": "하늘나리마을"
+    },
+    {
+      "subject": "하늘나리마을",
+      "predicate": "가는 길",
+      "object": "봉두산"
+    },
+    {
+      "subject": "하늘나리마을",
+      "predicate": "주민 수",
+      "object": "60여 명"
+    },
+    {
+      "subject": "하늘나리마을",
+      "predicate": "벼농사를 짓는다",
+      "object": "다랑논"
+    },
+    {
+      "subject": "하늘나리마을",
+      "predicate": "키운다",
+      "object": "토종벌"
+    },
+    {
+      "subject": "하늘나리마을",
+      "predicate": "주요 소득원",
+      "object": "꿀"
+    },
+    {
+      "subject": "꿀",
+      "predicate": "채취한 꽃",
+      "object": "히어리꽃"
+    },
+    {
+      "subject": "꿀",
+      "predicate": "채취한 꽃",
+      "object": "아까시꽃"
+    },
+    {
+      "subject": "꿀",
+      "predicate": "채취한 꽃",
+      "object": "밤꽃"
+    }
+  ],
+  "tour-129318": [
+    {
+      "subject": "위안마을",
+      "predicate": "위치한다",
+      "object": "노고단"
+    },
+    {
+      "subject": "위안마을",
+      "predicate": "위치한다",
+      "object": "만복대"
+    },
+    {
+      "subject": "위안마을",
+      "predicate": "해발",
+      "object": "450m"
+    },
+    {
+      "subject": "위안마을",
+      "predicate": "자리 잡았다",
+      "object": "지리산"
+    },
+    {
+      "subject": "위안마을",
+      "predicate": "특산물",
+      "object": "산수유"
+    },
+    {
+      "subject": "위안마을",
+      "predicate": "특산물",
+      "object": "고로쇠수액"
+    },
+    {
+      "subject": "위안마을",
+      "predicate": "특산물",
+      "object": "지리산 산채"
+    },
+    {
+      "subject": "지리산온천지구",
+      "predicate": "개장 연도",
+      "object": "1996년"
+    },
+    {
+      "subject": "위안마을",
+      "predicate": "연계한다",
+      "object": "지리산온천지구"
+    },
+    {
+      "subject": "위안마을",
+      "predicate": "연간 관광객",
+      "object": "2만명"
+    },
+    {
+      "subject": "위안마을",
+      "predicate": "나뉜다",
+      "object": "상위마을"
+    },
+    {
+      "subject": "위안마을",
+      "predicate": "나뉜다",
+      "object": "월계마을"
+    },
+    {
+      "subject": "산수유",
+      "predicate": "전래 유래",
+      "object": "중국 산동성"
+    },
+    {
+      "subject": "구례 산동",
+      "predicate": "주산지이다",
+      "object": "산수유"
+    },
+    {
+      "subject": "위안마을",
+      "predicate": "개최한다",
+      "object": "산수유꽃 축제"
+    },
+    {
+      "subject": "산수유꽃 축제",
+      "predicate": "개최 시기",
+      "object": "3월"
+    }
+  ],
+  "tour-130559": [
+    {
+      "subject": "구례향제줄풍류",
+      "predicate": "이다",
+      "object": "현악영산회상"
+    },
+    {
+      "subject": "구례향제줄풍류",
+      "predicate": "전승 지역",
+      "object": "구례"
+    },
+    {
+      "subject": "구례향제줄풍류",
+      "predicate": "구성",
+      "object": "15곡"
+    },
+    {
+      "subject": "구례향제줄풍류",
+      "predicate": "연주 시간",
+      "object": "70분"
+    },
+    {
+      "subject": "구례향제줄풍류",
+      "predicate": "지정되었다",
+      "object": "국가무형문화유산"
+    },
+    {
+      "subject": "구례향제줄풍류전수관",
+      "predicate": "전수한다",
+      "object": "구례향제줄풍류"
+    },
+    {
+      "subject": "구례향제줄풍류전수관",
+      "predicate": "개관했다",
+      "object": "1994년 5월 15일"
+    },
+    {
+      "subject": "구례향제줄풍류전수관",
+      "predicate": "위치한다",
+      "object": "구례읍"
+    },
+    {
+      "subject": "구례줄풍류보존회",
+      "predicate": "연수와 공연을 한다",
+      "object": "구례향제줄풍류전수관"
+    },
+    {
+      "subject": "구례향제줄풍류전수관",
+      "predicate": "운영한다",
+      "object": "국악교실"
+    },
+    {
+      "subject": "구례향제줄풍류전수관",
+      "predicate": "옆에 있다",
+      "object": "구례읍사무소"
+    },
+    {
+      "subject": "구례향제줄풍류전수관",
+      "predicate": "맞은편에 있다",
+      "object": "구례교육지원청"
+    },
+    {
+      "subject": "영산회상",
+      "predicate": "다른 이름",
+      "object": "풍류"
+    },
+    {
+      "subject": "대풍류",
+      "predicate": "중심 악기",
+      "object": "관악기"
+    },
+    {
+      "subject": "줄풍류",
+      "predicate": "중심 악기",
+      "object": "현악기"
+    }
+  ],
+  "tour-1623712": [
+    {
+      "subject": "청화",
+      "predicate": "창건했다",
+      "object": "성륜사"
+    },
+    {
+      "subject": "청화",
+      "predicate": "열반했다",
+      "object": "성륜사"
+    },
+    {
+      "subject": "성륜사",
+      "predicate": "위치한다",
+      "object": "옥과"
+    },
+    {
+      "subject": "조방원",
+      "predicate": "부지를 기증했다",
+      "object": "성륜사"
+    },
+    {
+      "subject": "성륜사",
+      "predicate": "부지",
+      "object": "10만여 평"
+    },
+    {
+      "subject": "대상그룹",
+      "predicate": "시주했다",
+      "object": "성륜사"
+    },
+    {
+      "subject": "성륜사",
+      "predicate": "건물",
+      "object": "지장전"
+    },
+    {
+      "subject": "지장전",
+      "predicate": "건립",
+      "object": "1991년 2월"
+    },
+    {
+      "subject": "성륜사",
+      "predicate": "건물",
+      "object": "금강선원"
+    },
+    {
+      "subject": "금강선원",
+      "predicate": "건립",
+      "object": "1992년 9월"
+    },
+    {
+      "subject": "성륜사",
+      "predicate": "건물",
+      "object": "설령각"
+    },
+    {
+      "subject": "설령각",
+      "predicate": "건립",
+      "object": "2009년 9월"
+    },
+    {
+      "subject": "성륜사",
+      "predicate": "건물",
+      "object": "적별보궁"
+    },
+    {
+      "subject": "적별보궁",
+      "predicate": "건립",
+      "object": "2013년 10월"
+    },
+    {
+      "subject": "적별보궁",
+      "predicate": "모신다",
+      "object": "부처님 진신사리"
+    },
+    {
+      "subject": "성륜사",
+      "predicate": "탑비를 모신다",
+      "object": "금타"
+    },
+    {
+      "subject": "성륜사",
+      "predicate": "탑비를 모신다",
+      "object": "청화"
+    },
+    {
+      "subject": "안심당",
+      "predicate": "이축해 왔다",
+      "object": "구례"
+    },
+    {
+      "subject": "육화당",
+      "predicate": "이축해 왔다",
+      "object": "구례"
+    },
+    {
+      "subject": "성륜사",
+      "predicate": "접근성이 좋다",
+      "object": "순창"
+    },
+    {
+      "subject": "성륜사",
+      "predicate": "함께 방문한다",
+      "object": "설산낙조"
+    },
+    {
+      "subject": "설산낙조",
+      "predicate": "위치한다",
+      "object": "옥과"
+    },
+    {
+      "subject": "설산",
+      "predicate": "낙조 명소",
+      "object": "설산낙조"
+    }
+  ],
+  "tour-1624185": [
+    {
+      "subject": "석주관성",
+      "predicate": "위치한다",
+      "object": "왕시루봉"
+    },
+    {
+      "subject": "왕시루봉",
+      "predicate": "이어진다",
+      "object": "노고단"
+    },
+    {
+      "subject": "석주관성",
+      "predicate": "이어져 있다",
+      "object": "칠봉산"
+    },
+    {
+      "subject": "석주관성",
+      "predicate": "이어져 있다",
+      "object": "칠의사"
+    },
+    {
+      "subject": "석주관성",
+      "predicate": "시대",
+      "object": "고려"
+    },
+    {
+      "subject": "석주관성",
+      "predicate": "경계였다",
+      "object": "마한"
+    },
+    {
+      "subject": "석주관성",
+      "predicate": "경계였다",
+      "object": "진한"
+    },
+    {
+      "subject": "석주관성",
+      "predicate": "경계였다",
+      "object": "백제"
+    },
+    {
+      "subject": "석주관성",
+      "predicate": "경계였다",
+      "object": "신라"
+    },
+    {
+      "subject": "석주관성",
+      "predicate": "막았다",
+      "object": "왜구"
+    },
+    {
+      "subject": "곽영",
+      "predicate": "성을 쌓았다",
+      "object": "석주관성"
+    },
+    {
+      "subject": "곽영",
+      "predicate": "직책",
+      "object": "전라도 방어사"
+    },
+    {
+      "subject": "이원춘",
+      "predicate": "방어를 맡았다",
+      "object": "석주관성"
+    },
+    {
+      "subject": "이원춘",
+      "predicate": "직책",
+      "object": "구례 현감"
+    },
+    {
+      "subject": "석주관성",
+      "predicate": "축성 계기",
+      "object": "임진왜란"
+    },
+    {
+      "subject": "임진왜란",
+      "predicate": "발발",
+      "object": "1592"
+    },
+    {
+      "subject": "석주관성",
+      "predicate": "설치 논의",
+      "object": "만호진"
+    },
+    {
+      "subject": "만호진",
+      "predicate": "논의 시기",
+      "object": "정유재란"
+    },
+    {
+      "subject": "석주관성",
+      "predicate": "길이",
+      "object": "750m"
+    },
+    {
+      "subject": "석주관성",
+      "predicate": "가까이 있다",
+      "object": "섬진강어류생태관"
+    },
+    {
+      "subject": "섬진강어류생태관",
+      "predicate": "지나서 있다",
+      "object": "간전교"
+    },
+    {
+      "subject": "석주관성",
+      "predicate": "가까이 있다",
+      "object": "운조루 고택"
+    }
+  ],
+  "tour-1954835": [
+    {
+      "subject": "구례향교",
+      "predicate": "종류",
+      "object": "향교"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "세운 연도",
+      "object": "1518년"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "세운 시기 왕",
+      "object": "중종"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "처음 자리",
+      "object": "백련리"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "옮겨왔다",
+      "object": "봉서리"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "이전 연도",
+      "object": "1704년"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "이전 시기 왕",
+      "object": "숙종"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "이전 이유",
+      "object": "호랑이"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "건물",
+      "object": "대성전"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "건물",
+      "object": "명륜당"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "건물",
+      "object": "내삼문"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "건물",
+      "object": "외삼문"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "배치",
+      "object": "전학후묘"
+    },
+    {
+      "subject": "외삼문",
+      "predicate": "밖에 있다",
+      "object": "하마비"
+    },
+    {
+      "subject": "외삼문",
+      "predicate": "밖에 있다",
+      "object": "홍살문"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "교육 기능 상실",
+      "object": "갑오개혁"
+    },
+    {
+      "subject": "갑오개혁",
+      "predicate": "연도",
+      "object": "1894"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "봉행한다",
+      "object": "석전대제"
+    },
+    {
+      "subject": "구례향교",
+      "predicate": "가까이 있다",
+      "object": "구례 구청"
+    }
+  ],
+  "tour-1957431": [
+    {
+      "subject": "김인후",
+      "predicate": "다른 이름",
+      "object": "하서"
+    },
+    {
+      "subject": "김인후",
+      "predicate": "다른 이름",
+      "object": "담재"
+    },
+    {
+      "subject": "김인후",
+      "predicate": "태어났다",
+      "object": "장성"
+    },
+    {
+      "subject": "김인후",
+      "predicate": "출생 연도",
+      "object": "1510"
+    },
+    {
+      "subject": "김인후",
+      "predicate": "출생 시기 왕",
+      "object": "중종"
+    },
+    {
+      "subject": "김인후",
+      "predicate": "수학했다",
+      "object": "성균관"
+    },
+    {
+      "subject": "김인후",
+      "predicate": "배속되었다",
+      "object": "사간원"
+    },
+    {
+      "subject": "김인후",
+      "predicate": "세자 시절 스승",
+      "object": "인종"
+    },
+    {
+      "subject": "김인후",
+      "predicate": "현감으로 부임했다",
+      "object": "옥과"
+    },
+    {
+      "subject": "김인후",
+      "predicate": "선비 고장으로 이끌었다",
+      "object": "곡성"
+    },
+    {
+      "subject": "영귀서원",
+      "predicate": "추모한다",
+      "object": "김인후"
+    },
+    {
+      "subject": "지방 유림",
+      "predicate": "창건했다",
+      "object": "영귀서원"
+    },
+    {
+      "subject": "영귀서원",
+      "predicate": "창건 연도",
+      "object": "1694"
+    },
+    {
+      "subject": "영귀서원",
+      "predicate": "창건 시기 왕",
+      "object": "숙종"
+    },
+    {
+      "subject": "영귀서원",
+      "predicate": "위치한다",
+      "object": "죽림리"
+    },
+    {
+      "subject": "죽림리",
+      "predicate": "속한다",
+      "object": "옥과"
+    },
+    {
+      "subject": "영귀서원",
+      "predicate": "향사",
+      "object": "3월 18일"
+    }
+  ],
+  "tour-250349": [
+    {
+      "subject": "의마총",
+      "predicate": "위치한다",
+      "object": "송전리"
+    },
+    {
+      "subject": "송전리",
+      "predicate": "속한다",
+      "object": "입면"
+    },
+    {
+      "subject": "유팽로",
+      "predicate": "애마 무덤",
+      "object": "의마총"
+    },
+    {
+      "subject": "유팽로",
+      "predicate": "호",
+      "object": "월파"
+    },
+    {
+      "subject": "유팽로",
+      "predicate": "재임했다",
+      "object": "성균관"
+    },
+    {
+      "subject": "유팽로",
+      "predicate": "의병을 모았다",
+      "object": "곡성"
+    },
+    {
+      "subject": "유팽로",
+      "predicate": "의병을 모았다",
+      "object": "담양"
+    },
+    {
+      "subject": "유팽로",
+      "predicate": "의병을 모았다",
+      "object": "순창"
+    },
+    {
+      "subject": "유팽로",
+      "predicate": "추대했다",
+      "object": "고경명"
+    },
+    {
+      "subject": "양대박",
+      "predicate": "추대했다",
+      "object": "고경명"
+    },
+    {
+      "subject": "안영",
+      "predicate": "추대했다",
+      "object": "고경명"
+    },
+    {
+      "subject": "유팽로",
+      "predicate": "순절했다",
+      "object": "금산전투"
+    },
+    {
+      "subject": "금산전투",
+      "predicate": "날짜",
+      "object": "1592년 7월 10일"
+    },
+    {
+      "subject": "유팽로",
+      "predicate": "활동 시기",
+      "object": "임진왜란"
+    },
+    {
+      "subject": "유팽로",
+      "predicate": "생가",
+      "object": "합강리"
+    },
+    {
+      "subject": "원주 김씨",
+      "predicate": "부인이다",
+      "object": "유팽로"
+    },
+    {
+      "subject": "원주 김씨",
+      "predicate": "만들었다",
+      "object": "의마총"
+    },
+    {
+      "subject": "정열각",
+      "predicate": "기린다",
+      "object": "유팽로"
+    },
+    {
+      "subject": "정열각",
+      "predicate": "위치한다",
+      "object": "합강리"
+    },
+    {
+      "subject": "합강리",
+      "predicate": "속한다",
+      "object": "옥과"
+    }
+  ],
+  "tour-250351": [
+    {
+      "subject": "중종",
+      "predicate": "하명했다",
+      "object": "심광형"
+    },
+    {
+      "subject": "심광형",
+      "predicate": "세웠다",
+      "object": "영재학교"
+    },
+    {
+      "subject": "심광형",
+      "predicate": "세웠다",
+      "object": "군지촌정사"
+    },
+    {
+      "subject": "심광형",
+      "predicate": "세웠다",
+      "object": "함허정"
+    },
+    {
+      "subject": "군지촌정사",
+      "predicate": "다른 이름",
+      "object": "제호정 고택"
+    },
+    {
+      "subject": "군지촌정사",
+      "predicate": "위치한다",
+      "object": "군촌마을"
+    },
+    {
+      "subject": "군촌마을",
+      "predicate": "등진다",
+      "object": "동악산"
+    },
+    {
+      "subject": "군촌마을",
+      "predicate": "마주한다",
+      "object": "섬진강"
+    },
+    {
+      "subject": "군지촌정사",
+      "predicate": "지어진 해",
+      "object": "1535년"
+    },
+    {
+      "subject": "제월당",
+      "predicate": "지어진 시기",
+      "object": "1800년대"
+    },
+    {
+      "subject": "함허정",
+      "predicate": "다른 이름",
+      "object": "세연정"
+    },
+    {
+      "subject": "함허정",
+      "predicate": "교류 공간",
+      "object": "유림"
+    },
+    {
+      "subject": "함허정",
+      "predicate": "위치한다",
+      "object": "섬진강"
+    },
+    {
+      "subject": "군지촌정사",
+      "predicate": "조망한다",
+      "object": "제월습지"
+    },
+    {
+      "subject": "함허정",
+      "predicate": "조망한다",
+      "object": "제월습지"
+    },
+    {
+      "subject": "군지촌정사",
+      "predicate": "가까이 있다",
+      "object": "국립곡성치유의 숲"
+    }
+  ],
+  "tour-250353": [
+    {
+      "subject": "마천목",
+      "predicate": "공신이다",
+      "object": "정란공신"
+    },
+    {
+      "subject": "마천목",
+      "predicate": "공신이다",
+      "object": "조선개국"
+    },
+    {
+      "subject": "정란공신",
+      "predicate": "집권에 기여했다",
+      "object": "이방원"
+    },
+    {
+      "subject": "이방원",
+      "predicate": "왕호",
+      "object": "태종"
+    },
+    {
+      "subject": "마천목",
+      "predicate": "선대가 이주해 왔다",
+      "object": "장흥"
+    },
+    {
+      "subject": "당산마을",
+      "predicate": "있다",
+      "object": "성황당"
+    },
+    {
+      "subject": "당산마을",
+      "predicate": "올린다",
+      "object": "당제"
+    },
+    {
+      "subject": "당산마을",
+      "predicate": "사이에 있다",
+      "object": "침곡"
+    },
+    {
+      "subject": "당산마을",
+      "predicate": "사이에 있다",
+      "object": "송정"
+    },
+    {
+      "subject": "도깨비살",
+      "predicate": "위치한다",
+      "object": "두계"
+    },
+    {
+      "subject": "두계",
+      "predicate": "속한다",
+      "object": "고달면"
+    },
+    {
+      "subject": "도깨비살",
+      "predicate": "다른 이름",
+      "object": "어살"
+    },
+    {
+      "subject": "도깨비살",
+      "predicate": "다른 이름",
+      "object": "어전"
+    },
+    {
+      "subject": "마천목",
+      "predicate": "물고기를 구하러 갔다",
+      "object": "섬진강"
+    },
+    {
+      "subject": "마천목",
+      "predicate": "주워 왔다",
+      "object": "푸른 돌"
+    },
+    {
+      "subject": "마천목",
+      "predicate": "돌려주기로 했다",
+      "object": "두목 도깨비"
+    },
+    {
+      "subject": "도깨비",
+      "predicate": "만들었다",
+      "object": "도깨비살"
+    },
+    {
+      "subject": "17번 국도",
+      "predicate": "안내 표석이 있다",
+      "object": "도깨비살"
+    },
+    {
+      "subject": "도깨비대장 조각",
+      "predicate": "세워져 있다",
+      "object": "섬진강"
+    }
+  ],
+  "tour-250354": [
+    {
+      "subject": "심광형",
+      "predicate": "지었다",
+      "object": "함허정"
+    },
+    {
+      "subject": "함허정",
+      "predicate": "위치한다",
+      "object": "곡성"
+    },
+    {
+      "subject": "함허정",
+      "predicate": "지어진 해",
+      "object": "1543년"
+    },
+    {
+      "subject": "함허정",
+      "predicate": "지은 시기 왕",
+      "object": "중종"
+    },
+    {
+      "subject": "함허정",
+      "predicate": "다른 이름",
+      "object": "호연정"
+    },
+    {
+      "subject": "심광형",
+      "predicate": "풍류를 즐겼다",
+      "object": "유림"
+    },
+    {
+      "subject": "심민각",
+      "predicate": "옮겨 지었다",
+      "object": "함허정"
+    },
+    {
+      "subject": "심민각",
+      "predicate": "증손자이다",
+      "object": "심광형"
+    },
+    {
+      "subject": "심세익",
+      "predicate": "고쳤다",
+      "object": "함허정"
+    },
+    {
+      "subject": "심세익",
+      "predicate": "5대손이다",
+      "object": "심광형"
+    },
+    {
+      "subject": "함허정",
+      "predicate": "수리 연도",
+      "object": "1980년"
+    },
+    {
+      "subject": "함허정",
+      "predicate": "규모",
+      "object": "앞면 4칸"
+    },
+    {
+      "subject": "함허정",
+      "predicate": "지붕",
+      "object": "팔작지붕"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "아래로 흐른다",
+      "object": "함허정"
+    },
+    {
+      "subject": "함허정",
+      "predicate": "보인다",
+      "object": "무등산"
+    },
+    {
+      "subject": "심광형",
+      "predicate": "세웠다",
+      "object": "군지촌정사"
+    },
+    {
+      "subject": "함허정",
+      "predicate": "가까이 있다",
+      "object": "군지촌정사"
+    },
+    {
+      "subject": "군지촌정사",
+      "predicate": "거리",
+      "object": "100m"
+    },
+    {
+      "subject": "군지촌정사",
+      "predicate": "지정",
+      "object": "중요민속자료"
+    }
+  ],
+  "tour-2614224": [
+    {
+      "subject": "지리산 반달가슴곰 공존센터",
+      "predicate": "위치한다",
+      "object": "국립공원야생생물보전원"
+    },
+    {
+      "subject": "국립공원야생생물보전원",
+      "predicate": "소속",
+      "object": "국립공원공단"
+    },
+    {
+      "subject": "지리산 반달가슴곰 공존센터",
+      "predicate": "연구한다",
+      "object": "반달가슴곰"
+    },
+    {
+      "subject": "지리산 반달가슴곰 공존센터",
+      "predicate": "구성",
+      "object": "생태전시관"
+    },
+    {
+      "subject": "지리산 반달가슴곰 공존센터",
+      "predicate": "구성",
+      "object": "생태학습장"
+    },
+    {
+      "subject": "생태전시관",
+      "predicate": "전시한다",
+      "object": "반달가슴곰"
+    },
+    {
+      "subject": "자연환경해설사",
+      "predicate": "인솔한다",
+      "object": "생태학습장"
+    },
+    {
+      "subject": "지리산 반달가슴곰 공존센터",
+      "predicate": "가까이 있다",
+      "object": "지리산역사문화관"
+    },
+    {
+      "subject": "지리산 반달가슴곰 공존센터",
+      "predicate": "가까이 있다",
+      "object": "구례 백두대간 생태교육장"
+    },
+    {
+      "subject": "지리산 반달가슴곰 공존센터",
+      "predicate": "가까이 있다",
+      "object": "화엄사"
+    },
+    {
+      "subject": "지리산 반달가슴곰 공존센터",
+      "predicate": "화엄사까지 거리",
+      "object": "1.5㎞"
+    },
+    {
+      "subject": "지리산 반달가슴곰 공존센터",
+      "predicate": "가까이 있다",
+      "object": "서시천체육공원"
+    },
+    {
+      "subject": "서시천체육공원",
+      "predicate": "체험",
+      "object": "자연아이꿈놀이터"
+    }
+  ],
+  "tour-2616177": [
+    {
+      "subject": "대황강출렁다리",
+      "predicate": "착공",
+      "object": "2015년 11월 24일"
+    },
+    {
+      "subject": "대황강출렁다리",
+      "predicate": "개통",
+      "object": "2016년 11월 1일"
+    },
+    {
+      "subject": "대황강출렁다리",
+      "predicate": "가로지른다",
+      "object": "대황강"
+    },
+    {
+      "subject": "대황강출렁다리",
+      "predicate": "잇는다",
+      "object": "태평리"
+    },
+    {
+      "subject": "대황강출렁다리",
+      "predicate": "잇는다",
+      "object": "구룡리"
+    },
+    {
+      "subject": "태평리",
+      "predicate": "속한다",
+      "object": "죽곡면"
+    },
+    {
+      "subject": "구룡리",
+      "predicate": "속한다",
+      "object": "목사동면"
+    },
+    {
+      "subject": "대황강출렁다리",
+      "predicate": "길이",
+      "object": "185m"
+    },
+    {
+      "subject": "대황강출렁다리",
+      "predicate": "폭",
+      "object": "1.8~2.0m"
+    },
+    {
+      "subject": "대황강출렁다리",
+      "predicate": "이어진다",
+      "object": "트래킹 로드"
+    },
+    {
+      "subject": "죽곡토란",
+      "predicate": "특산물이다",
+      "object": "죽곡면"
+    }
+  ],
+  "tour-2616185": [
+    {
+      "subject": "섬진강",
+      "predicate": "만난다",
+      "object": "곡성천"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "만난다",
+      "object": "금천천"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "만난다",
+      "object": "고달천"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "이룬다",
+      "object": "침실습지"
+    },
+    {
+      "subject": "침실습지",
+      "predicate": "규모",
+      "object": "203만㎡"
+    },
+    {
+      "subject": "수달",
+      "predicate": "서식한다",
+      "object": "침실습지"
+    },
+    {
+      "subject": "삵",
+      "predicate": "서식한다",
+      "object": "침실습지"
+    },
+    {
+      "subject": "남생이",
+      "predicate": "서식한다",
+      "object": "침실습지"
+    },
+    {
+      "subject": "흰꼬리수리",
+      "predicate": "서식한다",
+      "object": "침실습지"
+    },
+    {
+      "subject": "수달",
+      "predicate": "멸종위기 등급",
+      "object": "1급"
+    },
+    {
+      "subject": "삵",
+      "predicate": "멸종위기 등급",
+      "object": "2급"
+    },
+    {
+      "subject": "침실습지",
+      "predicate": "생물 종 수",
+      "object": "665종"
+    },
+    {
+      "subject": "침실습지",
+      "predicate": "지정되었다",
+      "object": "국가습지 보호구역"
+    },
+    {
+      "subject": "침실습지",
+      "predicate": "지정 번호",
+      "object": "제22호"
+    },
+    {
+      "subject": "침실습지",
+      "predicate": "볼 수 있다",
+      "object": "물안개"
+    }
+  ],
+  "tour-2738669": [
+    {
+      "subject": "천개의향나무숲",
+      "predicate": "자란다",
+      "object": "토종 향나무"
+    },
+    {
+      "subject": "천개의향나무숲",
+      "predicate": "자란다",
+      "object": "가이스카 향나무"
+    },
+    {
+      "subject": "천개의향나무숲",
+      "predicate": "자란다",
+      "object": "서양 향나무"
+    },
+    {
+      "subject": "천개의향나무숲",
+      "predicate": "향나무 수",
+      "object": "천 여 그루"
+    },
+    {
+      "subject": "천개의향나무숲",
+      "predicate": "정원",
+      "object": "오색 정원"
+    },
+    {
+      "subject": "천개의향나무숲",
+      "predicate": "정원",
+      "object": "늘보 정원"
+    },
+    {
+      "subject": "천개의향나무숲",
+      "predicate": "정원",
+      "object": "향기 정원"
+    },
+    {
+      "subject": "천개의향나무숲",
+      "predicate": "정원",
+      "object": "멍석 정원"
+    },
+    {
+      "subject": "오색 정원",
+      "predicate": "있다",
+      "object": "감나무"
+    },
+    {
+      "subject": "감나무",
+      "predicate": "수령",
+      "object": "100년"
+    }
+  ],
+  "tour-2773406": [
+    {
+      "subject": "현천마을",
+      "predicate": "대표 산수유마을이다",
+      "object": "구례"
+    },
+    {
+      "subject": "현천마을",
+      "predicate": "유명하다",
+      "object": "산수유"
+    },
+    {
+      "subject": "현천마을",
+      "predicate": "위치한다",
+      "object": "견두산"
+    },
+    {
+      "subject": "현천마을",
+      "predicate": "바라본다",
+      "object": "지리산"
+    },
+    {
+      "subject": "현천마을",
+      "predicate": "있다",
+      "object": "돌담"
+    },
+    {
+      "subject": "지리산 둘레길 5코스",
+      "predicate": "지나간다",
+      "object": "현천마을"
+    },
+    {
+      "subject": "지리산 둘레길 5코스",
+      "predicate": "거친다",
+      "object": "현천 전망대"
+    },
+    {
+      "subject": "지리산 둘레길 5코스",
+      "predicate": "거친다",
+      "object": "견두산 등산로 분기점"
+    },
+    {
+      "subject": "지리산 둘레길 5코스",
+      "predicate": "구간이다",
+      "object": "지리산 둘레길"
+    }
+  ],
+  "tour-2788028": [
+    {
+      "subject": "성삼재",
+      "predicate": "위치한다",
+      "object": "지리산"
+    },
+    {
+      "subject": "성삼재",
+      "predicate": "높이",
+      "object": "1,102m"
+    },
+    {
+      "subject": "성삼재",
+      "predicate": "이어진다",
+      "object": "노고단"
+    },
+    {
+      "subject": "노고단",
+      "predicate": "이어진다",
+      "object": "임걸령"
+    },
+    {
+      "subject": "임걸령",
+      "predicate": "이어진다",
+      "object": "삼도봉"
+    },
+    {
+      "subject": "삼도봉",
+      "predicate": "이어진다",
+      "object": "토끼봉"
+    },
+    {
+      "subject": "토끼봉",
+      "predicate": "이어진다",
+      "object": "명선봉"
+    },
+    {
+      "subject": "명선봉",
+      "predicate": "이어진다",
+      "object": "형제봉"
+    },
+    {
+      "subject": "형제봉",
+      "predicate": "이어진다",
+      "object": "촛대봉"
+    },
+    {
+      "subject": "촛대봉",
+      "predicate": "이어진다",
+      "object": "연하봉"
+    },
+    {
+      "subject": "연하봉",
+      "predicate": "이어진다",
+      "object": "제석봉"
+    },
+    {
+      "subject": "제석봉",
+      "predicate": "이어진다",
+      "object": "천왕봉"
+    },
+    {
+      "subject": "성삼재",
+      "predicate": "하산 시각",
+      "object": "17시"
+    },
+    {
+      "subject": "성삼재",
+      "predicate": "입장료",
+      "object": "무료"
+    }
+  ],
+  "tour-2792617": [
+    {
+      "subject": "상사마을",
+      "predicate": "유명하다",
+      "object": "전국 최장수 마을"
+    },
+    {
+      "subject": "상사마을",
+      "predicate": "장수 비결",
+      "object": "당몰샘"
+    },
+    {
+      "subject": "당몰샘",
+      "predicate": "있다",
+      "object": "사도리"
+    },
+    {
+      "subject": "지리산 약초",
+      "predicate": "뿌리 녹은 물이 흘러든다",
+      "object": "당몰샘"
+    },
+    {
+      "subject": "쌍산재",
+      "predicate": "옆에 있다",
+      "object": "당몰샘"
+    },
+    {
+      "subject": "쌍산재",
+      "predicate": "유명한 집",
+      "object": "사도리"
+    },
+    {
+      "subject": "쌍산재",
+      "predicate": "촬영지",
+      "object": "1박 2일"
+    },
+    {
+      "subject": "쌍산재",
+      "predicate": "촬영지",
+      "object": "윤스테이"
+    },
+    {
+      "subject": "쌍산재",
+      "predicate": "있다",
+      "object": "안채"
+    },
+    {
+      "subject": "쌍산재",
+      "predicate": "있다",
+      "object": "건넌방"
+    },
+    {
+      "subject": "쌍산재",
+      "predicate": "있다",
+      "object": "대나무 숲"
+    },
+    {
+      "subject": "쌍산재",
+      "predicate": "후문으로 이어진다",
+      "object": "둑방길"
+    }
+  ],
+  "tour-2792632": [
+    {
+      "subject": "용두마을",
+      "predicate": "위치한다",
+      "object": "용두리"
+    },
+    {
+      "subject": "용두리",
+      "predicate": "속한다",
+      "object": "토지면"
+    },
+    {
+      "subject": "용두마을",
+      "predicate": "교차 지점이다",
+      "object": "오미-방광 구간"
+    },
+    {
+      "subject": "용두마을",
+      "predicate": "교차 지점이다",
+      "object": "오미-난동 구간"
+    },
+    {
+      "subject": "오미-방광 구간",
+      "predicate": "속한다",
+      "object": "지리산 둘레길"
+    },
+    {
+      "subject": "오미-난동 구간",
+      "predicate": "속한다",
+      "object": "지리산 둘레길"
+    },
+    {
+      "subject": "지리산",
+      "predicate": "뻗는다",
+      "object": "용맥"
+    },
+    {
+      "subject": "용맥",
+      "predicate": "경유한다",
+      "object": "노고단"
+    },
+    {
+      "subject": "용맥",
+      "predicate": "경유한다",
+      "object": "형제봉"
+    },
+    {
+      "subject": "용맥",
+      "predicate": "머물렀다",
+      "object": "섬진강"
+    },
+    {
+      "subject": "용두마을",
+      "predicate": "이름 유래",
+      "object": "용의 머리"
+    },
+    {
+      "subject": "배틀재",
+      "predicate": "위치한다",
+      "object": "용두마을"
+    },
+    {
+      "subject": "섬진강",
+      "predicate": "물줄기가 들어왔다",
+      "object": "배틀재"
+    },
+    {
+      "subject": "용두마을",
+      "predicate": "쉼터였다",
+      "object": "하동"
+    }
+  ],
+  "tour-2793237": [
+    {
+      "subject": "황전마을",
+      "predicate": "위치한다",
+      "object": "황전리"
+    },
+    {
+      "subject": "황전리",
+      "predicate": "속한다",
+      "object": "마산면"
+    },
+    {
+      "subject": "황전마을",
+      "predicate": "위치한다",
+      "object": "지리산"
+    },
+    {
+      "subject": "황전마을",
+      "predicate": "유명하다",
+      "object": "화엄사 입구 집단시설지구"
+    },
+    {
+      "subject": "황전마을",
+      "predicate": "있다",
+      "object": "민박촌"
+    },
+    {
+      "subject": "황전 계곡",
+      "predicate": "흐른다",
+      "object": "황전마을"
+    },
+    {
+      "subject": "황전 계곡",
+      "predicate": "지류이다",
+      "object": "화엄사계곡"
+    },
+    {
+      "subject": "황전마을",
+      "predicate": "연계 여행",
+      "object": "화엄사"
+    },
+    {
+      "subject": "황전마을",
+      "predicate": "들러보기 좋다",
+      "object": "국립공원 종 복원센터"
+    },
+    {
+      "subject": "국립공원 종 복원센터",
+      "predicate": "체험한다",
+      "object": "반달가슴곰"
+    }
+  ],
+  "tour-2793267": [
+    {
+      "subject": "구만마을",
+      "predicate": "다른 이름",
+      "object": "구만리"
+    },
+    {
+      "subject": "구만마을",
+      "predicate": "위치한다",
+      "object": "서시천"
+    },
+    {
+      "subject": "구만 저수지",
+      "predicate": "위치한다",
+      "object": "구만마을"
+    },
+    {
+      "subject": "구만 저수지",
+      "predicate": "넓이",
+      "object": "528,925㎡"
+    },
+    {
+      "subject": "구만 저수지",
+      "predicate": "들어섰다",
+      "object": "수상 레저타운"
+    },
+    {
+      "subject": "철새",
+      "predicate": "찾아온다",
+      "object": "서시천"
+    },
+    {
+      "subject": "비오리",
+      "predicate": "찾아온다",
+      "object": "서시천"
+    },
+    {
+      "subject": "흰뺨검둥오리",
+      "predicate": "찾아온다",
+      "object": "서시천"
+    },
+    {
+      "subject": "청둥오리",
+      "predicate": "찾아온다",
+      "object": "서시천"
+    },
+    {
+      "subject": "큰고니",
+      "predicate": "찾아온다",
+      "object": "서시천"
+    },
+    {
+      "subject": "백로",
+      "predicate": "볼 수 있다",
+      "object": "서시천"
+    },
+    {
+      "subject": "왜가리",
+      "predicate": "볼 수 있다",
+      "object": "서시천"
+    },
+    {
+      "subject": "서시천 둑길",
+      "predicate": "있다",
+      "object": "서시천"
+    },
+    {
+      "subject": "구례",
+      "predicate": "심었다",
+      "object": "벚나무"
+    },
+    {
+      "subject": "구례",
+      "predicate": "심었다",
+      "object": "원추리"
+    },
+    {
+      "subject": "서시천 둑길",
+      "predicate": "열린다",
+      "object": "섬진강 벚꽃 축제"
+    },
+    {
+      "subject": "구례",
+      "predicate": "연다",
+      "object": "원추리 꽃길 건강 걷기"
+    }
+  ],
+  "tour-319696": [
+    {
+      "subject": "수도암",
+      "predicate": "위치한다",
+      "object": "설산"
+    },
+    {
+      "subject": "설산",
+      "predicate": "위치한다",
+      "object": "설옥리"
+    },
+    {
+      "subject": "설옥리",
+      "predicate": "속한다",
+      "object": "옥과"
+    },
+    {
+      "subject": "수도암",
+      "predicate": "말사이다",
+      "object": "화암사"
+    },
+    {
+      "subject": "화암사",
+      "predicate": "소속",
+      "object": "대한불교조계종"
+    },
+    {
+      "subject": "설두",
+      "predicate": "창건했다고 전한다",
+      "object": "수도암"
+    },
+    {
+      "subject": "수도암",
+      "predicate": "창건 전승 시대",
+      "object": "신라"
+    },
+    {
+      "subject": "옥과읍지",
+      "predicate": "기록했다",
+      "object": "수도암"
+    },
+    {
+      "subject": "옥과읍지",
+      "predicate": "간행",
+      "object": "1936"
+    },
+    {
+      "subject": "수도암",
+      "predicate": "읍지 기록 창건",
+      "object": "1929년 4월"
+    },
+    {
+      "subject": "박민수",
+      "predicate": "창건했다",
+      "object": "수도암"
+    },
+    {
+      "subject": "수도암기",
+      "predicate": "기록했다",
+      "object": "박민수"
+    },
+    {
+      "subject": "수도암",
+      "predicate": "창건 연도",
+      "object": "1926년"
+    },
+    {
+      "subject": "수도암",
+      "predicate": "불사 마무리",
+      "object": "1928년"
+    },
+    {
+      "subject": "수도암",
+      "predicate": "건물",
+      "object": "산신각"
+    },
+    {
+      "subject": "수도암",
+      "predicate": "건물",
+      "object": "칠성각"
+    },
+    {
+      "subject": "목조관음보살좌상",
+      "predicate": "봉안되어 있다",
+      "object": "수도암"
+    },
+    {
+      "subject": "목조관음보살좌상",
+      "predicate": "조성 연도",
+      "object": "1754년"
+    }
+  ],
+  "tour-3351638": [
+    {
+      "subject": "곡성기차마을 생태학습관",
+      "predicate": "테마",
+      "object": "섬진강"
+    },
+    {
+      "subject": "곡성기차마을 생태학습관",
+      "predicate": "교육 대상",
+      "object": "어린이"
+    },
+    {
+      "subject": "곡성기차마을 생태학습관",
+      "predicate": "일깨운다",
+      "object": "습지 보존"
+    },
+    {
+      "subject": "곡성기차마을 생태학습관",
+      "predicate": "전시한다",
+      "object": "곤충"
+    },
+    {
+      "subject": "곡성기차마을 생태학습관",
+      "predicate": "전시한다",
+      "object": "꼬마잠자리"
+    },
+    {
+      "subject": "꼬마잠자리",
+      "predicate": "멸종위기 등급",
+      "object": "2급"
+    },
+    {
+      "subject": "곡성기차마을 생태학습관",
+      "predicate": "전시한다",
+      "object": "곤충 표본"
+    },
+    {
+      "subject": "곡성기차마을 생태학습관",
+      "predicate": "전시한다",
+      "object": "민물고기"
+    },
+    {
+      "subject": "곡성기차마을 생태학습관",
+      "predicate": "소개한다",
+      "object": "친환경 농법"
+    },
+    {
+      "subject": "친환경 농법",
+      "predicate": "활용한다",
+      "object": "곤충"
+    },
+    {
+      "subject": "친환경 농법",
+      "predicate": "시행 지역",
+      "object": "곡성"
+    }
+  ],
+  "tour-756323": [
+    {
+      "subject": "섬진강변 유원지",
+      "predicate": "있다",
+      "object": "가정역"
+    },
+    {
+      "subject": "가정역",
+      "predicate": "위치한다",
+      "object": "가정리"
+    },
+    {
+      "subject": "증기기관차",
+      "predicate": "오간다",
+      "object": "가정역"
+    },
+    {
+      "subject": "증기기관차",
+      "predicate": "오간다",
+      "object": "옛 곡성역"
+    },
+    {
+      "subject": "증기기관차",
+      "predicate": "출발한다",
+      "object": "섬진강 기차마을"
+    },
+    {
+      "subject": "현수교",
+      "predicate": "가까이 있다",
+      "object": "가정역"
+    },
+    {
+      "subject": "현수교",
+      "predicate": "건너면 있다",
+      "object": "자전거 대여소"
+    },
+    {
+      "subject": "자전거 도로",
+      "predicate": "따라 이어진다",
+      "object": "섬진강"
+    },
+    {
+      "subject": "자전거 도로",
+      "predicate": "이어진다",
+      "object": "두계"
+    },
+    {
+      "subject": "가정리",
+      "predicate": "자전거 도로로 잇는다",
+      "object": "두계"
+    },
+    {
+      "subject": "호곡나루터",
+      "predicate": "왕복 거리",
+      "object": "10여㎞"
+    },
+    {
+      "subject": "섬진강 출렁다리",
+      "predicate": "이어진다",
+      "object": "가정역"
+    },
+    {
+      "subject": "섬진강 출렁다리",
+      "predicate": "건넌다",
+      "object": "섬진강"
+    },
+    {
+      "subject": "짚라인 체험장",
+      "predicate": "이어진다",
+      "object": "섬진강 출렁다리"
+    },
+    {
+      "subject": "섬진강 출렁다리",
+      "predicate": "건너면 있다",
+      "object": "캠핑 사이트"
+    },
+    {
+      "subject": "섬진강변 유원지",
+      "predicate": "체험",
+      "object": "레일바이크"
+    },
+    {
+      "subject": "섬진강변 유원지",
+      "predicate": "체험",
+      "object": "증기기관차"
+    },
+    {
+      "subject": "섬진강천문대",
+      "predicate": "위치한다",
+      "object": "섬진강변 유원지"
+    }
+  ]
+}

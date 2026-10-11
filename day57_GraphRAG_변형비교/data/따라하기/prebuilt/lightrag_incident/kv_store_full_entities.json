@@ -1,0 +1,370 @@
+{
+  "INC-0409": {
+    "entity_names": [
+      "TLS 핸드셰이크 오류",
+      "auth-token",
+      "redis-session",
+      "간편결제 화면",
+      "고객센터",
+      "앱 로그인",
+      "앱 로그인 실패 장애",
+      "클라이언트 인증서"
+    ],
+    "count": 8,
+    "create_time": 1791602624,
+    "update_time": 1791602624,
+    "_id": "INC-0409"
+  },
+  "INC-0417": {
+    "entity_names": [
+      "CHG-2604-02",
+      "KST",
+      "UTC",
+      "batch-scheduler",
+      "ledger-db",
+      "settle-batch",
+      "가맹점",
+      "정산 금액 오차 장애"
+    ],
+    "count": 8,
+    "create_time": 1791602638,
+    "update_time": 1791602638,
+    "_id": "INC-0417"
+  },
+  "INC-0428": {
+    "entity_names": [
+      "pay-gateway",
+      "pg-connector",
+      "다온PG",
+      "승인 서버",
+      "앱",
+      "카드 결제",
+      "카드 결제 승인 지연 장애",
+      "한빛PG"
+    ],
+    "count": 8,
+    "create_time": 1791602652,
+    "update_time": 1791602652,
+    "_id": "INC-0428"
+  },
+  "INC-0513": {
+    "entity_names": [
+      "CHG-2605-01",
+      "DB 커넥션 풀",
+      "point-engine",
+      "인스턴스",
+      "적립 처리 스레드",
+      "포인트 적립 지연 장애"
+    ],
+    "count": 6,
+    "create_time": 1791602662,
+    "update_time": 1791602662,
+    "_id": "INC-0513"
+  },
+  "INC-0518": {
+    "entity_names": [
+      "ledger-db",
+      "point-wallet",
+      "거래 내역 화면 개선 기능",
+      "기능 플래그",
+      "내역 조회 쿼리",
+      "인덱스",
+      "잔액 조회",
+      "조회 전용 커넥션 풀",
+      "커넥션 풀",
+      "쿼리 실행 계획 확인 단계",
+      "포인트 잔액 조회 오류 장애"
+    ],
+    "count": 11,
+    "create_time": 1791602678,
+    "update_time": 1791602678,
+    "_id": "INC-0518"
+  },
+  "INC-0527": {
+    "entity_names": [
+      "pg-connector",
+      "다온PG",
+      "여행 플랫폼 가맹점",
+      "해외 직구 가맹점",
+      "해외 카드 결제",
+      "해외 카드 결제 실패 장애",
+      "해외 카드사 연결 구간"
+    ],
+    "count": 7,
+    "create_time": 1791602691,
+    "update_time": 1791602691,
+    "_id": "INC-0527"
+  },
+  "INC-0603": {
+    "entity_names": [
+      "api-edge",
+      "merchant-api",
+      "가맹점 서버",
+      "가맹점 연동 결제 거절 장애",
+      "가맹점 전용 도메인 인증서",
+      "공용 메일 그룹",
+      "온라인 가맹점",
+      "인증서 만료일 대시보드",
+      "퇴사한 직원의 메일함"
+    ],
+    "count": 9,
+    "create_time": 1791602706,
+    "update_time": 1791602706,
+    "_id": "INC-0603"
+  },
+  "INC-0612": {
+    "entity_names": [
+      "CHG-2606-03",
+      "ledger-db",
+      "ledger-db 커넥션 풀",
+      "settle-batch",
+      "가맹점 정산",
+      "가맹점 정산 지연 장애"
+    ],
+    "count": 6,
+    "create_time": 1791602722,
+    "update_time": 1791602722,
+    "_id": "INC-0612"
+  },
+  "INC-0703": {
+    "entity_names": [
+      "notify-hub",
+      "pg-connector",
+      "결제 완료 알림 지연 장애",
+      "결제 완료 이벤트",
+      "사용자",
+      "승인 결과 통보",
+      "중복 결제 취소 요청",
+      "한빛PG"
+    ],
+    "count": 8,
+    "create_time": 1791602736,
+    "update_time": 1791602736,
+    "_id": "INC-0703"
+  },
+  "INC-0715": {
+    "entity_names": [
+      "7월 프로모션 규칙",
+      "CHG-2607-04",
+      "point-engine",
+      "배포 도구",
+      "이중 적립 포인트 회수",
+      "일일 포인트 대사",
+      "적립 규칙 파일 v42",
+      "포인트 이중 적립 장애"
+    ],
+    "count": 8,
+    "create_time": 1791602749,
+    "update_time": 1791602749,
+    "_id": "INC-0715"
+  },
+  "INC-0804": {
+    "entity_names": [
+      "DNS 이전",
+      "api-edge",
+      "갱신 실패 경고 로그",
+      "도메인 소유 확인 레코드",
+      "앱",
+      "와일드카드 인증서",
+      "와일드카드 인증서 만료 결제 중단 장애",
+      "웹",
+      "인증서 만료 외부 점검",
+      "자동 갱신 도구"
+    ],
+    "count": 10,
+    "create_time": 1791602763,
+    "update_time": 1791602763,
+    "_id": "INC-0804"
+  },
+  "INC-0812": {
+    "entity_names": [
+      "payout-api",
+      "recon-worker",
+      "가맹점",
+      "가맹점 정산 파일 누락 장애",
+      "정산 파일",
+      "지급 일정",
+      "카드사",
+      "카드사별 대사 작업",
+      "커넥션 풀"
+    ],
+    "count": 9,
+    "create_time": 1791602774,
+    "update_time": 1791602774,
+    "_id": "INC-0812"
+  },
+  "INC-0826": {
+    "entity_names": [
+      "coupon-svc",
+      "가입 축하 쿠폰",
+      "로컬 캐시",
+      "발급 한도 정보",
+      "신규 가입 사용자",
+      "신규 가입 혜택 미지급 장애",
+      "월말 프로모션",
+      "임시 스크립트"
+    ],
+    "count": 8,
+    "create_time": 1791602788,
+    "update_time": 1791602788,
+    "_id": "INC-0826"
+  },
+  "INC-0909": {
+    "entity_names": [
+      "CHG-2609-02",
+      "kafka-main",
+      "notify-hub",
+      "고객센터",
+      "문자 알림",
+      "소비 전 삭제 메시지 경보 지표",
+      "알림 미발송 장애",
+      "알림 토픽",
+      "앱 알림함",
+      "토픽 보존 기간",
+      "푸시 알림"
+    ],
+    "count": 11,
+    "create_time": 1791602803,
+    "update_time": 1791602803,
+    "_id": "INC-0909"
+  },
+  "CAT-01": {
+    "entity_names": [
+      "api-edge",
+      "auth-token",
+      "kafka-main",
+      "ledger-db",
+      "merchant-api",
+      "pay-gateway",
+      "pg-connector",
+      "redis-session",
+      "risk-engine",
+      "다온PG",
+      "한빛PG"
+    ],
+    "count": 11,
+    "create_time": 1791602817,
+    "update_time": 1791602817,
+    "_id": "CAT-01"
+  },
+  "CAT-02": {
+    "entity_names": [
+      "batch-scheduler",
+      "payout-api",
+      "recon-worker",
+      "settle-batch",
+      "외부 PG사",
+      "원장디비",
+      "은행 펌뱅킹",
+      "정산 파일",
+      "카드사"
+    ],
+    "count": 9,
+    "create_time": 1791602831,
+    "update_time": 1791602831,
+    "_id": "CAT-02"
+  },
+  "CAT-03": {
+    "entity_names": [
+      "api-edge",
+      "config-center",
+      "coupon-svc",
+      "kafka-main",
+      "ledger-db",
+      "notify-hub",
+      "point-engine",
+      "point-wallet",
+      "redis-point",
+      "redis-session"
+    ],
+    "count": 10,
+    "create_time": 1791602842,
+    "update_time": 1791602842,
+    "_id": "CAT-03"
+  },
+  "ORG-01": {
+    "entity_names": [
+      "auth-token",
+      "batch-scheduler",
+      "coupon-svc",
+      "merchant-api",
+      "pay-gateway",
+      "payout-api",
+      "pg-connector",
+      "point-engine",
+      "point-wallet",
+      "recon-worker",
+      "risk-engine",
+      "settle-batch",
+      "결제 이벤트",
+      "결제플랫폼팀",
+      "리스크관리팀",
+      "마케팅실",
+      "메인 카프카",
+      "박서연",
+      "오세린",
+      "정산개발팀",
+      "정하늘",
+      "최민재",
+      "포인트서비스팀"
+    ],
+    "count": 23,
+    "create_time": 1791602862,
+    "update_time": 1791602862,
+    "_id": "ORG-01"
+  },
+  "ORG-02": {
+    "entity_names": [
+      "api-edge",
+      "config-center",
+      "kafka-main",
+      "ledger-db",
+      "notify-hub",
+      "redis-point",
+      "redis-session",
+      "강태오",
+      "공통인프라팀",
+      "데이터플랫폼팀",
+      "메시징플랫폼팀",
+      "본부 당직 책임자",
+      "윤지아",
+      "팀장",
+      "플랫폼본부",
+      "한도윤"
+    ],
+    "count": 16,
+    "create_time": 1791602883,
+    "update_time": 1791602883,
+    "_id": "ORG-02"
+  },
+  "CHG-01": {
+    "entity_names": [
+      "CHG-2604-02",
+      "CHG-2605-01",
+      "CHG-2606-03",
+      "CHG-2607-04",
+      "CHG-2608-02",
+      "CHG-2609-02",
+      "CHG-2609-05",
+      "batch-scheduler",
+      "kafka-main",
+      "notify.events",
+      "pay-gateway",
+      "point-engine",
+      "recon-worker",
+      "settle-batch",
+      "김나래",
+      "노현우",
+      "백승우",
+      "서지훈",
+      "송유진",
+      "이도현",
+      "임채원",
+      "장은비"
+    ],
+    "count": 22,
+    "create_time": 1791602903,
+    "update_time": 1791602903,
+    "_id": "CHG-01"
+  }
+}

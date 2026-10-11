@@ -1,0 +1,2998 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="앱 로그인">
+      <data key="d0">앱 로그인</data>
+      <data key="d1">서비스</data>
+      <data key="d2">앱 사용자가 인증을 거쳐 앱에 접근하는 로그인 서비스이다.</data>
+      <data key="d3">INC-0409-chunk-000</data>
+      <data key="d4">INC-0409.txt</data>
+      <data key="d5">1791602624</data>
+      <data key="d6" />
+    </node>
+    <node id="앱 로그인 실패 장애">
+      <data key="d0">앱 로그인 실패 장애</data>
+      <data key="d1">장애</data>
+      <data key="d2">2026년 4월 9일 07시 40분부터 08시 52분까지 앱 로그인 요청의 약 60%를 실패하게 만든 장애이다.</data>
+      <data key="d3">INC-0409-chunk-000</data>
+      <data key="d4">INC-0409.txt</data>
+      <data key="d5">1791602624</data>
+      <data key="d6" />
+    </node>
+    <node id="auth-token">
+      <data key="d0">auth-token</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">로그인 인증 토큰을 처리하고 redis-session에 새 세션을 저장하는 인증 토큰 서비스이다.&lt;SEP&gt;로그인 세션과 결제용 일회성 토큰을 발급하는 인증 토큰 서비스다.&lt;SEP&gt;결제플랫폼팀이 운영하는 인증 토큰 서비스이다.</data>
+      <data key="d3">INC-0409-chunk-000&lt;SEP&gt;CAT-01-chunk-000&lt;SEP&gt;ORG-01-chunk-000</data>
+      <data key="d4">INC-0409.txt&lt;SEP&gt;CAT-01.txt&lt;SEP&gt;ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="redis-session">
+      <data key="d0">redis-session</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">앱 로그인 세션을 캐시하고 저장하는 세션 캐시 서비스이다.&lt;SEP&gt;auth-token이 세션 정보를 저장하는 세션 캐시다.&lt;SEP&gt;로그인 세션을 저장하는 세션 캐시다.&lt;SEP&gt;redis-session은 세션 캐시 역할을 하는 공통 구성요소이다.</data>
+      <data key="d3">INC-0409-chunk-000&lt;SEP&gt;CAT-01-chunk-000&lt;SEP&gt;CAT-03-chunk-000&lt;SEP&gt;ORG-02-chunk-000</data>
+      <data key="d4">INC-0409.txt&lt;SEP&gt;CAT-01.txt&lt;SEP&gt;CAT-03.txt&lt;SEP&gt;ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="클라이언트 인증서">
+      <data key="d0">클라이언트 인증서</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">auth-token이 redis-session에 접속할 때 사용하는 인증서로, 1년 전 수동 발급되었으며 만료 일정이 등록되지 않았다.</data>
+      <data key="d3">INC-0409-chunk-000</data>
+      <data key="d4">INC-0409.txt</data>
+      <data key="d5">1791602624</data>
+      <data key="d6" />
+    </node>
+    <node id="TLS 핸드셰이크 오류">
+      <data key="d0">TLS 핸드셰이크 오류</data>
+      <data key="d1">장애</data>
+      <data key="d2">auth-token 로그에서 반복적으로 발생한 TLS 연결 협상 오류이다.</data>
+      <data key="d3">INC-0409-chunk-000</data>
+      <data key="d4">INC-0409.txt</data>
+      <data key="d5">1791602624</data>
+      <data key="d6" />
+    </node>
+    <node id="간편결제 화면">
+      <data key="d0">간편결제 화면</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">새로 로그인하거나 세션이 끊긴 사용자가 접근하지 못한 앱의 간편결제 화면이다.</data>
+      <data key="d3">INC-0409-chunk-000</data>
+      <data key="d4">INC-0409.txt</data>
+      <data key="d5">1791602624</data>
+      <data key="d6" />
+    </node>
+    <node id="고객센터">
+      <data key="d0">고객센터</data>
+      <data key="d1">팀</data>
+      <data key="d2">앱 로그인 실패 장애와 관련된 사용자 문의를 접수하는 지원 조직이다.&lt;SEP&gt;알림 미수신 문의를 접수하고 장애 상황을 확인한 고객 지원 조직이다.</data>
+      <data key="d3">INC-0409-chunk-000&lt;SEP&gt;INC-0909-chunk-000</data>
+      <data key="d4">INC-0409.txt&lt;SEP&gt;INC-0909.txt</data>
+      <data key="d5">1791602803</data>
+      <data key="d6" />
+    </node>
+    <node id="정산 금액 오차 장애">
+      <data key="d0">정산 금액 오차 장애</data>
+      <data key="d1">장애</data>
+      <data key="d2">2026년 4월 17일 발생한 장애로, 2026년 4월 16일 거래분의 가맹점 정산 금액이 실제보다 많거나 적게 계산되었고 지급 지연이 발생했다.</data>
+      <data key="d3">INC-0417-chunk-000</data>
+      <data key="d4">INC-0417.txt</data>
+      <data key="d5">1791602638</data>
+      <data key="d6" />
+    </node>
+    <node id="가맹점">
+      <data key="d0">가맹점</data>
+      <data key="d1">other</data>
+      <data key="d2">정산 금액 오차의 영향을 받은 1,284곳의 거래처로, 오차를 바로잡는 동안 하루 동안 지급이 지연되었다.&lt;SEP&gt;카드 거래에 대한 지급을 받는 사업자로, 약 2,100곳이 지급 지연의 영향을 받았다.</data>
+      <data key="d3">INC-0417-chunk-000&lt;SEP&gt;INC-0812-chunk-000</data>
+      <data key="d4">INC-0417.txt&lt;SEP&gt;INC-0812.txt</data>
+      <data key="d5">1791602774</data>
+      <data key="d6" />
+    </node>
+    <node id="settle-batch">
+      <data key="d0">settle-batch</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">정산 배치를 수행하는 구성요소로, 실행 완료 후 대사 결과에서 큰 차액이 확인되었다.&lt;SEP&gt;가맹점 정산을 처리하는 배치 작업으로, 병렬 처리 개수 증가 후 ledger-db 커넥션을 얻지 못해 작업이 지연되었다.&lt;SEP&gt;settle-batch는 매일 새벽 전날 거래를 가맹점별로 모아 정산 금액을 계산하고, 계산 결과를 정산 파일로 남기는 정산 배치 서비스이다.&lt;SEP&gt;정산개발팀이 운영하는 정산 배치 서비스이다.&lt;SEP&gt;정산 배치를 처리하는 운영 구성요소이며 병렬 처리 개수가 조정되었다.</data>
+      <data key="d3">INC-0417-chunk-000&lt;SEP&gt;INC-0612-chunk-000&lt;SEP&gt;CAT-02-chunk-000&lt;SEP&gt;ORG-01-chunk-000&lt;SEP&gt;CHG-01-chunk-000</data>
+      <data key="d4">INC-0417.txt&lt;SEP&gt;INC-0612.txt&lt;SEP&gt;CAT-02.txt&lt;SEP&gt;ORG-01.txt&lt;SEP&gt;CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="batch-scheduler">
+      <data key="d0">batch-scheduler</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">정산 작업의 실행을 예약하는 구성요소로, 실행 기준 시간대가 UTC로 변경되어 거래 날짜 경계에 오류를 일으켰다.&lt;SEP&gt;batch-scheduler는 정산, 대사, 통계 집계와 같은 야간 작업의 실행 순서와 시각 및 작업 간 선후 관계를 관리하는 서비스이다.&lt;SEP&gt;정산개발팀이 운영하는 배치 스케줄러이다.&lt;SEP&gt;배치 작업을 스케줄링하는 운영 구성요소이며 기본 시간대 값이 UTC로 변경되었다.</data>
+      <data key="d3">INC-0417-chunk-000&lt;SEP&gt;CAT-02-chunk-000&lt;SEP&gt;ORG-01-chunk-000&lt;SEP&gt;CHG-01-chunk-000</data>
+      <data key="d4">INC-0417.txt&lt;SEP&gt;CAT-02.txt&lt;SEP&gt;ORG-01.txt&lt;SEP&gt;CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="CHG-2604-02">
+      <data key="d0">CHG-2604-02</data>
+      <data key="d1">other</data>
+      <data key="d2">전날 반영된 변경 요청으로, batch-scheduler의 시간대를 UTC로 변경했다.&lt;SEP&gt;batch-scheduler의 기본 시간대를 UTC로 변경한 2026년 4월 16일 운영 변경 기록이다.</data>
+      <data key="d3">INC-0417-chunk-000&lt;SEP&gt;CHG-01-chunk-000</data>
+      <data key="d4">INC-0417.txt&lt;SEP&gt;CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="ledger-db">
+      <data key="d0">ledger-db</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">원장 데이터를 저장하는 구성요소로, 4월 16일 거래를 다시 읽어 재정산하는 데 사용되었다.&lt;SEP&gt;거래 내역 조회 쿼리를 처리하는 원장 데이터베이스이다.&lt;SEP&gt;원장 데이터를 저장하는 데이터베이스로, 커넥션 풀이 상한에 도달해 settle-batch 작업을 대기시켰다.&lt;SEP&gt;결제 승인 결과를 기록하는 원장 데이터베이스다.&lt;SEP&gt;결제, 정산, 포인트의 모든 거래 원장과 쿠폰 발급 한도를 저장하는 주 데이터베이스다.&lt;SEP&gt;ledger-db는 원장 DB 역할을 하는 공통 구성요소이다.</data>
+      <data key="d3">INC-0417-chunk-000&lt;SEP&gt;INC-0518-chunk-000&lt;SEP&gt;INC-0612-chunk-000&lt;SEP&gt;CAT-01-chunk-000&lt;SEP&gt;CAT-03-chunk-000&lt;SEP&gt;ORG-02-chunk-000</data>
+      <data key="d4">INC-0417.txt&lt;SEP&gt;INC-0518.txt&lt;SEP&gt;INC-0612.txt&lt;SEP&gt;CAT-01.txt&lt;SEP&gt;CAT-03.txt&lt;SEP&gt;ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="UTC">
+      <data key="d0">UTC</data>
+      <data key="d1">other</data>
+      <data key="d2">batch-scheduler에 잘못 설정되어 하루 거래를 자르는 경계를 아홉 시간 어긋나게 만든 시간대 값이다.</data>
+      <data key="d3">INC-0417-chunk-000</data>
+      <data key="d4">INC-0417.txt</data>
+      <data key="d5">1791602638</data>
+      <data key="d6" />
+    </node>
+    <node id="KST">
+      <data key="d0">KST</data>
+      <data key="d1">other</data>
+      <data key="d2">batch-scheduler의 시간대를 복구하기 위해 적용한 시간대 값이다.</data>
+      <data key="d3">INC-0417-chunk-000</data>
+      <data key="d4">INC-0417.txt</data>
+      <data key="d5">1791602638</data>
+      <data key="d6" />
+    </node>
+    <node id="카드 결제 승인 지연 장애">
+      <data key="d0">카드 결제 승인 지연 장애</data>
+      <data key="d1">장애</data>
+      <data key="d2">카드 결제 응답 시간이 2026년 4월 28일 12시 5분부터 12시 41분까지 지연되어 약 7,900건의 결제 실패를 유발한 장애이다.</data>
+      <data key="d3">INC-0428-chunk-000</data>
+      <data key="d4">INC-0428.txt</data>
+      <data key="d5">1791602652</data>
+      <data key="d6" />
+    </node>
+    <node id="카드 결제">
+      <data key="d0">카드 결제</data>
+      <data key="d1">서비스</data>
+      <data key="d2">한빛PG를 거쳐 승인되는 결제 서비스로, 장애 기간 동안 응답 시간이 평균 0.8초에서 9초로 증가했다.</data>
+      <data key="d3">INC-0428-chunk-000</data>
+      <data key="d4">INC-0428.txt</data>
+      <data key="d5">1791602652</data>
+      <data key="d6" />
+    </node>
+    <node id="한빛PG">
+      <data key="d0">한빛PG</data>
+      <data key="d1">서비스</data>
+      <data key="d2">카드 결제 승인을 제공하는 외부 PG사로, 승인 서버 증설 작업 중 처리 용량이 감소했다.&lt;SEP&gt;결제 승인 결과를 통보하는 외부 PG사이며, 통보 서버 점검 중 승인 결과 통보를 묶어 지연 전송했다.&lt;SEP&gt;pg-connector가 국내 카드 결제 승인, 취소, 결과 확인 전문을 전달하는 외부 PG사다.</data>
+      <data key="d3">INC-0428-chunk-000&lt;SEP&gt;INC-0703-chunk-000&lt;SEP&gt;CAT-01-chunk-000</data>
+      <data key="d4">INC-0428.txt&lt;SEP&gt;INC-0703.txt&lt;SEP&gt;CAT-01.txt</data>
+      <data key="d5">1791602817</data>
+      <data key="d6" />
+    </node>
+    <node id="다온PG">
+      <data key="d0">다온PG</data>
+      <data key="d1">서비스</data>
+      <data key="d2">신규 카드 결제의 대체 라우팅 대상으로 사용된 다른 PG사이다.&lt;SEP&gt;해외 카드 승인을 처리하는 외부 PG사로, 해외 카드사 연결 구간에서 응답 지연이 발생했다.&lt;SEP&gt;pg-connector가 국내 카드와 해외 카드 결제 전문을 전달하는 외부 PG사다.</data>
+      <data key="d3">INC-0428-chunk-000&lt;SEP&gt;INC-0527-chunk-000&lt;SEP&gt;CAT-01-chunk-000</data>
+      <data key="d4">INC-0428.txt&lt;SEP&gt;INC-0527.txt&lt;SEP&gt;CAT-01.txt</data>
+      <data key="d5">1791602817</data>
+      <data key="d6" />
+    </node>
+    <node id="pg-connector">
+      <data key="d0">pg-connector</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">PG사 연동 모듈로, 한빛PG 호출 대기 시간이 30초로 설정되어 있었다.&lt;SEP&gt;해외 카드 결제 요청을 다온PG에 전달하고 승인 응답을 수신하는 PG 연동 모듈이다.&lt;SEP&gt;PG사의 승인 결과 통보를 연동하는 결제 시스템 모듈이다.&lt;SEP&gt;외부 PG사에 결제 승인, 취소, 결과 확인 전문을 전달하는 PG 연동 모듈이다.&lt;SEP&gt;결제플랫폼팀이 운영하는 PG 연동 모듈이다.</data>
+      <data key="d3">INC-0428-chunk-000&lt;SEP&gt;INC-0527-chunk-000&lt;SEP&gt;INC-0703-chunk-000&lt;SEP&gt;CAT-01-chunk-000&lt;SEP&gt;ORG-01-chunk-000</data>
+      <data key="d4">INC-0428.txt&lt;SEP&gt;INC-0527.txt&lt;SEP&gt;INC-0703.txt&lt;SEP&gt;CAT-01.txt&lt;SEP&gt;ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="pay-gateway">
+      <data key="d0">pay-gateway</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">카드 결제를 처리하는 결제 게이트웨이로, 지연된 PG사 응답 때문에 작업 스레드가 붙잡혔다.&lt;SEP&gt;앱, 웹, 가맹점 서버의 결제 요청을 받고 인증, 이상거래 판정, PG 승인 요청을 조정하는 결제 게이트웨이다.&lt;SEP&gt;결제플랫폼팀이 운영하는 결제 게이트웨이 서비스이다.&lt;SEP&gt;결제 요청을 처리하는 결제 게이트웨이 구성요소이며 처리 스레드 상한이 조정되었다.</data>
+      <data key="d3">INC-0428-chunk-000&lt;SEP&gt;CAT-01-chunk-000&lt;SEP&gt;ORG-01-chunk-000&lt;SEP&gt;CHG-01-chunk-000</data>
+      <data key="d4">INC-0428.txt&lt;SEP&gt;CAT-01.txt&lt;SEP&gt;ORG-01.txt&lt;SEP&gt;CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="승인 서버">
+      <data key="d0">승인 서버</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">한빛PG에서 카드 결제 승인 처리를 담당하는 서버로, 작업 중 처리 용량이 줄었다.</data>
+      <data key="d3">INC-0428-chunk-000</data>
+      <data key="d4">INC-0428.txt</data>
+      <data key="d5">1791602652</data>
+      <data key="d6" />
+    </node>
+    <node id="앱">
+      <data key="d0">앱</data>
+      <data key="d1">서비스</data>
+      <data key="d2">카드 결제 요청의 대기 한도를 적용하는 애플리케이션으로, 대기 한도를 넘은 결제가 실패했다.&lt;SEP&gt;보안 연결 오류로 인해 결제 요청이 실패한 애플리케이션 서비스이다.</data>
+      <data key="d3">INC-0428-chunk-000&lt;SEP&gt;INC-0804-chunk-000</data>
+      <data key="d4">INC-0428.txt&lt;SEP&gt;INC-0804.txt</data>
+      <data key="d5">1791602763</data>
+      <data key="d6" />
+    </node>
+    <node id="포인트 적립 지연 장애">
+      <data key="d0">포인트 적립 지연 장애</data>
+      <data key="d1">장애</data>
+      <data key="d2">포인트 적립 지연 장애는 2026년 5월 13일 18시부터 21시 30분까지 결제 후 포인트 적립과 적립 완료 알림을 지연시킨 장애이다.</data>
+      <data key="d3">INC-0513-chunk-000</data>
+      <data key="d4">INC-0513.txt</data>
+      <data key="d5">1791602662</data>
+      <data key="d6" />
+    </node>
+    <node id="point-engine">
+      <data key="d0">point-engine</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">point-engine은 포인트 적립을 처리하는 포인트 적립 엔진이다.&lt;SEP&gt;포인트 적립을 처리하는 엔진으로, 중복 이벤트 규칙에 따라 같은 거래에 포인트 적립 이력을 두 번 생성했다.&lt;SEP&gt;결제 완료 이벤트를 받아 적립 규칙에 따라 포인트를 적립하고, 적립 이력을 ledger-db에 기록하는 포인트 적립 엔진이다.&lt;SEP&gt;포인트서비스팀이 운영하는 포인트 적립 엔진이다.&lt;SEP&gt;포인트 적립을 처리하는 운영 구성요소이며 적립 처리 스레드 수와 프로모션용 적립 규칙 파일이 변경되었다.</data>
+      <data key="d3">INC-0513-chunk-000&lt;SEP&gt;INC-0715-chunk-000&lt;SEP&gt;CAT-03-chunk-000&lt;SEP&gt;ORG-01-chunk-000&lt;SEP&gt;CHG-01-chunk-000</data>
+      <data key="d4">INC-0513.txt&lt;SEP&gt;INC-0715.txt&lt;SEP&gt;CAT-03.txt&lt;SEP&gt;ORG-01.txt&lt;SEP&gt;CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="DB 커넥션 풀">
+      <data key="d0">DB 커넥션 풀</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">DB 커넥션 풀은 point-engine이 데이터베이스 요청에 사용할 수 있는 커넥션을 관리하며, 장애 당시 40개가 모두 점유되었다.</data>
+      <data key="d3">INC-0513-chunk-000</data>
+      <data key="d4">INC-0513.txt</data>
+      <data key="d5">1791602662</data>
+      <data key="d6" />
+    </node>
+    <node id="적립 처리 스레드">
+      <data key="d0">적립 처리 스레드</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">적립 처리 스레드는 point-engine의 포인트 적립 작업을 처리하며, CHG-2605-01 적용으로 수가 두 배로 늘어났다.</data>
+      <data key="d3">INC-0513-chunk-000</data>
+      <data key="d4">INC-0513.txt</data>
+      <data key="d5">1791602662</data>
+      <data key="d6" />
+    </node>
+    <node id="인스턴스">
+      <data key="d0">인스턴스</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">인스턴스는 point-engine의 처리 용량을 구성하며, 장애 대응 과정에서 수가 늘어났다.</data>
+      <data key="d3">INC-0513-chunk-000</data>
+      <data key="d4">INC-0513.txt</data>
+      <data key="d5">1791602662</data>
+      <data key="d6" />
+    </node>
+    <node id="CHG-2605-01">
+      <data key="d0">CHG-2605-01</data>
+      <data key="d1">other</data>
+      <data key="d2">CHG-2605-01은 전날 적립 처리 스레드 수를 두 배로 늘린 변경 사항이다.&lt;SEP&gt;point-engine의 적립 처리 스레드 수를 16개에서 32개로 늘린 2026년 5월 12일 운영 변경 기록이다.</data>
+      <data key="d3">INC-0513-chunk-000&lt;SEP&gt;CHG-01-chunk-000</data>
+      <data key="d4">INC-0513.txt&lt;SEP&gt;CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="포인트 잔액 조회 오류 장애">
+      <data key="d0">포인트 잔액 조회 오류 장애</data>
+      <data key="d1">장애</data>
+      <data key="d2">2026년 5월 18일 10시 20분부터 11시 5분까지 앱의 포인트 화면에서 잔액 조회 오류를 발생시킨 장애이다.</data>
+      <data key="d3">INC-0518-chunk-000</data>
+      <data key="d4">INC-0518.txt</data>
+      <data key="d5">1791602678</data>
+      <data key="d6" />
+    </node>
+    <node id="point-wallet">
+      <data key="d0">point-wallet</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">포인트 잔액 요청을 처리하는 포인트 지갑 API 서비스이다.&lt;SEP&gt;앱의 포인트 화면 조회와 결제 시 포인트 차감 요청을 처리하는 포인트 지갑 API다.&lt;SEP&gt;포인트서비스팀이 운영하는 포인트 지갑 API이다.</data>
+      <data key="d3">INC-0518-chunk-000&lt;SEP&gt;CAT-03-chunk-000&lt;SEP&gt;ORG-01-chunk-000</data>
+      <data key="d4">INC-0518.txt&lt;SEP&gt;CAT-03.txt&lt;SEP&gt;ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="거래 내역 화면 개선 기능">
+      <data key="d0">거래 내역 화면 개선 기능</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">거래 내역 화면에 추가된 기능으로, 배포 직후 내역 조회 쿼리를 전송했다.</data>
+      <data key="d3">INC-0518-chunk-000</data>
+      <data key="d4">INC-0518.txt</data>
+      <data key="d5">1791602678</data>
+      <data key="d6" />
+    </node>
+    <node id="내역 조회 쿼리">
+      <data key="d0">내역 조회 쿼리</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">ledger-db에서 평균 4초가 걸렸으며 인덱스가 없어 point-wallet의 커넥션 풀을 점유한 쿼리이다.</data>
+      <data key="d3">INC-0518-chunk-000</data>
+      <data key="d4">INC-0518.txt</data>
+      <data key="d5">1791602678</data>
+      <data key="d6" />
+    </node>
+    <node id="잔액 조회">
+      <data key="d0">잔액 조회</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">포인트 잔액을 확인하기 위해 point-wallet에 요청하는 기능이다.</data>
+      <data key="d3">INC-0518-chunk-000</data>
+      <data key="d4">INC-0518.txt</data>
+      <data key="d5">1791602678</data>
+      <data key="d6" />
+    </node>
+    <node id="커넥션 풀">
+      <data key="d0">커넥션 풀</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">내역 조회와 잔액 조회가 함께 사용한 point-wallet의 연결 자원 풀이다.&lt;SEP&gt;카드사별 대사 작업이 공유하는 연결 자원으로, 장시간 트랜잭션으로 인해 고갈되었다.</data>
+      <data key="d3">INC-0518-chunk-000&lt;SEP&gt;INC-0812-chunk-000</data>
+      <data key="d4">INC-0518.txt&lt;SEP&gt;INC-0812.txt</data>
+      <data key="d5">1791602774</data>
+      <data key="d6" />
+    </node>
+    <node id="기능 플래그">
+      <data key="d0">기능 플래그</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">거래 내역 화면 개선 기능을 비활성화하는 데 사용된 제어 장치이다.</data>
+      <data key="d3">INC-0518-chunk-000</data>
+      <data key="d4">INC-0518.txt</data>
+      <data key="d5">1791602678</data>
+      <data key="d6" />
+    </node>
+    <node id="인덱스">
+      <data key="d0">인덱스</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">내역 조회 쿼리의 처리 속도를 개선하기 위해 추가된 데이터베이스 인덱스이다.</data>
+      <data key="d3">INC-0518-chunk-000</data>
+      <data key="d4">INC-0518.txt</data>
+      <data key="d5">1791602678</data>
+      <data key="d6" />
+    </node>
+    <node id="조회 전용 커넥션 풀">
+      <data key="d0">조회 전용 커넥션 풀</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">무거운 조회 작업을 잔액 요청과 분리하기 위해 별도로 둘 예정인 커넥션 풀이다.</data>
+      <data key="d3">INC-0518-chunk-000</data>
+      <data key="d4">INC-0518.txt</data>
+      <data key="d5">1791602678</data>
+      <data key="d6" />
+    </node>
+    <node id="쿼리 실행 계획 확인 단계">
+      <data key="d0">쿼리 실행 계획 확인 단계</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">운영과 같은 규모의 데이터로 쿼리 성능을 검증하기 위해 배포 점검에 추가할 단계이다.</data>
+      <data key="d3">INC-0518-chunk-000</data>
+      <data key="d4">INC-0518.txt</data>
+      <data key="d5">1791602678</data>
+      <data key="d6" />
+    </node>
+    <node id="해외 카드 결제 실패 장애">
+      <data key="d0">해외 카드 결제 실패 장애</data>
+      <data key="d1">장애</data>
+      <data key="d2">2026년 5월 27일 01시 10분부터 03시 40분까지 해외 발급 카드의 승인 실패가 이어진 장애로, 약 2,300건의 실패 거래가 발생했다.</data>
+      <data key="d3">INC-0527-chunk-000</data>
+      <data key="d4">INC-0527.txt</data>
+      <data key="d5">1791602691</data>
+      <data key="d6" />
+    </node>
+    <node id="해외 카드 결제">
+      <data key="d0">해외 카드 결제</data>
+      <data key="d1">서비스</data>
+      <data key="d2">해외에서 발급된 카드의 결제를 승인하는 결제 서비스로, 다온PG를 통해 해외 카드 승인을 처리했다.</data>
+      <data key="d3">INC-0527-chunk-000</data>
+      <data key="d4">INC-0527.txt</data>
+      <data key="d5">1791602691</data>
+      <data key="d6" />
+    </node>
+    <node id="해외 카드사 연결 구간">
+      <data key="d0">해외 카드사 연결 구간</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">다온PG와 해외 카드사 사이에서 해외 카드 승인 요청과 응답이 오가는 연결 구간이다.</data>
+      <data key="d3">INC-0527-chunk-000</data>
+      <data key="d4">INC-0527.txt</data>
+      <data key="d5">1791602691</data>
+      <data key="d6" />
+    </node>
+    <node id="해외 직구 가맹점">
+      <data key="d0">해외 직구 가맹점</data>
+      <data key="d1">other</data>
+      <data key="d2">해외 직접구매 거래를 처리하는 가맹점 유형으로, 장애 기간의 결제 실패가 집중된 대상이다.</data>
+      <data key="d3">INC-0527-chunk-000</data>
+      <data key="d4">INC-0527.txt</data>
+      <data key="d5">1791602691</data>
+      <data key="d6" />
+    </node>
+    <node id="여행 플랫폼 가맹점">
+      <data key="d0">여행 플랫폼 가맹점</data>
+      <data key="d1">other</data>
+      <data key="d2">여행 플랫폼 거래를 처리하는 가맹점 유형으로, 장애 기간의 결제 실패가 집중된 대상이다.</data>
+      <data key="d3">INC-0527-chunk-000</data>
+      <data key="d4">INC-0527.txt</data>
+      <data key="d5">1791602691</data>
+      <data key="d6" />
+    </node>
+    <node id="가맹점 연동 결제 거절 장애">
+      <data key="d0">가맹점 연동 결제 거절 장애</data>
+      <data key="d1">장애</data>
+      <data key="d2">2026년 6월 3일 9시부터 10시 15분까지 가맹점 주문 결제 요청을 거절한 장애이다.</data>
+      <data key="d3">INC-0603-chunk-000</data>
+      <data key="d4">INC-0603.txt</data>
+      <data key="d5">1791602706</data>
+      <data key="d6" />
+    </node>
+    <node id="merchant-api">
+      <data key="d0">merchant-api</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">가맹점 서버가 주문 결제 요청을 보내는 가맹점 API이다.&lt;SEP&gt;가맹점 서버의 주문 결제, 환불, 거래 확인 요청을 접수하는 가맹점 API다.&lt;SEP&gt;결제플랫폼팀이 운영하는 가맹점 API이다.</data>
+      <data key="d3">INC-0603-chunk-000&lt;SEP&gt;CAT-01-chunk-000&lt;SEP&gt;ORG-01-chunk-000</data>
+      <data key="d4">INC-0603.txt&lt;SEP&gt;CAT-01.txt&lt;SEP&gt;ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="가맹점 서버">
+      <data key="d0">가맹점 서버</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">merchant-api로 주문 결제 요청을 전송하는 가맹점 측 서버이다.</data>
+      <data key="d3">INC-0603-chunk-000</data>
+      <data key="d4">INC-0603.txt</data>
+      <data key="d5">1791602706</data>
+      <data key="d6" />
+    </node>
+    <node id="온라인 가맹점">
+      <data key="d0">온라인 가맹점</data>
+      <data key="d1">other</data>
+      <data key="d2">장애 기간 동안 약 3,400곳에서 결제 실패를 경험한 온라인 판매 사업자이다.</data>
+      <data key="d3">INC-0603-chunk-000</data>
+      <data key="d4">INC-0603.txt</data>
+      <data key="d5">1791602706</data>
+      <data key="d6" />
+    </node>
+    <node id="api-edge">
+      <data key="d0">api-edge</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">외부 API 관문으로서 가맹점 전용 도메인 인증서가 연결된 구성요소이다.&lt;SEP&gt;외부 API 관문으로서 만료된 와일드카드 인증서가 연결된 구성요소이다.&lt;SEP&gt;가맹점 API로 들어오는 외부 요청을 전달하는 외부 API 관문이다.&lt;SEP&gt;외부에서 유입되는 모든 API 요청이 최초로 거치는 외부 API 관문이다.&lt;SEP&gt;api-edge는 외부 API 관문 역할을 하는 공통 구성요소이다.</data>
+      <data key="d3">INC-0603-chunk-000&lt;SEP&gt;INC-0804-chunk-000&lt;SEP&gt;CAT-01-chunk-000&lt;SEP&gt;CAT-03-chunk-000&lt;SEP&gt;ORG-02-chunk-000</data>
+      <data key="d4">INC-0603.txt&lt;SEP&gt;INC-0804.txt&lt;SEP&gt;CAT-01.txt&lt;SEP&gt;CAT-03.txt&lt;SEP&gt;ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="가맹점 전용 도메인 인증서">
+      <data key="d0">가맹점 전용 도메인 인증서</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">가맹점 전용 도메인의 서버 인증서로, 2026년 6월 3일 0시에 만료되었다.</data>
+      <data key="d3">INC-0603-chunk-000</data>
+      <data key="d4">INC-0603.txt</data>
+      <data key="d5">1791602706</data>
+      <data key="d6" />
+    </node>
+    <node id="퇴사한 직원의 메일함">
+      <data key="d0">퇴사한 직원의 메일함</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">인증서 갱신 안내 메일이 전달되었으나 더 이상 확인되지 않은 메일함이다.</data>
+      <data key="d3">INC-0603-chunk-000</data>
+      <data key="d4">INC-0603.txt</data>
+      <data key="d5">1791602706</data>
+      <data key="d6" />
+    </node>
+    <node id="공용 메일 그룹">
+      <data key="d0">공용 메일 그룹</data>
+      <data key="d1">서비스</data>
+      <data key="d2">인증서 갱신 안내를 수신하도록 지정된 공동 메일 수신처이다.</data>
+      <data key="d3">INC-0603-chunk-000</data>
+      <data key="d4">INC-0603.txt</data>
+      <data key="d5">1791602706</data>
+      <data key="d6" />
+    </node>
+    <node id="인증서 만료일 대시보드">
+      <data key="d0">인증서 만료일 대시보드</data>
+      <data key="d1">서비스</data>
+      <data key="d2">외부에 노출된 모든 인증서의 만료일을 한 화면에서 보여주는 대시보드이다.</data>
+      <data key="d3">INC-0603-chunk-000</data>
+      <data key="d4">INC-0603.txt</data>
+      <data key="d5">1791602706</data>
+      <data key="d6" />
+    </node>
+    <node id="가맹점 정산 지연 장애">
+      <data key="d0">가맹점 정산 지연 장애</data>
+      <data key="d1">장애</data>
+      <data key="d2">2026년 6월 12일 발생한 장애로, 6월 11일 거래분 가맹점 정산이 평소보다 다섯 시간 늦게 완료되었다.</data>
+      <data key="d3">INC-0612-chunk-000</data>
+      <data key="d4">INC-0612.txt</data>
+      <data key="d5">1791602722</data>
+      <data key="d6" />
+    </node>
+    <node id="가맹점 정산">
+      <data key="d0">가맹점 정산</data>
+      <data key="d1">서비스</data>
+      <data key="d2">가맹점의 거래 금액을 정산하고 정산금을 입금하는 서비스이다.</data>
+      <data key="d3">INC-0612-chunk-000</data>
+      <data key="d4">INC-0612.txt</data>
+      <data key="d5">1791602722</data>
+      <data key="d6" />
+    </node>
+    <node id="ledger-db 커넥션 풀">
+      <data key="d0">ledger-db 커넥션 풀</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">ledger-db가 사용하는 데이터베이스 커넥션 관리 자원으로, 커넥션 풀 상한 초과와 고갈이 발생했다.</data>
+      <data key="d3">INC-0612-chunk-000</data>
+      <data key="d4">INC-0612.txt</data>
+      <data key="d5">1791602722</data>
+      <data key="d6" />
+    </node>
+    <node id="CHG-2606-03">
+      <data key="d0">CHG-2606-03</data>
+      <data key="d1">other</data>
+      <data key="d2">전날 settle-batch의 병렬 처리 개수를 8에서 32로 늘린 변경 작업 식별자이다.&lt;SEP&gt;settle-batch의 병렬 처리 개수를 8개에서 32개로 늘린 2026년 6월 11일 운영 변경 기록이다.</data>
+      <data key="d3">INC-0612-chunk-000&lt;SEP&gt;CHG-01-chunk-000</data>
+      <data key="d4">INC-0612.txt&lt;SEP&gt;CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="결제 완료 알림 지연 장애">
+      <data key="d0">결제 완료 알림 지연 장애</data>
+      <data key="d1">장애</data>
+      <data key="d2">2026년 7월 3일 19시 15분부터 20시 5분까지 결제 완료 푸시 알림이 최대 25분 지연된 장애이다.</data>
+      <data key="d3">INC-0703-chunk-000</data>
+      <data key="d4">INC-0703.txt</data>
+      <data key="d5">1791602736</data>
+      <data key="d6" />
+    </node>
+    <node id="notify-hub">
+      <data key="d0">notify-hub</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">결제 완료 푸시 알림을 발송하는 알림 허브이며, 장애 중 자체 상태는 정상이었다.&lt;SEP&gt;알림 메시지를 처리하고 발송하는 알림 허브 서비스이다.&lt;SEP&gt;kafka-main에서 알림 이벤트를 읽어 푸시와 문자로 발송하고 발송 결과를 kafka-main에 전달하는 알림 허브다.&lt;SEP&gt;notify-hub는 알림 허브 역할을 하는 공통 구성요소이다.</data>
+      <data key="d3">INC-0703-chunk-000&lt;SEP&gt;INC-0909-chunk-000&lt;SEP&gt;CAT-03-chunk-000&lt;SEP&gt;ORG-02-chunk-000</data>
+      <data key="d4">INC-0703.txt&lt;SEP&gt;INC-0909.txt&lt;SEP&gt;CAT-03.txt&lt;SEP&gt;ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="결제 완료 이벤트">
+      <data key="d0">결제 완료 이벤트</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">결제 승인 완료를 알리고 후속 알림 발송을 유발하는 이벤트이다.</data>
+      <data key="d3">INC-0703-chunk-000</data>
+      <data key="d4">INC-0703.txt</data>
+      <data key="d5">1791602736</data>
+      <data key="d6" />
+    </node>
+    <node id="승인 결과 통보">
+      <data key="d0">승인 결과 통보</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">한빛PG가 결제 승인 결과를 결제 시스템에 전달하는 통보 절차이다.</data>
+      <data key="d3">INC-0703-chunk-000</data>
+      <data key="d4">INC-0703.txt</data>
+      <data key="d5">1791602736</data>
+      <data key="d6" />
+    </node>
+    <node id="사용자">
+      <data key="d0">사용자</data>
+      <data key="d1">인물</data>
+      <data key="d2">지연된 결제 완료 알림을 받은 결제 이용자이며, 일부 사용자는 같은 결제를 다시 시도했다.</data>
+      <data key="d3">INC-0703-chunk-000</data>
+      <data key="d4">INC-0703.txt</data>
+      <data key="d5">1791602736</data>
+      <data key="d6" />
+    </node>
+    <node id="중복 결제 취소 요청">
+      <data key="d0">중복 결제 취소 요청</data>
+      <data key="d1">서비스</data>
+      <data key="d2">알림 지연으로 발생한 중복 결제를 취소하기 위해 접수된 요청이며, 총 640건이 처리 대상이었다.</data>
+      <data key="d3">INC-0703-chunk-000</data>
+      <data key="d4">INC-0703.txt</data>
+      <data key="d5">1791602736</data>
+      <data key="d6" />
+    </node>
+    <node id="포인트 이중 적립 장애">
+      <data key="d0">포인트 이중 적립 장애</data>
+      <data key="d1">장애</data>
+      <data key="d2">2026년 7월 14일 16시부터 7월 15일 10시까지 일부 결제에 포인트가 두 번 적립된 장애로, 중복 거래 32,410건과 약 1,180만 원어치의 잘못 적립된 포인트가 발생했다.</data>
+      <data key="d3">INC-0715-chunk-000</data>
+      <data key="d4">INC-0715.txt</data>
+      <data key="d5">1791602749</data>
+      <data key="d6" />
+    </node>
+    <node id="적립 규칙 파일 v42">
+      <data key="d0">적립 규칙 파일 v42</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">CHG-2607-04로 전날 반영된 적립 규칙 파일로, 7월 프로모션 규칙이 두 번 포함되어 있었다.</data>
+      <data key="d3">INC-0715-chunk-000</data>
+      <data key="d4">INC-0715.txt</data>
+      <data key="d5">1791602749</data>
+      <data key="d6" />
+    </node>
+    <node id="CHG-2607-04">
+      <data key="d0">CHG-2607-04</data>
+      <data key="d1">other</data>
+      <data key="d2">적립 규칙 파일 v42를 전날 시스템에 반영한 변경 작업 식별자다.&lt;SEP&gt;point-engine에 7월 프로모션용 적립 규칙 파일 v42를 반영한 2026년 7월 14일 운영 변경 기록이다.</data>
+      <data key="d3">INC-0715-chunk-000&lt;SEP&gt;CHG-01-chunk-000</data>
+      <data key="d4">INC-0715.txt&lt;SEP&gt;CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="7월 프로모션 규칙">
+      <data key="d0">7월 프로모션 규칙</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">적립 규칙 파일 v42에 중복으로 포함되어 포인트 이중 적립을 발생시킨 프로모션 규칙이다.</data>
+      <data key="d3">INC-0715-chunk-000</data>
+      <data key="d4">INC-0715.txt</data>
+      <data key="d5">1791602749</data>
+      <data key="d6" />
+    </node>
+    <node id="배포 도구">
+      <data key="d0">배포 도구</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">규칙 파일의 문법만 검사하고 동일 규칙의 중복 여부는 검사하지 않은 규칙 배포 도구다.</data>
+      <data key="d3">INC-0715-chunk-000</data>
+      <data key="d4">INC-0715.txt</data>
+      <data key="d5">1791602749</data>
+      <data key="d6" />
+    </node>
+    <node id="일일 포인트 대사">
+      <data key="d0">일일 포인트 대사</data>
+      <data key="d1">서비스</data>
+      <data key="d2">적립 총액과 결제 총액을 비교해 비정상적인 포인트 적립을 발견하는 대사 절차로, 7월 15일 09시에 장애를 탐지했다.</data>
+      <data key="d3">INC-0715-chunk-000</data>
+      <data key="d4">INC-0715.txt</data>
+      <data key="d5">1791602749</data>
+      <data key="d6" />
+    </node>
+    <node id="이중 적립 포인트 회수">
+      <data key="d0">이중 적립 포인트 회수</data>
+      <data key="d1">서비스</data>
+      <data key="d2">사용자에게 이중 적립 사실을 안내한 뒤 잘못 적립된 포인트를 회수하는 조치로, 이미 사용된 포인트는 회수하지 않았다.</data>
+      <data key="d3">INC-0715-chunk-000</data>
+      <data key="d4">INC-0715.txt</data>
+      <data key="d5">1791602749</data>
+      <data key="d6" />
+    </node>
+    <node id="와일드카드 인증서 만료 결제 중단 장애">
+      <data key="d0">와일드카드 인증서 만료 결제 중단 장애</data>
+      <data key="d1">장애</data>
+      <data key="d2">2026년 8월 4일에 발생해 47분 동안 앱과 웹의 모든 결제 요청을 실패시킨 장애이다.</data>
+      <data key="d3">INC-0804-chunk-000</data>
+      <data key="d4">INC-0804.txt</data>
+      <data key="d5">1791602763</data>
+      <data key="d6" />
+    </node>
+    <node id="웹">
+      <data key="d0">웹</data>
+      <data key="d1">서비스</data>
+      <data key="d2">와일드카드 인증서 만료로 인해 결제 요청이 실패한 웹 서비스이다.</data>
+      <data key="d3">INC-0804-chunk-000</data>
+      <data key="d4">INC-0804.txt</data>
+      <data key="d5">1791602763</data>
+      <data key="d6" />
+    </node>
+    <node id="와일드카드 인증서">
+      <data key="d0">와일드카드 인증서</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">앱과 웹의 주 도메인 보안 연결에 사용되었으나 2026년 8월 4일 09시 12분에 만료된 인증서이다.</data>
+      <data key="d3">INC-0804-chunk-000</data>
+      <data key="d4">INC-0804.txt</data>
+      <data key="d5">1791602763</data>
+      <data key="d6" />
+    </node>
+    <node id="자동 갱신 도구">
+      <data key="d0">자동 갱신 도구</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">와일드카드 인증서의 자동 갱신을 수행하도록 등록된 도구이다.</data>
+      <data key="d3">INC-0804-chunk-000</data>
+      <data key="d4">INC-0804.txt</data>
+      <data key="d5">1791602763</data>
+      <data key="d6" />
+    </node>
+    <node id="도메인 소유 확인 레코드">
+      <data key="d0">도메인 소유 확인 레코드</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">인증서 갱신 시 도메인 소유권을 확인하는 DNS 레코드이다.</data>
+      <data key="d3">INC-0804-chunk-000</data>
+      <data key="d4">INC-0804.txt</data>
+      <data key="d5">1791602763</data>
+      <data key="d6" />
+    </node>
+    <node id="DNS 이전">
+      <data key="d0">DNS 이전</data>
+      <data key="d1">other</data>
+      <data key="d2">3월에 수행되어 도메인 소유 확인 레코드가 누락된 변경 작업이다.</data>
+      <data key="d3">INC-0804-chunk-000</data>
+      <data key="d4">INC-0804.txt</data>
+      <data key="d5">1791602763</data>
+      <data key="d6" />
+    </node>
+    <node id="갱신 실패 경고 로그">
+      <data key="d0">갱신 실패 경고 로그</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">인증서 자동 갱신 실패 경고가 기록되었으나 경보로 전달되지 않은 로그이다.</data>
+      <data key="d3">INC-0804-chunk-000</data>
+      <data key="d4">INC-0804.txt</data>
+      <data key="d5">1791602763</data>
+      <data key="d6" />
+    </node>
+    <node id="인증서 만료 외부 점검">
+      <data key="d0">인증서 만료 외부 점검</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">실제 서비스 중인 인증서의 남은 기간을 외부에서 매일 확인하는 재발 방지 점검이다.</data>
+      <data key="d3">INC-0804-chunk-000</data>
+      <data key="d4">INC-0804.txt</data>
+      <data key="d5">1791602763</data>
+      <data key="d6" />
+    </node>
+    <node id="가맹점 정산 파일 누락 장애">
+      <data key="d0">가맹점 정산 파일 누락 장애</data>
+      <data key="d1">장애</data>
+      <data key="d2">2026년 8월 12일 발생한 장애로, 두 카드사의 정산 파일이 생성되지 않아 해당 카드 거래가 있는 가맹점 약 2,100곳의 지급이 이틀 동안 지연되었다.</data>
+      <data key="d3">INC-0812-chunk-000</data>
+      <data key="d4">INC-0812.txt</data>
+      <data key="d5">1791602774</data>
+      <data key="d6" />
+    </node>
+    <node id="payout-api">
+      <data key="d0">payout-api</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">지급 대상 파일 개수를 점검하고 파일 수 부족을 경보로 알리는 지급 API이다.&lt;SEP&gt;payout-api는 정산 파일을 받아 은행 펌뱅킹을 통한 가맹점 계좌 입금을 요청하는 서비스이다.&lt;SEP&gt;정산개발팀이 운영하는 지급 API이다.</data>
+      <data key="d3">INC-0812-chunk-000&lt;SEP&gt;CAT-02-chunk-000&lt;SEP&gt;ORG-01-chunk-000</data>
+      <data key="d4">INC-0812.txt&lt;SEP&gt;CAT-02.txt&lt;SEP&gt;ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="recon-worker">
+      <data key="d0">recon-worker</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">카드사 매입 내역 대조 작업을 수행하는 거래 대사 작업기이다.&lt;SEP&gt;recon-worker는 카드사와 외부 PG사가 보낸 매입 내역을 거래 기록과 대조하고 대사 결과를 정산 파일에 반영하는 거래 대사 작업 서비스이다.&lt;SEP&gt;정산개발팀이 운영하는 거래 대사 작업기이다.&lt;SEP&gt;거래 대사를 수행하는 작업기 구성요소이며 카드사별 커넥션 상한을 분리하는 2.3 버전이 배포되었다.</data>
+      <data key="d3">INC-0812-chunk-000&lt;SEP&gt;CAT-02-chunk-000&lt;SEP&gt;ORG-01-chunk-000&lt;SEP&gt;CHG-01-chunk-000</data>
+      <data key="d4">INC-0812.txt&lt;SEP&gt;CAT-02.txt&lt;SEP&gt;ORG-01.txt&lt;SEP&gt;CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="카드사별 대사 작업">
+      <data key="d0">카드사별 대사 작업</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">카드사별 매입 내역을 대조하는 작업으로, 하나의 커넥션 풀을 공유하며 일부 작업이 시간 초과로 실패했다.</data>
+      <data key="d3">INC-0812-chunk-000</data>
+      <data key="d4">INC-0812.txt</data>
+      <data key="d5">1791602774</data>
+      <data key="d6" />
+    </node>
+    <node id="정산 파일">
+      <data key="d0">정산 파일</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">카드 거래 정산을 위해 생성되는 파일로, 두 카드사의 파일이 생성되지 않았다.&lt;SEP&gt;정산 파일은 settle-batch가 계산 결과를 기록하고 payout-api에 전달하는 결과 파일이다.</data>
+      <data key="d3">INC-0812-chunk-000&lt;SEP&gt;CAT-02-chunk-000</data>
+      <data key="d4">INC-0812.txt&lt;SEP&gt;CAT-02.txt</data>
+      <data key="d5">1791602831</data>
+      <data key="d6" />
+    </node>
+    <node id="카드사">
+      <data key="d0">카드사</data>
+      <data key="d1">other</data>
+      <data key="d2">매입 내역과 카드 거래를 제공하는 주체로, 두 카드사의 대사 작업과 정산 파일 생성에 문제가 발생했다.&lt;SEP&gt;카드사는 recon-worker에 매입 내역을 보내는 외부 거래 기관이다.</data>
+      <data key="d3">INC-0812-chunk-000&lt;SEP&gt;CAT-02-chunk-000</data>
+      <data key="d4">INC-0812.txt&lt;SEP&gt;CAT-02.txt</data>
+      <data key="d5">1791602831</data>
+      <data key="d6" />
+    </node>
+    <node id="지급 일정">
+      <data key="d0">지급 일정</data>
+      <data key="d1">서비스</data>
+      <data key="d2">정산 결과에 따라 가맹점에 지급하는 일정으로, 은행 마감 이후 다음 영업일로 미뤄졌다.</data>
+      <data key="d3">INC-0812-chunk-000</data>
+      <data key="d4">INC-0812.txt</data>
+      <data key="d5">1791602774</data>
+      <data key="d6" />
+    </node>
+    <node id="신규 가입 혜택 미지급 장애">
+      <data key="d0">신규 가입 혜택 미지급 장애</data>
+      <data key="d1">장애</data>
+      <data key="d2">신규 가입 사용자 약 4,700명에게 2026년 8월 26일 0시부터 1시 20분까지 가입 축하 쿠폰이 지급되지 않은 장애이다.</data>
+      <data key="d3">INC-0826-chunk-000</data>
+      <data key="d4">INC-0826.txt</data>
+      <data key="d5">1791602788</data>
+      <data key="d6" />
+    </node>
+    <node id="coupon-svc">
+      <data key="d0">coupon-svc</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">가입 축하 쿠폰 발급을 처리하는 쿠폰 서비스로, 월말 프로모션 시작과 함께 응답 시간이 증가하고 발급 실패율이 70%를 초과했다.&lt;SEP&gt;쿠폰 발급과 회수를 담당하며, 쿠폰 발급 한도와 쿠폰 원장을 ledger-db에 저장하는 쿠폰 서비스다.&lt;SEP&gt;포인트서비스팀이 운영하는 쿠폰 서비스이다.</data>
+      <data key="d3">INC-0826-chunk-000&lt;SEP&gt;CAT-03-chunk-000&lt;SEP&gt;ORG-01-chunk-000</data>
+      <data key="d4">INC-0826.txt&lt;SEP&gt;CAT-03.txt&lt;SEP&gt;ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="로컬 캐시">
+      <data key="d0">로컬 캐시</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">coupon-svc 프로세스 내부에서 발급 한도 정보를 저장하며, 자정에 캐시 항목이 동시에 만료되었다.</data>
+      <data key="d3">INC-0826-chunk-000</data>
+      <data key="d4">INC-0826.txt</data>
+      <data key="d5">1791602788</data>
+      <data key="d6" />
+    </node>
+    <node id="발급 한도 정보">
+      <data key="d0">발급 한도 정보</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">coupon-svc가 쿠폰 발급 요청을 처리할 때 사용하는 한도 정보로, 로컬 캐시 만료 이후 요청마다 재계산되었다.</data>
+      <data key="d3">INC-0826-chunk-000</data>
+      <data key="d4">INC-0826.txt</data>
+      <data key="d5">1791602788</data>
+      <data key="d6" />
+    </node>
+    <node id="월말 프로모션">
+      <data key="d0">월말 프로모션</data>
+      <data key="d1">other</data>
+      <data key="d2">2026년 8월 26일 0시에 시작되어 coupon-svc의 쿠폰 발급 요청을 증가시킨 프로모션이다.</data>
+      <data key="d3">INC-0826-chunk-000</data>
+      <data key="d4">INC-0826.txt</data>
+      <data key="d5">1791602788</data>
+      <data key="d6" />
+    </node>
+    <node id="가입 축하 쿠폰">
+      <data key="d0">가입 축하 쿠폰</data>
+      <data key="d1">서비스</data>
+      <data key="d2">신규 가입 사용자에게 지급되는 가입 혜택 쿠폰이다.</data>
+      <data key="d3">INC-0826-chunk-000</data>
+      <data key="d4">INC-0826.txt</data>
+      <data key="d5">1791602788</data>
+      <data key="d6" />
+    </node>
+    <node id="신규 가입 사용자">
+      <data key="d0">신규 가입 사용자</data>
+      <data key="d1">other</data>
+      <data key="d2">장애 발생 시간에 가입 절차를 정상적으로 완료했지만 가입 축하 쿠폰을 지급받지 못한 사용자 집단이다.</data>
+      <data key="d3">INC-0826-chunk-000</data>
+      <data key="d4">INC-0826.txt</data>
+      <data key="d5">1791602788</data>
+      <data key="d6" />
+    </node>
+    <node id="임시 스크립트">
+      <data key="d0">임시 스크립트</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">발급 한도 정보를 미리 채워 장애를 1시 20분에 회복시킨 임시 실행 도구이다.</data>
+      <data key="d3">INC-0826-chunk-000</data>
+      <data key="d4">INC-0826.txt</data>
+      <data key="d5">1791602788</data>
+      <data key="d6" />
+    </node>
+    <node id="알림 미발송 장애">
+      <data key="d0">알림 미발송 장애</data>
+      <data key="d1">장애</data>
+      <data key="d2">2026년 9월 8일 18시부터 9월 9일 8시까지 결제 완료, 포인트 적립, 정산 완료 안내 등의 알림 약 120만 건이 발송되지 않은 장애이다.</data>
+      <data key="d3">INC-0909-chunk-000</data>
+      <data key="d4">INC-0909.txt</data>
+      <data key="d5">1791602803</data>
+      <data key="d6" />
+    </node>
+    <node id="kafka-main">
+      <data key="d0">kafka-main</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">알림 메시지를 전달하는 메인 메시지 브로커이다.&lt;SEP&gt;결제 완료 이벤트를 전달하고 risk-engine이 결제 이벤트를 읽는 메인 메시지 브로커다.&lt;SEP&gt;서비스 사이의 이벤트를 전달하는 메인 메시지 브로커이며, 토픽별 보존 기간은 config-center의 설정을 따른다.&lt;SEP&gt;kafka-main은 메인 메시지 브로커 역할을 하는 공통 구성요소이다.&lt;SEP&gt;메인 메시지 브로커 구성요소이며 notify.events 토픽의 보존 기간 값이 변경되었다.</data>
+      <data key="d3">INC-0909-chunk-000&lt;SEP&gt;CAT-01-chunk-000&lt;SEP&gt;CAT-03-chunk-000&lt;SEP&gt;ORG-02-chunk-000&lt;SEP&gt;CHG-01-chunk-000</data>
+      <data key="d4">INC-0909.txt&lt;SEP&gt;CAT-01.txt&lt;SEP&gt;CAT-03.txt&lt;SEP&gt;ORG-02.txt&lt;SEP&gt;CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="알림 토픽">
+      <data key="d0">알림 토픽</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">kafka-main에서 알림 메시지를 전달하는 토픽이다.</data>
+      <data key="d3">INC-0909-chunk-000</data>
+      <data key="d4">INC-0909.txt</data>
+      <data key="d5">1791602803</data>
+      <data key="d6" />
+    </node>
+    <node id="토픽 보존 기간">
+      <data key="d0">토픽 보존 기간</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">알림 토픽에 메시지를 보관하는 기간 설정으로, 장애 당시 약 10분으로 잘못 설정되었고 이후 7일로 복구되었다.</data>
+      <data key="d3">INC-0909-chunk-000</data>
+      <data key="d4">INC-0909.txt</data>
+      <data key="d5">1791602803</data>
+      <data key="d6" />
+    </node>
+    <node id="CHG-2609-02">
+      <data key="d0">CHG-2609-02</data>
+      <data key="d1">other</data>
+      <data key="d2">2026년 9월 8일 반영된 알림 토픽 설정 변경 항목이다.&lt;SEP&gt;kafka-main의 notify.events 토픽 보존 기간 값을 변경한 2026년 9월 8일 운영 변경 기록이다.</data>
+      <data key="d3">INC-0909-chunk-000&lt;SEP&gt;CHG-01-chunk-000</data>
+      <data key="d4">INC-0909.txt&lt;SEP&gt;CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="푸시 알림">
+      <data key="d0">푸시 알림</data>
+      <data key="d1">서비스</data>
+      <data key="d2">결제 완료, 포인트 적립, 정산 완료 안내 등에 사용되는 푸시 방식의 알림이다.</data>
+      <data key="d3">INC-0909-chunk-000</data>
+      <data key="d4">INC-0909.txt</data>
+      <data key="d5">1791602803</data>
+      <data key="d6" />
+    </node>
+    <node id="문자 알림">
+      <data key="d0">문자 알림</data>
+      <data key="d1">서비스</data>
+      <data key="d2">결제 완료, 포인트 적립, 정산 완료 안내 등에 사용되는 문자 방식의 알림이다.</data>
+      <data key="d3">INC-0909-chunk-000</data>
+      <data key="d4">INC-0909.txt</data>
+      <data key="d5">1791602803</data>
+      <data key="d6" />
+    </node>
+    <node id="앱 알림함">
+      <data key="d0">앱 알림함</data>
+      <data key="d1">서비스</data>
+      <data key="d2">이미 삭제된 결제 완료 알림 내역을 대체하여 사용자에게 보여 준 앱 내부 알림 서비스이다.</data>
+      <data key="d3">INC-0909-chunk-000</data>
+      <data key="d4">INC-0909.txt</data>
+      <data key="d5">1791602803</data>
+      <data key="d6" />
+    </node>
+    <node id="소비 전 삭제 메시지 경보 지표">
+      <data key="d0">소비 전 삭제 메시지 경보 지표</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">소비되지 않고 삭제된 메시지 수를 감시하고 경보를 발생시키는 운영 지표이다.</data>
+      <data key="d3">INC-0909-chunk-000</data>
+      <data key="d4">INC-0909.txt</data>
+      <data key="d5">1791602803</data>
+      <data key="d6" />
+    </node>
+    <node id="risk-engine">
+      <data key="d0">risk-engine</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">결제 이벤트를 기반으로 이상 패턴을 학습하고 결제 시점에 이상거래 판정을 실시간으로 제공하는 엔진이다.&lt;SEP&gt;리스크관리팀이 운영하는 이상거래 탐지 엔진이다.</data>
+      <data key="d3">CAT-01-chunk-000&lt;SEP&gt;ORG-01-chunk-000</data>
+      <data key="d4">CAT-01.txt&lt;SEP&gt;ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="원장디비">
+      <data key="d0">원장디비</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">원장디비는 settle-batch와 recon-worker가 거래 원장 및 거래 기록을 읽는 데이터 저장 구성요소이다.</data>
+      <data key="d3">CAT-02-chunk-000</data>
+      <data key="d4">CAT-02.txt</data>
+      <data key="d5">1791602831</data>
+      <data key="d6" />
+    </node>
+    <node id="외부 PG사">
+      <data key="d0">외부 PG사</data>
+      <data key="d1">other</data>
+      <data key="d2">외부 PG사는 recon-worker에 매입 내역을 보내는 외부 결제 기관이다.</data>
+      <data key="d3">CAT-02-chunk-000</data>
+      <data key="d4">CAT-02.txt</data>
+      <data key="d5">1791602831</data>
+      <data key="d6" />
+    </node>
+    <node id="은행 펌뱅킹">
+      <data key="d0">은행 펌뱅킹</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">은행 펌뱅킹은 payout-api의 가맹점 계좌 입금 요청을 처리하는 은행 연계 구성요소이다.</data>
+      <data key="d3">CAT-02-chunk-000</data>
+      <data key="d4">CAT-02.txt</data>
+      <data key="d5">1791602831</data>
+      <data key="d6" />
+    </node>
+    <node id="redis-point">
+      <data key="d0">redis-point</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">point-wallet 전용 포인트 캐시로, 사용자별 포인트 요약을 저장하며 다른 서비스는 사용하지 않는다.&lt;SEP&gt;redis-point는 포인트 캐시 역할을 하는 공통 구성요소이다.</data>
+      <data key="d3">CAT-03-chunk-000&lt;SEP&gt;ORG-02-chunk-000</data>
+      <data key="d4">CAT-03.txt&lt;SEP&gt;ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="config-center">
+      <data key="d0">config-center</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">서비스 설정 값을 버전별로 보관하고 운영 환경에 배포하는 설정 관리 서버다.&lt;SEP&gt;config-center는 설정을 관리하는 서버이다.</data>
+      <data key="d3">CAT-03-chunk-000&lt;SEP&gt;ORG-02-chunk-000</data>
+      <data key="d4">CAT-03.txt&lt;SEP&gt;ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="결제플랫폼팀">
+      <data key="d0">결제플랫폼팀</data>
+      <data key="d1">팀</data>
+      <data key="d2">결제 게이트웨이, PG 연동 모듈, 인증 토큰 서비스, 가맹점 API를 운영하며 외부 결제 대행사 계약 변경 시 연동 일정을 조율하는 팀이다.</data>
+      <data key="d3">ORG-01-chunk-000</data>
+      <data key="d4">ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="정산개발팀">
+      <data key="d0">정산개발팀</data>
+      <data key="d1">팀</data>
+      <data key="d2">정산 배치, 거래 대사 작업기, 지급 API, 배치 스케줄러를 운영하며 은행 마감 시각 변경 시 은행과 조율하는 팀이다.</data>
+      <data key="d3">ORG-01-chunk-000</data>
+      <data key="d4">ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="포인트서비스팀">
+      <data key="d0">포인트서비스팀</data>
+      <data key="d1">팀</data>
+      <data key="d2">포인트 적립 엔진, 포인트 지갑 API, 쿠폰 서비스를 운영하며 마케팅실과 프로모션 일정을 정하는 팀이다.</data>
+      <data key="d3">ORG-01-chunk-000</data>
+      <data key="d4">ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="리스크관리팀">
+      <data key="d0">리스크관리팀</data>
+      <data key="d1">팀</data>
+      <data key="d2">이상거래 탐지 엔진을 운영하며 결제 이벤트 형식 변경 전에 관련 협의를 진행하는 팀이다.</data>
+      <data key="d3">ORG-01-chunk-000</data>
+      <data key="d4">ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="마케팅실">
+      <data key="d0">마케팅실</data>
+      <data key="d1">팀</data>
+      <data key="d2">포인트서비스팀과 함께 프로모션 일정을 정하는 조직이다.</data>
+      <data key="d3">ORG-01-chunk-000</data>
+      <data key="d4">ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="메인 카프카">
+      <data key="d0">메인 카프카</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">risk-engine이 읽는 결제 이벤트를 제공하는 카프카 시스템이다.</data>
+      <data key="d3">ORG-01-chunk-000</data>
+      <data key="d4">ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="결제 이벤트">
+      <data key="d0">결제 이벤트</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">risk-engine이 읽으며 메인 카프카에서 전달되는 이벤트 데이터이다.</data>
+      <data key="d3">ORG-01-chunk-000</data>
+      <data key="d4">ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="박서연">
+      <data key="d0">박서연</data>
+      <data key="d1">인물</data>
+      <data key="d2">결제플랫폼팀의 3분기 온콜 담당자이다.</data>
+      <data key="d3">ORG-01-chunk-000</data>
+      <data key="d4">ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="최민재">
+      <data key="d0">최민재</data>
+      <data key="d1">인물</data>
+      <data key="d2">정산개발팀의 3분기 온콜 담당자이다.</data>
+      <data key="d3">ORG-01-chunk-000</data>
+      <data key="d4">ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="오세린">
+      <data key="d0">오세린</data>
+      <data key="d1">인물</data>
+      <data key="d2">포인트서비스팀의 3분기 온콜 담당자이다.</data>
+      <data key="d3">ORG-01-chunk-000</data>
+      <data key="d4">ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="정하늘">
+      <data key="d0">정하늘</data>
+      <data key="d1">인물</data>
+      <data key="d2">리스크관리팀의 3분기 온콜 담당자이다.</data>
+      <data key="d3">ORG-01-chunk-000</data>
+      <data key="d4">ORG-01.txt</data>
+      <data key="d5">1791602862</data>
+      <data key="d6" />
+    </node>
+    <node id="플랫폼본부">
+      <data key="d0">플랫폼본부</data>
+      <data key="d1">other</data>
+      <data key="d2">플랫폼본부는 공통 구성요소와 온콜 운영을 담당하는 세 팀을 포함한다.</data>
+      <data key="d3">ORG-02-chunk-000</data>
+      <data key="d4">ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="공통인프라팀">
+      <data key="d0">공통인프라팀</data>
+      <data key="d1">팀</data>
+      <data key="d2">공통인프라팀은 api-edge, config-center, redis-session, redis-point를 운영하며 한도윤을 온콜 담당자로 둔다.</data>
+      <data key="d3">ORG-02-chunk-000</data>
+      <data key="d4">ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="데이터플랫폼팀">
+      <data key="d0">데이터플랫폼팀</data>
+      <data key="d1">팀</data>
+      <data key="d2">데이터플랫폼팀은 ledger-db를 운영하며 윤지아를 온콜 담당자로 둔다.</data>
+      <data key="d3">ORG-02-chunk-000</data>
+      <data key="d4">ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="메시징플랫폼팀">
+      <data key="d0">메시징플랫폼팀</data>
+      <data key="d1">팀</data>
+      <data key="d2">메시징플랫폼팀은 kafka-main과 notify-hub를 운영하며 강태오를 온콜 담당자로 둔다.</data>
+      <data key="d3">ORG-02-chunk-000</data>
+      <data key="d4">ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="한도윤">
+      <data key="d0">한도윤</data>
+      <data key="d1">인물</data>
+      <data key="d2">한도윤은 공통인프라팀의 온콜 담당자이다.</data>
+      <data key="d3">ORG-02-chunk-000</data>
+      <data key="d4">ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="윤지아">
+      <data key="d0">윤지아</data>
+      <data key="d1">인물</data>
+      <data key="d2">윤지아는 데이터플랫폼팀의 온콜 담당자이다.</data>
+      <data key="d3">ORG-02-chunk-000</data>
+      <data key="d4">ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="강태오">
+      <data key="d0">강태오</data>
+      <data key="d1">인물</data>
+      <data key="d2">강태오는 메시징플랫폼팀의 온콜 담당자이다.</data>
+      <data key="d3">ORG-02-chunk-000</data>
+      <data key="d4">ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="팀장">
+      <data key="d0">팀장</data>
+      <data key="d1">other</data>
+      <data key="d2">팀장은 온콜 담당자가 10분 안에 응답하지 않을 때 장애 연락을 전달받는 같은 팀의 책임자이다.</data>
+      <data key="d3">ORG-02-chunk-000</data>
+      <data key="d4">ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="본부 당직 책임자">
+      <data key="d0">본부 당직 책임자</data>
+      <data key="d1">other</data>
+      <data key="d2">본부 당직 책임자는 팀장도 응답하지 않을 때 장애 연락을 전달받는 본부 책임자이다.</data>
+      <data key="d3">ORG-02-chunk-000</data>
+      <data key="d4">ORG-02.txt</data>
+      <data key="d5">1791602883</data>
+      <data key="d6" />
+    </node>
+    <node id="CHG-2608-02">
+      <data key="d0">CHG-2608-02</data>
+      <data key="d1">other</data>
+      <data key="d2">pay-gateway의 결제 요청 처리 스레드 상한을 조정한 2026년 8월 20일 운영 변경 기록이다.</data>
+      <data key="d3">CHG-01-chunk-000</data>
+      <data key="d4">CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="CHG-2609-05">
+      <data key="d0">CHG-2609-05</data>
+      <data key="d1">other</data>
+      <data key="d2">recon-worker에 카드사별 커넥션 상한을 나누는 2.3 버전을 배포한 2026년 9월 15일 운영 변경 기록이다.</data>
+      <data key="d3">CHG-01-chunk-000</data>
+      <data key="d4">CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="notify.events">
+      <data key="d0">notify.events</data>
+      <data key="d1">구성요소</data>
+      <data key="d2">kafka-main에서 사용되는 메시지 토픽이며 보존 기간 값이 604800으로 변경되었다.</data>
+      <data key="d3">CHG-01-chunk-000</data>
+      <data key="d4">CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="김나래">
+      <data key="d0">김나래</data>
+      <data key="d1">인물</data>
+      <data key="d2">CHG-2604-02의 변경을 요청한 인물이다.</data>
+      <data key="d3">CHG-01-chunk-000</data>
+      <data key="d4">CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="백승우">
+      <data key="d0">백승우</data>
+      <data key="d1">인물</data>
+      <data key="d2">CHG-2604-02, CHG-2605-01, CHG-2607-04, CHG-2609-02의 변경을 승인한 인물이다.</data>
+      <data key="d3">CHG-01-chunk-000</data>
+      <data key="d4">CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="이도현">
+      <data key="d0">이도현</data>
+      <data key="d1">인물</data>
+      <data key="d2">CHG-2605-01의 변경을 요청한 인물이다.</data>
+      <data key="d3">CHG-01-chunk-000</data>
+      <data key="d4">CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="송유진">
+      <data key="d0">송유진</data>
+      <data key="d1">인물</data>
+      <data key="d2">CHG-2606-03과 CHG-2609-05의 변경을 요청한 인물이다.</data>
+      <data key="d3">CHG-01-chunk-000</data>
+      <data key="d4">CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="임채원">
+      <data key="d0">임채원</data>
+      <data key="d1">인물</data>
+      <data key="d2">CHG-2606-03, CHG-2608-02, CHG-2609-05의 변경을 승인한 인물이다.</data>
+      <data key="d3">CHG-01-chunk-000</data>
+      <data key="d4">CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="장은비">
+      <data key="d0">장은비</data>
+      <data key="d1">인물</data>
+      <data key="d2">CHG-2607-04의 변경을 요청한 인물이다.</data>
+      <data key="d3">CHG-01-chunk-000</data>
+      <data key="d4">CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="노현우">
+      <data key="d0">노현우</data>
+      <data key="d1">인물</data>
+      <data key="d2">CHG-2608-02의 변경을 요청한 인물이다.</data>
+      <data key="d3">CHG-01-chunk-000</data>
+      <data key="d4">CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <node id="서지훈">
+      <data key="d0">서지훈</data>
+      <data key="d1">인물</data>
+      <data key="d2">CHG-2609-02의 변경을 요청한 인물이다.</data>
+      <data key="d3">CHG-01-chunk-000</data>
+      <data key="d4">CHG-01.txt</data>
+      <data key="d5">1791602903</data>
+      <data key="d6" />
+    </node>
+    <edge source="앱 로그인" target="앱 로그인 실패 장애">
+      <data key="d7">1.0</data>
+      <data key="d8">앱 로그인 실패 장애는 앱 로그인 요청의 약 60%를 실패하게 했다.</data>
+      <data key="d9">영향,장애 발생</data>
+      <data key="d10">INC-0409-chunk-000</data>
+      <data key="d11">INC-0409.txt</data>
+      <data key="d12">1791602624</data>
+      <data key="d13" />
+    </edge>
+    <edge source="앱 로그인 실패 장애" target="간편결제 화면">
+      <data key="d7">1.0</data>
+      <data key="d8">앱 로그인 실패 장애로 새로 로그인하거나 세션이 끊긴 사용자가 간편결제 화면에 접근하지 못했다.</data>
+      <data key="d9">영향,접근 불가</data>
+      <data key="d10">INC-0409-chunk-000</data>
+      <data key="d11">INC-0409.txt</data>
+      <data key="d12">1791602624</data>
+      <data key="d13" />
+    </edge>
+    <edge source="앱 로그인 실패 장애" target="고객센터">
+      <data key="d7">1.0</data>
+      <data key="d8">앱 로그인 실패 장애 동안 고객센터 문의가 평소의 네 배로 증가했다.</data>
+      <data key="d9">문의 증가,영향</data>
+      <data key="d10">INC-0409-chunk-000</data>
+      <data key="d11">INC-0409.txt</data>
+      <data key="d12">1791602624</data>
+      <data key="d13" />
+    </edge>
+    <edge source="앱 로그인 실패 장애" target="클라이언트 인증서">
+      <data key="d7">1.0</data>
+      <data key="d8">클라이언트 인증서 만료로 auth-token이 새 세션을 저장하지 못하면서 앱 로그인 실패 장애가 발생했다.</data>
+      <data key="d9">만료,직접 원인</data>
+      <data key="d10">INC-0409-chunk-000</data>
+      <data key="d11">INC-0409.txt</data>
+      <data key="d12">1791602624</data>
+      <data key="d13" />
+    </edge>
+    <edge source="앱 로그인 실패 장애" target="auth-token">
+      <data key="d7">1.0</data>
+      <data key="d8">앱 로그인 실패 장애에 대응해 auth-token 인스턴스가 순서대로 재시작되었다.</data>
+      <data key="d9">재시작,조치</data>
+      <data key="d10">INC-0409-chunk-000</data>
+      <data key="d11">INC-0409.txt</data>
+      <data key="d12">1791602624</data>
+      <data key="d13" />
+    </edge>
+    <edge source="auth-token" target="redis-session">
+      <data key="d7">2.0</data>
+      <data key="d8">auth-token은 클라이언트 인증서를 사용해 redis-session에 접속하고 새 세션을 저장한다.&lt;SEP&gt;auth-token은 발급한 로그인 세션 정보를 redis-session에 저장한다.</data>
+      <data key="d9">세션 저장,접속,캐시</data>
+      <data key="d10">INC-0409-chunk-000&lt;SEP&gt;CAT-01-chunk-000</data>
+      <data key="d11">INC-0409.txt&lt;SEP&gt;CAT-01.txt</data>
+      <data key="d12">1791602817</data>
+      <data key="d13" />
+    </edge>
+    <edge source="auth-token" target="클라이언트 인증서">
+      <data key="d7">1.0</data>
+      <data key="d8">auth-token은 redis-session 접속을 위해 클라이언트 인증서에 의존한다.</data>
+      <data key="d9">인증,접속 의존</data>
+      <data key="d10">INC-0409-chunk-000</data>
+      <data key="d11">INC-0409.txt</data>
+      <data key="d12">1791602624</data>
+      <data key="d13" />
+    </edge>
+    <edge source="auth-token" target="TLS 핸드셰이크 오류">
+      <data key="d7">1.0</data>
+      <data key="d8">TLS 핸드셰이크 오류는 auth-token 로그에서 반복적으로 발생했으며 redis-session 연결 실패와 관련되었다.</data>
+      <data key="d9">로그 발생,연결 실패</data>
+      <data key="d10">INC-0409-chunk-000</data>
+      <data key="d11">INC-0409.txt</data>
+      <data key="d12">1791602624</data>
+      <data key="d13" />
+    </edge>
+    <edge source="auth-token" target="pay-gateway">
+      <data key="d7">1.0</data>
+      <data key="d8">pay-gateway는 결제 요청이 들어오면 auth-token을 이용해 사용자를 확인한다.</data>
+      <data key="d9">사용자 확인,인증</data>
+      <data key="d10">CAT-01-chunk-000</data>
+      <data key="d11">CAT-01.txt</data>
+      <data key="d12">1791602817</data>
+      <data key="d13" />
+    </edge>
+    <edge source="auth-token" target="결제플랫폼팀">
+      <data key="d7">1.0</data>
+      <data key="d8">결제플랫폼팀은 auth-token을 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="redis-session" target="클라이언트 인증서">
+      <data key="d7">1.0</data>
+      <data key="d8">클라이언트 인증서는 auth-token이 redis-session에 접속할 때 사용된다.</data>
+      <data key="d9">접속 인증</data>
+      <data key="d10">INC-0409-chunk-000</data>
+      <data key="d11">INC-0409.txt</data>
+      <data key="d12">1791602624</data>
+      <data key="d13" />
+    </edge>
+    <edge source="redis-session" target="공통인프라팀">
+      <data key="d7">1.0</data>
+      <data key="d8">공통인프라팀은 redis-session을 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="고객센터" target="알림 미발송 장애">
+      <data key="d7">1.0</data>
+      <data key="d8">고객센터에 알림이 오지 않는다는 문의가 쌓이면서 알림 미발송 장애가 확인되기 시작했다.</data>
+      <data key="d9">문의 접수,탐지</data>
+      <data key="d10">INC-0909-chunk-000</data>
+      <data key="d11">INC-0909.txt</data>
+      <data key="d12">1791602803</data>
+      <data key="d13" />
+    </edge>
+    <edge source="정산 금액 오차 장애" target="가맹점">
+      <data key="d7">1.0</data>
+      <data key="d8">정산 금액 오차 장애는 가맹점 1,284곳의 정산 금액을 잘못 계산했고 하루 동안 지급을 지연시켰다.</data>
+      <data key="d9">영향,지급 지연</data>
+      <data key="d10">INC-0417-chunk-000</data>
+      <data key="d11">INC-0417.txt</data>
+      <data key="d12">1791602638</data>
+      <data key="d13" />
+    </edge>
+    <edge source="정산 금액 오차 장애" target="batch-scheduler">
+      <data key="d7">1.0</data>
+      <data key="d8">정산 금액 오차 장애는 batch-scheduler의 잘못된 실행 기준 시간대 때문에 발생했다.</data>
+      <data key="d9">시간대 오류,직접 원인</data>
+      <data key="d10">INC-0417-chunk-000</data>
+      <data key="d11">INC-0417.txt</data>
+      <data key="d12">1791602638</data>
+      <data key="d13" />
+    </edge>
+    <edge source="정산 금액 오차 장애" target="settle-batch">
+      <data key="d7">1.0</data>
+      <data key="d8">settle-batch 실행 완료 후 대사 결과에서 정산 금액 오차 장애의 큰 차액이 확인되었다.</data>
+      <data key="d9">대사,이상 탐지</data>
+      <data key="d10">INC-0417-chunk-000</data>
+      <data key="d11">INC-0417.txt</data>
+      <data key="d12">1791602638</data>
+      <data key="d13" />
+    </edge>
+    <edge source="정산 금액 오차 장애" target="ledger-db">
+      <data key="d7">1.0</data>
+      <data key="d8">정산 금액 오차 장애를 해결하기 위해 ledger-db에서 4월 16일 거래를 다시 읽어 재정산했다.</data>
+      <data key="d9">원장 조회,재처리</data>
+      <data key="d10">INC-0417-chunk-000</data>
+      <data key="d11">INC-0417.txt</data>
+      <data key="d12">1791602638</data>
+      <data key="d13" />
+    </edge>
+    <edge source="가맹점" target="가맹점 정산 파일 누락 장애">
+      <data key="d7">1.0</data>
+      <data key="d8">가맹점 정산 파일 누락 장애로 카드 거래가 있는 가맹점 약 2,100곳의 지급이 이틀 동안 지연되었다.</data>
+      <data key="d9">영향,지급 지연</data>
+      <data key="d10">INC-0812-chunk-000</data>
+      <data key="d11">INC-0812.txt</data>
+      <data key="d12">1791602774</data>
+      <data key="d13" />
+    </edge>
+    <edge source="settle-batch" target="가맹점 정산 지연 장애">
+      <data key="d7">1.0</data>
+      <data key="d8">settle-batch가 ledger-db 커넥션을 얻지 못해 작업이 멈춘 것이 장애의 직접 원인이 되었다.</data>
+      <data key="d9">작업 중단,직접 원인</data>
+      <data key="d10">INC-0612-chunk-000</data>
+      <data key="d11">INC-0612.txt</data>
+      <data key="d12">1791602722</data>
+      <data key="d13" />
+    </edge>
+    <edge source="settle-batch" target="ledger-db">
+      <data key="d7">1.0</data>
+      <data key="d8">settle-batch 작업자들은 ledger-db 커넥션을 얻지 못해 대기했다.</data>
+      <data key="d9">대기,커넥션 의존</data>
+      <data key="d10">INC-0612-chunk-000</data>
+      <data key="d11">INC-0612.txt</data>
+      <data key="d12">1791602722</data>
+      <data key="d13" />
+    </edge>
+    <edge source="settle-batch" target="CHG-2606-03">
+      <data key="d7">2.0</data>
+      <data key="d8">CHG-2606-03으로 settle-batch의 병렬 처리 개수가 8에서 32로 증가했다.&lt;SEP&gt;CHG-2606-03은 settle-batch의 병렬 처리 개수를 8개에서 32개로 늘렸다.</data>
+      <data key="d9">대상,변경 적용,병렬 처리 변경</data>
+      <data key="d10">INC-0612-chunk-000&lt;SEP&gt;CHG-01-chunk-000</data>
+      <data key="d11">INC-0612.txt&lt;SEP&gt;CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="settle-batch" target="원장디비">
+      <data key="d7">1.0</data>
+      <data key="d8">settle-batch는 원장디비에서 전날 거래 원장을 읽어 정산 금액을 계산한다.</data>
+      <data key="d9">거래 원장 조회</data>
+      <data key="d10">CAT-02-chunk-000</data>
+      <data key="d11">CAT-02.txt</data>
+      <data key="d12">1791602831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="settle-batch" target="batch-scheduler">
+      <data key="d7">2.0</data>
+      <data key="d8">batch-scheduler는 settle-batch를 포함한 야간 작업의 실행 순서와 시각을 관리한다.&lt;SEP&gt;settle-batch는 batch-scheduler에서 실행 시각과 날짜 경계를 받는다.</data>
+      <data key="d9">실행 일정 제공,작업 실행 관리</data>
+      <data key="d10">CAT-02-chunk-000</data>
+      <data key="d11">CAT-02.txt</data>
+      <data key="d12">1791602831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="settle-batch" target="정산 파일">
+      <data key="d7">1.0</data>
+      <data key="d8">settle-batch는 정산 계산 결과를 정산 파일로 남긴다.</data>
+      <data key="d9">정산 결과 기록</data>
+      <data key="d10">CAT-02-chunk-000</data>
+      <data key="d11">CAT-02.txt</data>
+      <data key="d12">1791602831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="settle-batch" target="payout-api">
+      <data key="d7">1.0</data>
+      <data key="d8">settle-batch는 정산 파일을 payout-api에 전달한다.</data>
+      <data key="d9">결과 전달</data>
+      <data key="d10">CAT-02-chunk-000</data>
+      <data key="d11">CAT-02.txt</data>
+      <data key="d12">1791602831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="settle-batch" target="recon-worker">
+      <data key="d7">1.0</data>
+      <data key="d8">settle-batch와 recon-worker는 같은 원장디비 연결 한도를 나누어 사용한다.</data>
+      <data key="d9">원장디비 연결 한도 공유</data>
+      <data key="d10">CAT-02-chunk-000</data>
+      <data key="d11">CAT-02.txt</data>
+      <data key="d12">1791602831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="settle-batch" target="정산개발팀">
+      <data key="d7">1.0</data>
+      <data key="d8">정산개발팀은 settle-batch를 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="batch-scheduler" target="UTC">
+      <data key="d7">1.0</data>
+      <data key="d8">batch-scheduler의 실행 기준 시간대가 UTC로 설정되어 거래 날짜 경계가 아홉 시간 어긋났다.</data>
+      <data key="d9">설정,시간대 변경</data>
+      <data key="d10">INC-0417-chunk-000</data>
+      <data key="d11">INC-0417.txt</data>
+      <data key="d12">1791602638</data>
+      <data key="d13" />
+    </edge>
+    <edge source="batch-scheduler" target="CHG-2604-02">
+      <data key="d7">2.0</data>
+      <data key="d8">CHG-2604-02는 batch-scheduler의 시간대를 UTC로 변경했다.&lt;SEP&gt;CHG-2604-02는 batch-scheduler의 기본 시간대를 UTC로 변경했다.</data>
+      <data key="d9">대상,변경,변경 적용,설정 수정</data>
+      <data key="d10">INC-0417-chunk-000&lt;SEP&gt;CHG-01-chunk-000</data>
+      <data key="d11">INC-0417.txt&lt;SEP&gt;CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="batch-scheduler" target="KST">
+      <data key="d7">1.0</data>
+      <data key="d8">batch-scheduler의 시간대는 오류를 바로잡기 위해 KST로 되돌려졌다.</data>
+      <data key="d9">복구,시간대 변경</data>
+      <data key="d10">INC-0417-chunk-000</data>
+      <data key="d11">INC-0417.txt</data>
+      <data key="d12">1791602638</data>
+      <data key="d13" />
+    </edge>
+    <edge source="batch-scheduler" target="recon-worker">
+      <data key="d7">1.0</data>
+      <data key="d8">batch-scheduler는 recon-worker를 포함한 야간 작업의 실행 순서와 시각을 관리한다.</data>
+      <data key="d9">작업 실행 관리</data>
+      <data key="d10">CAT-02-chunk-000</data>
+      <data key="d11">CAT-02.txt</data>
+      <data key="d12">1791602831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="batch-scheduler" target="정산개발팀">
+      <data key="d7">1.0</data>
+      <data key="d8">정산개발팀은 batch-scheduler를 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2604-02" target="김나래">
+      <data key="d7">1.0</data>
+      <data key="d8">김나래는 CHG-2604-02의 변경 요청자이다.</data>
+      <data key="d9">변경 요청</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2604-02" target="백승우">
+      <data key="d7">1.0</data>
+      <data key="d8">백승우는 CHG-2604-02의 변경 승인자이다.</data>
+      <data key="d9">변경 승인</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="ledger-db" target="내역 조회 쿼리">
+      <data key="d7">1.0</data>
+      <data key="d8">내역 조회 쿼리는 ledger-db에서 평균 4초씩 처리되었다.</data>
+      <data key="d9">조회,지연</data>
+      <data key="d10">INC-0518-chunk-000</data>
+      <data key="d11">INC-0518.txt</data>
+      <data key="d12">1791602678</data>
+      <data key="d13" />
+    </edge>
+    <edge source="ledger-db" target="ledger-db 커넥션 풀">
+      <data key="d7">1.0</data>
+      <data key="d8">ledger-db의 커넥션 풀이 상한에 도달했고 다른 야간 작업과 사용량이 겹치면서 커넥션 풀이 고갈되었다.</data>
+      <data key="d9">고갈,사용</data>
+      <data key="d10">INC-0612-chunk-000</data>
+      <data key="d11">INC-0612.txt</data>
+      <data key="d12">1791602722</data>
+      <data key="d13" />
+    </edge>
+    <edge source="ledger-db" target="가맹점 정산 지연 장애">
+      <data key="d7">1.0</data>
+      <data key="d8">ledger-db의 커넥션 풀 상한이 병렬 처리 증가와 다른 야간 작업의 중첩을 감당하지 못한 것이 장애의 근본 원인으로 분류되었다.</data>
+      <data key="d9">근본 원인 구성요소,커넥션 고갈</data>
+      <data key="d10">INC-0612-chunk-000</data>
+      <data key="d11">INC-0612.txt</data>
+      <data key="d12">1791602722</data>
+      <data key="d13" />
+    </edge>
+    <edge source="ledger-db" target="pay-gateway">
+      <data key="d7">1.0</data>
+      <data key="d8">pay-gateway는 결제 승인 결과를 ledger-db에 기록한다.</data>
+      <data key="d9">결과 기록,원장 저장</data>
+      <data key="d10">CAT-01-chunk-000</data>
+      <data key="d11">CAT-01.txt</data>
+      <data key="d12">1791602817</data>
+      <data key="d13" />
+    </edge>
+    <edge source="ledger-db" target="point-engine">
+      <data key="d7">1.0</data>
+      <data key="d8">point-engine은 적립 이력을 ledger-db에 기록한다.</data>
+      <data key="d9">이력 기록</data>
+      <data key="d10">CAT-03-chunk-000</data>
+      <data key="d11">CAT-03.txt</data>
+      <data key="d12">1791602842</data>
+      <data key="d13" />
+    </edge>
+    <edge source="ledger-db" target="point-wallet">
+      <data key="d7">1.0</data>
+      <data key="d8">point-wallet은 거래 내역을 ledger-db에서 읽는다.</data>
+      <data key="d9">거래 조회</data>
+      <data key="d10">CAT-03-chunk-000</data>
+      <data key="d11">CAT-03.txt</data>
+      <data key="d12">1791602842</data>
+      <data key="d13" />
+    </edge>
+    <edge source="ledger-db" target="coupon-svc">
+      <data key="d7">1.0</data>
+      <data key="d8">coupon-svc는 쿠폰 발급 한도와 쿠폰 원장을 ledger-db에 저장한다.</data>
+      <data key="d9">원장 저장</data>
+      <data key="d10">CAT-03-chunk-000</data>
+      <data key="d11">CAT-03.txt</data>
+      <data key="d12">1791602842</data>
+      <data key="d13" />
+    </edge>
+    <edge source="ledger-db" target="데이터플랫폼팀">
+      <data key="d7">1.0</data>
+      <data key="d8">데이터플랫폼팀은 ledger-db를 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="카드 결제 승인 지연 장애" target="카드 결제">
+      <data key="d7">1.0</data>
+      <data key="d8">카드 결제 승인 지연 장애는 카드 결제의 응답 시간을 증가시키고 약 7,900건을 실패로 종료시켰다.</data>
+      <data key="d9">영향,응답 지연</data>
+      <data key="d10">INC-0428-chunk-000</data>
+      <data key="d11">INC-0428.txt</data>
+      <data key="d12">1791602652</data>
+      <data key="d13" />
+    </edge>
+    <edge source="카드 결제 승인 지연 장애" target="한빛PG">
+      <data key="d7">1.0</data>
+      <data key="d8">한빛PG 승인 서버의 작업으로 처리 용량이 감소하면서 카드 결제 승인 응답이 지연되어 장애가 발생했다.</data>
+      <data key="d9">외부 PG사,직접 원인</data>
+      <data key="d10">INC-0428-chunk-000</data>
+      <data key="d11">INC-0428.txt</data>
+      <data key="d12">1791602652</data>
+      <data key="d13" />
+    </edge>
+    <edge source="카드 결제 승인 지연 장애" target="앱">
+      <data key="d7">1.0</data>
+      <data key="d8">카드 결제 승인 지연 장애로 응답 시간이 앱의 대기 한도를 넘어 결제가 실패했다.</data>
+      <data key="d9">결제 실패,대기 한도 초과</data>
+      <data key="d10">INC-0428-chunk-000</data>
+      <data key="d11">INC-0428.txt</data>
+      <data key="d12">1791602652</data>
+      <data key="d13" />
+    </edge>
+    <edge source="카드 결제" target="다온PG">
+      <data key="d7">1.0</data>
+      <data key="d8">운영자는 장애 중 신규 카드 결제를 다온PG로 라우팅하여 한빛PG 지연의 영향을 줄였다.</data>
+      <data key="d9">대체 라우팅,장애 완화</data>
+      <data key="d10">INC-0428-chunk-000</data>
+      <data key="d11">INC-0428.txt</data>
+      <data key="d12">1791602652</data>
+      <data key="d13" />
+    </edge>
+    <edge source="한빛PG" target="승인 서버">
+      <data key="d7">1.0</data>
+      <data key="d8">한빛PG의 승인 서버는 증설 작업 중 처리 용량이 감소했다.</data>
+      <data key="d9">소유,처리 용량 감소</data>
+      <data key="d10">INC-0428-chunk-000</data>
+      <data key="d11">INC-0428.txt</data>
+      <data key="d12">1791602652</data>
+      <data key="d13" />
+    </edge>
+    <edge source="한빛PG" target="pg-connector">
+      <data key="d7">2.0</data>
+      <data key="d8">pg-connector는 한빛PG를 호출하며, 한빛PG 호출 대기 시간이 30초로 설정되어 있었다.&lt;SEP&gt;pg-connector는 국내 카드 결제의 승인, 취소, 결과 확인 전문을 한빛PG에 전달한다.</data>
+      <data key="d9">PG 연동,국내 카드,대기 시간,호출</data>
+      <data key="d10">INC-0428-chunk-000&lt;SEP&gt;CAT-01-chunk-000</data>
+      <data key="d11">INC-0428.txt&lt;SEP&gt;CAT-01.txt</data>
+      <data key="d12">1791602817</data>
+      <data key="d13" />
+    </edge>
+    <edge source="한빛PG" target="승인 결과 통보">
+      <data key="d7">1.0</data>
+      <data key="d8">한빛PG는 통보 서버 점검 중 승인 결과 통보를 묶어 늦게 전송했다.</data>
+      <data key="d9">외부 PG사,통보 지연</data>
+      <data key="d10">INC-0703-chunk-000</data>
+      <data key="d11">INC-0703.txt</data>
+      <data key="d12">1791602736</data>
+      <data key="d13" />
+    </edge>
+    <edge source="한빛PG" target="결제 완료 알림 지연 장애">
+      <data key="d7">1.0</data>
+      <data key="d8">한빛PG의 승인 결과 통보 지연이 결제 완료 알림 지연 장애의 직접 원인이 되었다.</data>
+      <data key="d9">장애 유발,직접 원인</data>
+      <data key="d10">INC-0703-chunk-000</data>
+      <data key="d11">INC-0703.txt</data>
+      <data key="d12">1791602736</data>
+      <data key="d13" />
+    </edge>
+    <edge source="다온PG" target="해외 카드 결제 실패 장애">
+      <data key="d7">1.0</data>
+      <data key="d8">다온PG의 해외 카드 승인 구간에서 응답 지연이 발생해 해외 카드 결제 실패 장애가 발생했다.</data>
+      <data key="d9">응답 지연,직접 원인</data>
+      <data key="d10">INC-0527-chunk-000</data>
+      <data key="d11">INC-0527.txt</data>
+      <data key="d12">1791602691</data>
+      <data key="d13" />
+    </edge>
+    <edge source="다온PG" target="해외 카드사 연결 구간">
+      <data key="d7">1.0</data>
+      <data key="d8">다온PG의 해외 카드사 연결 구간에서 승인 응답 지연 문제가 발생했다.</data>
+      <data key="d9">연결,장애 발생</data>
+      <data key="d10">INC-0527-chunk-000</data>
+      <data key="d11">INC-0527.txt</data>
+      <data key="d12">1791602691</data>
+      <data key="d13" />
+    </edge>
+    <edge source="다온PG" target="pg-connector">
+      <data key="d7">2.0</data>
+      <data key="d8">pg-connector는 다온PG에 해외 카드 승인 요청을 전달했으며, 20초가 넘도록 응답을 받지 못했다.&lt;SEP&gt;pg-connector는 국내 카드 결제 전문을 다온PG에 전달하고 해외 카드 결제 전문은 다온PG에만 전달한다.</data>
+      <data key="d9">PG 연동,국내외 카드,요청 전달,응답 대기</data>
+      <data key="d10">INC-0527-chunk-000&lt;SEP&gt;CAT-01-chunk-000</data>
+      <data key="d11">INC-0527.txt&lt;SEP&gt;CAT-01.txt</data>
+      <data key="d12">1791602817</data>
+      <data key="d13" />
+    </edge>
+    <edge source="다온PG" target="해외 카드 결제">
+      <data key="d7">1.0</data>
+      <data key="d8">해외 카드 결제 서비스는 해외 카드 승인을 다온PG 한 곳에만 의존했다.</data>
+      <data key="d9">결제 처리,단일 의존</data>
+      <data key="d10">INC-0527-chunk-000</data>
+      <data key="d11">INC-0527.txt</data>
+      <data key="d12">1791602691</data>
+      <data key="d13" />
+    </edge>
+    <edge source="pg-connector" target="pay-gateway">
+      <data key="d7">2.0</data>
+      <data key="d8">pg-connector의 긴 한빛PG 호출 대기 시간은 pay-gateway의 작업 스레드를 붙잡았다.&lt;SEP&gt;pay-gateway는 risk-engine의 판정 후 pg-connector에 결제 승인을 요청한다.</data>
+      <data key="d9">결제 처리,승인 요청,작업 스레드 점유,장애 전파</data>
+      <data key="d10">INC-0428-chunk-000&lt;SEP&gt;CAT-01-chunk-000</data>
+      <data key="d11">INC-0428.txt&lt;SEP&gt;CAT-01.txt</data>
+      <data key="d12">1791602817</data>
+      <data key="d13" />
+    </edge>
+    <edge source="pg-connector" target="승인 결과 통보">
+      <data key="d7">1.0</data>
+      <data key="d8">pg-connector는 한빛PG의 승인 결과 통보를 받는 구간에서 응답 지연을 겪었다.</data>
+      <data key="d9">연동,응답 지연</data>
+      <data key="d10">INC-0703-chunk-000</data>
+      <data key="d11">INC-0703.txt</data>
+      <data key="d12">1791602736</data>
+      <data key="d13" />
+    </edge>
+    <edge source="pg-connector" target="결제플랫폼팀">
+      <data key="d7">1.0</data>
+      <data key="d8">결제플랫폼팀은 pg-connector를 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="pay-gateway" target="risk-engine">
+      <data key="d7">1.0</data>
+      <data key="d8">pay-gateway는 결제 시점에 risk-engine에 이상거래 판정을 요청한다.</data>
+      <data key="d9">이상거래 탐지,판정 요청</data>
+      <data key="d10">CAT-01-chunk-000</data>
+      <data key="d11">CAT-01.txt</data>
+      <data key="d12">1791602817</data>
+      <data key="d13" />
+    </edge>
+    <edge source="pay-gateway" target="kafka-main">
+      <data key="d7">1.0</data>
+      <data key="d8">pay-gateway는 결제 완료 이벤트를 kafka-main에 발행한다.</data>
+      <data key="d9">결제 완료,이벤트 발행</data>
+      <data key="d10">CAT-01-chunk-000</data>
+      <data key="d11">CAT-01.txt</data>
+      <data key="d12">1791602817</data>
+      <data key="d13" />
+    </edge>
+    <edge source="pay-gateway" target="merchant-api">
+      <data key="d7">1.0</data>
+      <data key="d8">merchant-api는 가맹점 서버의 실제 결제 처리를 pay-gateway에 넘긴다.</data>
+      <data key="d9">결제 위임,요청 전달</data>
+      <data key="d10">CAT-01-chunk-000</data>
+      <data key="d11">CAT-01.txt</data>
+      <data key="d12">1791602817</data>
+      <data key="d13" />
+    </edge>
+    <edge source="pay-gateway" target="결제플랫폼팀">
+      <data key="d7">1.0</data>
+      <data key="d8">결제플랫폼팀은 pay-gateway를 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="pay-gateway" target="CHG-2608-02">
+      <data key="d7">1.0</data>
+      <data key="d8">CHG-2608-02는 pay-gateway의 결제 요청 처리 스레드 상한을 조정했다.</data>
+      <data key="d9">대상,변경 적용</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="앱" target="와일드카드 인증서 만료 결제 중단 장애">
+      <data key="d7">1.0</data>
+      <data key="d8">장애로 인해 앱의 모든 결제 요청이 실패했다.</data>
+      <data key="d9">결제 실패,영향</data>
+      <data key="d10">INC-0804-chunk-000</data>
+      <data key="d11">INC-0804.txt</data>
+      <data key="d12">1791602763</data>
+      <data key="d13" />
+    </edge>
+    <edge source="앱" target="와일드카드 인증서">
+      <data key="d7">1.0</data>
+      <data key="d8">앱은 와일드카드 인증서 만료로 보안 연결을 맺지 못했다.</data>
+      <data key="d9">보안 연결,의존</data>
+      <data key="d10">INC-0804-chunk-000</data>
+      <data key="d11">INC-0804.txt</data>
+      <data key="d12">1791602763</data>
+      <data key="d13" />
+    </edge>
+    <edge source="포인트 적립 지연 장애" target="point-engine">
+      <data key="d7">1.0</data>
+      <data key="d8">포인트 적립 지연 장애는 point-engine에서 발생했으며 포인트 적립 처리와 알림을 지연시켰다.</data>
+      <data key="d9">발생,영향</data>
+      <data key="d10">INC-0513-chunk-000</data>
+      <data key="d11">INC-0513.txt</data>
+      <data key="d12">1791602662</data>
+      <data key="d13" />
+    </edge>
+    <edge source="point-engine" target="DB 커넥션 풀">
+      <data key="d7">1.0</data>
+      <data key="d8">point-engine은 DB 커넥션 풀을 사용하며, 커넥션 40개가 모두 점유되면서 새 적립 요청 처리가 중단되었다.</data>
+      <data key="d9">고갈,사용</data>
+      <data key="d10">INC-0513-chunk-000</data>
+      <data key="d11">INC-0513.txt</data>
+      <data key="d12">1791602662</data>
+      <data key="d13" />
+    </edge>
+    <edge source="point-engine" target="인스턴스">
+      <data key="d7">1.0</data>
+      <data key="d8">point-engine은 장애 대응을 위해 인스턴스 수를 늘려 처리 대기열을 줄였다.</data>
+      <data key="d9">대응,확장</data>
+      <data key="d10">INC-0513-chunk-000</data>
+      <data key="d11">INC-0513.txt</data>
+      <data key="d12">1791602662</data>
+      <data key="d13" />
+    </edge>
+    <edge source="point-engine" target="kafka-main">
+      <data key="d7">1.0</data>
+      <data key="d8">point-engine은 kafka-main에서 결제 완료 이벤트를 수신한다.</data>
+      <data key="d9">이벤트 수신</data>
+      <data key="d10">CAT-03-chunk-000</data>
+      <data key="d11">CAT-03.txt</data>
+      <data key="d12">1791602842</data>
+      <data key="d13" />
+    </edge>
+    <edge source="point-engine" target="포인트서비스팀">
+      <data key="d7">1.0</data>
+      <data key="d8">포인트서비스팀은 point-engine을 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="point-engine" target="CHG-2605-01">
+      <data key="d7">1.0</data>
+      <data key="d8">CHG-2605-01은 point-engine의 적립 처리 스레드 수를 16개에서 32개로 늘렸다.</data>
+      <data key="d9">대상,변경 적용</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="point-engine" target="CHG-2607-04">
+      <data key="d7">1.0</data>
+      <data key="d8">CHG-2607-04는 point-engine에 7월 프로모션용 적립 규칙 파일 v42를 반영했다.</data>
+      <data key="d9">대상,변경 적용</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="DB 커넥션 풀" target="적립 처리 스레드">
+      <data key="d7">1.0</data>
+      <data key="d8">적립 처리 스레드는 커넥션을 오래 점유한 채 서로 기다렸고, 저녁 결제 집중으로 DB 커넥션 풀을 고갈시켰다.</data>
+      <data key="d9">대기,점유</data>
+      <data key="d10">INC-0513-chunk-000</data>
+      <data key="d11">INC-0513.txt</data>
+      <data key="d12">1791602662</data>
+      <data key="d13" />
+    </edge>
+    <edge source="적립 처리 스레드" target="CHG-2605-01">
+      <data key="d7">1.0</data>
+      <data key="d8">CHG-2605-01은 적립 처리 스레드 수를 기존의 두 배로 증가시켰다.</data>
+      <data key="d9">변경,증가</data>
+      <data key="d10">INC-0513-chunk-000</data>
+      <data key="d11">INC-0513.txt</data>
+      <data key="d12">1791602662</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2605-01" target="이도현">
+      <data key="d7">1.0</data>
+      <data key="d8">이도현은 CHG-2605-01의 변경 요청자이다.</data>
+      <data key="d9">변경 요청</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2605-01" target="백승우">
+      <data key="d7">1.0</data>
+      <data key="d8">백승우는 CHG-2605-01의 변경 승인자이다.</data>
+      <data key="d9">변경 승인</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="포인트 잔액 조회 오류 장애" target="point-wallet">
+      <data key="d7">1.0</data>
+      <data key="d8">point-wallet에서 커넥션 풀 고갈로 잔액 요청을 처리하지 못하면서 포인트 잔액 조회 오류 장애가 발생했다.</data>
+      <data key="d9">발생,영향</data>
+      <data key="d10">INC-0518-chunk-000</data>
+      <data key="d11">INC-0518.txt</data>
+      <data key="d12">1791602678</data>
+      <data key="d13" />
+    </edge>
+    <edge source="point-wallet" target="redis-point">
+      <data key="d7">1.0</data>
+      <data key="d8">point-wallet은 사용자별 포인트 요약을 redis-point에 저장하고 조회한다.</data>
+      <data key="d9">캐시 사용</data>
+      <data key="d10">CAT-03-chunk-000</data>
+      <data key="d11">CAT-03.txt</data>
+      <data key="d12">1791602842</data>
+      <data key="d13" />
+    </edge>
+    <edge source="point-wallet" target="포인트서비스팀">
+      <data key="d7">1.0</data>
+      <data key="d8">포인트서비스팀은 point-wallet를 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="거래 내역 화면 개선 기능" target="내역 조회 쿼리">
+      <data key="d7">1.0</data>
+      <data key="d8">거래 내역 화면 개선 기능은 배포 후 내역 조회 쿼리를 전송했으며 장애의 원인 후보로 확인되었다.</data>
+      <data key="d9">원인 후보,전송</data>
+      <data key="d10">INC-0518-chunk-000</data>
+      <data key="d11">INC-0518.txt</data>
+      <data key="d12">1791602678</data>
+      <data key="d13" />
+    </edge>
+    <edge source="거래 내역 화면 개선 기능" target="기능 플래그">
+      <data key="d7">1.0</data>
+      <data key="d8">기능 플래그로 거래 내역 화면 개선 기능을 끄자 오류율이 정상으로 돌아왔다.</data>
+      <data key="d9">비활성화,제어</data>
+      <data key="d10">INC-0518-chunk-000</data>
+      <data key="d11">INC-0518.txt</data>
+      <data key="d12">1791602678</data>
+      <data key="d13" />
+    </edge>
+    <edge source="내역 조회 쿼리" target="커넥션 풀">
+      <data key="d7">1.0</data>
+      <data key="d8">느린 내역 조회 쿼리가 point-wallet의 커넥션 풀을 장시간 점유해 커넥션 풀을 고갈시켰다.</data>
+      <data key="d9">고갈,점유</data>
+      <data key="d10">INC-0518-chunk-000</data>
+      <data key="d11">INC-0518.txt</data>
+      <data key="d12">1791602678</data>
+      <data key="d13" />
+    </edge>
+    <edge source="내역 조회 쿼리" target="인덱스">
+      <data key="d7">1.0</data>
+      <data key="d8">내역 조회 쿼리의 성능 개선을 위해 인덱스가 추가되었다.</data>
+      <data key="d9">성능 개선,추가</data>
+      <data key="d10">INC-0518-chunk-000</data>
+      <data key="d11">INC-0518.txt</data>
+      <data key="d12">1791602678</data>
+      <data key="d13" />
+    </edge>
+    <edge source="내역 조회 쿼리" target="쿼리 실행 계획 확인 단계">
+      <data key="d7">1.0</data>
+      <data key="d8">쿼리 실행 계획 확인 단계에서 운영 규모의 데이터로 내역 조회 쿼리를 검증할 예정이다.</data>
+      <data key="d9">검증,배포 점검</data>
+      <data key="d10">INC-0518-chunk-000</data>
+      <data key="d11">INC-0518.txt</data>
+      <data key="d12">1791602678</data>
+      <data key="d13" />
+    </edge>
+    <edge source="잔액 조회" target="커넥션 풀">
+      <data key="d7">1.0</data>
+      <data key="d8">잔액 조회는 내역 조회와 같은 커넥션 풀을 공유했으며, 풀 고갈로 커넥션을 얻지 못했다.</data>
+      <data key="d9">공유,차단</data>
+      <data key="d10">INC-0518-chunk-000</data>
+      <data key="d11">INC-0518.txt</data>
+      <data key="d12">1791602678</data>
+      <data key="d13" />
+    </edge>
+    <edge source="커넥션 풀" target="조회 전용 커넥션 풀">
+      <data key="d7">1.0</data>
+      <data key="d8">무거운 조회 작업을 기존 커넥션 풀과 분리하기 위해 조회 전용 커넥션 풀이 별도로 계획되었다.</data>
+      <data key="d9">분리,재발 방지</data>
+      <data key="d10">INC-0518-chunk-000</data>
+      <data key="d11">INC-0518.txt</data>
+      <data key="d12">1791602678</data>
+      <data key="d13" />
+    </edge>
+    <edge source="커넥션 풀" target="카드사별 대사 작업">
+      <data key="d7">1.0</data>
+      <data key="d8">카드사별 대사 작업은 하나의 커넥션 풀을 공유했으며, 매입 건수가 급증한 작업이 연결을 오래 점유했다.</data>
+      <data key="d9">공유,자원 경합</data>
+      <data key="d10">INC-0812-chunk-000</data>
+      <data key="d11">INC-0812.txt</data>
+      <data key="d12">1791602774</data>
+      <data key="d13" />
+    </edge>
+    <edge source="커넥션 풀" target="recon-worker">
+      <data key="d7">1.0</data>
+      <data key="d8">recon-worker의 커넥션 풀은 앞선 카드사 작업의 장시간 트랜잭션에 묶여 고갈되었다.</data>
+      <data key="d9">고갈,사용</data>
+      <data key="d10">INC-0812-chunk-000</data>
+      <data key="d11">INC-0812.txt</data>
+      <data key="d12">1791602774</data>
+      <data key="d13" />
+    </edge>
+    <edge source="해외 카드 결제 실패 장애" target="해외 카드 결제">
+      <data key="d7">1.0</data>
+      <data key="d8">해외 카드 결제 서비스에서 해외 발급 카드의 승인 실패가 발생해 약 2,300건의 결제가 실패했다.</data>
+      <data key="d9">승인 실패,영향</data>
+      <data key="d10">INC-0527-chunk-000</data>
+      <data key="d11">INC-0527.txt</data>
+      <data key="d12">1791602691</data>
+      <data key="d13" />
+    </edge>
+    <edge source="해외 카드 결제 실패 장애" target="해외 직구 가맹점">
+      <data key="d7">1.0</data>
+      <data key="d8">해외 직구 가맹점에서 장애 기간의 해외 카드 결제 실패가 집중적으로 발생했다.</data>
+      <data key="d9">거래 실패,영향</data>
+      <data key="d10">INC-0527-chunk-000</data>
+      <data key="d11">INC-0527.txt</data>
+      <data key="d12">1791602691</data>
+      <data key="d13" />
+    </edge>
+    <edge source="해외 카드 결제 실패 장애" target="여행 플랫폼 가맹점">
+      <data key="d7">1.0</data>
+      <data key="d8">여행 플랫폼 가맹점에서 장애 기간의 해외 카드 결제 실패가 집중적으로 발생했다.</data>
+      <data key="d9">거래 실패,영향</data>
+      <data key="d10">INC-0527-chunk-000</data>
+      <data key="d11">INC-0527.txt</data>
+      <data key="d12">1791602691</data>
+      <data key="d13" />
+    </edge>
+    <edge source="가맹점 연동 결제 거절 장애" target="merchant-api">
+      <data key="d7">1.0</data>
+      <data key="d8">가맹점 연동 결제 거절 장애로 인해 09시부터 10시 15분까지 merchant-api 요청 성공률이 0%로 떨어지고 주문 결제 요청이 거절되었다.</data>
+      <data key="d9">요청 거절,장애 영향</data>
+      <data key="d10">INC-0603-chunk-000</data>
+      <data key="d11">INC-0603.txt</data>
+      <data key="d12">1791602706</data>
+      <data key="d13" />
+    </edge>
+    <edge source="가맹점 연동 결제 거절 장애" target="온라인 가맹점">
+      <data key="d7">1.0</data>
+      <data key="d8">가맹점 연동 결제 거절 장애로 온라인 가맹점 약 3,400곳에서 결제 실패가 발생했다.</data>
+      <data key="d9">결제 실패,영향</data>
+      <data key="d10">INC-0603-chunk-000</data>
+      <data key="d11">INC-0603.txt</data>
+      <data key="d12">1791602706</data>
+      <data key="d13" />
+    </edge>
+    <edge source="가맹점 연동 결제 거절 장애" target="가맹점 전용 도메인 인증서">
+      <data key="d7">1.0</data>
+      <data key="d8">가맹점 전용 도메인 인증서의 만료가 가맹점 연동 결제 거절 장애의 직접 원인이었다.</data>
+      <data key="d9">인증서 만료,직접 원인</data>
+      <data key="d10">INC-0603-chunk-000</data>
+      <data key="d11">INC-0603.txt</data>
+      <data key="d12">1791602706</data>
+      <data key="d13" />
+    </edge>
+    <edge source="merchant-api" target="가맹점 서버">
+      <data key="d7">1.0</data>
+      <data key="d8">가맹점 서버는 merchant-api로 주문 결제 요청을 전송한다.</data>
+      <data key="d9">API 호출,결제 요청</data>
+      <data key="d10">INC-0603-chunk-000</data>
+      <data key="d11">INC-0603.txt</data>
+      <data key="d12">1791602706</data>
+      <data key="d13" />
+    </edge>
+    <edge source="merchant-api" target="api-edge">
+      <data key="d7">1.0</data>
+      <data key="d8">merchant-api로 들어오는 외부 요청은 api-edge를 거쳐 전달된다.</data>
+      <data key="d9">API 관문,외부 요청</data>
+      <data key="d10">CAT-01-chunk-000</data>
+      <data key="d11">CAT-01.txt</data>
+      <data key="d12">1791602817</data>
+      <data key="d13" />
+    </edge>
+    <edge source="merchant-api" target="결제플랫폼팀">
+      <data key="d7">1.0</data>
+      <data key="d8">결제플랫폼팀은 merchant-api를 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="api-edge" target="가맹점 전용 도메인 인증서">
+      <data key="d7">1.0</data>
+      <data key="d8">api-edge에는 가맹점 전용 도메인 인증서가 연결되어 있었다.</data>
+      <data key="d9">외부 API 관문,인증서 연결</data>
+      <data key="d10">INC-0603-chunk-000</data>
+      <data key="d11">INC-0603.txt</data>
+      <data key="d12">1791602706</data>
+      <data key="d13" />
+    </edge>
+    <edge source="api-edge" target="와일드카드 인증서">
+      <data key="d7">1.0</data>
+      <data key="d8">api-edge에 연결된 와일드카드 인증서가 09시 12분에 만료되었다.</data>
+      <data key="d9">만료,연결</data>
+      <data key="d10">INC-0804-chunk-000</data>
+      <data key="d11">INC-0804.txt</data>
+      <data key="d12">1791602763</data>
+      <data key="d13" />
+    </edge>
+    <edge source="api-edge" target="공통인프라팀">
+      <data key="d7">1.0</data>
+      <data key="d8">공통인프라팀은 api-edge를 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="가맹점 전용 도메인 인증서" target="퇴사한 직원의 메일함">
+      <data key="d7">1.0</data>
+      <data key="d8">인증서 갱신 안내 메일이 퇴사한 직원의 메일함으로 전달되었다.</data>
+      <data key="d9">갱신 안내,잘못된 수신처</data>
+      <data key="d10">INC-0603-chunk-000</data>
+      <data key="d11">INC-0603.txt</data>
+      <data key="d12">1791602706</data>
+      <data key="d13" />
+    </edge>
+    <edge source="가맹점 전용 도메인 인증서" target="공용 메일 그룹">
+      <data key="d7">1.0</data>
+      <data key="d8">조치 이후 인증서 갱신 안내 수신처가 개인 메일에서 공용 메일 그룹으로 변경되었다.</data>
+      <data key="d9">갱신 안내,수신처 변경</data>
+      <data key="d10">INC-0603-chunk-000</data>
+      <data key="d11">INC-0603.txt</data>
+      <data key="d12">1791602706</data>
+      <data key="d13" />
+    </edge>
+    <edge source="가맹점 전용 도메인 인증서" target="인증서 만료일 대시보드">
+      <data key="d7">1.0</data>
+      <data key="d8">인증서 만료일 대시보드는 가맹점 전용 도메인 인증서를 포함한 외부 노출 인증서의 만료일을 모니터링한다.</data>
+      <data key="d9">만료일 모니터링,재발 방지</data>
+      <data key="d10">INC-0603-chunk-000</data>
+      <data key="d11">INC-0603.txt</data>
+      <data key="d12">1791602706</data>
+      <data key="d13" />
+    </edge>
+    <edge source="가맹점 정산 지연 장애" target="가맹점 정산">
+      <data key="d7">1.0</data>
+      <data key="d8">가맹점 정산 지연 장애로 가맹점 정산 완료가 오전에서 오후로 밀리고 약 9,800곳의 정산금 입금이 지연되었다.</data>
+      <data key="d9">영향,지연</data>
+      <data key="d10">INC-0612-chunk-000</data>
+      <data key="d11">INC-0612.txt</data>
+      <data key="d12">1791602722</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2606-03" target="송유진">
+      <data key="d7">1.0</data>
+      <data key="d8">송유진은 CHG-2606-03의 변경 요청자이다.</data>
+      <data key="d9">변경 요청</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2606-03" target="임채원">
+      <data key="d7">1.0</data>
+      <data key="d8">임채원은 CHG-2606-03의 변경 승인자이다.</data>
+      <data key="d9">변경 승인</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="결제 완료 알림 지연 장애" target="사용자">
+      <data key="d7">1.0</data>
+      <data key="d8">결제 완료 알림 지연 장애로 일부 사용자가 같은 결제를 다시 시도했다.</data>
+      <data key="d9">사용자 영향,재결제</data>
+      <data key="d10">INC-0703-chunk-000</data>
+      <data key="d11">INC-0703.txt</data>
+      <data key="d12">1791602736</data>
+      <data key="d13" />
+    </edge>
+    <edge source="결제 완료 알림 지연 장애" target="notify-hub">
+      <data key="d7">1.0</data>
+      <data key="d8">결제 완료 알림 지연 장애로 notify-hub의 발송 지연 지표가 상승했지만 notify-hub 자체는 정상 상태였다.</data>
+      <data key="d9">알림 지연,영향</data>
+      <data key="d10">INC-0703-chunk-000</data>
+      <data key="d11">INC-0703.txt</data>
+      <data key="d12">1791602736</data>
+      <data key="d13" />
+    </edge>
+    <edge source="notify-hub" target="결제 완료 이벤트">
+      <data key="d7">1.0</data>
+      <data key="d8">notify-hub는 결제 완료 이벤트를 바탕으로 결제 완료 푸시 알림을 발송한다.</data>
+      <data key="d9">알림 발송,이벤트 전달</data>
+      <data key="d10">INC-0703-chunk-000</data>
+      <data key="d11">INC-0703.txt</data>
+      <data key="d12">1791602736</data>
+      <data key="d13" />
+    </edge>
+    <edge source="notify-hub" target="알림 미발송 장애">
+      <data key="d7">1.0</data>
+      <data key="d8">notify-hub가 잠시 밀리면서 알림 메시지 처리가 지연되었고 장애가 발생했다.</data>
+      <data key="d9">영향,처리 지연</data>
+      <data key="d10">INC-0909-chunk-000</data>
+      <data key="d11">INC-0909.txt</data>
+      <data key="d12">1791602803</data>
+      <data key="d13" />
+    </edge>
+    <edge source="notify-hub" target="토픽 보존 기간">
+      <data key="d7">1.0</data>
+      <data key="d8">토픽 보존 기간이 짧아지면서 notify-hub가 처리하기 전에 알림 메시지가 삭제되었다.</data>
+      <data key="d9">메시지 보관,처리 지연</data>
+      <data key="d10">INC-0909-chunk-000</data>
+      <data key="d11">INC-0909.txt</data>
+      <data key="d12">1791602803</data>
+      <data key="d13" />
+    </edge>
+    <edge source="notify-hub" target="kafka-main">
+      <data key="d7">1.0</data>
+      <data key="d8">notify-hub는 kafka-main에서 알림 이벤트를 읽고 발송 결과를 kafka-main에 다시 전달한다.</data>
+      <data key="d9">결과 전달,이벤트 수신</data>
+      <data key="d10">CAT-03-chunk-000</data>
+      <data key="d11">CAT-03.txt</data>
+      <data key="d12">1791602842</data>
+      <data key="d13" />
+    </edge>
+    <edge source="notify-hub" target="메시징플랫폼팀">
+      <data key="d7">1.0</data>
+      <data key="d8">메시징플랫폼팀은 notify-hub를 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="결제 완료 이벤트" target="승인 결과 통보">
+      <data key="d7">1.0</data>
+      <data key="d8">승인 결과 통보가 늦어지면서 결제 완료 이벤트 발행도 늦어졌다.</data>
+      <data key="d9">발행 지연,의존성</data>
+      <data key="d10">INC-0703-chunk-000</data>
+      <data key="d11">INC-0703.txt</data>
+      <data key="d12">1791602736</data>
+      <data key="d13" />
+    </edge>
+    <edge source="사용자" target="중복 결제 취소 요청">
+      <data key="d7">1.0</data>
+      <data key="d8">일부 사용자는 중복 결제로 인해 중복 결제 취소 요청을 제출했다.</data>
+      <data key="d9">요청 발생,중복 결제</data>
+      <data key="d10">INC-0703-chunk-000</data>
+      <data key="d11">INC-0703.txt</data>
+      <data key="d12">1791602736</data>
+      <data key="d13" />
+    </edge>
+    <edge source="포인트 이중 적립 장애" target="적립 규칙 파일 v42">
+      <data key="d7">1.0</data>
+      <data key="d8">적립 규칙 파일 v42에 7월 프로모션 규칙이 두 번 포함된 것이 포인트 이중 적립 장애의 직접 원인이었다.</data>
+      <data key="d9">설정 오류,직접 원인</data>
+      <data key="d10">INC-0715-chunk-000</data>
+      <data key="d11">INC-0715.txt</data>
+      <data key="d12">1791602749</data>
+      <data key="d13" />
+    </edge>
+    <edge source="포인트 이중 적립 장애" target="일일 포인트 대사">
+      <data key="d7">1.0</data>
+      <data key="d8">일일 포인트 대사는 7월 15일 09시에 적립 총액이 결제 총액보다 비정상적으로 높은 현상을 통해 장애를 탐지했다.</data>
+      <data key="d9">대사,탐지</data>
+      <data key="d10">INC-0715-chunk-000</data>
+      <data key="d11">INC-0715.txt</data>
+      <data key="d12">1791602749</data>
+      <data key="d13" />
+    </edge>
+    <edge source="포인트 이중 적립 장애" target="이중 적립 포인트 회수">
+      <data key="d7">1.0</data>
+      <data key="d8">이중 적립 포인트 회수는 장애로 잘못 적립된 포인트를 사용자에게 안내한 뒤 회수하는 사후 조치로 수행되었다.</data>
+      <data key="d9">사후 조치,포인트 회수</data>
+      <data key="d10">INC-0715-chunk-000</data>
+      <data key="d11">INC-0715.txt</data>
+      <data key="d12">1791602749</data>
+      <data key="d13" />
+    </edge>
+    <edge source="적립 규칙 파일 v42" target="CHG-2607-04">
+      <data key="d7">1.0</data>
+      <data key="d8">CHG-2607-04를 통해 적립 규칙 파일 v42가 전날 시스템에 반영되었다.</data>
+      <data key="d9">변경 반영</data>
+      <data key="d10">INC-0715-chunk-000</data>
+      <data key="d11">INC-0715.txt</data>
+      <data key="d12">1791602749</data>
+      <data key="d13" />
+    </edge>
+    <edge source="적립 규칙 파일 v42" target="7월 프로모션 규칙">
+      <data key="d7">1.0</data>
+      <data key="d8">적립 규칙 파일 v42에는 7월 프로모션 규칙이 두 번 포함되어 있었다.</data>
+      <data key="d9">규칙 포함,중복 포함</data>
+      <data key="d10">INC-0715-chunk-000</data>
+      <data key="d11">INC-0715.txt</data>
+      <data key="d12">1791602749</data>
+      <data key="d13" />
+    </edge>
+    <edge source="적립 규칙 파일 v42" target="배포 도구">
+      <data key="d7">1.0</data>
+      <data key="d8">배포 도구는 적립 규칙 파일 v42를 배포하면서 문법만 검사하고 중복 규칙은 검출하지 못했다.</data>
+      <data key="d9">검증,배포</data>
+      <data key="d10">INC-0715-chunk-000</data>
+      <data key="d11">INC-0715.txt</data>
+      <data key="d12">1791602749</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2607-04" target="장은비">
+      <data key="d7">1.0</data>
+      <data key="d8">장은비는 CHG-2607-04의 변경 요청자이다.</data>
+      <data key="d9">변경 요청</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2607-04" target="백승우">
+      <data key="d7">1.0</data>
+      <data key="d8">백승우는 CHG-2607-04의 변경 승인자이다.</data>
+      <data key="d9">변경 승인</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="와일드카드 인증서 만료 결제 중단 장애" target="웹">
+      <data key="d7">1.0</data>
+      <data key="d8">장애로 인해 웹의 모든 결제 요청이 실패했다.</data>
+      <data key="d9">결제 실패,영향</data>
+      <data key="d10">INC-0804-chunk-000</data>
+      <data key="d11">INC-0804.txt</data>
+      <data key="d12">1791602763</data>
+      <data key="d13" />
+    </edge>
+    <edge source="웹" target="와일드카드 인증서">
+      <data key="d7">1.0</data>
+      <data key="d8">웹은 와일드카드 인증서 만료로 보안 연결을 맺지 못했다.</data>
+      <data key="d9">보안 연결,의존</data>
+      <data key="d10">INC-0804-chunk-000</data>
+      <data key="d11">INC-0804.txt</data>
+      <data key="d12">1791602763</data>
+      <data key="d13" />
+    </edge>
+    <edge source="와일드카드 인증서" target="자동 갱신 도구">
+      <data key="d7">1.0</data>
+      <data key="d8">와일드카드 인증서는 자동 갱신 도구에 등록되어 있었다.</data>
+      <data key="d9">등록,자동 갱신</data>
+      <data key="d10">INC-0804-chunk-000</data>
+      <data key="d11">INC-0804.txt</data>
+      <data key="d12">1791602763</data>
+      <data key="d13" />
+    </edge>
+    <edge source="와일드카드 인증서" target="도메인 소유 확인 레코드">
+      <data key="d7">1.0</data>
+      <data key="d8">도메인 소유 확인 레코드는 와일드카드 인증서 갱신에 필요한 소유권 확인을 지원한다.</data>
+      <data key="d9">갱신,소유 확인</data>
+      <data key="d10">INC-0804-chunk-000</data>
+      <data key="d11">INC-0804.txt</data>
+      <data key="d12">1791602763</data>
+      <data key="d13" />
+    </edge>
+    <edge source="와일드카드 인증서" target="인증서 만료 외부 점검">
+      <data key="d7">1.0</data>
+      <data key="d8">인증서 만료 외부 점검은 서비스 중인 와일드카드 인증서의 남은 기간을 매일 확인한다.</data>
+      <data key="d9">만료 점검,재발 방지</data>
+      <data key="d10">INC-0804-chunk-000</data>
+      <data key="d11">INC-0804.txt</data>
+      <data key="d12">1791602763</data>
+      <data key="d13" />
+    </edge>
+    <edge source="자동 갱신 도구" target="갱신 실패 경고 로그">
+      <data key="d7">1.0</data>
+      <data key="d8">자동 갱신 도구의 갱신 실패 경고가 로그에만 남고 경보로 이어지지 않았다.</data>
+      <data key="d9">경보 미전달,실패 기록</data>
+      <data key="d10">INC-0804-chunk-000</data>
+      <data key="d11">INC-0804.txt</data>
+      <data key="d12">1791602763</data>
+      <data key="d13" />
+    </edge>
+    <edge source="도메인 소유 확인 레코드" target="DNS 이전">
+      <data key="d7">1.0</data>
+      <data key="d8">DNS 이전 과정에서 도메인 소유 확인 레코드가 누락되었다.</data>
+      <data key="d9">누락,변경</data>
+      <data key="d10">INC-0804-chunk-000</data>
+      <data key="d11">INC-0804.txt</data>
+      <data key="d12">1791602763</data>
+      <data key="d13" />
+    </edge>
+    <edge source="가맹점 정산 파일 누락 장애" target="payout-api">
+      <data key="d7">1.0</data>
+      <data key="d8">payout-api는 지급 대상 파일 개수가 부족한 상황을 감지하고 가맹점 정산 파일 누락 장애를 경보로 알렸다.</data>
+      <data key="d9">경보,탐지</data>
+      <data key="d10">INC-0812-chunk-000</data>
+      <data key="d11">INC-0812.txt</data>
+      <data key="d12">1791602774</data>
+      <data key="d13" />
+    </edge>
+    <edge source="가맹점 정산 파일 누락 장애" target="recon-worker">
+      <data key="d7">1.0</data>
+      <data key="d8">recon-worker에서 두 카드사의 매입 내역 대조 작업이 시간 초과로 실패하면서 장애가 발생했다.</data>
+      <data key="d9">원인,작업 실패</data>
+      <data key="d10">INC-0812-chunk-000</data>
+      <data key="d11">INC-0812.txt</data>
+      <data key="d12">1791602774</data>
+      <data key="d13" />
+    </edge>
+    <edge source="가맹점 정산 파일 누락 장애" target="지급 일정">
+      <data key="d7">1.0</data>
+      <data key="d8">장애로 인해 지급 일정이 은행 마감 이후 다음 영업일로 미뤄졌다.</data>
+      <data key="d9">일정 변경,지급 지연</data>
+      <data key="d10">INC-0812-chunk-000</data>
+      <data key="d11">INC-0812.txt</data>
+      <data key="d12">1791602774</data>
+      <data key="d13" />
+    </edge>
+    <edge source="payout-api" target="정산 파일">
+      <data key="d7">1.0</data>
+      <data key="d8">payout-api는 settle-batch가 생성한 정산 파일을 받는다.</data>
+      <data key="d9">정산 파일 수신</data>
+      <data key="d10">CAT-02-chunk-000</data>
+      <data key="d11">CAT-02.txt</data>
+      <data key="d12">1791602831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="payout-api" target="은행 펌뱅킹">
+      <data key="d7">1.0</data>
+      <data key="d8">payout-api는 은행 펌뱅킹에 가맹점 계좌 입금을 요청한다.</data>
+      <data key="d9">입금 요청</data>
+      <data key="d10">CAT-02-chunk-000</data>
+      <data key="d11">CAT-02.txt</data>
+      <data key="d12">1791602831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="payout-api" target="정산개발팀">
+      <data key="d7">1.0</data>
+      <data key="d8">정산개발팀은 payout-api를 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="recon-worker" target="원장디비">
+      <data key="d7">1.0</data>
+      <data key="d8">recon-worker는 원장디비에서 거래 기록을 읽어 외부 매입 내역과 대조한다.</data>
+      <data key="d9">거래 기록 조회</data>
+      <data key="d10">CAT-02-chunk-000</data>
+      <data key="d11">CAT-02.txt</data>
+      <data key="d12">1791602831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="recon-worker" target="카드사">
+      <data key="d7">1.0</data>
+      <data key="d8">recon-worker는 카드사가 보낸 매입 내역을 거래 기록과 대조한다.</data>
+      <data key="d9">매입 내역 수신</data>
+      <data key="d10">CAT-02-chunk-000</data>
+      <data key="d11">CAT-02.txt</data>
+      <data key="d12">1791602831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="recon-worker" target="외부 PG사">
+      <data key="d7">1.0</data>
+      <data key="d8">recon-worker는 외부 PG사가 보낸 매입 내역을 거래 기록과 대조한다.</data>
+      <data key="d9">매입 내역 수신</data>
+      <data key="d10">CAT-02-chunk-000</data>
+      <data key="d11">CAT-02.txt</data>
+      <data key="d12">1791602831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="recon-worker" target="정산 파일">
+      <data key="d7">1.0</data>
+      <data key="d8">recon-worker는 대사가 끝난 뒤 대사 결과를 settle-batch의 정산 파일에 반영한다.</data>
+      <data key="d9">대사 결과 반영</data>
+      <data key="d10">CAT-02-chunk-000</data>
+      <data key="d11">CAT-02.txt</data>
+      <data key="d12">1791602831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="recon-worker" target="정산개발팀">
+      <data key="d7">1.0</data>
+      <data key="d8">정산개발팀은 recon-worker를 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="recon-worker" target="CHG-2609-05">
+      <data key="d7">1.0</data>
+      <data key="d8">CHG-2609-05는 recon-worker에 카드사별 커넥션 상한을 나누는 2.3 버전을 배포했다.</data>
+      <data key="d9">대상,변경 적용</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="카드사별 대사 작업" target="정산 파일">
+      <data key="d7">1.0</data>
+      <data key="d8">카드사별 대사 작업이 시간 초과로 실패한 결과 해당 카드사의 정산 파일이 생성되지 않았다.</data>
+      <data key="d9">작업 실패,파일 미생성</data>
+      <data key="d10">INC-0812-chunk-000</data>
+      <data key="d11">INC-0812.txt</data>
+      <data key="d12">1791602774</data>
+      <data key="d13" />
+    </edge>
+    <edge source="신규 가입 혜택 미지급 장애" target="가입 축하 쿠폰">
+      <data key="d7">1.0</data>
+      <data key="d8">신규 가입 혜택 미지급 장애로 가입 축하 쿠폰이 지급되지 않았다.</data>
+      <data key="d9">지급 실패,혜택 누락</data>
+      <data key="d10">INC-0826-chunk-000</data>
+      <data key="d11">INC-0826.txt</data>
+      <data key="d12">1791602788</data>
+      <data key="d13" />
+    </edge>
+    <edge source="신규 가입 혜택 미지급 장애" target="신규 가입 사용자">
+      <data key="d7">1.0</data>
+      <data key="d8">신규 가입 사용자 약 4,700명이 신규 가입 혜택 미지급 장애의 영향을 받았다.</data>
+      <data key="d9">사용자 피해,영향</data>
+      <data key="d10">INC-0826-chunk-000</data>
+      <data key="d11">INC-0826.txt</data>
+      <data key="d12">1791602788</data>
+      <data key="d13" />
+    </edge>
+    <edge source="신규 가입 혜택 미지급 장애" target="로컬 캐시">
+      <data key="d7">1.0</data>
+      <data key="d8">로컬 캐시 항목의 동시 만료가 한도 재계산 요청을 집중시켜 신규 가입 혜택 미지급 장애를 직접 유발했다.</data>
+      <data key="d9">동시 만료,장애 원인</data>
+      <data key="d10">INC-0826-chunk-000</data>
+      <data key="d11">INC-0826.txt</data>
+      <data key="d12">1791602788</data>
+      <data key="d13" />
+    </edge>
+    <edge source="coupon-svc" target="월말 프로모션">
+      <data key="d7">1.0</data>
+      <data key="d8">월말 프로모션 시작과 함께 coupon-svc의 응답 시간이 크게 증가했다.</data>
+      <data key="d9">트래픽 증가,프로모션 시작</data>
+      <data key="d10">INC-0826-chunk-000</data>
+      <data key="d11">INC-0826.txt</data>
+      <data key="d12">1791602788</data>
+      <data key="d13" />
+    </edge>
+    <edge source="coupon-svc" target="로컬 캐시">
+      <data key="d7">1.0</data>
+      <data key="d8">coupon-svc는 프로세스 내부의 로컬 캐시에 발급 한도 정보를 저장했다.</data>
+      <data key="d9">사용,저장</data>
+      <data key="d10">INC-0826-chunk-000</data>
+      <data key="d11">INC-0826.txt</data>
+      <data key="d12">1791602788</data>
+      <data key="d13" />
+    </edge>
+    <edge source="coupon-svc" target="발급 한도 정보">
+      <data key="d7">1.0</data>
+      <data key="d8">발급 한도 정보가 동시에 만료된 뒤 coupon-svc의 모든 요청이 한도 정보를 동시에 재계산했다.</data>
+      <data key="d9">요청 집중,재계산</data>
+      <data key="d10">INC-0826-chunk-000</data>
+      <data key="d11">INC-0826.txt</data>
+      <data key="d12">1791602788</data>
+      <data key="d13" />
+    </edge>
+    <edge source="coupon-svc" target="kafka-main">
+      <data key="d7">1.0</data>
+      <data key="d8">coupon-svc는 쿠폰 발급 요청과 발급 결과를 kafka-main으로 주고받는다.</data>
+      <data key="d9">이벤트 교환</data>
+      <data key="d10">CAT-03-chunk-000</data>
+      <data key="d11">CAT-03.txt</data>
+      <data key="d12">1791602842</data>
+      <data key="d13" />
+    </edge>
+    <edge source="coupon-svc" target="포인트서비스팀">
+      <data key="d7">1.0</data>
+      <data key="d8">포인트서비스팀은 coupon-svc를 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="로컬 캐시" target="발급 한도 정보">
+      <data key="d7">1.0</data>
+      <data key="d8">로컬 캐시는 발급 한도 정보를 보관했으며 해당 정보가 자정에 동시에 만료되었다.</data>
+      <data key="d9">만료,캐시 저장</data>
+      <data key="d10">INC-0826-chunk-000</data>
+      <data key="d11">INC-0826.txt</data>
+      <data key="d12">1791602788</data>
+      <data key="d13" />
+    </edge>
+    <edge source="발급 한도 정보" target="임시 스크립트">
+      <data key="d7">1.0</data>
+      <data key="d8">임시 스크립트가 발급 한도 정보를 미리 채워 장애 회복을 지원했다.</data>
+      <data key="d9">사전 입력,장애 회복</data>
+      <data key="d10">INC-0826-chunk-000</data>
+      <data key="d11">INC-0826.txt</data>
+      <data key="d12">1791602788</data>
+      <data key="d13" />
+    </edge>
+    <edge source="알림 미발송 장애" target="푸시 알림">
+      <data key="d7">1.0</data>
+      <data key="d8">알림 미발송 장애로 약 120만 건의 푸시 알림이 발송되지 않았다.</data>
+      <data key="d9">발송 실패,영향</data>
+      <data key="d10">INC-0909-chunk-000</data>
+      <data key="d11">INC-0909.txt</data>
+      <data key="d12">1791602803</data>
+      <data key="d13" />
+    </edge>
+    <edge source="알림 미발송 장애" target="문자 알림">
+      <data key="d7">1.0</data>
+      <data key="d8">알림 미발송 장애로 약 120만 건의 문자 알림이 발송되지 않았다.</data>
+      <data key="d9">발송 실패,영향</data>
+      <data key="d10">INC-0909-chunk-000</data>
+      <data key="d11">INC-0909.txt</data>
+      <data key="d12">1791602803</data>
+      <data key="d13" />
+    </edge>
+    <edge source="알림 미발송 장애" target="kafka-main">
+      <data key="d7">1.0</data>
+      <data key="d8">kafka-main의 알림 토픽에서 메시지가 들어오자마자 삭제되면서 알림 미발송 장애가 발생했다.</data>
+      <data key="d9">메시지 삭제,원인</data>
+      <data key="d10">INC-0909-chunk-000</data>
+      <data key="d11">INC-0909.txt</data>
+      <data key="d12">1791602803</data>
+      <data key="d13" />
+    </edge>
+    <edge source="알림 미발송 장애" target="앱 알림함">
+      <data key="d7">1.0</data>
+      <data key="d8">알림 미발송 장애로 이미 삭제된 알림을 복구할 수 없어 결제 완료 내역이 앱 알림함으로 대신 제공되었다.</data>
+      <data key="d9">대체 제공</data>
+      <data key="d10">INC-0909-chunk-000</data>
+      <data key="d11">INC-0909.txt</data>
+      <data key="d12">1791602803</data>
+      <data key="d13" />
+    </edge>
+    <edge source="알림 미발송 장애" target="소비 전 삭제 메시지 경보 지표">
+      <data key="d7">1.0</data>
+      <data key="d8">소비되지 않고 삭제된 메시지 수를 감시하는 경보 지표가 알림 미발송 장애의 재발 방지 조치로 추가되었다.</data>
+      <data key="d9">모니터링,재발 방지</data>
+      <data key="d10">INC-0909-chunk-000</data>
+      <data key="d11">INC-0909.txt</data>
+      <data key="d12">1791602803</data>
+      <data key="d13" />
+    </edge>
+    <edge source="kafka-main" target="risk-engine">
+      <data key="d7">1.0</data>
+      <data key="d8">risk-engine은 kafka-main에서 결제 이벤트를 읽어 이상 패턴을 학습한다.</data>
+      <data key="d9">이벤트 구독,이상 패턴 학습</data>
+      <data key="d10">CAT-01-chunk-000</data>
+      <data key="d11">CAT-01.txt</data>
+      <data key="d12">1791602817</data>
+      <data key="d13" />
+    </edge>
+    <edge source="kafka-main" target="config-center">
+      <data key="d7">1.0</data>
+      <data key="d8">kafka-main은 토픽별 보존 기간을 config-center에 보관된 설정에서 따른다.</data>
+      <data key="d9">설정 참조</data>
+      <data key="d10">CAT-03-chunk-000</data>
+      <data key="d11">CAT-03.txt</data>
+      <data key="d12">1791602842</data>
+      <data key="d13" />
+    </edge>
+    <edge source="kafka-main" target="메시징플랫폼팀">
+      <data key="d7">1.0</data>
+      <data key="d8">메시징플랫폼팀은 kafka-main을 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="kafka-main" target="CHG-2609-02">
+      <data key="d7">1.0</data>
+      <data key="d8">CHG-2609-02는 kafka-main의 notify.events 토픽 보존 기간 값을 변경했다.</data>
+      <data key="d9">대상,변경 적용</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="알림 토픽" target="토픽 보존 기간">
+      <data key="d7">1.0</data>
+      <data key="d8">토픽 보존 기간은 알림 토픽에 저장된 메시지의 보관 시간을 결정한다.</data>
+      <data key="d9">보존 설정</data>
+      <data key="d10">INC-0909-chunk-000</data>
+      <data key="d11">INC-0909.txt</data>
+      <data key="d12">1791602803</data>
+      <data key="d13" />
+    </edge>
+    <edge source="토픽 보존 기간" target="CHG-2609-02">
+      <data key="d7">1.0</data>
+      <data key="d8">CHG-2609-02에서 밀리초 단위 자리에 초 단위 값을 입력해 토픽 보존 기간이 7일이 아닌 약 10분으로 설정되었다.</data>
+      <data key="d9">단위 오류,설정 변경</data>
+      <data key="d10">INC-0909-chunk-000</data>
+      <data key="d11">INC-0909.txt</data>
+      <data key="d12">1791602803</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2609-02" target="notify.events">
+      <data key="d7">1.0</data>
+      <data key="d8">CHG-2609-02는 notify.events 토픽의 retention.ms 값을 604800으로 변경했다.</data>
+      <data key="d9">보존 기간 변경,토픽</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2609-02" target="서지훈">
+      <data key="d7">1.0</data>
+      <data key="d8">서지훈은 CHG-2609-02의 변경 요청자이다.</data>
+      <data key="d9">변경 요청</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2609-02" target="백승우">
+      <data key="d7">1.0</data>
+      <data key="d8">백승우는 CHG-2609-02의 변경 승인자이다.</data>
+      <data key="d9">변경 승인</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="risk-engine" target="리스크관리팀">
+      <data key="d7">1.0</data>
+      <data key="d8">리스크관리팀은 risk-engine을 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="risk-engine" target="결제 이벤트">
+      <data key="d7">1.0</data>
+      <data key="d8">risk-engine은 결제 이벤트를 읽는다.</data>
+      <data key="d9">이벤트 읽기</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="redis-point" target="공통인프라팀">
+      <data key="d7">1.0</data>
+      <data key="d8">공통인프라팀은 redis-point를 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="config-center" target="공통인프라팀">
+      <data key="d7">1.0</data>
+      <data key="d8">공통인프라팀은 config-center를 운영한다.</data>
+      <data key="d9">운영</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="config-center" target="메시징플랫폼팀">
+      <data key="d7">1.0</data>
+      <data key="d8">메시징플랫폼팀은 새 토픽 생성과 보존 기간 변경을 검토한 뒤 config-center를 통해 변경사항을 반영한다.</data>
+      <data key="d9">검토,설정 반영</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="결제플랫폼팀" target="박서연">
+      <data key="d7">1.0</data>
+      <data key="d8">박서연은 결제플랫폼팀의 3분기 온콜 담당자이며 해당 팀이 운영하는 서비스의 경보를 먼저 받는다.</data>
+      <data key="d9">경보 전달,온콜 담당</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="정산개발팀" target="최민재">
+      <data key="d7">1.0</data>
+      <data key="d8">최민재는 정산개발팀의 3분기 온콜 담당자이며 해당 팀이 운영하는 서비스의 경보를 먼저 받는다.</data>
+      <data key="d9">경보 전달,온콜 담당</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="포인트서비스팀" target="오세린">
+      <data key="d7">1.0</data>
+      <data key="d8">오세린은 포인트서비스팀의 3분기 온콜 담당자이며 해당 팀이 운영하는 서비스의 경보를 먼저 받는다.</data>
+      <data key="d9">경보 전달,온콜 담당</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="포인트서비스팀" target="마케팅실">
+      <data key="d7">1.0</data>
+      <data key="d8">포인트서비스팀은 마케팅실과 함께 프로모션 일정을 정한다.</data>
+      <data key="d9">프로모션 일정 협의</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="리스크관리팀" target="정하늘">
+      <data key="d7">1.0</data>
+      <data key="d8">정하늘은 리스크관리팀의 3분기 온콜 담당자이며 해당 팀이 운영하는 서비스의 경보를 먼저 받는다.</data>
+      <data key="d9">경보 전달,온콜 담당</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="메인 카프카" target="결제 이벤트">
+      <data key="d7">1.0</data>
+      <data key="d8">메인 카프카는 risk-engine이 읽는 결제 이벤트를 제공한다.</data>
+      <data key="d9">이벤트 제공</data>
+      <data key="d10">ORG-01-chunk-000</data>
+      <data key="d11">ORG-01.txt</data>
+      <data key="d12">1791602862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="플랫폼본부" target="공통인프라팀">
+      <data key="d7">1.0</data>
+      <data key="d8">공통인프라팀은 플랫폼본부에 속해 공통 구성요소를 운영한다.</data>
+      <data key="d9">소속,운영</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="플랫폼본부" target="데이터플랫폼팀">
+      <data key="d7">1.0</data>
+      <data key="d8">데이터플랫폼팀은 플랫폼본부에 속해 공통 구성요소를 운영한다.</data>
+      <data key="d9">소속,운영</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="플랫폼본부" target="메시징플랫폼팀">
+      <data key="d7">1.0</data>
+      <data key="d8">메시징플랫폼팀은 플랫폼본부에 속해 공통 구성요소를 운영한다.</data>
+      <data key="d9">소속,운영</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="공통인프라팀" target="한도윤">
+      <data key="d7">1.0</data>
+      <data key="d8">한도윤은 공통인프라팀의 온콜 담당자이다.</data>
+      <data key="d9">온콜 담당</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="공통인프라팀" target="팀장">
+      <data key="d7">1.0</data>
+      <data key="d8">공통인프라팀의 온콜 담당자가 10분 안에 응답하지 않으면 같은 팀 팀장에게 연락이 넘어간다.</data>
+      <data key="d9">온콜 escalation</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="데이터플랫폼팀" target="윤지아">
+      <data key="d7">1.0</data>
+      <data key="d8">윤지아는 데이터플랫폼팀의 온콜 담당자이다.</data>
+      <data key="d9">온콜 담당</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="데이터플랫폼팀" target="팀장">
+      <data key="d7">1.0</data>
+      <data key="d8">데이터플랫폼팀의 온콜 담당자가 10분 안에 응답하지 않으면 같은 팀 팀장에게 연락이 넘어간다.</data>
+      <data key="d9">온콜 escalation</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="메시징플랫폼팀" target="강태오">
+      <data key="d7">1.0</data>
+      <data key="d8">강태오는 메시징플랫폼팀의 온콜 담당자이다.</data>
+      <data key="d9">온콜 담당</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="메시징플랫폼팀" target="팀장">
+      <data key="d7">1.0</data>
+      <data key="d8">메시징플랫폼팀의 온콜 담당자가 10분 안에 응답하지 않으면 같은 팀 팀장에게 연락이 넘어간다.</data>
+      <data key="d9">온콜 escalation</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="팀장" target="본부 당직 책임자">
+      <data key="d7">1.0</data>
+      <data key="d8">팀장도 응답하지 않으면 장애 연락이 본부 당직 책임자에게 넘어간다.</data>
+      <data key="d9">온콜 escalation</data>
+      <data key="d10">ORG-02-chunk-000</data>
+      <data key="d11">ORG-02.txt</data>
+      <data key="d12">1791602883</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2608-02" target="노현우">
+      <data key="d7">1.0</data>
+      <data key="d8">노현우는 CHG-2608-02의 변경 요청자이다.</data>
+      <data key="d9">변경 요청</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2608-02" target="임채원">
+      <data key="d7">1.0</data>
+      <data key="d8">임채원은 CHG-2608-02의 변경 승인자이다.</data>
+      <data key="d9">변경 승인</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2609-05" target="송유진">
+      <data key="d7">1.0</data>
+      <data key="d8">송유진은 CHG-2609-05의 변경 요청자이다.</data>
+      <data key="d9">변경 요청</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="CHG-2609-05" target="임채원">
+      <data key="d7">1.0</data>
+      <data key="d8">임채원은 CHG-2609-05의 변경 승인자이다.</data>
+      <data key="d9">변경 승인</data>
+      <data key="d10">CHG-01-chunk-000</data>
+      <data key="d11">CHG-01.txt</data>
+      <data key="d12">1791602903</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

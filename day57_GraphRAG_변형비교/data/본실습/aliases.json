@@ -1,0 +1,154 @@
+[
+  {
+    "names": [
+      "함허정",
+      "호연정",
+      "세연정"
+    ],
+    "doc_ids": [
+      "tour-250354",
+      "tour-250351"
+    ],
+    "on_gold_path": true,
+    "path_note": "G1 항목"
+  },
+  {
+    "names": [
+      "군지촌정사",
+      "제호정 고택"
+    ],
+    "doc_ids": [
+      "tour-250351"
+    ],
+    "on_gold_path": true,
+    "path_note": "G1·G3 근거 문서"
+  },
+  {
+    "names": [
+      "순천송광사",
+      "송광사"
+    ],
+    "doc_ids": [
+      "tour-128082",
+      "tour-126365"
+    ],
+    "on_gold_path": true,
+    "path_note": "M4 의 두 번째 홉을 잇는 다리 개체"
+  },
+  {
+    "names": [
+      "원홍장",
+      "효녀심청",
+      "심청"
+    ],
+    "doc_ids": [
+      "tour-128082",
+      "tour-128086"
+    ],
+    "on_gold_path": true,
+    "path_note": "M4 의 첫 번째 홉을 잇는 다리 개체"
+  },
+  {
+    "names": [
+      "섬진강",
+      "순자강"
+    ],
+    "doc_ids": [
+      "tour-128086"
+    ],
+    "on_gold_path": true,
+    "path_note": "M4·M5·G3 근거 문서 안에 있으나 추론에는 쓰지 않음"
+  },
+  {
+    "names": [
+      "사성암",
+      "오산암"
+    ],
+    "doc_ids": [
+      "tour-126637"
+    ],
+    "on_gold_path": true,
+    "path_note": "G2 항목"
+  },
+  {
+    "names": [
+      "김인후",
+      "하서",
+      "담재"
+    ],
+    "doc_ids": [
+      "tour-1957431"
+    ],
+    "on_gold_path": true,
+    "path_note": "G1 항목"
+  },
+  {
+    "names": [
+      "화엄사계곡",
+      "화엄계곡"
+    ],
+    "doc_ids": [
+      "tour-126266"
+    ],
+    "on_gold_path": true,
+    "path_note": "M1 의 다리 개체(마지막 문서 제목), M3 첫 문서"
+  },
+  {
+    "names": [
+      "수락폭포",
+      "물맞이 폭포"
+    ],
+    "doc_ids": [
+      "tour-126638"
+    ],
+    "on_gold_path": false,
+    "path_note": "정답 경로 밖"
+  },
+  {
+    "names": [
+      "반달가슴곰",
+      "반달곰"
+    ],
+    "doc_ids": [
+      "tour-127590",
+      "tour-2614224",
+      "tour-2793237"
+    ],
+    "on_gold_path": false,
+    "path_note": "정답 경로 밖"
+  },
+  {
+    "names": [
+      "도깨비살",
+      "어살",
+      "어전"
+    ],
+    "doc_ids": [
+      "tour-250353"
+    ],
+    "on_gold_path": false,
+    "path_note": "정답 경로 밖"
+  },
+  {
+    "names": [
+      "오산",
+      "소금강"
+    ],
+    "doc_ids": [
+      "tour-126637"
+    ],
+    "on_gold_path": false,
+    "path_note": "정답 경로 밖(G2 근거 문서 안이지만 항목은 사성암)"
+  },
+  {
+    "names": [
+      "위안마을",
+      "위안리 산촌마을"
+    ],
+    "doc_ids": [
+      "tour-129318"
+    ],
+    "on_gold_path": false,
+    "path_note": "정답 경로 밖"
+  }
+]

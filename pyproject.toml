@@ -50,4 +50,17 @@ dependencies = [
     "requests>=2.32",
     # day42: 도메인 GraphRAG(Text2Cypher 체인)
     "langchain-neo4j>=0.10",
+    # day57: GraphRAG 변형 비교(Microsoft GraphRAG·LightRAG 공식 패키지)
+    #   graphrag 3.1.1 부터는 pandas 3 을 요구해 이 저장소(pandas<3)와 충돌하므로 3.1.0 에 고정한다.
+    #   graphrag 3.1.0 이 litellm 을 고정해 openai 가 2.x 로 잠긴다.
+    "graphrag==3.1.0",
+    "lightrag-hku==1.5.7",
+    #   교안 02 함께 따라하기의 로컬 리랭커(Qwen3-Reranker-0.6B, HuggingFaceCrossEncoder)
+    "langchain-community>=0.4,<0.4.2",
+    "sentence-transformers>=5.6.0",
+    #   교안 01·02 색인 그래프 시각화(HTML)
+    "pyvis>=0.3.2",
+    #   교안 01·02 함께 따라하기에서 질문 유형으로 검색 방식을 고르는 Jev
+    "typesafe-sdk>=0.7.1",
+    "langchain-typesafe==0.0.1a3",
 ]

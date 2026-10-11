@@ -1,0 +1,16 @@
+[
+  {
+    "canonical": "ledger-db",
+    "alias": "원장디비",
+    "doc_ids": [
+      "CAT-02"
+    ]
+  },
+  {
+    "canonical": "kafka-main",
+    "alias": "메인 카프카",
+    "doc_ids": [
+      "ORG-01"
+    ]
+  }
+]

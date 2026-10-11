@@ -1,0 +1,866 @@
+{
+  "tour-250349": {
+    "status": "processed",
+    "content_summary": "의마총\n곡성군 입면 송전리의 논 한가운데에는 말 동상과 함께 둥그런 무덤과 비석이 하나 있다. 이것이 바로 월파 유팽로장군의 애마이자 의마의 말 무덤이다.\n임진왜란 때 유팽로 장군은 성균관 학유로 재임하다 낙향하여 곡성, 담양, 순창에서 의병을 모아 양대박, 안영 등과 함께 담양에 모여 고경명을 의병장으로 추대하고 근왕 의병활동 중 왜군을 맞아 싸우다가 1592년 7월 10일 금산전투에서 순절하였다. 이에 장군의 충마가 장군의 머리를 물고 3백...",
+    "content_length": 420,
+    "created_at": "2026-10-10T03:11:27.147684+00:00",
+    "updated_at": "2026-10-10T03:17:15.536607+00:00",
+    "file_path": "tour-250349.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "f4c14075a25004afed852c6b457e1caa",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602025,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602211,
+      "process_end_time": 1791602235,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-250349-chunk-000"
+    ]
+  },
+  "tour-2616177": {
+    "status": "processed",
+    "content_summary": "대황강출렁다리\n대황강출렁다리는 2015년 11월 24일 착공에 들어가 2016년 11월 1일 개통을 완료 하였다. 대황강을 가로질러 죽곡면 태평리와 목사동면 구룡리를 잇는 보행 목적의 고량이다. 길이 185m, 폭 1.8~2.0m로 국내 하천 내에 설치된 최장거리의 다리이다. 교량을 건너면 쉼터와 트래킹 로드가 있다. 전남광주통합특별시 곡성 죽곡면의 특산물인 죽곡토란 모형도 엿볼 수 있다.",
+    "content_length": 219,
+    "created_at": "2026-10-10T03:11:27.147692+00:00",
+    "updated_at": "2026-10-10T03:18:52.023106+00:00",
+    "file_path": "tour-2616177.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "38205e3e0d2d737a512e71b8c659e591",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602116,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602316,
+      "process_end_time": 1791602332,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-2616177-chunk-000"
+    ]
+  },
+  "tour-319696": {
+    "status": "processed",
+    "content_summary": "수도암(곡성)\n수도암은 곡성군 옥과면 설옥리 613번지 설산에 위치한 대한불교조계종 제19교구 본사 화암사의 말사이다. 사찰에 의하면 수도암은 신라시대 때 설두 스님에 의해 창건되었다 하나 이를 입증할 만한 자료가 없어 사실로 받아들이기에는 무리가 있다. 이보다 수도암의 역사를 밝힐 수 있는 기록으로는 옥과읍지(1936) 불우조에 설산 수도암이 1929년 4월 주지가 창건하였음을 밝히고 있다. 아울러 현재 원통전에 있는 곡성군 옥과면 설산 수도...",
+    "content_length": 393,
+    "created_at": "2026-10-10T03:11:27.147707+00:00",
+    "updated_at": "2026-10-10T03:21:06.249514+00:00",
+    "file_path": "tour-319696.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "65923d12bc2edf6cd6a1027ab0c32a92",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602292,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602446,
+      "process_end_time": 1791602466,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-319696-chunk-000"
+    ]
+  },
+  "tour-1957431": {
+    "status": "processed",
+    "content_summary": "영귀서원\n김인후 선생은 호는 하서 또는 하서 또는 담재이며 중종 5년(1510) 장성에서 태어났다. 이미 8살 때부터 당시 전라도 관찰사가 ‘장성 신동 천하 문장’이라고 치켜세울 만큼 대단한 천재였다. 22세 때 과거에 합격하여 성균관에서 수학하였고, 31세 때 출중한 학식을 인정받아 사간원에 배속되어 인종으로 즉위하게 될 세자의 선생님을 하였다. 김인후 선생은 당쟁으로 얼룩진 조정을 떠나 옥과 현감으로 1년 8개월 부임하면서 이 짧은 기간에 ...",
+    "content_length": 506,
+    "created_at": "2026-10-10T03:11:27.147682+00:00",
+    "updated_at": "2026-10-10T03:16:51.683865+00:00",
+    "file_path": "tour-1957431.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "9636982f43e34c62176329d9a96231ec",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602004,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602191,
+      "process_end_time": 1791602211,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-1957431-chunk-000"
+    ]
+  },
+  "tour-2793237": {
+    "status": "processed",
+    "content_summary": "지리산 황전마을\n지리산 황전마을은 구례군 마산면 황전리에 있는 마을이다. 황전마을보다는 화엄사 입구 집단시설지구로 더 유명하다. 그래서 항상 사람들이 끊이지 않는 마을이기도 하다.\n마을 내에는 민박촌을 포함한 각종 숙박시설과 식당들이 즐비하다. 또한, 마을 옆으로는 화엄사계곡의 지류인 황전 계곡이 흐르고 있어 여름철이면 발을 담그고 더위를 식히기에 좋다.\n화엄사와의 연계 여행으로도 좋고, 어린이와 함께 반달곰 생태를 체험할 수 있는 국립공원 종...",
+    "content_length": 267,
+    "created_at": "2026-10-10T03:11:27.147703+00:00",
+    "updated_at": "2026-10-10T03:20:23.124253+00:00",
+    "file_path": "tour-2793237.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "ba7e737d0f0eeeae1340836391e7cbd8",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602250,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602409,
+      "process_end_time": 1791602423,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-2793237-chunk-000"
+    ]
+  },
+  "tour-2616185": {
+    "status": "processed",
+    "content_summary": "침실습지\n섬진강은 곡성천, 금천천, 고달천과 만나면서 거대한 습지를 이루는데 이것이 침실습지이다. 침실습지의 규모는 203만㎡에 이르며, 멸종 위기 야생동물 1급 수달, 2급 삵, 남생이, 흰꼬리수리 등 665종의 생물이 서식하는 것이 확인되었다. 이에 침실습지는 그 가치를 인정받아 제22호 국가습지 보호구역으로 지정되었다. 침실습지는 일교차가 큰 가을부터 봄까지 물안개가 피어올라 환성적인 분위기를 연출하여 출사지 명소로도 유명하다.",
+    "content_length": 244,
+    "created_at": "2026-10-10T03:11:27.147694+00:00",
+    "updated_at": "2026-10-10T03:19:02.460312+00:00",
+    "file_path": "tour-2616185.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "d8c9eca1036d2266b200ccbf6f50d29b",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602146,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602332,
+      "process_end_time": 1791602342,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-2616185-chunk-000"
+    ]
+  },
+  "tour-2614224": {
+    "status": "processed",
+    "content_summary": "지리산 반달가슴곰 공존센터\n국립공원공단 국립공원야생생물보전원 안에 위치한 ‘지리산 반달가슴곰 공존센터 ’은 반달가슴곰의 생태적 특성을 연구하고, 자연생태계 보전과 복원 사업의 의미를 탐방객들에게 알리기 위해 개설되었다. 이곳은 생태전시관, 생태학습장으로 구성되어 있는데 생태전시관에는 반달가슴곰에 대한 정보들이 전시되어 있다. 생태학습장에서는 자연환경해설사의 인솔 하에 ‘우리의 친구 반달가슴곰을 만나요’라는 프로그램을 운영하고 있다. 영상실에서 ...",
+    "content_length": 497,
+    "created_at": "2026-10-10T03:11:27.147690+00:00",
+    "updated_at": "2026-10-10T03:18:36.427280+00:00",
+    "file_path": "tour-2614224.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "bb9a00e81d1054ed3bc0563d38647767",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602101,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602292,
+      "process_end_time": 1791602316,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-2614224-chunk-000"
+    ]
+  },
+  "tour-129317": {
+    "status": "processed",
+    "content_summary": "곡성 하늘나리마을\n여름철 높은 산지에서 피는 하늘나리가 자생해 하늘나리마을이라고 불리는 이곳은 전형적인 시골 마을이다. 산길을 따라 봉두산쪽으로 들어가면 사방이 산으로 빼곡하게 둘러싸인 마을이 나온다. 이곳 가구 60여 명의 주민이 다랑논에서 벼농사를 짓고 집집마다 토종벌을 키우며 오순도순 정을 나누며 살고 있다. 마을에서 나는 이런 특산물은 무공해라 도시민들의 주문이 쇄도하는 품목이기도 하다. 마을의 주요 소득원은 꿀이다. 주변의 히어리꽃, ...",
+    "content_length": 333,
+    "created_at": "2026-10-10T03:11:27.147669+00:00",
+    "updated_at": "2026-10-10T03:14:45.590970+00:00",
+    "file_path": "tour-129317.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "3dd417561ae1b2b6f2e1a78530a105d3",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601887,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602069,
+      "process_end_time": 1791602085,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-129317-chunk-000"
+    ]
+  },
+  "tour-130559": {
+    "status": "processed",
+    "content_summary": "구례향제줄풍류전수관\n구례향제줄풍류는 구례 지방에서 전승되는 현악영산회상이라는 기악곡을 ‘구례향제줄풍류’라 하며, 영상회상은 여러 음악이 조곡과 같이 구성된 합주곡을 말하며 ‘풍류’라고도 한다. 관악기가 중심이 되는 영산회상을 대풍류라 하고, 현악기가 중심이 되는 영산회상을 줄풍류라고 한다. 구례향제줄풍류는 15곡으로 구성된 방대한 조곡으로 되어 있는데, 이 음악을 모두 연주하는 데는 약 70분이 걸린다고 한다. 구례향제줄풍류전수관은 구례읍에 위...",
+    "content_length": 418,
+    "created_at": "2026-10-10T03:11:27.147672+00:00",
+    "updated_at": "2026-10-10T03:15:16.005641+00:00",
+    "file_path": "tour-130559.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "dd64145cce17576cd3c3dabf7d08aba0",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601938,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602101,
+      "process_end_time": 1791602116,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-130559-chunk-000"
+    ]
+  },
+  "tour-2773406": {
+    "status": "processed",
+    "content_summary": "현천마을\n현천마을은 구례의 대표적인 산수유마을 중의 한 곳이다. 구례의 북쪽 지역에 위치하며, 지리산을 멀찌감치 바라보는 견두산 자락에 있다. 작고 아담한 마을로 마을 입구에 있는 저수지에 비친 모습은 마치 저수지에 마을을 통째로 담아 놓은 듯 그 모습이 아름답고 영롱하다. 골목마다 돌담과 샛노란 산수유가 어우러져 걷는 내내 기분을 좋게 한다. 현천마을 입구에서 시작하여 현천 전망대와 견두산 등산로 분기점 등을 거쳐 다시 마을로 돌아오는 지리산...",
+    "content_length": 319,
+    "created_at": "2026-10-10T03:11:27.147697+00:00",
+    "updated_at": "2026-10-10T03:19:28.129083+00:00",
+    "file_path": "tour-2773406.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "a3cd43e9ae0cf9f20482a6b4098507b8",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602191,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602358,
+      "process_end_time": 1791602368,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-2773406-chunk-000"
+    ]
+  },
+  "tour-2792632": {
+    "status": "processed",
+    "content_summary": "용두마을\n전남광주통합특별시 구례읍 토지면 용두리에 위치하고 있는 용두마을은 지리산 둘레길 오미-방광 구간과 오미-난동 구간이 교차되는 지점에 위치해 있는 마을이다. 지리산의 용맥이 노고단 형제봉을 경유하여 내려오다가 섬진강에 이르러 머물렀는데 그곳이 용의 머리 부분이라 하여 용두라 부르게 되었다고도 하고 지리산의 줄기가 강물에 침식되어 깎아 세운 듯한 절벽이 강물에 잠기듯이 굽어보고 있는데 이 절벽의 형상이 마치 용의 머리 같다고 해서 용두라고...",
+    "content_length": 518,
+    "created_at": "2026-10-10T03:11:27.147701+00:00",
+    "updated_at": "2026-10-10T03:20:09.078764+00:00",
+    "file_path": "tour-2792632.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "fad4492649d138c6efda13449f0dc713",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602235,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602385,
+      "process_end_time": 1791602409,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-2792632-chunk-000"
+    ]
+  },
+  "tour-128082": {
+    "status": "processed",
+    "content_summary": "관음사(곡성)\n곡성에 위치한 관음사는 선세 마을에서 계곡을 타고 더 올라가면 접할 수 있다. 관음사는 백제 분서왕 4년(301년)에 성덕보살이 전남광주통합특별시 벌교에서 금동 관세음보살상을 모셔와 봉안하여 창건한 남한 제일의 백제 고찰이며 내륙 유일의 관음성지로서 그 가치가 크다. 6·25 당시 공비들이 오래도록 이곳에 남아 관음사를 기지로 삼자 이들을 소탕하기 위해 사찰에 불을 지르게 됐고, 그로 인해 국보로 지정되어 내려오던 고려조 건물 원...",
+    "content_length": 405,
+    "created_at": "2026-10-10T03:11:27.147662+00:00",
+    "updated_at": "2026-10-10T03:13:45.398298+00:00",
+    "file_path": "tour-128082.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "1482559dbeade24d8711367ff6d71768",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601887,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602004,
+      "process_end_time": 1791602025,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-128082-chunk-000"
+    ]
+  },
+  "tour-250353": {
+    "status": "processed",
+    "content_summary": "마천목장군과 도깨비살\n조선개국과 정란공신(태종 이방원의 집권에 기여한 관리)인 마천목 장군 선대에 장흥에서 이주해 왔다고 한다. 성황당이 있고 당제를 올리는 마을이어서 당산마을이라 했고 침곡과 송정 중간에 있고 고달면 두계 앞에 있는 어살(어전)을 도깨비살이라 했다. 마천목 장군이 어릴 적 어머니가 병을 얻어 물고기를 원하자 섬진강변에 나갔다가 이상하게 푸른 돌을 주워왔는데 도깨비들이 몰려와 두목 도깨비를 돌려주면 무엇이든지 다하겠다고 했다. ...",
+    "content_length": 360,
+    "created_at": "2026-10-10T03:11:27.147687+00:00",
+    "updated_at": "2026-10-10T03:17:51.990611+00:00",
+    "file_path": "tour-250353.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "dd690146f0664a5fc124739c1e8a2c99",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602069,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602250,
+      "process_end_time": 1791602271,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-250353-chunk-000"
+    ]
+  },
+  "tour-2793267": {
+    "status": "processed",
+    "content_summary": "구만마을\n서시천이 상류에서부터 9번째로 굽이치는 곳에 위치했다고 구만리라 했다고 한다. 마을 뒤로 구만 저수지가 만들어져 농업용수를 대고 있다. 최근 들어 구만 저수지에 수상 레저타운 시설이 들어왔다. 528,925㎡의 넓은 저수지가 주변 풍광과 어우러져 시원한 풍광을 연출한다. 서시천에는 매년 수천 마리의 철새들이 찾아온다. 비오리, 흰뺨검둥오리, 청둥오리, 큰고니 등이며 백로와 왜가리는 거의 매일 볼 수 있는 새이다. 서시천 둑길이 있는데 ...",
+    "content_length": 363,
+    "created_at": "2026-10-10T03:11:27.147705+00:00",
+    "updated_at": "2026-10-10T03:20:46.614217+00:00",
+    "file_path": "tour-2793267.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "786c16106cd71067da12d86f0eb1f59b",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602271,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602423,
+      "process_end_time": 1791602446,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-2793267-chunk-000"
+    ]
+  },
+  "tour-3351638": {
+    "status": "processed",
+    "content_summary": "곡성기차마을 생태학습관\n곡성기차마을 생태학습관은 섬진강의 자연 생태와 천적관계를 테마로 한 자연속의 실제 곤충들을 전시하고 습지생물의 서식처 보호와 습지 보존의 중요성을 일깨워줌으로써 어린이들의 교육장으로 활용되고 있다. 특히 멸종 위기 2급인 꼬마잠자리의 부화 및 성장 과정을 조형물로 표현하고 있으며 이외에도 곤충의 정의와 일생, 종류와 삶을 곤충 표본과 함께 설명하고, 곤충을 활용한 곡성에서의 친환경 농법, 섬진강의 곤충과 민물고기 등을 전...",
+    "content_length": 257,
+    "created_at": "2026-10-10T03:11:27.147710+00:00",
+    "updated_at": "2026-10-10T03:21:20.827646+00:00",
+    "file_path": "tour-3351638.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "c8a89c3747e2670e273ee01bec51165b",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602316,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602466,
+      "process_end_time": 1791602480,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-3351638-chunk-000"
+    ]
+  },
+  "tour-126365": {
+    "status": "processed",
+    "content_summary": "태안사\n동리산 자락에 위치한 태안사는 신라 경덕왕 742년에 신승 3인에 의해 중창되었다. 이후 847년 혜철 국사에 의해 선종 사찰로 거듭 개산 되어 구산선문의 하나인 동리산파를 형성하게 된다. 그 뒤에 고려 태조 때 혜철 대사가 머물면서 132칸의 건물을 짓고 대규모 절을 이룩하여 동리산파의 중심 도량이 되었다. 고려 초에는 송광사, 화엄사가 모두 이 절의 말사였다. 1925년에 최남선이 찾아와 신라 이래의 이름있는 절이요, 또 해동에 있어...",
+    "content_length": 491,
+    "created_at": "2026-10-10T03:11:27.147649+00:00",
+    "updated_at": "2026-10-10T03:12:18.330441+00:00",
+    "file_path": "tour-126365.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "0e07f4bc0e68d43463825c57c82c4b7c",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601887,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791601913,
+      "process_end_time": 1791601938,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-126365-chunk-000"
+    ]
+  },
+  "tour-756323": {
+    "status": "processed",
+    "content_summary": "섬진강변 유원지\n가정리 옛 곡성역을 오가는 증기기관차를 탈 수 있는 가정역이 있고 역 주변에는 빨간 ‘현수교’가 여행자의 마음을 끈다. 현수교를 건너면 자전거 대여소가 있는데 자전거를 빌려 섬진강 따라 이어지는 자전거 도로를 달릴 수 있다.\n가정리에서 두계마을까지는 원래 자전거 도로로 대부분 사람들이 두계마을까지 오고 간다. 자전거를 타고 호곡나루터까지 왕복 10여㎞ 정도 되는 길을 달릴 수도 있다. 다만 비포장길과 고갯길이 있어 자전거를 타기...",
+    "content_length": 521,
+    "created_at": "2026-10-10T03:11:27.147711+00:00",
+    "updated_at": "2026-10-10T03:21:41.393634+00:00",
+    "file_path": "tour-756323.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "054ed3f0875552c113ca30f2039af982",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602332,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602480,
+      "process_end_time": 1791602501,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-756323-chunk-000"
+    ]
+  },
+  "tour-128086": {
+    "status": "processed",
+    "content_summary": "섬진강(곡성)\n섬진강은 우리나라 4대강의 하나로 멀리 임실, 순창을 발원지로 하여 곡성군 옥과면 합강리에서 옥과천과 합류하고 곡성읍 동산리에서 남원에서 내려오는 요천수와 합류하게 되며 오곡면 압록리에서 보성강과 또다시 합류하여 구례와 하동을 거쳐 남해로 흐르게 된다. 섬진강이 곡성군을 경유하는 거리는 36㎞ 정도 되며 곡성에서는 순자강이라고도 한다. 주변에는 크고 작은 골짜기가 많아 풍광이 아름답고 나룻배 체험공간과 강변 자전거투어코스가 있으며...",
+    "content_length": 556,
+    "created_at": "2026-10-10T03:11:27.147664+00:00",
+    "updated_at": "2026-10-10T03:14:12.590988+00:00",
+    "file_path": "tour-128086.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "3d5351fad63fcaece63fb2e5d66d6c94",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601887,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602025,
+      "process_end_time": 1791602052,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-128086-chunk-000"
+    ]
+  },
+  "tour-1954835": {
+    "status": "processed",
+    "content_summary": "구례향교\n향교는 훌륭한 유학자를 제사하고 지방민의 유학교육과 교화를 위하여 나라에서 지은 교육기관이다. 구례향교는 중종 13년(1518년)에 구례군 백련리 서북쪽에 세웠는데, 향사(享祀) 때마다 호랑이가 나타나 숙종 30년(1704년)에 이곳 봉서리로 옮겨왔다.\n대성전, 내삼문, 동재·서재, 명륜당, 외삼문 등이 남동향으로 향교의 일반적 배치인 전학후묘를 따르고 있다. 외삼문 밖에 이곳을 지날 때에는 누구든지 말에서 내리라는 뜻을 새긴 하마비와...",
+    "content_length": 388,
+    "created_at": "2026-10-10T03:11:27.147680+00:00",
+    "updated_at": "2026-10-10T03:16:31.066572+00:00",
+    "file_path": "tour-1954835.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "7a0ec3b866a9e2112f34255e884a34d8",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601990,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602173,
+      "process_end_time": 1791602191,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-1954835-chunk-000"
+    ]
+  },
+  "tour-126638": {
+    "status": "processed",
+    "content_summary": "수락폭포\n높이 15m의 폭포로, 전남광주통합특별시 구례군 산동면 소재지인 원촌리에서 약 4㎞ 떨어진 수기리 중기마을에 있다. 기암괴석 사이로 폭포수가 쏟아지는 모습이 아름답고 신경통, 근육통, 산후통 등에 효험이 있다고 소문이 나면서 여름철이면 많은 사람들이 몰리는 구례의 대표적인 관광지이다. 주변 마을 주민들이 치료를 위해 폭포 아래에서 물을 맞았다고 해서 물맞이 폭포라고 부르기도 한다. 폭포 상부에 신선대는 신선들이 모여 바둑을 두었다 하고...",
+    "content_length": 482,
+    "created_at": "2026-10-10T03:11:27.147655+00:00",
+    "updated_at": "2026-10-10T03:12:54.863308+00:00",
+    "file_path": "tour-126638.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "a4f76b0f250f0930abe5252cff9a7a3a",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601887,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791601960,
+      "process_end_time": 1791601974,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-126638-chunk-000"
+    ]
+  },
+  "tour-129318": {
+    "status": "processed",
+    "content_summary": "위안 산촌마을\n위안마을은 지리산 노고단 만복대 아래 해발 450m의 고지대에 위치하고 있으며, 여름에는 서늘하고 겨울에는 눈이 많이 내리며, 산수유, 고로쇠수액, 지리산 산채 등 특산물이 풍부한 천혜의 관광지이다. 1996년 개장된 지리산온천지구 개발에 따라 연중 약 2만명의 관광객과 등산객이 찾아오는 관광 휴양 연계형 산촌마을이다.지리산 자락에 아늑하게 자리 잡고 산수유나무숲에 묻혀 정겨움을 더해주는 마을을 관통하여 지리산 심산유곡의 청정한 ...",
+    "content_length": 769,
+    "created_at": "2026-10-10T03:11:27.147670+00:00",
+    "updated_at": "2026-10-10T03:15:01.150482+00:00",
+    "file_path": "tour-129318.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "61e27c2f46b3f6cca80c9695c4b8fa4b",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601913,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602085,
+      "process_end_time": 1791602101,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-129318-chunk-000"
+    ]
+  },
+  "tour-2738669": {
+    "status": "processed",
+    "content_summary": "천개의향나무숲\n인위적인 조경에서 벗어나 숲이 주는 자연스러움을 강조한 천 개의 향나무 숲은 평온하고 안락한 느낌을 주는 곳이다. 토종 향나무, 가이스카 향나무, 서양 향나무 등 천 여 그루의 향나무가 길게 뻗어 있는 숲길은 세상의 근심을 잊고 자연과 동화되어 마음이 정화되는 기분을 느끼게 해 준다. 향나무 숲길 뿐만 아니라 100년이 넘은 감나무 세 그루에서 느껴지는 세월의 깊이가 담긴 오색 정원, 게으름을 만끽하고 싶은 늘보 정원, 허브향 가...",
+    "content_length": 350,
+    "created_at": "2026-10-10T03:11:27.147696+00:00",
+    "updated_at": "2026-10-10T03:19:18.156240+00:00",
+    "file_path": "tour-2738669.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "0e3fa02380122f62fbbbb70d861c5abb",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602173,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602342,
+      "process_end_time": 1791602358,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-2738669-chunk-000"
+    ]
+  },
+  "tour-127590": {
+    "status": "processed",
+    "content_summary": "지리산국립공원(구례)\n지리산국립공원은 3개 도, 1개 시, 4개 군, 15개 읍·면에 광대하게 펼쳐져 있다. 수십 개가 넘는 높고 낮은 산봉우리들이 굽이굽이 이어지며 부드럽게 펼쳐내는 산의 실루엣은 어머니의 품속처럼 포근함과 따스함을 느끼게 한다. 또한 아름다운 계곡과 폭포, 징, 담, 소 등이 계절별로 독특함을 보여주고 있으며, 지리산을 따라 남해로 이어지는 섬진강의 멋스러운 풍광도 지리산의 아름다움을 더해 주는 데 큰 역할을 하고 있다.\n반...",
+    "content_length": 800,
+    "created_at": "2026-10-10T03:11:27.147659+00:00",
+    "updated_at": "2026-10-10T03:13:24.550322+00:00",
+    "file_path": "tour-127590.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "1848da6fa5af7c3376cbf3ddcadc4365",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601887,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791601990,
+      "process_end_time": 1791602004,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-127590-chunk-000"
+    ]
+  },
+  "tour-128087": {
+    "status": "processed",
+    "content_summary": "압록유원지\n섬진강과 보성강이 합류한 기점인 이곳은 3만여 평의 드넓은 백사장이 펼쳐져 있는 한여름 피서지로 유명한 자연 유원지다. 여름에는 모기가 없어 가족단위 캠핑 장소로 각광을 받고 있으며, 반월교와 철교가 나란히 강을 가로질러 놓여있어 운치가 뛰어나다.\n보성강 하류에 유명 낚시터가 산재해 있어 강태공들에게는 인기가 높다. 수영을 비롯해서, 레저보트, 수상스키, 윈드서핑, 카누, 카약 그리고 래프팅까지 강은 다양한 수상 레포츠 공간을 제공한...",
+    "content_length": 508,
+    "created_at": "2026-10-10T03:11:27.147666+00:00",
+    "updated_at": "2026-10-10T03:14:29.955724+00:00",
+    "file_path": "tour-128087.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "62306a1984f90907f888db60270d554d",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601887,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602052,
+      "process_end_time": 1791602069,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-128087-chunk-000"
+    ]
+  },
+  "tour-1624185": {
+    "status": "processed",
+    "content_summary": "구례 석주관성\n노고단에서 왕시루봉 능선을 따라 이어지는 산맥에 위치하며, 칠봉산 남쪽 봉우리 20m 아래에서부터 칠의사 아래 후면까지 이어져 있는 고려 시대 성곽이다. 삼한시대에 마한과 진한의 경계였으며, 삼국시대에는 백제와 신라의 경계로 군사상 요충지였고, 고려 때에는 남해에서 침입한 왜구를 막기 위해 성을 쌓은 곳이기도 하다. 이곳을 지켜내기만 하면 전주에서 구례, 남원을 향해 넘어오는 왜적을 방어할 수 있는 호남의 전략적 요충지로, 고려 ...",
+    "content_length": 660,
+    "created_at": "2026-10-10T03:11:27.147678+00:00",
+    "updated_at": "2026-10-10T03:16:13.537794+00:00",
+    "file_path": "tour-1624185.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "51361ae78bcaeb5b7938d7179793b746",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601974,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602146,
+      "process_end_time": 1791602173,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-1624185-chunk-000"
+    ]
+  },
+  "tour-1623712": {
+    "status": "processed",
+    "content_summary": "성륜사(곡성)\n옥과지역에 위치한 성륜사는 청화스님이 창건하고 열반한 곳으로 40년간 눕지 않고 수도자의 길을 걸었으며, 말년에 조방원 화백에 의해서 이곳에 자리를 잡았다. 아산 조방원 화백이 기증한 부지 10만여 평의 땅에 세워졌으며 대상그룹의 명예회장의 시주로 1990년 9월 대웅전, 1991년 2월 지장전, 1992년 9월에는 금강선원, 법성당, 정운당, 일주문 등 불사가 이뤄졌다. 2000년에는 종무소, 벽산당 금타 대화상의 탑비와 부도탑...",
+    "content_length": 549,
+    "created_at": "2026-10-10T03:11:27.147675+00:00",
+    "updated_at": "2026-10-10T03:15:46.370196+00:00",
+    "file_path": "tour-1623712.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "8aee3fa4900d151f2202c856427972ad",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601960,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602116,
+      "process_end_time": 1791602146,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-1623712-chunk-000"
+    ]
+  },
+  "tour-250351": {
+    "status": "processed",
+    "content_summary": "군지촌정사\n인근의 뛰어난 인재들을 모아서 힘껏 가르치거라 하는 중종의 하명을 받아 심광형은 일종의 영재학교를 세운다. 동악산을 등지고 섬진강과 마주하는 전형적인 배산임수의 지형인 군촌마을에 함허정과 군지촌정사(제호정 고택)를 세웠다. 1535년에 지어진 군지촌정사는 조선 후기의 건물로 사랑채의 이름으로, 지금 남아 있는 사랑채와 고택 제월당은 1800년대에 지어진 건물로서, 군지촌정사의 원형은 지금은 남아 있지 않다.\n당시에는 학생을 수용할 수...",
+    "content_length": 522,
+    "created_at": "2026-10-10T03:11:27.147685+00:00",
+    "updated_at": "2026-10-10T03:17:30.821386+00:00",
+    "file_path": "tour-250351.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "7ae182d0caf4970631446c8e3a4f5819",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602052,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602235,
+      "process_end_time": 1791602250,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-250351-chunk-000"
+    ]
+  },
+  "tour-126767": {
+    "status": "processed",
+    "content_summary": "당몰샘\n상사 마을은 구례군 간전면 양천 마을과 함께 전국 최장수 마을로 꼽힌다. 이곳 사람들은 장수의 비결로 심산유곡의 깨끗한 환경과 ‘당몰샘’을 꼽는다. 당몰샘은 ‘지리산 약초 뿌리 녹는 물이 다 흘러든다’라는 말을 할 정도로 효능이 뛰어나다. 1986년 고려대 예방 의학팀의 수질검사 결과 대장균이 한 마리도 없는 전국 최상의 물로 판명됐다. 이 마을 토박이 성씨인 의성 김씨 일가에 의하면 그 선조가 조선 말기에 명당을 찾아 전라도 고을을 헤...",
+    "content_length": 312,
+    "created_at": "2026-10-10T03:11:27.147658+00:00",
+    "updated_at": "2026-10-10T03:13:10.260300+00:00",
+    "file_path": "tour-126767.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "59ef36225df975f650137a756670cb4b",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601887,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791601974,
+      "process_end_time": 1791601990,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-126767-chunk-000"
+    ]
+  },
+  "tour-126637": {
+    "status": "processed",
+    "content_summary": "오산(구례)\n오산은 봉성지에 '그 바위의 형상이 빼어나 금강산과 같으며, 예부터 부르기를 소금강'이라 기록되어 있다. 지리산을 마주하고 있는 해발 531m의 산으로 높지도 험하지도 않고 비경이 많아 가족 동반이나 단체 소풍 코스로 사랑을 받아왔다.\n사성암은 오산 정상의 깎아지른 암벽에 지은 사찰로, 백제 성왕 22년(544년)에 연기조사가 건립하여 원래 오산암이라 불리다가 이곳에서 4명의 고승(의상, 원효, 도선, 진각국사)이 수도하여 사성암으...",
+    "content_length": 659,
+    "created_at": "2026-10-10T03:11:27.147652+00:00",
+    "updated_at": "2026-10-10T03:12:40.139448+00:00",
+    "file_path": "tour-126637.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "a944b220f87e7ed3720c4b8003682d39",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601887,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791601938,
+      "process_end_time": 1791601960,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-126637-chunk-000"
+    ]
+  },
+  "tour-126266": {
+    "status": "processed",
+    "content_summary": "화엄사계곡\n지리산의 많은 명소 중 화엄사 계곡이 국립공원 100경에 선정되었다. 화엄사계곡은 구례 화엄사 탐방안내소에서 노고단 고개까지 7㎞ 길이의 등산로를 낀 계곡이다. 이 길을 따라 노고단에서 천왕봉까지 지리산 종주를 하게 된다.\n화엄사계곡은 일찍부터 지리산을 오르는 가장 대표적인 길로 특히 노고단을 찾는 등산객과 화엄사를 찾는 관광객들이 수시로 찾아드는 곳이다. 화엄사 탐방안내소에서 화엄사 자연관찰로 입구에 들어서면 울창한 수림 아래 시원...",
+    "content_length": 617,
+    "created_at": "2026-10-10T03:11:27.147636+00:00",
+    "updated_at": "2026-10-10T03:11:53.226113+00:00",
+    "file_path": "tour-126266.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "8cdce32d6f9c1f0b09aacde486cb60ef",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791601887,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791601887,
+      "process_end_time": 1791601913,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-126266-chunk-000"
+    ]
+  },
+  "tour-2788028": {
+    "status": "processed",
+    "content_summary": "성삼재\n성삼재는 지리산 능선 서쪽 끝에 있는 고개로 1,102m다. 성삼재를 기점으로 동쪽으로 노고단~임걸령~삼도봉~토끼봉~명선봉~형제봉~촛대봉~연하봉~제석봉~천왕봉의 지리산 주 봉우리들이 연결되어 있다. 성삼재에는 넓은 주차장과 휴게소가 조성되어 있다. 식사를 할 수 있는 식당과 기념품 판매점도 있으며 등산 장비를 파는 곳이 있다. 입장료는 무료이나 홈페이지에서 반드시 예약을 하고 방문해야 입장이 가능하다. 또한, 17시까지는 모두 하산이 되...",
+    "content_length": 264,
+    "created_at": "2026-10-10T03:11:27.147699+00:00",
+    "updated_at": "2026-10-10T03:19:45.788185+00:00",
+    "file_path": "tour-2788028.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "396b291f78965f8834376b1e7b634b6d",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602211,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602368,
+      "process_end_time": 1791602385,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-2788028-chunk-000"
+    ]
+  },
+  "tour-250354": {
+    "status": "processed",
+    "content_summary": "곡성 함허정\n조선 중종 38년(1543년) 심광형이 이 지역 유림들과 풍류를 즐기기 위해 지은 정자로서 ‘호연정’이라고도 한다. 증손자 심민각이 오래된 정자를 옛 터 아래쪽으로 옮겨 다시 지었으며 5대손 심세익이 고쳤다. 지금 있는 건물은 1980년에 수리를 한 것이다. 앞면 4칸, 옆면 2칸 규모로 지붕은 옆면이 여덟 팔(八)자 모양인 팔작지붕이다. 구성은 마루 1칸을 3면을 터 만들었고 2칸 반은 방으로 꾸몄다. 나머지 오른쪽 반 칸은 바닥...",
+    "content_length": 416,
+    "created_at": "2026-10-10T03:11:27.147689+00:00",
+    "updated_at": "2026-10-10T03:18:12.693145+00:00",
+    "file_path": "tour-250354.txt",
+    "track_id": "insert_20261010_121127_6cbe4a34",
+    "content_hash": "675bfbf4cf9ebc19c57315d7bf96ef46",
+    "metadata": {
+      "parse_start_time": 1791601887,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602085,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602271,
+      "process_end_time": 1791602292,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "tour-250354-chunk-000"
+    ]
+  }
+}

@@ -1,0 +1,542 @@
+{
+  "CHG-01": {
+    "status": "processed",
+    "content_summary": "2026년 2~3분기 주요 변경 기록\n기준일: 2026-09-30\n운영 환경에 반영된 변경 가운데 서비스 동작에 영향을 주는 것만 모았다. 각 항목은 변경 번호, 반영일, 대상, 내용, 요청자, 승인자 순이다.\nCHG-2604-02, 2026-04-16, batch-scheduler(배치 스케줄러). 로그 시간 표기를 UTC로 맞추기 위해 기본 시간대 값을 바꿈. 요청자 김나래, 승인자 백승우.\nCHG-2605-01, 2026-05-12, po...",
+    "content_length": 833,
+    "created_at": "2026-10-10T03:23:30.945480+00:00",
+    "updated_at": "2026-10-10T03:28:23.459434+00:00",
+    "file_path": "CHG-01.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "f395a3d09ef064beec5342cf9879c3be",
+    "metadata": {
+      "parse_start_time": 1791602611,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602749,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602883,
+      "process_end_time": 1791602903,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "CHG-01-chunk-000"
+    ]
+  },
+  "CAT-03": {
+    "status": "processed",
+    "content_summary": "포인트·알림 영역과 공통 구성요소 카탈로그\n기준일: 2026-09-30\n포인트, 쿠폰, 알림 서비스와 여러 영역이 함께 쓰는 공통 구성요소를 적는다.\npoint-engine(포인트 적립 엔진): kafka-main(메인 메시지 브로커)에서 결제 완료 이벤트를 받아 적립 규칙에 따라 포인트를 쌓는다. 적립 이력은 ledger-db(원장 DB)에 기록한다.\npoint-wallet(포인트 지갑 API): 앱의 포인트 화면과 결제 때의 포인트 차감 요...",
+    "content_length": 837,
+    "created_at": "2026-10-10T03:23:30.945476+00:00",
+    "updated_at": "2026-10-10T03:27:22.479436+00:00",
+    "file_path": "CAT-03.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "c3aa5a2fa849238c314944a03653d818",
+    "metadata": {
+      "parse_start_time": 1791602611,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602707,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602832,
+      "process_end_time": 1791602842,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "CAT-03-chunk-000"
+    ]
+  },
+  "CAT-02": {
+    "status": "processed",
+    "content_summary": "정산 영역 서비스 카탈로그\n기준일: 2026-09-30\n정산 영역의 서비스와 각 서비스가 기대는 구성요소를 적는다. 이 문서는 정산 영역 개발자들이 함께 고치며, 평소 부르는 이름을 그대로 쓴다.\nsettle-batch(정산 배치): 매일 새벽 전날 거래를 가맹점별로 모아 정산 금액을 계산한다. 거래 원장은 원장디비에서 읽고, 실행 시각과 날짜 경계는 batch-scheduler(배치 스케줄러)에서 받는다. 계산 결과는 정산 파일로 남겨 pay...",
+    "content_length": 698,
+    "created_at": "2026-10-10T03:23:30.945475+00:00",
+    "updated_at": "2026-10-10T03:27:12.490840+00:00",
+    "file_path": "CAT-02.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "5d411560d4b20bdd686346ab2f88bb54",
+    "metadata": {
+      "parse_start_time": 1791602611,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602691,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602817,
+      "process_end_time": 1791602832,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "CAT-02-chunk-000"
+    ]
+  },
+  "INC-0603": {
+    "status": "processed",
+    "content_summary": "가맹점 연동 결제 거절 장애 보고서\n발생일: 2026년 6월 3일\n영향: 9시부터 10시 15분까지 가맹점 서버가 merchant-api(가맹점 API)로 보내는 주문 결제 요청이 모두 거절되었다. 온라인 가맹점 약 3,400곳에서 결제 실패가 났고, 앱 결제와 오프라인 결제는 영향이 없었다.\n타임라인 요약: 09:00 merchant-api 요청 성공률이 0%로 떨어졌다. 09:08 가맹점들이 보안 연결 오류 화면을 보고 문의하기 시작했다. ...",
+    "content_length": 609,
+    "created_at": "2026-10-10T03:23:30.945459+00:00",
+    "updated_at": "2026-10-10T03:25:07.018083+00:00",
+    "file_path": "INC-0603.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "f49fcf9e2d039c9bab2dc83f405376c7",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602610,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602691,
+      "process_end_time": 1791602707,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "INC-0603-chunk-000"
+    ]
+  },
+  "INC-0518": {
+    "status": "processed",
+    "content_summary": "포인트 잔액 조회 오류 장애 보고서\n발생일: 2026년 5월 18일\n영향: 10시 20분부터 11시 5분까지 앱의 포인트 화면에서 잔액 조회 오류가 났다. 요청의 약 35%가 잠시 후 다시 시도하라는 화면으로 끝났고, 포인트를 섞어 쓰는 결제도 일부 진행되지 않았다.\n타임라인 요약: 10:20 point-wallet(포인트 지갑 API)의 오류율 경보가 울렸다. 10:31 같은 시각에 배포된 거래 내역 화면 개선 기능이 원인 후보로 올라왔다. ...",
+    "content_length": 674,
+    "created_at": "2026-10-10T03:23:30.945456+00:00",
+    "updated_at": "2026-10-10T03:24:38.654705+00:00",
+    "file_path": "INC-0518.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "6dc05cc5af11a9afc3e0f70c06c342b9",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602610,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602663,
+      "process_end_time": 1791602678,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "INC-0518-chunk-000"
+    ]
+  },
+  "INC-0513": {
+    "status": "processed",
+    "content_summary": "포인트 적립 지연 장애 보고서\n발생일: 2026년 5월 13일\n영향: 18시부터 21시 30분까지 결제 뒤 포인트가 바로 쌓이지 않는 적립 지연이 생겼다. 밀린 적립 요청은 최대 41만 건이었고 23시까지 모두 처리되었다. 적립 완료 알림 지연도 함께 생겨 포인트가 사라졌다는 문의가 2천 건 넘게 들어왔다.\n타임라인 요약: 18:00 point-engine(포인트 적립 엔진)의 처리 대기열이 늘기 시작했다. 18:25 처리량이 평소의 3분의 1...",
+    "content_length": 680,
+    "created_at": "2026-10-10T03:23:30.945454+00:00",
+    "updated_at": "2026-10-10T03:24:23.244499+00:00",
+    "file_path": "INC-0513.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "c5fc60c59b822fb2bdb4b54ed81a8e0c",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602610,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602652,
+      "process_end_time": 1791602663,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "INC-0513-chunk-000"
+    ]
+  },
+  "INC-0428": {
+    "status": "processed",
+    "content_summary": "카드 결제 승인 지연 장애 보고서\n발생일: 2026년 4월 28일\n영향: 12시 5분부터 12시 41분까지 한빛PG를 거치는 카드 결제의 응답 시간이 평균 0.8초에서 9초로 늘었다. 이 가운데 약 7,900건은 앱의 대기 한도를 넘어 결제 실패로 끝났다. 점심 시간대라 음식점 가맹점의 항의가 많았다.\n타임라인 요약: 12:05 결제 응답 시간 경보가 울렸다. 12:12 pg-connector(PG 연동 모듈)에서 한빛PG 구간만 느린 것을 확...",
+    "content_length": 680,
+    "created_at": "2026-10-10T03:23:30.945452+00:00",
+    "updated_at": "2026-10-10T03:24:12.807585+00:00",
+    "file_path": "INC-0428.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "47f5ba953c809f2d64be8eb54250868b",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602610,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602639,
+      "process_end_time": 1791602652,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "INC-0428-chunk-000"
+    ]
+  },
+  "INC-0909": {
+    "status": "processed",
+    "content_summary": "알림 미발송 장애 보고서\n발생일: 2026년 9월 9일\n영향: 9월 8일 18시부터 9월 9일 8시까지 결제 완료, 포인트 적립, 정산 완료 안내 같은 푸시와 문자 약 120만 건이 나가지 않았다. 결제 자체는 정상이었다.\n타임라인 요약: 07:30 고객센터에 알림이 오지 않는다는 문의가 쌓였다. 07:45 notify-hub(알림 허브)가 밤새 처리한 메시지 수가 거의 0인 것을 확인했다. 08:00 kafka-main(메인 메시지 브로커)의...",
+    "content_length": 685,
+    "created_at": "2026-10-10T03:23:30.945469+00:00",
+    "updated_at": "2026-10-10T03:26:44.139801+00:00",
+    "file_path": "INC-0909.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "b70cbb8484026bf2d9c3dd636c5a2e27",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602663,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602788,
+      "process_end_time": 1791602804,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "INC-0909-chunk-000"
+    ]
+  },
+  "INC-0715": {
+    "status": "processed",
+    "content_summary": "포인트 이중 적립 장애 보고서\n발생일: 2026년 7월 15일\n영향: 7월 14일 16시부터 7월 15일 10시까지 일부 결제에 포인트가 두 번 쌓였다. 이중 적립된 거래는 모두 32,410건, 잘못 쌓인 포인트는 약 1,180만 원어치였다. 사용자 손해는 없었지만 회수 과정에서 문의가 이어졌다.\n타임라인 요약: 7월 15일 09:00 일일 포인트 대사에서 적립 총액이 결제 총액에 비해 비정상으로 높게 나왔다. 09:40 같은 거래에 적립 이력...",
+    "content_length": 677,
+    "created_at": "2026-10-10T03:23:30.945464+00:00",
+    "updated_at": "2026-10-10T03:25:49.624864+00:00",
+    "file_path": "INC-0715.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "fa1eab76f016339911b67ecef0eda332",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602610,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602736,
+      "process_end_time": 1791602749,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "INC-0715-chunk-000"
+    ]
+  },
+  "INC-0812": {
+    "status": "processed",
+    "content_summary": "가맹점 정산 파일 누락 장애 보고서\n발생일: 2026년 8월 12일\n영향: 8월 11일 거래분 정산 파일 가운데 카드사 두 곳의 파일이 만들어지지 않아, 해당 카드 거래가 있는 가맹점 약 2,100곳에 이틀 동안 지급 지연이 생겼다.\n타임라인 요약: 06:30 payout-api(지급 API)가 지급 대상 파일 개수가 모자란다고 경보를 냈다. 07:10 recon-worker(거래 대사 작업기)에서 두 카드사의 매입 내역 대조 작업이 시간 초과...",
+    "content_length": 692,
+    "created_at": "2026-10-10T03:23:30.945466+00:00",
+    "updated_at": "2026-10-10T03:26:14.986678+00:00",
+    "file_path": "INC-0812.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "c85c15594c78e509b256e92025f72c55",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602639,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602763,
+      "process_end_time": 1791602774,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "INC-0812-chunk-000"
+    ]
+  },
+  "INC-0826": {
+    "status": "processed",
+    "content_summary": "신규 가입 혜택 미지급 장애 보고서\n발생일: 2026년 8월 26일\n영향: 0시부터 1시 20분까지 새로 가입한 사용자 약 4,700명에게 가입 축하 쿠폰이 지급되지 않았다. 가입 절차는 정상으로 끝났기 때문에 사용자들은 혜택이 빠진 것을 다음 날에야 알아챘다.\n타임라인 요약: 00:00 월말 프로모션 시작과 함께 coupon-svc(쿠폰 서비스)의 응답 시간이 크게 늘었다. 00:05 발급 실패율이 70%를 넘었다. 00:30 coupon-s...",
+    "content_length": 620,
+    "created_at": "2026-10-10T03:23:30.945468+00:00",
+    "updated_at": "2026-10-10T03:26:28.788654+00:00",
+    "file_path": "INC-0826.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "707470451b72dcc45943db087d81a941",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602652,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602774,
+      "process_end_time": 1791602788,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "INC-0826-chunk-000"
+    ]
+  },
+  "INC-0417": {
+    "status": "processed",
+    "content_summary": "가맹점 정산 금액 오차 장애 보고서\n발생일: 2026년 4월 17일\n영향: 4월 16일 거래분 정산에서 가맹점 1,284곳의 정산 금액이 실제보다 적거나 많게 계산되었다. 오차를 바로잡는 동안 해당 가맹점에 하루 동안 지급 지연이 생겼다.\n타임라인 요약: 06:00 settle-batch(정산 배치)가 끝난 뒤 대사 결과에서 큰 차액이 잡혔다. 09:00 일부 가맹점의 하루 거래가 두 날짜로 나뉘어 들어간 것을 확인했다. 11:00 batch-...",
+    "content_length": 671,
+    "created_at": "2026-10-10T03:23:30.945450+00:00",
+    "updated_at": "2026-10-10T03:23:59.221339+00:00",
+    "file_path": "INC-0417.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "452d1e340efcdaabcd7fe59d7e200282",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602610,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602624,
+      "process_end_time": 1791602639,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "INC-0417-chunk-000"
+    ]
+  },
+  "INC-0804": {
+    "status": "processed",
+    "content_summary": "와일드카드 인증서 만료 결제 중단 장애 보고서\n발생일: 2026년 8월 4일\n영향: 9시 12분부터 9시 59분까지 47분 동안 앱과 웹의 모든 결제 요청이 실패했다. 결제 실패는 약 5만 6천 건으로 추산되며, 출근 시간대의 교통과 편의점 결제가 가장 크게 영향을 받았다.\n타임라인 요약: 09:12 결제 성공률이 0%에 가깝게 떨어졌다. 09:15 앱에서 보안 연결 오류가 난다는 신고가 들어왔다. 09:24 api-edge(외부 API 관문)...",
+    "content_length": 628,
+    "created_at": "2026-10-10T03:23:30.945465+00:00",
+    "updated_at": "2026-10-10T03:26:03.634158+00:00",
+    "file_path": "INC-0804.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "39ef85c2733e6bdb92e1cd54b698c68c",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602624,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602749,
+      "process_end_time": 1791602763,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "INC-0804-chunk-000"
+    ]
+  },
+  "ORG-02": {
+    "status": "processed",
+    "content_summary": "플랫폼본부 조직과 운영 구성요소\n기준일: 2026-09-30\n플랫폼본부 세 팀이 운영하는 공통 구성요소와 온콜 담당자를 적는다. 여러 서비스가 함께 기대는 구성요소는 서비스 팀이 아니라 아래 팀이 운영한다. 이 표는 3분기 기준이다.\n공통인프라팀: api-edge(외부 API 관문), config-center(설정 관리 서버), redis-session(세션 캐시), redis-point(포인트 캐시)를 운영한다. 온콜 담당자는 한도윤이다. 캐...",
+    "content_length": 615,
+    "created_at": "2026-10-10T03:23:30.945479+00:00",
+    "updated_at": "2026-10-10T03:28:03.952550+00:00",
+    "file_path": "ORG-02.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "4a1523a1bd0fe7a01f6b61d70b15bb75",
+    "metadata": {
+      "parse_start_time": 1791602611,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602736,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602863,
+      "process_end_time": 1791602883,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "ORG-02-chunk-000"
+    ]
+  },
+  "INC-0612": {
+    "status": "processed",
+    "content_summary": "가맹점 정산 지연 장애 보고서\n발생일: 2026년 6월 12일\n영향: 6월 11일 거래분 가맹점 정산이 평소보다 다섯 시간 늦게 끝나, 약 9,800곳의 정산금 입금이 오전에서 오후로 밀렸다. 정산 지연 안내가 늦게 나가 가맹점 문의가 몰렸다.\n타임라인 요약: 02:00 settle-batch(정산 배치)가 시작되었다. 03:30 평소라면 끝났을 단계가 절반도 진행되지 않은 것을 야간 모니터링에서 확인했다. 04:10 settle-batch 작...",
+    "content_length": 746,
+    "created_at": "2026-10-10T03:23:30.945461+00:00",
+    "updated_at": "2026-10-10T03:25:22.533184+00:00",
+    "file_path": "INC-0612.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "8c2df2c6ae1392fbf3c5b59b0cc3942e",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602610,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602707,
+      "process_end_time": 1791602722,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "INC-0612-chunk-000"
+    ]
+  },
+  "INC-0409": {
+    "status": "processed",
+    "content_summary": "앱 로그인 실패 장애 보고서\n발생일: 2026년 4월 9일\n영향: 오전 7시 40분부터 8시 52분까지 앱 로그인 요청의 약 60%가 실패했다. 이미 로그인된 사용자는 정상이었지만, 새로 로그인하거나 세션이 끊긴 사용자는 간편결제 화면에 들어가지 못했다. 고객센터 문의가 평소의 네 배로 늘었다.\n타임라인 요약: 07:40 로그인 실패율 경보가 울렸다. 07:55 auth-token(인증 토큰 서비스) 로그에서 TLS 핸드셰이크 오류가 반복되는 ...",
+    "content_length": 689,
+    "created_at": "2026-10-10T03:23:30.945443+00:00",
+    "updated_at": "2026-10-10T03:23:44.596978+00:00",
+    "file_path": "INC-0409.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "dc15bcf6224b94b5348e7fad22038229",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602610,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602610,
+      "process_end_time": 1791602624,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "INC-0409-chunk-000"
+    ]
+  },
+  "INC-0527": {
+    "status": "processed",
+    "content_summary": "해외 카드 결제 실패 장애 보고서\n발생일: 2026년 5월 27일\n영향: 새벽 1시 10분부터 3시 40분까지 해외에서 발급된 카드의 승인 실패가 이어졌다. 실패 건수는 약 2,300건으로, 해외 직구 가맹점과 여행 플랫폼 가맹점에 몰렸다.\n타임라인 요약: 01:10 해외 카드 결제 실패율이 18%로 올랐다. 01:30 pg-connector(PG 연동 모듈)가 다온PG에 보낸 해외 카드 요청이 20초 넘게 응답을 받지 못하는 것을 확인했다. ...",
+    "content_length": 642,
+    "created_at": "2026-10-10T03:23:30.945458+00:00",
+    "updated_at": "2026-10-10T03:24:51.991508+00:00",
+    "file_path": "INC-0527.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "9e79b961792a7179d45b1f04df412eb2",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602610,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602678,
+      "process_end_time": 1791602691,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "INC-0527-chunk-000"
+    ]
+  },
+  "INC-0703": {
+    "status": "processed",
+    "content_summary": "결제 완료 알림 지연 장애 보고서\n발생일: 2026년 7월 3일\n영향: 19시 15분부터 20시 5분까지 결제는 정상 승인되었지만 결제 완료 푸시가 최대 25분 늦게 도착했다. 알림 지연 때문에 같은 결제를 다시 시도한 사용자가 생겨 중복 결제 취소 요청이 640건 들어왔다.\n타임라인 요약: 19:15 notify-hub(알림 허브)의 발송 지연 지표가 올랐다. 19:28 notify-hub 자체는 정상이고, 결제 완료 이벤트가 늦게 들어오는 ...",
+    "content_length": 659,
+    "created_at": "2026-10-10T03:23:30.945462+00:00",
+    "updated_at": "2026-10-10T03:25:36.363707+00:00",
+    "file_path": "INC-0703.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "4ab4694cd7f7702c13b1f2c3fa7e10b8",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602610,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602722,
+      "process_end_time": 1791602736,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "INC-0703-chunk-000"
+    ]
+  },
+  "CAT-01": {
+    "status": "processed",
+    "content_summary": "결제 영역 서비스 카탈로그\n기준일: 2026-09-30\n이 문서는 결제 영역 서비스가 어떤 서비스와 구성요소에 기대어 동작하는지 적는다. 새 기능을 설계하거나 배포 영향 범위를 볼 때 먼저 확인한다.\npay-gateway(결제 게이트웨이): 앱, 웹, 가맹점 서버에서 들어오는 결제 요청을 받는 입구다. 요청이 오면 auth-token(인증 토큰 서비스)으로 사용자를 확인하고, risk-engine(이상거래 탐지 엔진)의 판정을 받은 뒤 pg-c...",
+    "content_length": 729,
+    "created_at": "2026-10-10T03:23:30.945472+00:00",
+    "updated_at": "2026-10-10T03:26:57.674787+00:00",
+    "file_path": "CAT-01.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "ca17bbf67660fb1426c20117947bbdea",
+    "metadata": {
+      "parse_start_time": 1791602610,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602678,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602804,
+      "process_end_time": 1791602817,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "CAT-01-chunk-000"
+    ]
+  },
+  "ORG-01": {
+    "status": "processed",
+    "content_summary": "서비스개발본부 조직과 운영 서비스\n기준일: 2026-09-30\n서비스개발본부 네 팀이 운영하는 서비스와 온콜 담당자를 적는다. 온콜 담당자는 분기마다 바뀌며 이 표는 3분기 기준이다. 경보는 해당 서비스를 운영하는 팀의 온콜 담당자에게 먼저 간다.\n결제플랫폼팀: pay-gateway(결제 게이트웨이), pg-connector(PG 연동 모듈), auth-token(인증 토큰 서비스), merchant-api(가맹점 API)를 운영한다. 온콜 담...",
+    "content_length": 692,
+    "created_at": "2026-10-10T03:23:30.945478+00:00",
+    "updated_at": "2026-10-10T03:27:43.020160+00:00",
+    "file_path": "ORG-01.txt",
+    "track_id": "insert_20261010_122330_95b45a37",
+    "content_hash": "197112da54def48c03d5e179c03ce0d9",
+    "metadata": {
+      "parse_start_time": 1791602611,
+      "parse_stage_skipped": true,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "analyzing_start_time": 1791602722,
+      "analyzing_stage_skipped": true,
+      "kg_write_state": "graph_mutation_started",
+      "process_start_time": 1791602842,
+      "process_end_time": 1791602863,
+      "chunk_method": "legacy_chunking_func",
+      "chunk_opts": "size=1200, split_only=False, overlap=100"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "ORG-01-chunk-000"
+    ]
+  }
+}

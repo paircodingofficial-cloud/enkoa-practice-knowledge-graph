@@ -1,0 +1,14 @@
+{
+  "graphrag": {
+    "llm_calls": 147,
+    "input_tokens": 303694,
+    "output_tokens": 185645,
+    "seconds": 161.0
+  },
+  "lightrag": {
+    "llm_calls": 34,
+    "input_tokens": 63605,
+    "output_tokens": 65487,
+    "seconds": 614.2
+  }
+}
